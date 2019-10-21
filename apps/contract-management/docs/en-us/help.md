@@ -1,3 +1,8 @@
+---
+lang: en
+ref: help
+---
+
 # Contract Management
 Contract management functionality in BC enables the following:
 

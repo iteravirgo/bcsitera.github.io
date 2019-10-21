@@ -1,8 +1,7 @@
-## Extensions
-[Contract Management](https://bcsitera.github.io/contract-management/)  
+[Contract Management](apps/contract-management/docs/en-us/contract-management-app.md)  
 [Payroll365 and Personnel365](http://palk365.nav365.ee/)
 
 ---
 
-[Support Contacts](support.md)  
-[Privacy Policy](privacy.md)
+[Support Contacts](docs/en-us/support.md)  
+[Privacy Policy](docs/en-us/privacy.md)

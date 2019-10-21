@@ -5,4 +5,4 @@
 ---
 
 [Support Contacts](support.md)  
-[Privacy Statement](privacy.md)
+[Privacy Policy](privacy.md)

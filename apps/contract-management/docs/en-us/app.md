@@ -1,3 +1,4 @@
+# Contract Management
 This extension provides Contract tracking functionality for Sales and Purchase documents in Microsoft Dynamics 365 Business Central.
 
 Solution offers:
@@ -7,7 +8,6 @@ Solution offers:
 - Contract support on Job card for job sales invoice creation
 - Partner and contract support on Job planning lines for planning purposes 
 
-## User Guide
 [User Guide](help.md)
 
 ## Contact information

@@ -1,4 +1,4 @@
-<div style="text-align:right"><a href="../et-ee/help.md">est</a></div>
+<div style="text-align:right"><a href="../et-ee/help.html">est</a></div>
 
 # Contract Management
 Contract management functionality in BC enables the following:

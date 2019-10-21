@@ -1,4 +1,4 @@
-# **Contract Management**
+# Contract Management
 Contract management functionality in BC enables the following:
 
 - Management of sales and purchase contracts
@@ -7,19 +7,21 @@ Contract management functionality in BC enables the following:
 - Contract support on Job card for creating job sales invoices
 - Partner and contract support on job planning lines for planning purposes 
 
-## **Settings**
+## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
-|Field| Explanation|
+
+|Field|Explanation|
 |---|---| 
 | Contract numbers | For defining contract number series. Value can be chosen from **No. Series List**.|
 | Contract Usage Accounts | Allows to define a GL accounts filter for contract usage calculation. For an example income and expense accounts on which you expect transaction related to contracts. It is advisable to exclude VAT, payables and receivables accounts. You can define specific accounts and/or an accounts range (for an example range 30000..90000).|
  
-## **Use**
-### **Contract management**
+## Use
+### Contract management
 
 With contract management it is possible to manage purchase, sales and other contracts. For creating a new contract you must open **Contracts** and use button **+New** in order to create a new entry.
 
-An empty **Contract card** opens where you can fill the following fields
+An empty **Contract card** opens where you can fill the following fields:
+
 |Field| Explanation|
 |---|---| 
 | Contract No.* | Is filled automatically according to defined Number Series from **Contract Setup**.
@@ -39,11 +41,11 @@ An empty **Contract card** opens where you can fill the following fields
 
 Fields displayed on fast tab **Relations** (Customer No. and Name, Vendor No. and Name) are filled automatically after partner selection. Fields will only be filled if the selected **Contact** is related to **Customer** and/or **Vendor**. If the relation will be created later, then contract must be updated manually by pressing button **Update Customer/Vendor link** on contract card. This updates Contact's relations with Customer and Vendor on contract.
  
-### **Using contracts on purchase and sales documents**
+### Using contracts on purchase and sales documents
 On sales and purchase document headers you can select appropriate contract from **Contract List** in the field **_Contract No._**. If contract has been selected in the header then it will be automatically transferred to lines. It is possible to change contract number on lines. 
 
 
-#### **_Important_**
+#### _Important_
 ---
 _Selection of contracts that can be chosen to document is limited with the following:_
 - _Contract type - on sales documents you can select contracts with the type of **_Sales_** and on purchase documents with the type of **_Purchase_**._
@@ -57,14 +59,14 @@ _If there is no contract in the selection that meets the requirement, then it mi
 Contract number will be transferred to posted documents, **General Ledger Entries**, customer and vendor ledgers and **Job Ledger Entries** after posting. 
 
 
-#### **_Important_**
+#### _Important_
 
 --- 
 _It must be taken into account that document header contract number will be transferred to customer and vendor ledgers. If different contract have been used on lines then those will be transferred to related income and expenses accounts._
 
 ---
 
-### **Contract completion tracking**
+### Contract completion tracking
 
 You can track the completion and reminder of the contract from the **Contract List** or **Contract Card** by checking following fields:
 
@@ -74,7 +76,7 @@ You can track the completion and reminder of the contract from the **Contract Li
 Additionally it is possible to open list of related **General Ledger Entries** by using **Completion entries** button in contract list or on contract card.
  
 
-### **Using contracts in Jobs**
+### Using contracts in Jobs
 It is possible to use contract in Job module on **Job Card** and in **Job Planning Lines**.
 
 **Job Card** - it is possible to enter related sales contract to a job by selecting appropriate contract from **Contract List** in the field **_Contract No._**  

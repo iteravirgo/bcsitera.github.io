@@ -8,7 +8,7 @@ Solution offers:
 - Partner and contract support on Job planning lines for planning purposes 
 
 ## User Guide
-[User Guide](help/en-us/contract-management-help.md)
+[User Guide](help.md)
 
 ## Contact information
 

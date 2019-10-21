@@ -1,3 +1,5 @@
+<div style="text-align:right">This is some text in a div element!</div>
+
 # Contract Management
 Contract management functionality in BC enables the following:
 

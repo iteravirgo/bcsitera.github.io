@@ -12,5 +12,5 @@ Solution offers:
 
 ## Contact information
 
-For more information and pricing please contact BCS Itera AS:
-https://www.itera.ee
+For more information and pricing please contact BCS Itera AS:  
+[https://www.itera.ee](https://www.itera.ee)

@@ -8,6 +8,8 @@ Hassle free digitized management of expense reports.
 
 Time saving and correct bookkeeping:
 - Save up to 70% of time spent on expense reports
+- Currencies are supported
+- Default cost accounts for predetermined cost types
 - Document entries to Vendor and debt entries to Employees if document paid by employee
 - Add lines to documents, change VAT posting groups, change amounts etc
 

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Expense Reports</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="expense-reports">Expense Reports</h1>
+<p>Expense Reports solution in BC enables the following:</p>
+<ul>
+<li>Management of expense and travel reports</li>
+<li>Management of expense documents</li>
+<li>Digital archive of expense documents</li>
+<li>Connection to digitization partner <a href="https://costpocket.com/en" target="_blank">CostPocket.com</a></li>
+</ul>
+<h2 id="settings">Settings</h2>
+<p>To use the solution, <strong>Expense Reports Setup</strong> must be opened and following fields filled:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Expense Document Nos.</td>
+<td>For defining Expense document number series. Value can be chosen from <strong>No. Series List</strong>.</td>
+</tr>
+<tr>
+<td>Expense Report Nos.</td>
+<td>For defining Expense report number series. Value can be chosen from <strong>No. Series List</strong>.</td>
+</tr>
+<tr>
+<td>Vendor Registration No. Field</td>
+<td>Solution uses vendor registration number for automatic detection of Vendor. Since different country localisations use different fields for storing this data, we have made this value selectable by User. <strong>This selection is recommended but NOT mandatory</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>All expense documents are posted via journal and User can <strong>select a Journal Template and Batch</strong> for this.</p>
+<p>To use digitization partner <strong>CostPocket</strong> functionality, action <strong>Registration</strong> must be used for one time. User information in CostPocket registration form page is used to determine Primary user, who shall receive e-mail from CostPocket along with instructions how to use CostPocket app. After successful registration connection with CostPocket is established.</p>
+<p>For pretermined cost types User can setup default cost accounts. That can be done in <strong>Cost Types</strong> page. Now when expense documents are imported from CostPocket, system assigns a default G/L cost account determined by document's cost type.</p>
+<p>Solution is ment to be used with logic:<br>
+User operates daily/weekly in CostPocket app, taking pictures of expense documents and adding them to an Expense report. Bookkeeper operates in BC, getting expense reports with connected expense documents from CostPocket.<br>
+<em>For special cases where Expense reports are not used, User can mark <strong>Allow Documents without Report</strong>, which makes individual document posting possible.</em></p>
+<h2 id="use">Use</h2>
+<h3 id="expense-reports-1">Expense Reports</h3>
+<p><strong>Manual creation</strong> of an expense report is usually done after manual creation of expense documents. User can add documents to report with action <strong>Add documents to Report</strong>.</p>
+<p>Expense reports <em>(with status Report ready)</em> will be imported from CostPocket, when user presses button <strong>Get Reports from CostPocket</strong>.  Among with an expense report all expense documents, that are connected to this report, shall also be  imported to BC.<br>
+On Expense report card User can see total sum of expense documents in LCY.<br>
+User can edit submitter information by selecting value from Employees table to <strong>Submitter No.</strong> field. When selecting new value system asks if documents (report lines) should also be updated.<br>
+User must set posting date for report and all connected expense documents by entering value to field <strong>Posting Date</strong>.<br>
+User can open list of connected expense documents when clicking on <strong>Number of Documents</strong> field value.<br>
+To <strong>Post</strong> an expense report means that all connected expense documents are posted. <em>Documents are posted individually.</em></p>
+<p>Posted expense reports can be found in <strong>Posted Expense Reports</strong> archive.</p>
+<h3 id="expense-documents">Expense Documents</h3>
+<p>Manual creation of expense document is possible and is similar to regular purchase invoice.</p>
+<p><strong>Vendor and Submitter must be used</strong>.  When getting documents from CostPocket system looks for vendor registration no. in order to find Vendor from Vendors. Similarly submitter e-mail is used to look for Employee with matching company Email from Employees.<br>
+User can make multiple document lines with different posting groups (to manage VAT).<br>
+<strong>Dimensions</strong> are applied for header only.<br>
+Only .jpg type attachments can be uploaded.
+Expense document's <strong>Billing Type</strong> can be Personal or Company, depending on finances used.<br>
+Currency exchange rate can be adjusted by <strong>Currency Factor</strong> field.<br>
+User can work with documents on document card or in expense documents list <em>(mainly to assign Vendor/Submitter/Expense account)</em>.<br>
+When an expense account is assigned to document header, User shall be prompted, if document lines should also be updated.<br>
+User can check posting with action <strong>Post Preview</strong>.<br>
+Solution will make posting entries to both Vendor ledger entries and Employee ledger entries <em>(when Submitter has paid for expense document using personal finances).</em></p>
+<p>Documents are usually posted from Expense Report. <em>In special case, when Allow documents without reports selection is used, expense documents can be imported separately with action <strong>Get Documents from CostPocket</strong> and then a document can also be posted from Expense Document list/card.</em></p>
+<p>Posted expense documents can be found in <strong>Posted Expense Documents</strong> archive.</p>
+<hr>
+<p>For more information please contact BCS Itera AS:<br>
+<a href="https://www.itera.ee">https://www.itera.ee</a></p>
+
+    </body>
+    </html>

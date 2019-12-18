@@ -5,5 +5,9 @@
 
 ---
 
+[Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/)
+
+---
+
 [Support Contacts](docs/en-us/support.md)  
 [Privacy Policy](docs/en-us/privacy.md)

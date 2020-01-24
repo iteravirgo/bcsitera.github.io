@@ -30,6 +30,7 @@ On **User Card** you need to set up **Contact Email address**.
 ### Campaign Setup
 
 |**Field**|**Value**|
+|-|-|
 |Campaign Nos.|Set up a campaign number series.|
 |Campaign Dimension Code|To find campaign sells in General Ledger.|
 |Campaign Notification Days|Required for sending an automatic email if your campaign is disapproved.|

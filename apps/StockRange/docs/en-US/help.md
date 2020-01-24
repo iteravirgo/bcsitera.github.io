@@ -61,6 +61,8 @@ When creating a new Customer-based Stock Range, fill in **Sell-to No** or any ot
 |User ID|Fills in automatically.|
 |Time Inserted|Fills in automatically.|
 
+![StockRangeList](StockRangeList.png)
+
 Once your needed Stock Range has been created click **Open in Excel** and this one you can modify or send to the Customer.
 
 If you create Stock Range in Excel, then it is possible to import it into BC with only 2 first rows (Sell-to-No, Item No).  It assumes that all needed settings in BC are done before. 

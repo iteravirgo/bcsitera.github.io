@@ -42,6 +42,7 @@ Ava otsingust Kampaaniate loend.
 Kliki Uus.
 
 |**Välja nimi**|**Kasutamine**|
+|-|-|
 |ID|Kampaania numbriseeria väärtus.|
 |Kirjeldus|Sisestatakse käsitsi.|
 |Liik|Kinnitatud hind/Avatud hind|

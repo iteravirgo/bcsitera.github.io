@@ -3,7 +3,7 @@
 Stock Range functionality enables the following:
 
 * Stock Range import to Excel and from Excel printing and sending Stock Ranges to your customers.
-* From Excel back to BC copy functionality (Sell-to No, Item No).
+* From Excel back to BusinessCentral copy functionality (Sell-to No, Item No).
 * Saving Stock Ranges for your needs. For example, with Sell-to No. 
 
 ## Verify Stock Range Installation
@@ -65,7 +65,7 @@ When creating a new Customer-based Stock Range, fill in **Sell-to No** or any ot
 
 Once your needed Stock Range has been created click **Open in Excel** and this one you can modify or send to the Customer.
 
-If you create Stock Range in Excel, then it is possible to import it into BC with only 2 first rows (Sell-to-No, Item No).  It assumes that all needed settings in BC are done before. 
+If you create Stock Range in Excel, then it is possible to import it into BC with only 2 first rows (Sell-to-No, Item No).  It assumes that all needed settings in BusinessCentral are done before. 
 
 For more information and pricing please contact BCS Itera AS:
 [https://www.itera.ee](https://www.itera.ee)

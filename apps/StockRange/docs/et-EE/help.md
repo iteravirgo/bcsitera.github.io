@@ -2,7 +2,7 @@
 
 Sortimendi lahendus võimaldab alljärgnevat:
 * Excelisse importimist ning sellelt tellimuslehtede ja sortimendi aruannete printimist.
-* Excelist tagasi BC-sse kopeerimist(Saaja nr, Kauba nr)
+* Excelist tagasi BusinessCentral-isse kopeerimist(Saaja nr, Kauba nr)
 * Sortimentide salvestamist vajaliku filtri põhiselt, näiteks Saaja nr järgi. 
 
 ## Sortimendi lahenduse api tuvastamine
@@ -63,7 +63,7 @@ Kliendi põhise uue sortimendi loomisel pane filtrisse soovitud ettevõtte **Saa
 ![StockRangeList](StockRangeList.png)
 
 Kui soovitud sortiment on loodud, saad klikkides **Ava Excelis** filtris oleva sortimendi avada ning saata kliendile. 
-Kui sortiment on loodud Excelis, siis on võimalik sortiment luua BC ka ainult esimese kahe välja abil (Saaja nr, Kauba nr). Eeldab, et kõik eelseadistused BC poole peal on tehtud. 
+Kui sortiment on loodud Excelis, siis on võimalik sortiment luua BC ka ainult esimese kahe välja abil (Saaja nr, Kauba nr). Eeldab, et kõik eelseadistused BusinessCentrali poole peal on tehtud. 
 
 Lisainformatsiooni saamiseks palun võta ühendust BCS Itera AS:
 [https://www.itera.ee](https://www.itera.ee)

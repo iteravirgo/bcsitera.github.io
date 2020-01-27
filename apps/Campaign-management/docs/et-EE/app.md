@@ -12,7 +12,7 @@ Kampaania haldus on osa BCS Itera AS Hulgi365 lahendusest.
 See laiendus toetab nii Essential and Premium lahendust Microsoft Dynamics 365 Business Centralile.
 
 ### Toetatud maad:
-Eesti
+Eesti, United States
 
 ---
 

@@ -14,7 +14,7 @@ This extension supports both the Essential and Premium editions of Microsoft Dyn
 
 ### Supported countries
 
-Estonia
+Estonia, United States
 
 ---
 

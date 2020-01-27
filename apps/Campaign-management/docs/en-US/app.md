@@ -12,7 +12,7 @@ This extension is one part of BCS Itera AS Hulgi365 solutions and it gives user 
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.
 
 ### Supported countries:
-Estonia
+Estonia, United States
 
 ---
 

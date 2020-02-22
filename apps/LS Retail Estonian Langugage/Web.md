@@ -2,7 +2,7 @@
 ***
 Estonian translation for LS Retail.
 
-![Image](help.md/LS-EE.png)
+![Image](LS-EE.png)
 
 ***
 For more information, please contact BCS Itera:

@@ -11,7 +11,7 @@ Click OK to apply and close **My Settings**.
 
 You should see now Dynamics 365 Business Central in Estonian.
 
-![Image](LS EE.png)
+![Image](LS-EE.png)
 
 ***
 

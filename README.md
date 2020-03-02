@@ -4,7 +4,7 @@
 [Contract Management](apps/contract-management/docs/en-us/app.md)  
 [Expense Reports](apps/expense-reports/docs/en-us/app.md)  
 
-[Estonian Language for LS Central](apps/LS-Central-Estonian-Language/docs/en-us/app.md)  
+[Estonian Language for LS Central](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  
 
 ---
 

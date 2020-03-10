@@ -2,7 +2,7 @@
 Kuluaruannete käsitlemise lahendus Microsoft Dynamics 365 Business Central tarbeks.
 
 ### Lahendus hõlmab:
-Lihtne seadistus ning ühendus digiteerimise partneriga  [CostPocket.com](https://costpocket.com/en)
+Lihtne seadistus ning ühendus digiteerimise partneriga  <a href="https://costpocket.com/et" target="_blank">CostPocket.com</a>
 
 Täisdigitaalne kuluaruannete käsitlemine.
 
@@ -21,4 +21,6 @@ Lahendus on täies ulatuses kasutatav ka ilma digiteerimise partnerita.
 [Kasutusjuhend](help.md)
 
 ### Kontaktinfo
-Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:  [https://www.itera.ee/ettevottest/](https://www.itera.ee/ettevottest/)
+Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:
+<a href="https://www.itera.ee/" target="_blank">www.itera.ee</a>
+

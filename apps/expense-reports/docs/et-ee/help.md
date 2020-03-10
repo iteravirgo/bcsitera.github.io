@@ -1,64 +1,66 @@
 # Kuluaruanded
-Expense Reports solution in BC enables the following:
+Kuluaruannete lahendus BC-s võimaldab järgmist:
 
-- Management of expense and travel reports
-- Management of expense documents
-- Digital archive of expense documents
-- Connection to digitization partner <a href="https://costpocket.com/en" target="_blank">CostPocket.com</a>
+- Kulu- ja lähetusaruannete haldust
+- Kuludokumentide haldust
+- Kuludokumentide digitaalset arhiivi
+- Ühendust digiteerimise partneriga <a href="https://costpocket.com/et" target="_blank">CostPocket.com</a>
 
-## Settings
-To use the solution, **Expense Reports Setup** must be opened and following fields filled:
+## Seadistamine
+Lahenduse kasutamiseks tuleb esmalt avada **Kuluaruannete seadistus** ning täita järgmised väljad:
 
-|Field|Explanation|
+|Väli|Selgitus|
 |---|---| 
-| Expense Document Nos. | For defining Expense document number series. Value can be chosen from **No. Series List**.|
-| Expense Report Nos. | For defining Expense report number series. Value can be chosen from **No. Series List**.|
-| Vendor Registration No. Field | Solution uses vendor registration number for automatic detection of Vendor. Since different country localisations use different fields for storing this data, we have made this value selectable by User. **This selection is recommended but NOT mandatory**.|
+| Kuludokumentide numbrid | Määramaks kuludokumentide numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
+| Kuluaruannete numbrid | Määramaks kuluaruannete numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
+| Hankija registreerimisnumbri väli | Lahendus kasutab Hankija registreerimisnumbrit tuvastamaks kulu hankijat. Kuivõrd erinevate maade lokalisatsioonid kasutavad selleks erinevaid väljasid, siis oleme teinud selle väärtuse valitavaks. **Valik on soovitatav, kuid mitte kohustuslik**. Eesti lokalisatsiooni äppidena kasutamise korral peaks valik olema 24007770|
 
-All expense documents are posted via journal and User can **select a Journal Template and Batch** for this. 
+Kõik kuludokumendid konteeritakse läbi peažurnaali ning kasutaja saab selleks **määrata kasutatava Žurnaalimalli ning Žurnaali töölehe**. 
 
-To use digitization partner **CostPocket** functionality, action **Registration** must be used for one time. User information in CostPocket registration form page is used to determine Primary user, who shall receive e-mail from CostPocket along with instructions how to use CostPocket app. After successful registration connection with CostPocket is established.  
+Kasutamaks digiteerimise partneri **CostPocket** pakutavat funktsionaalsust, tuleb algatada ühenduse loomine nupust **Registreerimine**. CostPocketis registreerimise aknas Sisestatud kasutajast saab lahenduse peakasutaja, kellele CostPocket saadab e-postiga juhised, kust saada ning kuidas kasutada CostPocketi äppi. Peale edukat registreerimist luuakse ühendus CostPocketiga. (Registreerimist tuleb teha vaid korra).
 
-For pretermined cost types User can setup default cost accounts. That can be done in **Cost Types** page. Now when expense documents are imported from CostPocket, system assigns a default G/L cost account determined by document's cost type.  
+Ettemääratud kulu liikidele saab kasutaja vastendada vaike kulukontod. Seda saab seadistada lehel **Kulu liigid**. Dokumentide importimisel CostPocketist, kui hankija tuvastatakse, määrab süsteem kuludokumentidele vaike kulukontod vastavalt kuludokumendi kulu liigile.
 
-Solution is ment to be used with logic:  
-User operates daily/weekly in CostPocket app, taking pictures of expense documents and adding them to an Expense report. Bookkeeper operates in BC, getting expense reports with connected expense documents from CostPocket.   
-*For special cases where Expense reports are not used, User can mark **Allow Documents without Report**, which makes individual document posting possible.*
+Lahendus on mõeldud kasutamiseks järgmise loogika kohaselt:  
+Kasutaja(d) kasutavad igapäevaselt/iganädalaselt CostPocketi äppi, pildistades kuludokumente ning lisades neid kuluaruandele. Raamatupidaja toimetab BC-s CostPocketist tulnud kuluaruannete ning seotud kuludokumentidega.
+*Erandjuhtudel, kui ei plaanita kuluaruandeid kasutada, võib märkida **Luba aruandeta dokumente**, mis muudab võimalikuks aruandeta kuludokumentide käsitlemise.*
 
-## Use
-### Expense Reports
+## Kasutamine
+### Kuluaruanded
 
-**Manual creation** of an expense report is usually done after manual creation of expense documents. User can add documents to report with action **Add documents to Report**.
+**Käsitsi** kuluaruanne luuakse üldjuhul peale käsitsi üksikute kuludokumentide loomist. Kasutaja saab lisada dokumente aruandele nupust **Lisa aruandele dokumendid**.
 
-Expense reports *(with status Report ready)* will be imported from CostPocket, when user presses button **Get Reports from CostPocket**.  Among with an expense report all expense documents, that are connected to this report, shall also be  imported to BC.  
-On Expense report card User can see total sum of expense documents in LCY.  
-User can edit submitter information by selecting value from Employees table to **Submitter No.** field. When selecting new value system asks if documents (report lines) should also be updated.  
-User must set posting date for report and all connected expense documents by entering value to field **Posting Date**.  
-User can open list of connected expense documents when clicking on **Number of Documents** field value.  
-To **Post** an expense report means that all connected expense documents are posted. *Documents are posted individually.*  
+Kuluaruanded *(staatusega Valmis)* imporditakse CostPocketist, kui kasutaja vajutab nuppu **Too aruanded CostPocketist** või kui käivitub vastav tööjärjekorra töö *(Käivitatava objekti liik on Aruanne ning ID 24008101)*.  Koos kuluaruandega imporditakse BC-sse ka kõik vastava kuluaruandega seotud kuludokumendid.
 
-Posted expense reports can be found in **Posted Expense Reports** archive.  
+Kuluaruande kaardil näeb kasutaja kõikide seotud dokumentide summat kohalikus valuutas väljal Summa KM-ta (KV).
+Kasutaja saab muuta välja **Esitaja nr.** väärtus, valides Töötajate loendist teise väärtuse. Väärtuse valimisel küsib süsteem kinnitust, kirjutamaks üle kõikide seotud kuludokumentide esitajad.
+Konteerimaks kuluaruannet peab kasutaja määrama kuupäeva väljale **Konteerimiskuupäev**, mis määratakse ka kõikidele seotud dokumentidele.
+Kasutaja saab avada seotud kuludokumentide loetelu, vajutades väljal **Dokumentide arv** olevale numbrile.
+**Konteeri** tähendab, et kõik kuluaruandega seotud kuludokumendid konteeritakse ühe korraga. *Dokumendid konteeritakse kõik eraldi.*  
 
-### Expense Documents
+Konteeritud kuluaruanded leiab **Konteeritud kuluaruanded** arhiivist.
 
-Manual creation of expense document is possible and is similar to regular purchase invoice.  
+### Kuludokumendid
 
-**Vendor and Submitter must be used**.  When getting documents from CostPocket system looks for Vendor Registration No. and/or VAT Registration No. in order to find Vendor from Vendors. Similarly submitter e-mail is used to look for Employee with matching company Email from Employees.  
-User can make multiple document lines with different posting groups (to manage VAT).    
-**Dimensions** are applied for header only.  
-Only .jpg type attachments can be uploaded.
-Expense document's **Billing Type** can be Personal or Company, depending on finances used.  
-Currency exchange rate can be adjusted by **Currency Factor** field.  
-User can work with documents on document card or in expense documents list *(mainly to assign Vendor/Submitter/Expense account)*.  
-When an expense account is assigned to document header, User shall be prompted, if document lines should also be updated.  
-User can check posting with action **Post Preview**.  
-Solution will make posting entries to both Vendor ledger entries and Employee ledger entries *(when Submitter has paid for expense document using personal finances).*  
+Käsitsi kuludokumendi loomine on võimalik ning sarnaneb ostuarve loomisele.
 
-Documents are usually posted from Expense Report. *In special case, when Allow documents without reports selection is used, expense documents can be imported separately with action **Get Documents from CostPocket** and then a document can also be posted from Expense Document list/card.*
+**Hankija ning Esitaja peab olema** kuludokumendil määratud.  Kuludokumentide importimisel CostPocketist otsitakse Hankija reg. nr. ja/või Hankija KM reg. nr. väärtuse alusel Hankijate registrist hankijat. Analoogselt otsitakse töötajate registrist (välja Ettevõtte e-post alusel) kuludokumendi esitajat, väljal Esitaja e-post oleva väärtuse alusel.
+Kasutaja võib luua mitme reaga arve, kasutades erinevaid konteeringurühmasid (KM korrektseks haldamiseks).  
+**Dimensioonid** saab lisada ainult päisele.  
+Ainult .jpg tüüpi faile saab lisada manustena.
+Kuludokumendi **Makse tüüp** saab olla kas Makstud eraisikuna või Makstud e/v vahenditest, sõltuvalt tehingu finantseerijast.
+Tehingu kurssi saab muuta läbi **Valuutakordaja** välja.
+Kasutaja saab töödelda kuludokumente nii läbi kaardi, kui kuludokumentide loendi *(peamiselt määramaks Hankijat/Esitajat/Kulukontot)*.
+Kui kuludokumendi päises valitakse Kulukonto, siis kasutajalt küsitakse kinnitust Kas soovite uuendada ridu, mis määrab kõikidele dokumendi ridadele uue kulukonto.
+Kasutaja võib kontrollida dokumendi konteerimise tulemust nupust **Konteeringu eelvaade**.  
+Lahendus teeb Hankija alla hankijaandmiku kanded ning Töötaja alla töötajaandmiku kanded *(kui esitaja on tasunud kuludokumendi eest).*
 
-Posted expense documents can be found in **Posted Expense Documents** archive.  
+Dokumendid konteeritakse üldjuhul Kuluaruandelt.
+*Erandjuhul, kui on lubatud aruandeta kuludokumendid, saab CostPocketist importida üksikuid kuludokumente nupust **Too dokumendid CostPocketist** ning sellisel juhul saab üksikut kuludokumenti ka konteerida.*
+
+Konteeritud kuludokumendid leiab **Konteeritud kuludokumendid** arhiivist.
 
 ---
 
-For more information please contact BCS Itera AS:  
-https://www.itera.ee
+Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:
+<a href="https://www.itera.ee/" target="_blank">www.itera.ee</a>

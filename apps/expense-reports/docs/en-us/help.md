@@ -61,4 +61,4 @@ Posted expense documents can be found in **Posted Expense Documents** archive.
 ---
 
 For more information please contact BCS Itera AS:  
-https://www.itera.ee
+<a href="https://www.itera.ee/" target="_blank">www.itera.ee</a>

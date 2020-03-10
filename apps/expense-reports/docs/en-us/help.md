@@ -43,7 +43,7 @@ Posted expense reports can be found in **Posted Expense Reports** archive.
 
 Manual creation of expense document is possible and is similar to regular purchase invoice.  
 
-**Vendor and Submitter must be used**.  When getting documents from CostPocket system looks for vendor registration no. in order to find Vendor from Vendors. Similarly submitter e-mail is used to look for Employee with matching company Email from Employees.  
+**Vendor and Submitter must be used**.  When getting documents from CostPocket system looks for Vendor Registration No. and/or VAT Registration No. in order to find Vendor from Vendors. Similarly submitter e-mail is used to look for Employee with matching company Email from Employees.  
 User can make multiple document lines with different posting groups (to manage VAT).    
 **Dimensions** are applied for header only.  
 Only .jpg type attachments can be uploaded.

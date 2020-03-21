@@ -3,18 +3,17 @@
 Dimensiooni parandaja lisab Business Central-i dimensiooni muutmise funktsionaalsuse konteeritud dokumentides ja kannetes.  
 
 ### Muudetavad kanded:
-*	Pearaamatu kanded.
-*	Kliendi kanded.
-    *    Kliendiandmiku kanded.
-    *    Kliendiandmiku üksikasjalikud kanded.
-*   Hankija kanded.
-    *   Hankijaandmiku kanded.
-    *   Hankijaandmiku üksikasjalikud kanded.
-*   Pangakonto kanded.
-*   Projekti kanded.
-*   Põhivara kanded.
-*   Analüüsivaate kanded.
-*   Müügiarve kanded.
+*	Pearaamatu kanded
+*   Kliendiandmiku kanded
+*   Kliendiandmiku üksikasjalikud kanded
+*   Hankijaandmiku kanded
+*   Hankijaandmiku üksikasjalikud kanded
+*   Pangakonto kanded
+*   Projekti kanded
+*   Põhivara kanded
+*   Analüüsivaate kanded
+*   Müügiarve kanded
+
 ## Kuidas kasutada dimensiooni parandajat
 Dimensiooni parandaja kasutamiseks avage **Kontoplaan** või **Pearaamatu kanded** ja käivitage tegevus **Muuda dimensioone** menüü **Protsess** sektsioonis.
 Avaneva akna keskmisel osal kuvatakse kanded ja alumisel osal:

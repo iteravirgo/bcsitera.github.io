@@ -1,20 +1,18 @@
 #   Dimension modifier | User guide
 
 This functionality enables to modify dimension information in **posted**:  
-*   General Ledger Entries.
-*   Customer Entries.
-    *   Customer Ledger Entries.
-    *   Detailed Customer Ledger Entries.
-*   Vendor entries.  
-    *   Vendor Ledger Entries.
-    *   Detailed Vendor Ledger Entry.
-*   Bank Ledger Entries.
-*   Job Ledger Entries.
-*   Fixed Assets Ledger Entries.
-*   Analysis View Entries.
-*   Sales Invoice Header.
-*   Sales Invoice rows.
-##  Use
+*   General Ledger Entries
+*   Customer Ledger Entries
+*   Detailed Customer Ledger Entries
+*   Vendor Ledger Entries
+*   Detailed Vendor Ledger Entry
+*   Bank Ledger Entries
+*   Job Ledger Entries
+*   Fixed Assets Ledger Entries
+*   Analysis View Entries
+*   Sales Invoice Header
+
+##  How to Use
 To use the functionality, no settings are required. Open **Chart of Accounts** or **General Ledger Entries** and find **Dimension modification** action button in **Process** menu section.  
 Clicking this button opens a page with **General Ledger Entries** listed. In addition, further fields are displayed at the bottom of the page. 
 *   Dimension- code of the used dimension.

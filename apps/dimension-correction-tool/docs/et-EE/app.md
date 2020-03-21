@@ -1,8 +1,8 @@
 # Dimensiooniparandaja
 
----
+Paranda dimensiooniinfot ilma konteeritud dokumente ja kandeid tagasipööramata.
 
-[Kasutajajuhend](help.md)
+[Kasutusjuhend](help.md)
 
 ### Kontakt
 

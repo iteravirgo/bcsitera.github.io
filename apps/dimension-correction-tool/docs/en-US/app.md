@@ -1,6 +1,6 @@
 # Dimension Correction Tool
 
----
+Correct dimension information without reversing posted documents or general ledger entries.
 
 [User Guide](help.md)
 

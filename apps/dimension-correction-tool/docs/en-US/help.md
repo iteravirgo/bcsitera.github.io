@@ -5,7 +5,7 @@ This functionality enables to modify dimension information in **posted**:
 *   Customer Ledger Entries
 *   Detailed Customer Ledger Entries
 *   Vendor Ledger Entries
-*   Detailed Vendor Ledger Entry
+*   Detailed Vendor Ledger Entries
 *   Bank Ledger Entries
 *   Job Ledger Entries
 *   Fixed Assets Ledger Entries

@@ -5,7 +5,7 @@
 
 ### Apps for Distribution and Retail
 [Assortment Management](apps/StockRange/docs/en-US/app.md)  
-[Campaign Management](apps/Campaign-management/docs/en-US/app.md)
+[Campaign Management](apps/Campaign-management/docs/en-US/app.md)  
 [Estonian Language for LS Central](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  
 
 ### Apps for Human Resources

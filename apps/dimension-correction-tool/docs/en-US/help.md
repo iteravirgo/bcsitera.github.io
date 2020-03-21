@@ -30,6 +30,8 @@ To modify one entry dimension, the entry must be chosen by clicking and then dim
 To modify multiple entry dimension, this filter must be applied and then dimension new value code should be inserted in the field named **Dimension new value code**. New dimension information applies after pressing the button **Change multiple entries dimensions** in **Change** menu section. 
 ## Change log
 Change log button can be found under the **Log** menu section. Log displays information about old and new dimension set ID, last modified time and user. 
-________________________________________
+
+---
+
 For more information, please contact:  
 http://apps.itera.ee/docs/en-us/support

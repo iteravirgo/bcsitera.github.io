@@ -32,6 +32,8 @@ Kasutaja saab muuta kannete dimensioone ühe kaupa või rakendada filtrit ja muu
 Mitme kanded dimensioonide muutmiseks tuleb rakendada filter. **Uus väärtus** väljale dimensiooni sisestamine muudab filtrisse jäävate kõikide kannete dimensioonid. Muudatuste rakendamiseks vajutada nupule **Muuda filtreeritud kannete dimensioonid**.
 ## Muudatuste logi
 Dimensioonide muutmise logi (ajalugu) vaatamiseks tuleb vajutada nupule **Muudatuste logi**, mis on leitav **Muuda dimensioone aknast**. Ajaloost nähtuvad dimensioonikogumite uued ja vanad identifikaatorid, muutmise aeg ja muutja nimi.
-________________________________________
+
+---
+
 Täpsema info saamiseks, palun võtke ühendust:  
 http://apps.itera.ee/docs/en-us/support

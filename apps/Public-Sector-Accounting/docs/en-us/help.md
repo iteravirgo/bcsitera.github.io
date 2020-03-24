@@ -5,6 +5,7 @@ Public Sector Accounting and Reporting solution in BC enables the following:
 - Management of State Transaction Partners
 - Management of State Balance Reports
 - Submit State Balance Report as XML file to Estonian State Balance Reports Information System
+<br><br>
 
 ## Settings
 ### Dimensions
@@ -13,6 +14,7 @@ Solution uses dimension values from G/L entries when creating State Balance Repo
  - Business Activity
  - Source
  - Cashflow
+ <br><br>
 
 ### State Finance Setup
 In **section Dimensions** we specify dimensions necessary for solution:
@@ -26,6 +28,7 @@ In **section Dimensions** we specify dimensions necessary for solution:
 | Conditional Cashflow Dimension Value | Specific dimension value from Cashflow dimension values. Used for conditional logic when creating State Balance Report lines. Usually value is **01**.|
 
 For more information on possible dimension values please visit <a href="https://saldo.fin.ee/" target="_blank">State Balance Reports Information System</a>
+<br><br>
 
 In **section General** we specify :
 
@@ -38,16 +41,16 @@ In **section General** we specify :
 
 
 ### State G/L Accounts
-Solution shall fill State Accounts table with default values on first install.
-State G/L Accounts table consists of accounts that have number, name and settings about mandatory dimensions for that account.
+Solution shall fill State Accounts table with default values on first install.<br>
+State G/L Accounts table consists of accounts that have number, name and settings about mandatory dimensions for that account.<br>
 Transaction Partner and/or Business Activity can be **conditionally mandatory**, meaning corresponding dimension is mandatory only when transaction''s Cashflow dimension has specific predetermined value (usually 01).
 
 Configure following fields for better user experience and more accurate State Balance Report:
 
 |Field|Explanation|
 |---|---| 
-| Constant TP Dimension | Specifies constant transaction partner dimension value for State G/L Account. **Value here shall override any Transaction Partner dimension value on General Ledger Entries**. Typically used for tax accounts, because there can be only one transaction partner code for Tax and Customs Board. ***Note!** If value is specified here, then there is no need for Code Mandatory setting for Transaction Partner dimension in corresponding G/L Account's default dimensions.*|
-| Use Constant TP Dimension on Bank Account | Specifies if system uses **Constant State Transaction Partner dimension value specified on Bank Account card to override any Transaction Partner value on General Ledger Entries**. Typically used for cash accounts. ***Note!** When using Constant State Transaction Partner dimension value on Bank Account card, a Default dimension for Bank Account Card should NOT be used.*|
+| Constant TP Dimension | Specifies constant transaction partner dimension value for State G/L Account. **Value here shall override any Transaction Partner dimension value on General Ledger Entries**. Typically used for tax accounts, because there can be only one transaction partner code for Tax and Customs Board.<br> ***Note!** If value is specified here, then there is no need for Code Mandatory setting for Transaction Partner dimension in corresponding G/L Account's default dimensions.*|
+| Use Constant TP Dimension on Bank Account | Specifies if system uses **Constant State Transaction Partner dimension value specified on Bank Account card to override any Transaction Partner value on General Ledger Entries**. Typically used for cash accounts.<br> ***Note!** When using Constant State Transaction Partner dimension value on Bank Account card, a Default dimension for Bank Account Card should NOT be used.*|
 
 
 User can reset state accounts table to default values with button "**Reset State G/L Accounts**".
@@ -55,26 +58,27 @@ User can reset state accounts table to default values with button "**Reset State
 <br><br>
 
 ### Chart of Accounts
-Specify for each G/L Account a corresponding State Account No. *This field can be found on G/L Account card and on Chart of Accounts.*
-When State Account No. is entered, solution shall check the mandatory dimensions for that account in State G/L Accounts. **If a dimension is mandatory or conditionally mandatory then solution will add Code Mandatory value posting condition to Default Dimensions** for that G/L Account. ***Note!** If for certain G/L Account User determines that no transaction with Cashflow conditional dimension shall ever be posted there, User should manually remove Code Mandatory value posting condition from Default Dimensions concerning  Transaction Partner and/or Business Activity dimension.*
+Specify for each G/L Account a corresponding State Account No. *This field can be found on G/L Account card and on Chart of Accounts.*<br>
+When State Account No. is entered, solution shall check the mandatory dimensions for that account in State G/L Accounts. **If a dimension is mandatory or conditionally mandatory then solution will add Code Mandatory value posting condition to Default Dimensions** for that G/L Account.<br>
+***Note!** If for certain G/L Account User determines that no transaction with Cashflow conditional dimension shall ever be posted there, User should manually remove Code Mandatory value posting condition from Default Dimensions concerning  Transaction Partner and/or Business Activity dimension.*
 <br><br>
 
 ### State Transaction Partners
-For initial setup User should create Transaction Partners.
-User can **download Transaction Partners XML file** from Balance Reports Information System with button "Download fresh Partners XML".
-User can **import/update*** **Transaction Partners** from XML file with button "Import Partners From XML".
+For initial setup User should create Transaction Partners.<br>
+User can **download Transaction Partners XML file** from Balance Reports Information System with button "Download fresh Partners XML".<br>
+User can **import/update*** **Transaction Partners** from XML file with button "Import Partners From XML".<br>
 **Note! Since there are no unique identifiers in state created XML file, then record shall be updated only if same combination of Code + Name + Valid from date exists. Otherwise a new record will be created.*
 <br><br>
 
 ### Customers/Vendors
-For every Customer/Vendor User should **specify a corresponding Transaction Partner**. This can be done **on Customer/Vendor card** in section State Accounting information.
+For every Customer/Vendor User should **specify a corresponding Transaction Partner**. This can be done **on Customer/Vendor card** in section State Accounting information.<br>
 When Transaction Partner Id is selected, solution adds corresponding Transaction Partner code to Transaction Partner dimension values and also a default dimension with that dimension value code along with value posting condition Same Code is added to Customer/Vendor.
 <br><br>
 
 ### Bank Accounts
-For every bank's cash account User should **specify a Constant State TP Dimension**. This can be done on Bank Account Card.
-This specifies constant transaction partner dimension for current bank account's bank and therefore **there is no need for Default dimension value**.
-This dimension value will be used in State Balance Report, if field "Use Constant Bank Account TP Code" is selected in table State G/L Accounts.
+For every bank's cash account User should **specify a Constant State TP Dimension**. This can be done on Bank Account Card.<br>
+This specifies constant transaction partner dimension for current bank account's bank and therefore **there is no need for Default dimension value**.<br>
+This dimension value will be used in State Balance Report, if field "Use Constant Bank Account TP Code" is selected in table State G/L Accounts.<br>
 ***Note!** When using Constant State Transaction Partner dimension value on Bank Account card, a Default dimension Code Mandatory value posting condition for corresponding G/L Account (look via Bank Acc. Posting Group) should be removed.*
 <br><br>
 
@@ -85,7 +89,7 @@ Mandatory dimensions specified in chart of accounts default dimensions must be a
 <br><br>
 
 ### State Balance Reports
-To create a new Balance Report User must specify Year and Month of the reporting period. State balance report is a cumulative report from the beginning of reporting period's calendar year.
+To create a new Balance Report User must specify Year and Month of the reporting period. State balance report is a cumulative report from the beginning of reporting period's calendar year.<br>
 Button **"Calculate Lines" creates State Balance Report Lines**. *Lines are created for every State G/L Account in combination with Transaction Partner, Business Activity, Source and Cashflow.*
 
 In order to check General Ledger Entries that form a State Balance Report Line, look for button "**Show entries**" in State Balance Report Lines. To view entries with all dimensions in General Ledger Entries navigate to Entry and press button G/L Dimension Overview and then Show Matrix.

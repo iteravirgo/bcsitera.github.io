@@ -26,7 +26,6 @@ In **section Dimensions** we specify dimensions necessary for solution:
 | Conditional Cashflow Dimension Value | Specific dimension value from Cashflow dimension values. Used for conditional logic when creating State Balance Report lines. Usually value is **01**.|
 
 For more information on possible dimension values please visit <a href="https://saldo.fin.ee/" target="_blank">State Balance Reports Information System</a>
-<br><br>
 
 In **section General** we specify :
 |Field|Explanation|
@@ -36,7 +35,6 @@ In **section General** we specify :
 | Company Transaction Partner Code | Specifies **company's own Transaction partner code** used in State Balance Report XML file.|
 | Company Business Activity Code | Specifies **company's main Business activity code**. Dimension value here shall be automatically added as Default dimension value, when applying State accounts to G/L Accounts.|
 
-<br><br>
 
 ### State G/L Accounts
 Solution shall fill State Accounts table with default values on first install.
@@ -49,7 +47,6 @@ Configure following fields for better user experience and more accurate State Ba
 | Constant TP Dimension | Specifies constant transaction partner dimension value for State G/L Account. **Value here shall override any Transaction Partner dimension value on General Ledger Entries**. Typically used for tax accounts, because there can be only one transaction partner code for Tax and Customs Board. ***Note!** If value is specified here, then there is no need for Code Mandatory setting for Transaction Partner dimension in corresponding G/L Account's default dimensions.*|
 | Use Constant TP Dimension on Bank Account | Specifies if system uses **Constant State Transaction Partner dimension value specified on Bank Account card to override any Transaction Partner value on General Ledger Entries**. Typically used for cash accounts. ***Note!** When using Constant State Transaction Partner dimension value on Bank Account card, a Default dimension for Bank Account Card should NOT be used.*|
 
-<br>
 
 User can reset state accounts table to default values with button "**Reset State G/L Accounts**".
 **Warning!** this shall delete all user configurations in State Accounts and restore the default values.

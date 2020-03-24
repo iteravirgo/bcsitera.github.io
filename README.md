@@ -2,7 +2,7 @@
 [Contract Management](apps/contract-management/docs/en-us/app.md)  
 [Expense Reports](apps/expense-reports/docs/en-us/app.md)  
 [Dimension Correction Tool](apps/dimension-correction-tool/docs/en-US/app.md)  
-[Public Sector Accounting and Reporting for Estonia](apps/Public-Sector-Accounting/docs/en-US/app.md)
+[Public Sector Accounting and Reporting for Estonia](apps/Public-Sector-Accounting/docs/en-us/app.md)  
 
 ### Apps for Distribution and Retail
 [Assortment Management](apps/StockRange/docs/en-US/app.md)  

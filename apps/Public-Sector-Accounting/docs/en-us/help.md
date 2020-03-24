@@ -28,6 +28,7 @@ In **section Dimensions** we specify dimensions necessary for solution:
 For more information on possible dimension values please visit <a href="https://saldo.fin.ee/" target="_blank">State Balance Reports Information System</a>
 
 In **section General** we specify :
+
 |Field|Explanation|
 |---|---| 
 | State Balance Report No. Series | Specifies **State Balance Report** number series. Value can be chosen from **No. Series List**.|

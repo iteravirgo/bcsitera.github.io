@@ -1,5 +1,5 @@
 # Avaliku sektori finantsarvestuse lahendus
-Avaliku sektori finantsarvestuse lahendus BC-s võimaldab järgmist:
+Avaliku sektori finantsarvestuse lahendus Business Centralis võimaldab järgmist:
 - Riigi kontode haldust
 - Riigi tehingupartnerite haldust
 - Saldoandmike haldust

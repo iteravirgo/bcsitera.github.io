@@ -16,6 +16,7 @@ Solution uses dimension values from G/L entries when creating State Balance Repo
 
 ### State Finance Setup
 In **section Dimensions** we specify dimensions necessary for solution:
+
 |Field|Explanation|
 |---|---| 
 | Transaction Partner Dimension Code | Dimension code for the dimension that is used for **Transaction Partners**.|

@@ -66,8 +66,8 @@ When State Account No. is entered, solution shall check the mandatory dimensions
 ### State Transaction Partners
 For initial setup User should create Transaction Partners.<br>
 User can **download Transaction Partners XML file** from Balance Reports Information System with button "Download fresh Partners XML".<br>
-User can **import/update*** **Transaction Partners** from XML file with button "Import Partners From XML".<br>
-**Note! Since there are no unique identifiers in state created XML file, then record shall be updated only if same combination of Code + Name + Valid from date exists. Otherwise a new record will be created.*
+User can **import/update** **Transaction Partners** from XML file with button "Import Partners From XML".<br>
+***Note!** Since there are no unique identifiers in state created XML file, then record shall be updated only if same combination of Code + Name + Valid from date exists. Otherwise a new record will be created.*
 <br><br>
 
 ### Customers/Vendors

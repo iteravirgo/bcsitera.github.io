@@ -1,5 +1,5 @@
 # Public Sector Accounting and Reporting
-Public Sector Accounting and Reporting solution in BC enables the following:
+Public Sector Accounting and Reporting solution in Business Central enables the following:
 
 - Management of State G/L Accounts
 - Management of State Transaction Partners

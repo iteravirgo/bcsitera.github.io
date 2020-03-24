@@ -43,7 +43,7 @@ Sektsioonis **Üldine** määratletakse :
 ### Riigi kontod
 Esmase installeerimise käigus täidab lahendus riigi kontode tabeli vaikeväärtustega.<br>
 Riigi kontode tabel koosneb kontodest, millel on number, nimetus ning vastavate dimensioonide kohustuslikkuse määratlused vaadeldava konto osas.<br>
-Tehingupartner ja/või Tegevusala dimensioon võivad olla **tingimuslikult kohustuslik**ud - st vastav dimensioon on ainult siis kohustuslik lisada, kui tehingu rahavoo dimensioon on ettemääratud väärtusega (tavaliselt 01).
+**Tehingupartner ja/või Tegevusala dimensioon võivad olla tingimuslikult kohustuslik**ud - st vastav dimensioon on ainult siis kohustuslik lisada, kui tehingu rahavoo dimensioon on ettemääratud väärtusega (tavaliselt 01).
 
 Seadista järgnevad väljad parema kasutajakogemuse ning täpsema saldoandmiku saamiseks:
 
@@ -66,8 +66,8 @@ Peale riigi konto lisamist kontrollib lahendus kohustuslike dimensioonide nõuet
 ### Riigi tehingupartnerid
 Esmase seadistuse käigus peaks Kasutja looma tehingupartnerite loetelu.
 Kasutaja saab **laadida alla tehingupartnerite XML fail**i Saldoandmike infosüsteemist nupuga "Lae alla partnerite XML".<br>
-Kasutaja saab importida/uuendada* tehingupartnerid XML failist nupuga "Impordi partnerid XML failist".<br>
-****Märkus!** Kuna riigi poolt loodud tehingupartnerite XML failis puudub unikaalsuse tunnus, siis uuendamine õnnestub vaid kirjetega, milledel on olnud muutumatu kombinatsioon Kood + Nimetus + Kehtiv alates. Vastasel juhul luuakse uus kirje.*
+Kasutaja saab importida/uuendada tehingupartnerid XML failist nupuga "Impordi partnerid XML failist".<br>
+***Märkus!** Kuna riigi poolt loodud tehingupartnerite XML failis puudub unikaalsuse tunnus, siis uuendamine õnnestub vaid kirjetega, milledel on olnud muutumatu kombinatsioon Kood + Nimetus + Kehtiv alates. Vastasel juhul luuakse uus kirje.*
 <br><br>
 
 ### Kliendid/Hankijad

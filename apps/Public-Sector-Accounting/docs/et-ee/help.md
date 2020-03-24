@@ -35,14 +35,14 @@ Sektsioonis **Üldine** määratletakse :
 |---|---| 
 | Riigi saldoandmiku numbrid | Määrab **saldoandmike** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
 | Tehingupartnerite numbrid | Määrab **tehingupartnerite** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
-| Ettevõtte tehingupartneri kood | Määrab **ettevõtte enda tehingupartneri kood**i, mida kasutatakse saldoandmiku XML failis. *(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)*|
-| Ettevõtte tegevusala kood | Määrab **ettevõtte enda tegevusala kood**i. Siin määratud väärtus lisatakse automaatselt vastavale PR kontole, kus Tegevusala dimensioon on nõutud, vaikedimensiooni väärtuseks. *(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)*|
+| Ettevõtte tehingupartneri kood | Määrab **ettevõtte enda tehingupartneri kood**i, mida kasutatakse saldoandmiku XML failis.<br> *(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)*|
+| Ettevõtte tegevusala kood | Määrab **ettevõtte enda tegevusala kood**i. Siin määratud väärtus lisatakse automaatselt vastavale PR kontole, kus Tegevusala dimensioon on nõutud, vaikedimensiooni väärtuseks. <br>*(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)*|
 
 <br><br>
 
 ### Riigi kontod
-Esmase installeerimise käigus täidab lahendus riigi kontode tabeli vaikeväärtustega.
-Riigi kontode tabel koosneb kontodest, millel on number, nimetus ning vastavate dimensioonide kohustuslikkuse määratlused vaadeldava konto osas.
+Esmase installeerimise käigus täidab lahendus riigi kontode tabeli vaikeväärtustega.<br>
+Riigi kontode tabel koosneb kontodest, millel on number, nimetus ning vastavate dimensioonide kohustuslikkuse määratlused vaadeldava konto osas.<br>
 Tehingupartner ja/või Tegevusala dimensioon võivad olla **tingimuslikult kohustuslik**ud - st vastav dimensioon on ainult siis kohustuslik lisada, kui tehingu rahavoo dimensioon on ettemääratud väärtusega (tavaliselt 01).
 
 Seadista järgnevad väljad parema kasutajakogemuse ning täpsema saldoandmiku saamiseks:
@@ -65,18 +65,18 @@ Peale riigi konto lisamist kontrollib lahendus kohustuslike dimensioonide nõuet
 
 ### Riigi tehingupartnerid
 Esmase seadistuse käigus peaks Kasutja looma tehingupartnerite loetelu.
-Kasutaja saab **laadida alla tehingupartnerite XML fail**i Saldoandmike infosüsteemist nupuga "Lae alla partnerite XML".
+Kasutaja saab **laadida alla tehingupartnerite XML fail**i Saldoandmike infosüsteemist nupuga "Lae alla partnerite XML".<br>
 Kasutaja saab importida/uuendada* tehingupartnerid XML failist nupuga "Impordi partnerid XML failist".<br>
 ****Märkus!** Kuna riigi poolt loodud tehingupartnerite XML failis puudub unikaalsuse tunnus, siis uuendamine õnnestub vaid kirjetega, milledel on olnud muutumatu kombinatsioon Kood + Nimetus + Kehtiv alates. Vastasel juhul luuakse uus kirje.*
 <br><br>
 
 ### Kliendid/Hankijad
-Iga **Kliendi/Hankija kaardile tuleb määrata vastav riigi tehingupartner**. *Seda saab teha sektisoonis Riigi raamatupidamise info.*
+Iga **Kliendi/Hankija kaardile tuleb määrata vastav riigi tehingupartner**. *Seda saab teha sektisoonis Riigi raamatupidamise info.*<br>
 Kui tehingupartneri id valitakse, siis lahendus lisab vastava tehingupartneri koodi tehingupartneri dimensiooni üheks väärtuseks ning ühtlasi lisatakse tehingupartneri kood Kliendi/Hankija vaikedimensiooniks (Väärtuse konteerimine määratluseks Sama tähis).
 <br><br>
 
 ### Pangakontod
-Kasutaja peaks igale pangakontole **määratlema Konstantne riigi TP dimensioon väärtuse**. Seda saab teha pangakonto kaardil. *Nii toimides **puudub vajadus pangakontole vaikedimensiooni määramiseks**.*
+Kasutaja peaks igale pangakontole **määratlema Konstantne riigi TP dimensioon väärtuse**. Seda saab teha pangakonto kaardil. *Nii toimides **puudub vajadus pangakontole vaikedimensiooni määramiseks**.*<br>
 Määratlust kasutatakse riigi saldoandmiku koostamisel, kui riigi kontoplaanis on märgitud väli "Kasuta konstantset pangakonto TP dimensiooni pangakonto kaardilt".<br>
 ***Märkus!** Kui väli Konstantne riigi TP dimensioon on kasutusel, siis tuleks vastavalt PR kontolt (leitav pangakonto konteeringurühma kaudu) eemaldada Tähis kohustuslik vaikedimensiooni nõue Tehingupartneri dimensiooni osas.*
 <br><br>
@@ -88,7 +88,7 @@ Kontoplaanis määratud kohustuslikud vaikedimensioonid tuleb lisada igale PR ka
 <br><br>
 
 ### Riigi saldoandmikud
-Uue saldoandmiku loomiseks tuleb Kasutajal määratleda aruandeperioodi aasta ning kuu (lõpu kuu). Saldoandmik arvutatakse kumuleeruvalt alates aruandeperioodi kalendriaasta algusest kuni lõpu kuu viimase päevani.
+Uue saldoandmiku loomiseks tuleb Kasutajal määratleda aruandeperioodi aasta ning kuu (lõpu kuu). Saldoandmik arvutatakse kumuleeruvalt alates aruandeperioodi kalendriaasta algusest kuni lõpu kuu viimase päevani.<br>
 Saldoandmiku **ridade loomiseks tuleb Kasutajal vajutada nuppu "Arvuta read"**. *Read luuakse iga riigikonto tarbeks kombinatsioonis tehingupartner, tegevusala, allikas ning rahavoog.*
 
 Kontrollimaks, millistest pearaamatu kannetest on saldoandmiku rida loodud tuleb kasutada nuppu "**Näita aluskandeid**" *(nupu leiab Ridadest, Halda nupu alt)*. Kõikide dimensioonidega kannete vaatamiseks tuleb avanenud pearaamatu kannetest vajutada Kanne -> PR Dimensiooni ülevaade ning seejärel juba Kuva maatriks.

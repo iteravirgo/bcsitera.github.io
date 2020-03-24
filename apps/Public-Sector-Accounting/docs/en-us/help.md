@@ -1,4 +1,4 @@
-# Public Sector Accounting and Reporting for Estonia
+# Public Sector Accounting and Reporting
 Public Sector Accounting and Reporting solution in BC enables the following:
 
 - Management of State G/L Accounts
@@ -43,6 +43,7 @@ State G/L Accounts table consists of accounts that have number, name and setting
 Transaction Partner and/or Business Activity can be **conditionally mandatory**, meaning corresponding dimension is mandatory only when transaction''s Cashflow dimension has specific predetermined value (usually 01).
 
 Configure following fields for better user experience and more accurate State Balance Report:
+
 |Field|Explanation|
 |---|---| 
 | Constant TP Dimension | Specifies constant transaction partner dimension value for State G/L Account. **Value here shall override any Transaction Partner dimension value on General Ledger Entries**. Typically used for tax accounts, because there can be only one transaction partner code for Tax and Customs Board. ***Note!** If value is specified here, then there is no need for Code Mandatory setting for Transaction Partner dimension in corresponding G/L Account's default dimensions.*|

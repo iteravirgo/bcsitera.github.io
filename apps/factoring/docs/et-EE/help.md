@@ -13,7 +13,8 @@ Faktooringu lahendus lisab Business Central-i müügiarvete faktoorile loovutata
 ## Seadistamine
 Lahenduse esmakordsel kasutamisel tuleb alustada faktooringlepingu kaardi loomisest. Selleks peab avame lehe **Faktooringlepingud** ja looma uue lepingu kaardi vajutades nupule **+Uus**.  
 
-Avaneval lepingu kaardil on vaja täita **muudetavad** väljad: 
+Avaneval lepingu kaardil on vaja täita **muudetavad** väljad:  
+
 |Väli| Selgitus|Muudetav / Informatiivne| 
 |---|---|---|
 |Nr.:**|Faktooringlepingu number|Muudetav|
@@ -32,7 +33,8 @@ Avaneval lepingu kaardil on vaja täita **muudetavad** väljad:
 |Komisjonitasude PR konto:|Konto, kuhu konteeritakse tasumisele kuuluv komisjonitasu ja sellega seotud km faktoorilt avansi laekumisel|Muudetav| 
 |Intresside PR konto:|Konto, kuhu konteeritakse tasumisele kuuluv intress faktoorilt reservi laekumisel|Muudetav|
 |Pangakonto:|Faktooringlepinguga seotud pangakonto Business Central-s|Muudetav|
-|Loovutamiste numbriseeria:|Müügiarvete loovutamiste numbriseeria |Muudetav|
+|Loovutamiste numbriseeria:|Müügiarvete loovutamiste numbriseeria |Muudetav|  
+
 ** Kohustuslik väli  
 ** Lehel **Standardteksti tähised** on võimalik hallata tekste müügiarve loovutamise kohta kliendi keeles, sõltuvalt kliendi regiooni tähisest kliendi kaardil.  
 *** Faktooringu kliendi täitmine on vajalik regressita lepingu puhul. Faktooringu hankija on kohustuslik regressiga lepingu korral. Nii faktooringu klient kui faktooringu hankija võivad olla mõlemad täidetud, kuid süsteem kasutab ühte vastavalt lepingu tüübile.
@@ -42,7 +44,8 @@ Lehel asuvad tegevusnupud **Loovuta** ja **Loovutatud arve** ja tabeli väljad
 
 * **Loovutamised**- faktoorile müügiarvete edastuse read.
 
-Faktooringlepingute lehe väljadele selgitused:
+Faktooringlepingute lehe väljadele selgitused:  
+
 |Väli | Selgitus|
 |--- |--- |
 |Nr.:|Faktooringlepingu number|
@@ -63,14 +66,16 @@ Lehel asuvad tegevusnupud **Kanna žurnaali** ja **Ekspordi faili** ja tabeli v�
 * **Ekspordi faili** - genereerub Excel-formaadis müügiarvete koondloetelu, mis vastab Swedbanki nõuetele.\
 *NB! Faili panka edastamiseks tuleb see  manuaalselt edastada faktooriga kokkulepitud viisil.*
 
-### Loovutamiste ridade väljade selgitused
+### Loovutamiste ridade väljade selgitused  
+
 |Väli | Selgitus|  
 |--- | --- |  
 |Nr. | Faktooringu lepingu kirjeldus |  
 |Loovutamise kuupäev |Kuupäev, mil loovutamise rida loodi |
 |Arvete arv |Loovutatud müügiarvete arv |
 |Arvete summa |Loovutatud müügiarvete summa |
-|Avatud kannete arv |Tasumata arved on staatuses "Avatud"|
+|Avatud kannete arv |Tasumata arved on staatuses "Avatud"|  
+
 ## Faktooringu lahenduse kasutamine
 *   **Faktooringu lepingu kaardi seadistamine**  
 Lahenduse korrektseks töötamiseks peavad olema täidetud muudetavad väljad faktooringlepingu [kaardil](#Seadistamine).
@@ -87,33 +92,41 @@ XML-formaadis faili süsteemi lugemiseks peab kasutaja valima lepingu tüüpi, v
 
 Kanded tekivad automaatselt, summad saadakse XML failist. Allpool on ülevaade tekkivatest finantskannetest.
 
- **Avansi laekumine regressiooniõiguseta lepingu alusel** 
+ **Avansi laekumine regressiooniõiguseta lepingu alusel**  
+
 |Laekumisžurnaali rida|Deebet/Kreedit|Selgitus|
 |---|---|---|
 |Faktooringu kliendi võlg|Kreedit|Faktooringu klient faktooringlepingu kaardilt|
 |Pangakonto|Deebet|Pangakonto faktooringlepingu kaardilt|
 |Komisjonitasu|Deebet|Komisjonitasude konto faktooringlepingu kaardilt|
-|Komisjonitasu KM|Deebet|Komisjonitasude konto faktooringlepingu kaardilt|
-**Reservi laekumine regressiooniõiguseta lepingu alusel**
+|Komisjonitasu KM|Deebet|Komisjonitasude konto faktooringlepingu kaardilt|  
+
+**Reservi laekumine regressiooniõiguseta lepingu alusel**  
+
 |Laekumisžurnaali rida | Deebet/Kreedit| Selgitus|
 |---|---|---|
 |Faktooringu kliendi võlg| Kreedit| Faktooringu klient faktooringlepingu kaardilt|
 |Pangakonto|Deebet| Pangakonto faktooringlepingu kaardilt|
-|Komisjonitasu|Deebet| Komisjonitasude konto faktooringlepingu kaardilt|
-**Avansi laekumine regressiooniõigusega lepingu alusel** 
+|Komisjonitasu|Deebet| Komisjonitasude konto faktooringlepingu kaardilt|  
+
+**Avansi laekumine regressiooniõigusega lepingu alusel**  
+
 |Laekumisžurnaali rida| Deebet/Kreedit| Selgitus|
 |---|---|---|
 |Faktooringu hankija kohustus| Kreedit| Faktooringu klient faktooringlepingu kaardilt|
 |Pangakonto|Deebet| Pangakonto faktooringlepingu kaardilt|
 |Komisjonitasu|Deebet| Komisjonitasude konto faktooringlepingu kaardilt|
-|Komisjonitasu KM|Deebet|Komisjonitasude konto faktooringlepingu kaardilt|
-**Reservi laekumine regressiooniõigusega lepingu alusel**   
+|Komisjonitasu KM|Deebet|Komisjonitasude konto faktooringlepingu kaardilt|  
+
+**Reservi laekumine regressiooniõigusega lepingu alusel**  
+
 |Laekumisžurnaali rida | Deebet/Kreedit| Selgitus|
 |---|---|---|
 |Faktooringu hankija kohustus| Deebet| Faktooringu klient faktooringlepingu kaardilt|
 |Pangakonto|Deebet| Pangakonto faktooringlepingu kaardilt|
 |Intress|Deebet| Intressikulu konto faktooringlepingu kaardilt|
-|Kliendi müügivõlg|Kreedit|Loovutatud müügiarve summa*| 
+|Kliendi müügivõlg|Kreedit|Loovutatud müügiarve summa*|  
+
 *NB! Peale reservi laekumist regressita lepingu alusel toimub müügiarve ja faktooringu hankija kohustuse sidumine, mille tulemusena võrduvad nii hankija kliendi kohustuse ja müügivõla jääksumma nulliga. 
 
 ---

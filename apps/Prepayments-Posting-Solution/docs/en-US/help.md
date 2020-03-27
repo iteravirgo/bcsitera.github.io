@@ -9,3 +9,10 @@ User must **add Job Que entries** with **CodeUnit 24013200** and **parameter** v
 **On** Sales/Purchase **invoice** header **User must select manually** a different Customer/Vendor posting group.
 
 **When posting Prepayment invoice from Sales/Purchase order**, then Customer/Vendor group specified on field **Prepayment Invoice Customer/Vendor Posting Group shall be automatically used**.
+
+**Note!** Only LCY is currently supported.
+
+---
+
+For more information please contact BCS Itera AS:  
+<a href="https://www.itera.ee/en/about-us/" target="_blank">www.itera.ee/en/about-us/</a>

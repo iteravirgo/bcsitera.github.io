@@ -63,3 +63,19 @@ Open **Document Sending Profile** and create new. Enter the following data:
 |Electronic Document|Select Through Document Exchange Service|
 |Format|Select created format|
 
+### Factoring Agreement
+Necessary only, if Factoring will be used.
+Open **Factoring Agreements** and select New.
+Enter the following data:
+
+|**Field**|**Value**|
+|-|-|
+|No.|Factoring agreement No.|
+|Description|Fill in manually|
+|Factoring Text on Invoice|Select created Standard text Code|
+|Refrence No. Base|Reference No. format is provided by Factoring company. Enter base No. and zeros to fill in the given length. For final reference No, invoice No. will be added after the base no.|
+|Factroing Customer No.|Create Customer Card for Factoring company|
+|Transmission Nos.|Select created No. Series|
+
+
+

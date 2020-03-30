@@ -3,13 +3,13 @@
 
 Finvoice Sales e-Invoicing functionality in BC enables the following:
 * Create electronical sales invoices in Finvoice format (B2B).
-* Manage Factoring customers.
-* Create Sales e-Invoices for Factoring company.
-* Send e-Invoices to e-invoice operators*.
+* Manage Factoring customers **.
+* Create Sales e-Invoices for Factoring company **.
+* Send e-Invoices to e-invoice operators***.
 
-e-Invoicing functionality could be also used without Factoring functionality.
+** e-Invoicing functionality could be also used without Factoring functionality.
 
-In addition, to **being able to send an e-invoice to customer**, Finnish operator service is required. This solution is ready to use with Finnish operator OWS (www.ows.fi). For message traffic with other Finnish operators, contact your Microsoft Business Central partner or BCS Itera Oy (bcsitera@bcsitera.fi).
+*** In addition, to **being able to send an e-invoice to customer**, Finnish operator service is required. This solution is ready to use with Finnish operator OWS (www.ows.fi). For message traffic with other Finnish operators, contact your Microsoft Business Central partner or BCS Itera Oy (bcsitera@bcsitera.fi).
 
 ## Settings
 

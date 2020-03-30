@@ -5,7 +5,7 @@ Finvoice Sales e-Invoicing functionality in BC enables the following:
 * Create electronical sales invoices in Finvoice format (B2B).
 * Manage Factoring customers **.
 * Create Sales e-Invoices for Factoring company **.
-* Send e-Invoices to e-invoice operators***.
+* Send e-Invoices to e-invoice to Finnish operators***.
 
 ** e-Invoicing functionality could be also used without Factoring functionality.
 

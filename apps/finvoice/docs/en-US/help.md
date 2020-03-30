@@ -120,8 +120,8 @@ To be able to send an e-invoice to customer, Finnish operator service is require
 
 Finvoice e-Invoice files could be send to operator manually or automatically.
 
-#### Manually
-Open Posted Sales Invoice and select **Print/Send** and **Send**.
+  #### Manually
+  Open Posted Sales Invoice and select **Print/Send** and **Send**.
 
 |**Field**|**Value**|
 |-|-|
@@ -130,16 +130,28 @@ Open Posted Sales Invoice and select **Print/Send** and **Send**.
 |Electronic Document|Trough Document Exchange Service|
 |Format|Select Finvoice format. See chapter Setup Electronical Document Formats.|
 
-#### Automatically
-You can set up Job Que for sending e-Invoices automatically.
+  #### Automatically
+  You can set up Job Que for sending e-Invoices automatically.
 
 
-### View/save e-Invoice
-manually or automatically, by using job que.
+### View/save e-Invoice XML-file
 
-Send Finvoice XML-File
-Open the Posted Sales Invoice and select Send.
+Open Posted Sales Invoice and select **Print/Send** and **Send**.
 On Edit Send Document select:
 
+|**Field**|**Value**|
+|-|-|
+|Email|No|
+|Disc|Electronic Document|
+|Electronic Document|No|
+|Format|Select Finvoice format. See chapter Setup Electronical Document Formats.|
 
+Open or save xml-file to disc.
 
+### Create Factoring XML-file
+1.	Open **Factoring Agreements** and select agreement.
+2.	Select **Create transmission**.
+3.	Select **OK**.
+4.	Select transmission line and select **Send**.
+
+For more information and pricing please contact BCS Itera Oy: https://www.bcsitera.fi

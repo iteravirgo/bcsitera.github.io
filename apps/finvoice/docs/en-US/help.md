@@ -36,6 +36,20 @@ Split text to multiple lines. Text length on single line may not exceed more tha
 
 ![StandardText](StandardText.png)
 
-StandardText.png 
+### Setup Electronical Document Formats
+Open **Electronic Document Formats** and insert two new Electronical Document Formats (1st for Sales Invoice and 2nd for Sales Credit Memo).
+Enter the following data:
+
+|**Field**|**Value**|
+|-|-|
+|Code|Fill in manually|
+|Description|Fill in manually|
+|Usage|Select Sales Invoice or Sales Credit Memo|
+|Codeunit ID|70404528|
+|Delivery Codeuint ID|70404527|
+
+ 
+![ElecDocFormats](ElecDocFormats.png)
+
 
 

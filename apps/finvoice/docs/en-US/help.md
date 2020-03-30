@@ -15,17 +15,14 @@ e-Invoicing functionality could be also used without Factoring functionality.
 
 To use the functionality, Finvoice Sales e-Invoicing following setups must be made:
 
-
 ### Company Information 
 Open **Company Information** and add setup data to Finvoice tab:
-
 
 |**Field**|**Value**|
 |-|-|
 |EDI Code|Code provided by operator|
 |Intermediator Code|Code provided by operator|
 |Party Identifier|Company registration code|
-
 
 ### No. Series for Transmission No.
 Necessary only, if Factoring will be used.
@@ -40,10 +37,10 @@ Split text to multiple lines. Text length on single line may not exceed more tha
 
 ![StandardText](StandardText.png)
 
+
 ### Setup Electronical Document Formats
 Open **Electronic Document Formats** and insert two new Electronical Document Formats (1st for Sales Invoice and 2nd for Sales Credit Memo).
 Enter the following data:
-
 
 |**Field**|**Value**|
 |-|-|
@@ -53,9 +50,16 @@ Enter the following data:
 |Codeunit ID|70404528|
 |Delivery Codeuint ID|70404527|
 
-
- 
 ![ElecDocFormats](ElecDocFormats.png)
 
 
+### Setup Document Sending Profile
+Open **Document Sending Profile** and create new. Enter the following data:
+
+|**Field**|**Value**|
+|-|-|
+|Code|Fill in manually|
+|Description|Fill in manually|
+|Electronic Document|Select Through Document Exchange Service|
+|Format|Select created format|
 

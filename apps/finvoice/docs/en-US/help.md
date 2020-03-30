@@ -77,5 +77,26 @@ Enter the following data:
 |Factroing Customer No.|Create Customer Card for Factoring company|
 |Transmission Nos.|Select created No. Series|
 
+### Setup Customer
+For sending e-Invoices to customer setup Customer Card for customer.
+
+|**Field**|**Value**|
+|-|-|
+|Document sending profile|Select created document sending profile|
+|Factoring agreement No.|Select created Factoring agreement. Necessary only, if Factoring will be used.|
+|EDI Code|Customer EDI Code|
+|Business Identity Code|Customer business registration code|
+|Party Identifier|Customers party identifier|
+|Intermediator Code|Customers intermediator code (customers operator code)|
+
+
+## Use
+
+
+### Create Sales document
+Create new sales document for customer (quote, order or invoice).
+
+
+
 
 

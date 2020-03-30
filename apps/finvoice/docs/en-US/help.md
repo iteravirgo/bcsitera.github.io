@@ -10,18 +10,22 @@ Finvoice Sales e-Invoicing functionality in BC enables the following:
 
 e-Invoicing functionality could be also used without Factoring functionality.
 
+
 ## Settings
 
 To use the functionality, Finvoice Sales e-Invoicing following setups must be made:
 
+
 ### Company Information 
 Open **Company Information** and add setup data to Finvoice tab:
+
 
 |**Field**|**Value**|
 |-|-|
 |EDI Code|Code provided by operator|
 |Intermediator Code|Code provided by operator|
 |Party Identifier|Company registration code|
+
 
 ### No. Series for Transmission No.
 Necessary only, if Factoring will be used.
@@ -40,6 +44,7 @@ Split text to multiple lines. Text length on single line may not exceed more tha
 Open **Electronic Document Formats** and insert two new Electronical Document Formats (1st for Sales Invoice and 2nd for Sales Credit Memo).
 Enter the following data:
 
+
 |**Field**|**Value**|
 |-|-|
 |Code|Fill in manually|
@@ -47,6 +52,7 @@ Enter the following data:
 |Usage|Select Sales Invoice or Sales Credit Memo|
 |Codeunit ID|70404528|
 |Delivery Codeuint ID|70404527|
+
 
  
 ![ElecDocFormats](ElecDocFormats.png)

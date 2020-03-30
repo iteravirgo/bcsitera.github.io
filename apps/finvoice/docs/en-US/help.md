@@ -23,3 +23,14 @@ Open **Company Information** and add setup data to Finvoice tab:
 |Intermediator Code|Code provided by operator|
 |Party Identifier|Company registration code|
 
+### No. Series for Transmission No.
+Necessary only, if Factoring will be used.
+Open **No. Series** and create new series for Factoring transmission numbers. 
+
+### Standard Text Code
+Necessary only, if Factoring will be used.
+Open **Standard Text Codes** and create new standard text for Factoring text, to be printed to invoice.
+
+Open **Extended Texts** for created Standard text and add lines (text is given by Factoring company).
+Split text to multiple lines. Text length on single line may not exceed more than 70 characters (according to Finvoice standard format). You can add Extended Texts in Finnish and in English.
+

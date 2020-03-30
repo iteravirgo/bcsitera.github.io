@@ -34,6 +34,8 @@ Open **Standard Text Codes** and create new standard text for Factoring text, to
 Open **Extended Texts** for created Standard text and add lines (text is given by Factoring company).
 Split text to multiple lines. Text length on single line may not exceed more than 70 characters (according to Finvoice standard format). You can add Extended Texts in Finnish and in English.
 
-![HELP Standard text](HELP Standard text.png)
+![StandardText](StandardText.png)
+
+StandardText.png 
 
 

@@ -13,7 +13,7 @@ In addition, to **being able to send an e-invoice to customer**, Finnish operato
 
 ## Settings
 
-To use the functionality, Finvoice Sales e-Invoicing following setups must be made:
+To use the functionality Finvoice Sales e-Invoicing, following setups must be made:
 
 ### Company Information 
 Open **Company Information** and add setup data to Finvoice tab:

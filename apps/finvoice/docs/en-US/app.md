@@ -1,6 +1,6 @@
 # Finvoice e-Invoicing for Finland
 
-This extension is created BCS Itera Oy and it enables to use Finvoice Sales e-Invoicing functionality (B2B) used in Finland.
+This extension is created by BCS Itera Oy and it enables to use Finvoice Sales e-Invoicing functionality (B2B) used in Finland.
 
 ### Key Features:
 * Create electronical sales invoices in Finvoice format (B2B);

@@ -159,5 +159,3 @@ Open or save xml-file to disc.
 4.	Select transmission line and select **Send**.
 
 For more information and pricing please contact BCS Itera Oy: https://www.bcsitera.fi
-
-test

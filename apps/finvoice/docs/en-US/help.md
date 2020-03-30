@@ -52,7 +52,6 @@ Enter the following data:
 
 ![ElecDocFormats](ElecDocFormats.png)
 
-
 ### Setup Document Sending Profile
 Open **Document Sending Profile** and create new. Enter the following data:
 
@@ -104,6 +103,9 @@ Tab **OWS Setup**
 * To being able to send an e-invoice to customer, Finnish operator service is required. This solution is ready to use with Finish operator OWS (www.ows.fi). For message traffic with other Finnish operators, contact your Microsoft Business Central partner or BCS Itera Oy (bcsitera@bcsitera.fi).
 
 
+![Finvoicesetup](Finvoicesetup.png)
+
+
 ## Use
 
 
@@ -113,7 +115,9 @@ Create new sales document for customer (quote, order or invoice).
 Sales Quote, Sales Order and Sales Invoice have Finvoice tab. Electronical invoice cuold be sent, if Finvoice field is activated.
 User can deactivate the field and e-Invoice will not be created.
 
-After posting sales invoice the Finvoice XML-file could be created
+![SalesInv](SalesInv.png)
+
+After posting sales invoice the Finvoice XML-file could be created.
 
 ### Send Finvoice e-Invoices
 To be able to send an e-invoice to customer, Finnish operator service is required. See section **Finvoice Setup**.

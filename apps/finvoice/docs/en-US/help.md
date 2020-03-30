@@ -2,11 +2,10 @@
 
 
 Finvoice Sales e-Invoicing functionality in BC enables the following:
-* Create electronical sales invoices in Finvoice format.
-* Send e-Invoices B2B customers*
+* Create electronical sales invoices in Finvoice format (B2B).
 * Manage Factoring customers.
 * Create Sales e-Invoices for Factoring company.
-* Send e-Invoices to e-invoice operators.
+* Send e-Invoices to e-invoice operators*.
 
 e-Invoicing functionality could be also used without Factoring functionality.
 
@@ -90,6 +89,20 @@ For sending e-Invoices to customer setup Customer Card for customer.
 |Party Identifier|Customers party identifier|
 |Intermediator Code|Customers intermediator code (customers operator code)|
 
+### Setup connection whit OWS operator*
+
+Open **Finvoice Setup**.
+
+Tab **OWS Setup**
+
+|**Field**|**Value**|
+|-|-|
+|OWS Base URL|Insert path provided by OWS Oy|
+|OWS User|Insert user name provided by OWS Oy|
+|OWS Password|Insert password provided by OWS Oy|
+
+* To being able to send an e-invoice to customer, Finnish operator service is required. This solution is ready to use with Finish operator OWS (www.ows.fi). For message traffic with other Finnish operators, contact your Microsoft Business Central partner or BCS Itera Oy (bcsitera@bcsitera.fi).
+
 
 ## Use
 
@@ -97,9 +110,33 @@ For sending e-Invoices to customer setup Customer Card for customer.
 ### Create Sales document
 Create new sales document for customer (quote, order or invoice).
 
+Sales Quote, Sales Order and Sales Invoice have Finvoice tab. Electronical invoice cuold be sent, if Finvoice field is activated.
+User can deactivate the field and e-Invoice will not be created.
 
-Finvoice field
-After posting sales invoice the Finvoice XML-file could be created manually or automatically, by using job que.
+After posting sales invoice the Finvoice XML-file could be created
+
+### Send Finvoice e-Invoices
+To be able to send an e-invoice to customer, Finnish operator service is required. See section **Finvoice Setup**.
+
+Finvoice e-Invoice files could be send to operator manually or automatically.
+
+#### Manually
+Open Posted Sales Invoice and select **Print/Send** and **Send**.
+
+|**Field**|**Value**|
+|-|-|
+|Email|No|
+|Disc|No|
+|Electronic Document|Trough Document Exchange Service|
+|Format|Select Finvoice format. See chapter Setup Electronical Document Formats.|
+
+#### Automatically
+You can set up Job Que for sending e-Invoices automatically.
+
+
+### View/save e-Invoice
+manually or automatically, by using job que.
+
 Send Finvoice XML-File
 Open the Posted Sales Invoice and select Send.
 On Edit Send Document select:

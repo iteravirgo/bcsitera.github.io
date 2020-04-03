@@ -6,6 +6,8 @@ Easy setup and connection to digitization partner  [CostPocket.com](https://cost
 
 Hassle free digitized management of expense reports.
 
+Approvals.
+
 Time saving and correct bookkeeping:
 - Save up to 70% of time spent on expense reports
 - Currencies are supported

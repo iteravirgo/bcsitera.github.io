@@ -20,6 +20,6 @@ Finland
 
 ### Contact information
 
-For more information and pricing please contact BSC Itera Oy:
+For more information and pricing please contact BCS Itera Oy:
 [http://www.bcsitera.fi](http://www.bcsitera.fi) or bcsitera@bcsitera.fi 
 

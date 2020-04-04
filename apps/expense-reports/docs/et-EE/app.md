@@ -6,6 +6,8 @@ Lihtne seadistus ning ühendus digiteerimise partneriga  <a href="https://costpo
 
 Täisdigitaalne kuluaruannete käsitlemine.
 
+Kinnitusringid.
+
 Korrektne ning aega säästev raamatupidamine:
 - Hoia kokku kuni 70% kuluaruannete töötlusele kuluvast ajast
 - Erinevad valuutad on toetatud

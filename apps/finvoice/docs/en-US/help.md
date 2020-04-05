@@ -5,7 +5,7 @@ Finvoice Sales e-Invoicing functionality in BC enables the following:
 * Create electronical sales invoices in Finvoice format (B2B);
 * Manage Factoring customers;
 * Create Sales e-Invoices for Factoring company;
-* Send e-Invoices to e-invoice to Finnish operators.
+* Send e-Invoices to e-invoice Finnish operators.
 
 e-Invoicing functionality could be also used without Factoring functionality.
 
@@ -77,7 +77,7 @@ Enter the following data:
 |Transmission Nos.|Select created No. Series|
 
 ### Setup Customer
-For sending e-Invoices to customer setup Customer Card for customer.
+For sending e-Invoices to customer setup Customer Card:
 
 |**Field**|**Value**|
 |-|-|
@@ -88,7 +88,7 @@ For sending e-Invoices to customer setup Customer Card for customer.
 |Party Identifier|Customers party identifier|
 |Intermediator Code|Customers intermediator code (customers operator code)|
 
-### Setup connection whit OWS operator*
+### Setup connection with OWS operator*
 
 Open **Finvoice Setup**.
 
@@ -100,7 +100,7 @@ Tab **OWS Setup**
 |OWS User|Insert user name provided by OWS Oy|
 |OWS Password|Insert password provided by OWS Oy|
 
-* To being able to send an e-invoice to customer, Finnish operator service is required. This solution is ready to use with Finish operator OWS (www.ows.fi). For message traffic with other Finnish operators, contact your Microsoft Business Central partner or BCS Itera Oy (bcsitera@bcsitera.fi).
+* To send an e-invoice to customer, Finnish operator service is required. This solution is ready to use with Finnish operator OWS (www.ows.fi). For message traffic with other Finnish operators, contact your Microsoft Business Central partner or BCS Itera Oy (bcsitera@bcsitera.fi).
 
 
 ![Finvoicesetup](Finvoicesetup.png)
@@ -124,8 +124,8 @@ To be able to send an e-invoice to customer, Finnish operator service is require
 
 Finvoice e-Invoice files could be send to operator manually or automatically.
 
-  #### Manually
-  Open Posted Sales Invoice and select **Print/Send** and **Send**.
+#### Manually
+Open Posted Sales Invoice and select **Print/Send** and **Send**.
 
 |**Field**|**Value**|
 |-|-|
@@ -134,8 +134,8 @@ Finvoice e-Invoice files could be send to operator manually or automatically.
 |Electronic Document|Trough Document Exchange Service|
 |Format|Select Finvoice format. See chapter Setup Electronical Document Formats.|
 
-  #### Automatically
-  You can set up Job Que for sending e-Invoices automatically.
+#### Automatically
+You can set up Job Que for sending e-Invoices automatically.
 
 
 ### View/save e-Invoice XML-file
@@ -158,4 +158,5 @@ Open or save xml-file to disc.
 3.	Select **OK**.
 4.	Select transmission line and select **Send**.
 
-For more information and pricing please contact BCS Itera Oy: https://www.bcsitera.fi
+For more information and pricing please contact BCS Itera Oy:
+<a href="https://www.bcsitera.fi/" target="_blank">www.bcsitera.fi</a>

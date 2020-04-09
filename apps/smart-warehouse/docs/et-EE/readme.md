@@ -1,0 +1,1 @@
+[Kasutajajuhend](help.md)

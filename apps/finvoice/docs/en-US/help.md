@@ -72,6 +72,7 @@ Enter the following data:
 |No.|Factoring agreement No.|
 |Description|Fill in manually|
 |Factoring Text on Invoice|Select created Standard text Code|
+|Add Factroing Text on Posting|No, switch off|
 |Refrence No. Base|Reference No. format is provided by Factoring company. Enter base No. and zeros to fill in the given length. For final reference No, invoice No. will be added after the base no.|
 |Factroing Customer No.|Create Customer Card for Factoring company|
 |Transmission Nos.|Select created No. Series|

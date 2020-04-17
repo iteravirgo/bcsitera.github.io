@@ -1,4 +1,4 @@
-# Kliendi krediidikontrolli haldus  - Kasutusjuhend
+# Kliendi krediidikontrolli haldus
 
 Kliendi krediidikontrolli haldus võimaldab alljärgnevat:
 

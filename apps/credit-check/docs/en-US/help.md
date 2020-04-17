@@ -20,7 +20,9 @@ Using BCS Itera Credit Control app it is mandatory that Customer has at least on
 On **contact card** fill fields:  
 a)	„Mandate Start Date“  
 b)	„Mandate End Date“  
-Date range has to be valid, not expired.  
+
+Date range has to be valid, not expired.
+
 ![ContactCard](ContactCard.png)
  
 ### Customer Card settings

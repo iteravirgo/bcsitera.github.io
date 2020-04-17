@@ -38,6 +38,7 @@ On Customer Card fill fields:
 |Additional Credit Limit Valid To|No|	The expiry date of the credit limit|
 |Allowed Overdue|No|Have to mark „-„. For exmaple -6M. Business Central exludes six months overdue invocies.| 
 |Allowed Overdue Valid To|No|The expiry date of allowed Overdue|  
+
 ![CustomerCard](CustomerCard.png)
  
 ## Use  

@@ -12,7 +12,7 @@ Customer Credit Control enables the following:
 Open Extension Management and check if extension named ’BCS Itera Credit Check’ is installed. If not, please contact BCS Itera AS.  
 
 ### Sales & Receivables settings.
-On Sales & Receivables Setup page on ’Credit Warning’ field the option has to be „Both Warnings“
+On Sales & Receivables Setup page on ’Credit Warning’ field the option has to be „Both Warnings“  
 ![SalesReceivSetup(SalesReceivSetup.png)
   
 ### Contact settings  
@@ -20,7 +20,7 @@ Using BCS Itera Credit Control app it is mandatory that Customer has at least on
 On **contact card** fill fields:
 a)	„Mandate Start Date“
 b)	„Mandate End Date“
-Date range has to be valid, not expired.
+Date range has to be valid, not expired.  
 ![ContactCard(ContactCard.png)
  
 ### Customer Card settings
@@ -40,21 +40,21 @@ On Customer Card fill fields:
  
 ## Use  
 ### Sales Orders
-Sales Order Factbox is showing information about free balance, allowed overdue time, overdue amount and transaction amount. 
+Sales Order Factbox is showing information about free balance, allowed overdue time, overdue amount and transaction amount.  
 ![FactBox(FactBox.png)
  
 ### Add lines to Sales Order
 Credit Control functionality controls credit limit per lines and takes into account the total order amount. 
-When Credit limit is exceeded, then Pop-Up appears:
+When Credit limit is exceeded, then Pop-Up appears:  
 ![PopUp(PopUp.png)
  
 **NB:** After You close the Pop-Up, the „Quantity“ field is automatically cleared on the last line entered.
-**NB:** When you choose on Pop-Up field „Override Credit Check“, then „Quantity“ field amount is saved. 
+**NB:** When you choose on Pop-Up field „Override Credit Check“, then „Quantity“ field amount is saved.   
 ![PopUp2(PopUp2.png)
  
 ### Payment Terms
 Credit Control functionality controls payment terms through „Due Date Calculation“ field. It does not apply, if on Sales Order there is payment term where „Due Date Calculation“ is 0. 
-For example: customer has overdue invoices, but wants to pay by card or in cash. In that case, the Credit Control will not be applied. 
+For example: customer has overdue invoices, but wants to pay by card or in cash. In that case, the Credit Control will not be applied.   
 ![PaymenTerms(PaymentTerms.png)
  
 For more information and pricing please contact BCS Itera AS:

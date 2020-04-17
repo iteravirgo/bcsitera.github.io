@@ -47,19 +47,19 @@ Sales Order Factbox is showing information about free balance, allowed overdue t
 ![FactBox](FactBox.png)
  
 ### Add lines to Sales Order
-Credit Control functionality controls credit limit per lines and takes into account the total order amount. 
+Credit Control functionality controls credit limit per lines and takes into account the total order amount.  
 When Credit limit is exceeded, then Pop-Up appears:  
 ![PopUp](PopUp.png)
  
-**NB:** After You close the Pop-Up, the „Quantity“ field is automatically cleared on the last line entered.
-**NB:** When you choose on Pop-Up field „Override Credit Check“, then „Quantity“ field amount is saved.   
+**NB:** After You close the Pop-Up, the „Quantity“ field is automatically cleared on the last line entered.  
+**NB:** When you choose on Pop-Up field „Override Credit Check“, then „Quantity“ field amount is saved.  
 ![PopUp2](PopUp2.png)
  
 ### Payment Terms
-Credit Control functionality controls payment terms through „Due Date Calculation“ field. It does not apply, if on Sales Order there is payment term where „Due Date Calculation“ is 0. 
+Credit Control functionality controls payment terms through „Due Date Calculation“ field. It does not apply, if on Sales Order there is payment term where „Due Date Calculation“ is 0.  
 For example: customer has overdue invoices, but wants to pay by card or in cash. In that case, the Credit Control will not be applied.   
 ![PaymenTerms](PaymentTerms.png)
  
-For more information and pricing please contact BCS Itera AS:
+For more information and pricing please contact BCS Itera AS:  
 www.itera.ee
 

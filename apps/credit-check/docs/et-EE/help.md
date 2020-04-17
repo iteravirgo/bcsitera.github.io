@@ -50,7 +50,7 @@ Müügitellimuse ‘FactBoxis’ näidata infot, kui palju on kliendil hetkel va
 ![FactBox_est](FactBox_est.png)
  
 ### Ridade lisamine müügitellimusele  
-Krediidikontrolli app võtab arvesse per rida ning vaatab võrdleb seda tellimuse lõppsummaga. Kui järgmise reaga ületatakse limiit, siis tuleb kasutajale teada.  
+Krediidikontrolli app võtab arvesse *per* rida ning vaatab võrdleb seda tellimuse lõppsummaga. Kui järgmise reaga ületatakse limiit, siis tuleb kasutajale teada.  
 Kui krediidilimiit ületatakse, siis tuleb kasutajale ette hüpikaken:
  
 ![PopUp_est](PopUp_est.png)

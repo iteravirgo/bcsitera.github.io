@@ -13,7 +13,7 @@ Open Extension Management and check if extension named ’BCS Itera Credit Check
 
 ### Sales & Receivables settings.
 On Sales & Receivables Setup page on ’Credit Warning’ field the option has to be „Both Warnings“  
-![SalesReceivSetup(SalesReceivSetup.png)
+![SalesReceivSetup](SalesReceivSetup.png)
   
 ### Contact settings  
 Using BCS Itera Credit Control app it is mandatory that Customer has at least one **contact**. 
@@ -21,7 +21,7 @@ On **contact card** fill fields:
 a)	„Mandate Start Date“  
 b)	„Mandate End Date“  
 Date range has to be valid, not expired.  
-![ContactCard(ContactCard.png)
+![ContactCard](ContactCard.png)
  
 ### Customer Card settings
 On Customer Card fill fields:
@@ -36,26 +36,26 @@ On Customer Card fill fields:
 |Additional Credit Limit Valid To|No|	The expiry date of the credit limit|
 |Allowed Overdue|No|Have to mark „-„. For exmaple -6M. Business Central exludes six months overdue invocies.| 
 |Allowed Overdue Valid To|No|The expiry date of allowed Overdue|  
-![CustomerCard(CustomerCard.png)
+![CustomerCard](CustomerCard.png)
  
 ## Use  
 ### Sales Orders
 Sales Order Factbox is showing information about free balance, allowed overdue time, overdue amount and transaction amount.  
-![FactBox(FactBox.png)
+![FactBox](FactBox.png)
  
 ### Add lines to Sales Order
 Credit Control functionality controls credit limit per lines and takes into account the total order amount. 
 When Credit limit is exceeded, then Pop-Up appears:  
-![PopUp(PopUp.png)
+![PopUp](PopUp.png)
  
 **NB:** After You close the Pop-Up, the „Quantity“ field is automatically cleared on the last line entered.
 **NB:** When you choose on Pop-Up field „Override Credit Check“, then „Quantity“ field amount is saved.   
-![PopUp2(PopUp2.png)
+![PopUp2](PopUp2.png)
  
 ### Payment Terms
 Credit Control functionality controls payment terms through „Due Date Calculation“ field. It does not apply, if on Sales Order there is payment term where „Due Date Calculation“ is 0. 
 For example: customer has overdue invoices, but wants to pay by card or in cash. In that case, the Credit Control will not be applied.   
-![PaymenTerms(PaymentTerms.png)
+![PaymenTerms](PaymentTerms.png)
  
 For more information and pricing please contact BCS Itera AS:
 www.itera.ee

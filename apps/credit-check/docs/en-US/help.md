@@ -16,7 +16,7 @@ On Sales & Receivables Setup page on ’Credit Warning’ field the option has t
 ![SalesReceivSetup](SalesReceivSetup.png)
   
 ### Contact settings  
-Using BCS Itera Credit Control app it is mandatory that Customer has at least one **contact**. 
+Using BCS Itera Credit Control app it is mandatory that Customer has at least one **contact**.   
 On **contact card** fill fields:  
 a)	„Mandate Start Date“  
 b)	„Mandate End Date“  

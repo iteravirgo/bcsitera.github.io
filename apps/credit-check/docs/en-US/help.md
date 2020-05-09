@@ -1,6 +1,6 @@
-# Customer Credit Control  - User Guide
+# Extended Credit Check  - User Guide
 
-Customer Credit Control enables the following:
+Extended Credit Check solution enables the following:
 
 •	Add Customer credit contract with a time limit.  
 •	Block sales to the Customer after the Credit limit is exceeded.  
@@ -8,8 +8,8 @@ Customer Credit Control enables the following:
 •	Add additional Credit limit with a time limit.  
 •	Exclude overdue invoices.  
 
-## Settings
-Open Extension Management and check if extension named ’BCS Itera Credit Check’ is installed. If not, please contact BCS Itera AS.  
+## Installation
+Open Extension Management and check if extension named ’Extended Credit Check’ is installed. If not, please install it from AppSource or contact BCS Itera AS.  
 
 ### Sales & Receivables settings.
 On Sales & Receivables Setup page on ’Credit Warning’ field the option has to be „Both Warnings“  

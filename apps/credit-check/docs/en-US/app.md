@@ -1,4 +1,4 @@
-# Customer Credit Control
+# Extended Credit Check
 
 This extension is one part of BCS Itera AS Hulgi365 solutions and it gives user the opportunity to manage customer credit limit policy.
 
@@ -6,10 +6,9 @@ This extension is one part of BCS Itera AS Hulgi365 solutions and it gives user 
 •	Block sales to the Customer after the Credit limit is exceeded.  
 •	Block sales to the Customer if there are overdue invoices.    
 •	Add additional Credit limit with a time limit.  
-•	Exclude overdue invoices.  
+•	Exclude overdue invoices.
 
-## Settings
-Open Extension Management and check if extension named ’BCS Itera Credit Check’ is installed. If not, please contact BCS Itera AS. 
+[User Guide](help.md)
 
 ## Supported editions:
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.

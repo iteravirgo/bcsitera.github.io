@@ -1,6 +1,6 @@
-# Kliendi krediidikontrolli haldus  - Kasutusjuhend
+# Laiendatud krediidikontroll - Kasutusjuhend
 
-Kliendi krediidikontrolli haldus võimaldab alljärgnevat:
+Laiendatud krediidikontrolli lahendus võimaldab alljärgnevat:
 
 •	Lisada kliendile krediidilepingut koos kehtivusajaga.  
 •	Keelata müük kliendile, kui krediidilimiit on ületatud.  
@@ -8,9 +8,8 @@ Kliendi krediidikontrolli haldus võimaldab alljärgnevat:
 •	Lisada täiendavat krediidilimiiti koos kehtivusajaga.  
 •	Välistada üle tähtaja võlgnevused teatud ajaperioodiks.  
 
-## Tuvtustus
-Ava **Laiendused** ja veendu, et app ‘BCS Itera Customer Credit Control’ on alla laetud. Kui pole, võid selle leida AppSourcest või võta ühendust BCS Iteraga.
- 
+## Paigaldamine
+Ava **Laiendused** ja veendu, et app ‘Extended Credit Check’ on alla laetud. Kui pole, võid selle leida AppSourcest või võta ühendust BCS Iteraga.
 
 ## Seadistused
 ### Müügi ja müügivõlgade seadistus

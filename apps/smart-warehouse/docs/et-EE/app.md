@@ -7,10 +7,10 @@ Smart Warehouse on osa BCS Itera AS Hulgi365 lahendusest, mis kiirendab olulisel
 * Lao protsesside kiirenemine
 * Business Centrali ja SmartWarehouse omavaheline automaatne infovahetus
 * Veoringide määramise funktsionaalsus
-* Aluste ja kastide arvestus kauba vastuvõtul pakendiarvestuseks
+* Aluste ja kastide arvestus kauba vastuvõtul
 * Aegumiskuupäeva määramine kaubale
 * Komplekteerimise järjekorra seadistamise võimalus
-* Tootele riiulisiltide printimise võimalus
+* Aluste kleepsude ja aluste kleepsude saadetistele printimise võimaluss
 * Kauba eluea seadistamise võimalus
 * Smartwarehouse programmist on laotöötajal võimalik näha kauba laoseisu koos aegumiskuupäevadega
 * Paberivaba inventuur

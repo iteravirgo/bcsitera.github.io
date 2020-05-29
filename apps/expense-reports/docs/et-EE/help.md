@@ -83,7 +83,9 @@ Lahendus teeb Hankija alla hankijaandmiku kanded ning Töötaja alla töötajaan
 Dokumendid konteeritakse üldjuhul Kuluaruandelt.
 *Erandjuhul, kui on lubatud aruandeta kuludokumendid, saab CostPocketist importida üksikuid kuludokumente nupust **Too dokumendid CostPocketist** ning sellisel juhul saab üksikut kuludokumenti ka konteerida.*
 
-Konteeritud kuludokumendid leiab **Konteeritud kuludokumendid** arhiivist.
+Konteeritud kuludokumendid leiab **Konteeritud kuludokumendid** arhiivist.    
+
+Ekslikult konteeritud kuludokumendi tühistamiseks tuleb valida vastav pearaamatu kanne ning vajutada nupule **Pööra tehing ümber...**, mille tulemusena loob süsteem vastupidise kande (algse kandega tehakse identne kanne ainult vastupidise märgiga Summa veerus), jättes samaks nii dokumendi numbri kui konteerimiskuupäeva. Peale kande ümberpööramist saab kasutaja luua peažurnaalist õige kande.
 
 ---
 

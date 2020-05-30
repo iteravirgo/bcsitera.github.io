@@ -13,3 +13,6 @@ Phone: +358 40 665 0588
 Business ID: 2817826-5  
 E-Mail: bcsitera@bcsitera.fi  
 [http://www.bcsitera.fi](http://www.bcsitera.fi)
+
+
+Please expect our reply within 5 business days. However, we will do our best to contact you asap.

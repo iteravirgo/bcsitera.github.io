@@ -7,6 +7,7 @@
 [E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)  
 
 ### Apps for Distribution and Retail
+[Smart Warehouse](apps/smart-warehouse/docs/en-US/app.md)  
 [Assortment Management](apps/StockRange/docs/en-US/app.md)  
 [Campaign Management](apps/Campaign-management/docs/en-US/app.md)  
 [Extended Credit Check](apps/credit-check/docs/en-US/app.md)  

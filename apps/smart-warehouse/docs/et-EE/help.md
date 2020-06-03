@@ -14,6 +14,20 @@ Smart Warehouse lahendus võimaldab alljärgnevat:
 - Smart Warehouse programmist on laotöötajal võimalik näha kauba laoseisu koos aegumiskuupäevadega
 - Paberivaba inventuur
 
+## Table of Contents
+  - [Seadistused](#seadistused)
+  - [Äpi seadistused](#äpi-seadistused)
+  - [Kasutamine](#kasutamine)
+  - [Ostutellimuse toimingud Business Centralis](#ostutellimuse-toimingud-Business-Centralis)
+  - [Ostutellimuse toimingud Smart Warehouse programmis](#ostutellimuse-toi-mingudSmart-Warehouse-programmis)
+  - [Ostutellimuse kontrollimine Business Centralis ja arveks konteerimine](#ostutellimuse-kontrollimine-Business-Centralis-ja-arveks- konteerimine)
+  - [Müügitellimuse toimingud Business Centralis](#müügitellimuse-toimingud-Business-Centralis)
+  - [Müügitellimuse toimingud Smart Warehouse programmis](#müügitellimuse-toimingud-Smart-Warehouse-programmis)
+  - [Müügitellimuse kontrollimine Business Centralis ja arveks konteerimine](#müügitellimuse-kontrollimine-Business-Centralis-ja-arveks- konteerimine)
+  - [Aluse sisu kontrollimine](#aluse-sisu-kontrollimine)
+
+<br/>
+
 ## Seadistused
 
 Esmalt kontrolli, kas oled alla laadinud “ **Smart Warehouse** ” äpi. Kui see puudub võta ühendust BCS Iteraga. 

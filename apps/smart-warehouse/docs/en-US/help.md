@@ -13,6 +13,20 @@ Smart Warehouse functionality enables the following:
 - Possibility to set the life of the goods
 - From the Smart Warehouse program, the warehouse employee can see the stock of goods with expiration dates
 
+## Table of Contents
+  - [Smart Warehouse Installation](#smart Warehouse Installation)
+  - [Settings](#settings)
+  - [Use](#use)
+  - [Purchase order process in Business Central](#purchase order process in Business Central)
+  - [Purchase order process in Smart Warehouse program](#purchase order process in Smart Warehouse program)
+  - [Purchase order check in Business Central and order posting](#purchase order check in Business Central and order posting)
+  - [Sales Order process in Business Central](#sales Order process in Business Central)
+  - [Sales Order process in Smart Warehouse](#sales Order process in Smart Warehouse)
+  - [Sales order check in Business Central and order posting](#sales order check in Business Central and order posting)
+  - [Bin content check](#bin content check)
+
+<br/>
+
 ## Smart Warehouse Installation
 Open **Extension Management** and check if extension named ‘Smart Warehouse’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
 

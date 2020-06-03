@@ -14,7 +14,7 @@ Smart Warehouse lahendus võimaldab alljärgnevat:
 - Smart Warehouse programmist on laotöötajal võimalik näha kauba laoseisu koos aegumiskuupäevadega
 - Paberivaba inventuur
 
-## Table of Contents
+## Sisukord
   - [Seadistused](#seadistused)
   - [Äpi seadistamine](#äpi-seadistamine)
   - [Kasutamine](#kasutamine)

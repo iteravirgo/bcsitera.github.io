@@ -14,16 +14,16 @@ Smart Warehouse functionality enables the following:
 - From the Smart Warehouse program, the warehouse employee can see the stock of goods with expiration dates
 
 ## Table of Contents
-  - [Smart Warehouse Installation](#smart Warehouse Installation)
+  - [Smart Warehouse Installation](#smart-warehouse-installation)
   - [Settings](#settings)
   - [Use](#use)
-  - [Purchase order process in Business Central](#purchase order process in Business Central)
-  - [Purchase order process in Smart Warehouse program](#purchase order process in Smart Warehouse program)
-  - [Purchase order check in Business Central and order posting](#purchase order check in Business Central and order posting)
-  - [Sales Order process in Business Central](#sales Order process in Business Central)
-  - [Sales Order process in Smart Warehouse](#sales Order process in Smart Warehouse)
-  - [Sales order check in Business Central and order posting](#sales order check in Business Central and order posting)
-  - [Bin content check](#bin content check)
+  - [Purchase order process in Business Central](#purchase-order-process-in-business-central)
+  - [Purchase order process in Smart Warehouse program](#purchase-order-process-in-smart-warehouse-program)
+  - [Purchase order check in Business Central and order posting](#purchase-order-check-in-business-central-and-order-posting)
+  - [Sales Order process in Business Central](#sales-order-process-in-business-central)
+  - [Sales Order process in Smart Warehouse](#sales-order-process-in-smart-warehouse)
+  - [Sales order check in Business Central and order posting](#sales-order-check-in-business-central-and-order-posting)
+  - [Bin content check](#bin-content-check)
 
 <br/>
 

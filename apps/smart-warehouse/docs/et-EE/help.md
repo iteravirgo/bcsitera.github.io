@@ -16,14 +16,14 @@ Smart Warehouse lahendus võimaldab alljärgnevat:
 
 ## Table of Contents
   - [Seadistused](#seadistused)
-  - [Äpi seadistused](#äpi-seadistused)
+  - [Äpi seadistamine](#äpi-seadistamine)
   - [Kasutamine](#kasutamine)
-  - [Ostutellimuse toimingud Business Centralis](#ostutellimuse-toimingud-Business-Centralis)
-  - [Ostutellimuse toimingud Smart Warehouse programmis](#ostutellimuse-toi-mingudSmart-Warehouse-programmis)
-  - [Ostutellimuse kontrollimine Business Centralis ja arveks konteerimine](#ostutellimuse-kontrollimine-Business-Centralis-ja-arveks- konteerimine)
-  - [Müügitellimuse toimingud Business Centralis](#müügitellimuse-toimingud-Business-Centralis)
-  - [Müügitellimuse toimingud Smart Warehouse programmis](#müügitellimuse-toimingud-Smart-Warehouse-programmis)
-  - [Müügitellimuse kontrollimine Business Centralis ja arveks konteerimine](#müügitellimuse-kontrollimine-Business-Centralis-ja-arveks- konteerimine)
+  - [Ostutellimuse toimingud Business Centralis](#ostutellimuse-toimingud-business-centralis)
+  - [Ostutellimuse toimingud Smart Warehouse programmis](#ostutellimuse-toimingud-smart-warehouse-programmis)
+  - [Ostutellimuse kontrollimine Business Centralis ja arveks konteerimine](#ostutellimuse-kontrollimine-business-centralis-ja-arveks-konteerimine)
+  - [Müügitellimuse toimingud Business Centralis](#müügitellimuse-toimingud-business-centralis)
+  - [Müügitellimuse toimingud Smart Warehouse programmis](#müügitellimuse-toimingud-smart-warehouse-programmis)
+  - [Müügitellimuse kontrollimine Business Centralis ja arveks konteerimine](#müügitellimuse-kontrollimine-business-centralis-ja-arveks-konteerimine)
   - [Aluse sisu kontrollimine](#aluse-sisu-kontrollimine)
 
 <br/>

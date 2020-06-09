@@ -1,6 +1,6 @@
 # Extended Credit Check
 
-This extension is one part of BCS Itera AS Hulgi365 solutions and it gives user the opportunity to manage customer credit limit policy.
+This extension gives user the **additional** opportunity to manage customer credit limit policy..
 
 •	Add Customer credit contract with a time limit.  
 •	Block sales to the Customer after the Credit limit is exceeded.  

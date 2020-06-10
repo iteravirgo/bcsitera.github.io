@@ -1,17 +1,29 @@
 # Smart Warehouse
 
-This extension is one part of BCS Itera AS Hulgi365 solutions and it makes warehouse procsesses more effective.
+This extension allows to organize warehouse management faster, paperless and with fewer errors.
 
 ### Key Features:
-* Paper free warehouse management
-* Decrease the probability of errors
-* Acceleration of warehouse processes
-* Automatic exchange of information between Business Central and Smart Warehouse
-* Functionality for determining traffic routes
-* Possibility to assign an expiry date to the goods
-* Possibility to set the order of assembly
-* Possibility to print bin labels for the product
-* From the Smart warehouse program, the warehouse employee can see the stock of goods with expiration dates
+1. Receipt of goods and storing <br>
+		a. Creation of receipt from Purchase orders and setting location <br>
+		b. Counting of pallets and boxes <br>
+		c. Possibility to assign item life time to the goods <br>
+		d. Possibility to set best before date <br>
+
+2. Warehouse activities <br>
+		a. Warehouse movements <br>
+		b. Goods inspection <br>
+		c. Serial No and Lot No accounting <br>
+		d. Paper free inventory counting <br>
+ 
+3. Issue of goods <br>
+		a. Shipments based on sales orders <br>
+		b. Assembly(warehouse pick) : <br> 
+	    i. Transportation rounds <br>
+	    ii. My completed orders <br>
+	    iii. Optional assembly order <br>
+		c. Warehouse employee can see the stock of goods with best before <br>
+		d. Tare accounting <br>
+    e. Bin labels printing for the product <br>
 
 
 ### Supported editions:

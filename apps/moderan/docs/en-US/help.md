@@ -11,11 +11,11 @@ Moderan Interface enables the following:
 
 - [How to setup](#How-to-setup)
 
-- [Setup API ](#Setup-API)
+  - [Setup API ](#Setup-API)
 
-[Setup customers](#_Toc42778079)
+  - [Setup customers](#Setup-customers)
 
-[Setup accounting codes in Moderan](#_Toc42778080)
+  - [Setup accounting codes in Moderan](#Setup-accounting-codes-in-Moderan)
 
 [How to Get Customers from Moderan](#_Toc42778081)
 

@@ -62,6 +62,8 @@ Accounting code should be in format: “Type:No.:GeneralProductPostingGroup”
 
 For example – G/L Account:6115:RENT
 
+ <br/>
+
 ## How to Get Customers from Moderan
 
 To get customers from Moderan, run action **Moderan – Get Customers**. Existing (mapped) customers will be updated, and new customers (who have a Registration No in Moderan) created.
@@ -81,6 +83,8 @@ To do so, open **Job Queue Entries** and create new entry as:
 |Object Type to Run|Report|
 |Object ID to Run|24007900|
 |Recurrence|Indicate desired recurrence|
+
+ <br/>
 
 ## How to Get Invoices from Moderan
 
@@ -123,6 +127,8 @@ To do so, open **Job Queue Entries** and create new entry as:
 If there are services on the invoice which are not for the current period, the **Periodization** checkmark will be set on the invoice header and according message will be shown in the end of import.
 
 User can filter out these invoices and perform periodization tasks if required.
+
+ <br/>
 
 ## How to Send Customer Balances to Moderan
 

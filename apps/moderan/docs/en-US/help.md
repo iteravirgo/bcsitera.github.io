@@ -31,7 +31,8 @@ Moderan menu items can be found in the Role centers: Accountant and Business Man
 ## Setup API
 
 Open **Interface** in Moderan menu or page Moderan Interface and fill the fields as following (mandatory fields marked with *):
-|Field|Description|
+
+Field|Description|
 |-|-|
 |Customer API*|Production or Development|  
 |Authorization Key*|Moderan authorization key from Moderan Admin > Integrations| 
@@ -89,7 +90,7 @@ After successful import, open **Sales Invoices.** Review, post and issue invoice
 If the Payment Terms code is the same in BC and in the Moderan contract, the Invoice Due Date will be calculated based on this code.
 
 If you run action **Moderan – Get Invoices** more than once for the same period and invoice type, then the following logic will apply:
-|Invoice in Business Central||
+|Invoice in Business Central|Explanation|
 |-|-|
 |Invoice does not exist|Import will create invoice|
 |Invoice has not been posted|Import will update the invoice (delete old and create new)|

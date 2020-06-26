@@ -17,13 +17,13 @@ Moderan Interface enables the following:
 
   - [Setup accounting codes in Moderan](#Setup-accounting-codes-in-Moderan)
 
-[How to Get Customers from Moderan](#_Toc42778081)
+- [How to Get Customers from Moderan](#How-to-Get-Customers-from-Moderan)
 
-[How to Get Invoices from Moderan](#_Toc42778082)
+- [How to Get Invoices from Moderan](#How-to-Get-Invoices-from-Moderan)
 
-[Periodization of Invoices](#_Toc42778083)
+  - [Periodization of Invoices](#Periodization-of-Invoices)
 
-[How to Send Customer Balances to Moderan](#_Toc42778084)  
+- [How to Send Customer Balances to Moderan](#How-to-Send-Customer-Balances-to-Moderan)  
   
 
 # Menu

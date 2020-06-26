@@ -8,7 +8,7 @@ Solution offers:
 -   Get Invoices from Moderan  
 -   Send Customer Balances to Moderan  
 
-[User Guide]
+[User Guide](http://apps.itera.ee/apps/moderan/docs/en-US/help.html)
 
 ## Contact information
 

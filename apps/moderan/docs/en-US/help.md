@@ -6,25 +6,15 @@ Moderan Interface enables the following:
 - Send Customer Balances to Moderan
 
 ## Contents
-
 - [Moderan Installation](#moderan-installation)
-
 - [Menu](#menu)
-
 - [How to setup](#How-to-setup)
-
   - [Setup API ](#Setup-API)
-
   - [Setup customers](#Setup-customers)
-
   - [Setup accounting codes in Moderan](#Setup-accounting-codes-in-Moderan)
-
 - [How to Get Customers from Moderan](#How-to-Get-Customers-from-Moderan)
-
 - [How to Get Invoices from Moderan](#How-to-Get-Invoices-from-Moderan)
-
   - [Periodization of Invoices](#Periodization-of-Invoices)
-
 - [How to Send Customer Balances to Moderan](#How-to-Send-Customer-Balances-to-Moderan)  
   
   <br/>

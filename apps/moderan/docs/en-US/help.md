@@ -11,11 +11,11 @@ Moderan Interface enables the following:
 - [How to setup](#how-to-setup)
   - [Setup API ](#setup-api)
   - [Setup customers](#setup-customers) 
-  - [Setup accounting codes in Moderan](#setup-accounting-codes-in-moderan) 
-- [How to Get Customers from Moderan](#how-to-get-customers-from-moderan) 
+  - [Setup accounting codes in Moderan](#setup-accounting-codes-in-moderan)
+- [How to Get Customers from Moderan](#how-to-get-customers-from-moderan)
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan)
   - [Periodization of Invoices](#periodization-of-invoices)
-- [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan) 
+- [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan)
   
   <br/>
   
@@ -48,6 +48,8 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 
 
 To test, if the connection is correct, press the button – Test connection.
+
+ <br/>
 
 ### Setup customers
 

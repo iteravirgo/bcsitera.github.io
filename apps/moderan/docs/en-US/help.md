@@ -7,6 +7,8 @@ Moderan Interface enables the following:
 
 ## Contents
 
+- [Moderan Installation](Moderan-Installation)
+
 - [Menu](#Menu)
 
 - [How to setup](#How-to-setup)

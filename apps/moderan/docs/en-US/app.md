@@ -8,7 +8,7 @@ Solution offers:
 -   Get Invoices from Moderan  
 -   Send Customer Balances to Moderan  
 
-[User Guide](help.md)
+[User Guide] (help.md)
 
 ## Contact information
 

@@ -8,9 +8,9 @@ Solution offers:
 -   Get Invoices from Moderan  
 -   Send Customer Balances to Moderan  
 
-[User Guide](https://
+[User Guide](help.md)
 
-## [](https://github.com/bcsitera/bcsitera.github.io/blob/master/apps/contract-management/docs/en-us/app.md#contact-information)Contact information
+## Contact information
 
 For more information and pricing please contact BCS Itera AS:  
 [https://www.itera.ee](https://www.itera.ee/)

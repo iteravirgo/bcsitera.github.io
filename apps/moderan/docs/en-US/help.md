@@ -23,7 +23,8 @@ Moderan Interface enables the following:
 
 [Periodization of Invoices](#_Toc42778083)
 
-[How to Send Customer Balances to Moderan](#_Toc42778084)
+[How to Send Customer Balances to Moderan](#_Toc42778084)  
+  
 
 # Menu
 
@@ -37,10 +38,10 @@ Moderan menu items can be found in the Role centers: Accountant and Business Man
 
 Open **Interface** in Moderan menu or page Moderan Interface and fill the fields as following (mandatory fields marked with *):
 
-Field|Description|
-|-|-|
-|Customer API*|Production or Development|  
-|Authorization Key*|Moderan authorization key from Moderan Admin > Integrations| 
+|Field|Description|
+|---|---|
+| Customer API* |Production or Development|  
+|Authorization Key*|Moderan authorization key from Moderan Admin -> Integrations| 
 |Registration No. Field*|Please choose which field is a Registration No. in the Customer table| 
 |Invoice Add. Into Field *|Please choose which field is for a Reference No in the Sales Invoice Header table|  
 |Moderan Account No. *|Customer account number in Moderan (ask from Moderan)|

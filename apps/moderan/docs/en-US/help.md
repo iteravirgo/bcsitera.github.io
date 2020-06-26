@@ -7,11 +7,11 @@ Moderan Interface enables the following:
 
 ## Contents
 
-[Menu](#_Toc42778076)
+- [Menu](#Menu)
 
-[How to setup](#_Toc42778077)
+- [How to setup](#How-to-setup)
 
-[Setup API ](#_Toc42778078)
+- [Setup API ](#Setup-API)
 
 [Setup customers](#_Toc42778079)
 

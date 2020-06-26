@@ -43,9 +43,8 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 |Invoice Add. Into Field *|Please choose which field is for a Reference No in the Sales Invoice Header table|  
 |Moderan Account No. *|Customer account number in Moderan (ask from Moderan)|
 
-  
-![MDRInterface](MDRInterface.png)
-
+  <br/>
+ 
 
 To test, if the connection is correct, press the button – Test connection.
 

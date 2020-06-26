@@ -5,7 +5,7 @@
 [Factoring](apps/factoring/docs/en-US/app.md)  
 [Public Sector Accounting and Reporting for Estonia](apps/Public-Sector-Accounting/docs/en-US/app.md)  
 [E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)  
-[Moderan RealEstate interface](apps/moderan/docs/en-US/app.md)  
+[Moderan RealEstate Interface](apps/moderan/docs/en-US/app.md)  
 
 ### Apps for Distribution and Retail
 [Smart Warehouse](apps/smart-warehouse/docs/en-US/app.md)  

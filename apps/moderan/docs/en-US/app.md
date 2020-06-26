@@ -8,7 +8,7 @@ Solution offers:
 -   Get Invoices from Moderan  
 -   Send Customer Balances to Moderan  
 
-[User Guide](https://github.com/bcsitera/bcsitera.github.io/blob/master/apps/moderan/docs/en-US/help.md)
+[User Guide](https://
 
 ## [](https://github.com/bcsitera/bcsitera.github.io/blob/master/apps/contract-management/docs/en-us/app.md#contact-information)Contact information
 

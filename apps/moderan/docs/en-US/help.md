@@ -59,7 +59,7 @@ In addition to mapping customers, services should be mapped. To do so, setup acc
 
 Accounting code should be in format: “Type:No.:GeneralProductPostingGroup”
 
-For example – G/L Account:3002:RENT
+For example – G/L Account:6115:RENT
 
 # How to Get Customers from Moderan
 
@@ -74,6 +74,7 @@ If new customers were created, review customer cards and fill in missing data li
 **Moderan – Get Customers** can be setup to run automatically by using **Job Queue** functionality.
 
 To do so, open **Job Queue Entries** and create new entry as:
+
 |Field/Tab|Value/Description|
 |-|-|
 |Object Type to Run|Report|
@@ -83,6 +84,7 @@ To do so, open **Job Queue Entries** and create new entry as:
 # How to Get Invoices from Moderan
 
 To get invoices from Moderan, run action **Moderan – Get Invoices** and fill in the parameters as following:
+
 |Field|Description|
 |-|-|
 |Period Start*|Choose period for which invoices will be retrieved|  
@@ -96,6 +98,7 @@ After successful import, open **Sales Invoices.** Review, post and issue invoice
 If the Payment Terms code is the same in BC and in the Moderan contract, the Invoice Due Date will be calculated based on this code.
 
 If you run action **Moderan – Get Invoices** more than once for the same period and invoice type, then the following logic will apply:
+
 |Invoice in Business Central|Explanation|
 |-|-|
 |Invoice does not exist|Import will create invoice|
@@ -107,6 +110,7 @@ If the invoice amount in Moderan is 0, then an invoice will not be created in Bu
 **Moderan – Get Invoices** can be setup to run automatically by using **Job Queue** functionality.
 
 To do so, open **Job Queue Entries** and create new entry as:
+
 |Field/Tab|Value/Description|
 |-|-|
 |Object Type to Run|Report|
@@ -128,6 +132,7 @@ Action will send current balance information for all the customers with **Modera
 Sending balances can be setup to run automatically by using **Job Queue** functionality.
 
 To do so, open **Job Queue Entries** and create new entry as:
+
 |Field/Tab|Value/Description|
 |-|-|
 |Object Type to Run|Report|

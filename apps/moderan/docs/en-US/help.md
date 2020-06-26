@@ -28,15 +28,18 @@ Moderan Interface enables the following:
   <br/>
   
 
-# Menu
+## Moderan Installation
+Open **Extension Management** and check if extension named ‘Moderan’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
+
+## Menu
 
 Moderan menu items can be found in the Role centers: Accountant and Business Manager.
 
 
 
-# How to setup
+## How to setup
 
-## Setup API
+### Setup API
 
 Open **Interface** in Moderan menu or page Moderan Interface and fill the fields as following (mandatory fields marked with *):
 
@@ -51,11 +54,11 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 
 To test, if the connection is correct, press the button – Test connection.
 
-## Setup customers
+### Setup customers
 
 **NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
 
-## Setup accounting codes in Moderan
+### Setup accounting codes in Moderan
 
 In addition to mapping customers, services should be mapped. To do so, setup accounting codes in Moderan.
 
@@ -63,7 +66,7 @@ Accounting code should be in format: “Type:No.:GeneralProductPostingGroup”
 
 For example – G/L Account:6115:RENT
 
-# How to Get Customers from Moderan
+## How to Get Customers from Moderan
 
 To get customers from Moderan, run action **Moderan – Get Customers**. Existing (mapped) customers will be updated, and new customers (who have a Registration No in Moderan) created.
 
@@ -83,7 +86,7 @@ To do so, open **Job Queue Entries** and create new entry as:
 |Object ID to Run|24007900|
 |Recurrence|Indicate desired recurrence|
 
-# How to Get Invoices from Moderan
+## How to Get Invoices from Moderan
 
 To get invoices from Moderan, run action **Moderan – Get Invoices** and fill in the parameters as following:
 
@@ -119,13 +122,13 @@ To do so, open **Job Queue Entries** and create new entry as:
 |Object ID to Run|24007901|
 |Recurrence|Indicate desired recurrence|
 
-## Periodization of Invoices
+### Periodization of Invoices
 
 If there are services on the invoice which are not for the current period, the **Periodization** checkmark will be set on the invoice header and according message will be shown in the end of import.
 
 User can filter out these invoices and perform periodization tasks if required.
 
-# How to Send Customer Balances to Moderan
+## How to Send Customer Balances to Moderan
 
 To send customer overdue balances from Business Central to Moderan, run action **Moderan – Send Balances**.
 

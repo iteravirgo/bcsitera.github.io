@@ -7,12 +7,12 @@ Moderan Interface enables the following:
 
 ## Contents
 - [Moderan Installation](#moderan-installation)
-- [Menu](#Menu)
-- [How to setup](#How-to-setup)
-  - [Setup API ](#setup-API)
+- [Menu](#menu)
+- [How to setup](#how-to-setup)
+  - [Setup API ](#setup-api)
   - [Setup customers](#setup-customers) 
-  - [Setup accounting codes in Moderan](#Setup-accounting-codes-in-Moderan) 
-- [How to Get Customers from Moderan](#How-to-Get-Customers-from-Moderan)
+  - [Setup accounting codes in Moderan](#setup-accounting-codes-in-moderan) 
+- [How to Get Customers from Moderan](#how-to-get-customers-from-moderan) 
 - [How to Get Invoices from Moderan](#How-to-Get-Invoices-from-Moderan)
   - [Periodization of Invoices](#Periodization-of-Invoices)
 - [How to Send Customer Balances to Moderan](#How-to-Send-Customer-Balances-to-Moderan)  

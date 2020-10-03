@@ -80,3 +80,8 @@ Applied transaction can be posted to ledger entries by clicking Post action.
 
 In addition Job Queue Entry can be configured, which posts transactions automatically when transaction has been applied and Application Status (quality) is 'High Confidence'.
 
+---
+
+### Contact Information
+For more information and pricing please contact:  
+[https://apps.itera.ee/docs/en-us/support](https://apps.itera.ee/docs/en-us/support)

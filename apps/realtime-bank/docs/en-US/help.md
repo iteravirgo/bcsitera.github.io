@@ -1,9 +1,9 @@
 # Realtime Bank - User Guide
 ## Table of Contents
 
--  [Setup](#Setup)
--  [Incoming Bank Messages](#Incoming-Bank-Messages)
--  [Processing Bank Account Transactions](#Processing-Bank-Account-Transactions)
+- [Setup](#setup)
+- [Incoming Bank Messages](#incoming-bank-messages)
+- [Processing Bank Account Transactions](#processing-bank-account-transactions)
 
 ## Setup
 

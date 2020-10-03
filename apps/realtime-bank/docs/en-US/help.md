@@ -26,14 +26,14 @@ Authorization/Device Certificate Password | Enter your Certificate password acco
 Open Bank Account card and choose the connector in the Bank Connector field.
 
 ## Setup Realtime Bank
-Open Realtime Bank Setup and assigne the number series for the Posted Transaction Nos. field.
+Open Realtime Bank Setup and assign the number series for the Posted Transaction Nos. field.
 
 
 # Incoming Bank Messages
 
 ## Get bank messages automatically
 
-To get bank messages press the button get New Bank Messages or setup Job Queue Entries on the bank connector setup page.
+To get bank messages press the button Get New Bank Messages or setup Job Queue Entries on the bank connector setup page.
 
 The process imports new bank statements to the page Incoming Bank Messages. This page is opened with filters: Source and Status.
 
@@ -43,12 +43,9 @@ Use the “Show all Entries” to see all entries.
 
 You can manually import the bank statement file on the _Incoming Bank Messages_ page by clicking the _Import From File_ button. The entry is in the _Received_ status.
 
-The click the _Process_ button. You can process one or more entries.
-
-Then click Show All Entries and choose line.
-
-You see the status – Processed and No. of Saved Transactions.
-
+To process the file click _Process_ button.  
+Then click Show All Entries and choose line.  
+You see the status – Processed and No. of Saved Transactions.  
 By pressing this number it is possible to go to the Bank Account Transactions.
 
 # Processing Bank Account Transactions

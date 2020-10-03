@@ -82,6 +82,6 @@ In addition Job Queue Entry can be configured, which posts transactions automati
 
 ---
 
-## Contact Information
+### Contact Information
 For more information and pricing please contact:  
 [https://apps.itera.ee/docs/en-us/support](https://apps.itera.ee/docs/en-us/support)

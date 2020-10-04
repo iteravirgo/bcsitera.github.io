@@ -6,7 +6,6 @@
 [Factoring](apps/factoring/docs/en-US/app.md)  
 [Public Sector Accounting and Reporting for Estonia](apps/Public-Sector-Accounting/docs/en-US/app.md)  
 [E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)  
-[Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
 
 ### Apps for Distribution and Retail
 [Smart Warehouse](apps/smart-warehouse/docs/en-US/app.md)  
@@ -18,6 +17,9 @@
 ### Apps for Human Resources
 [Payroll365](http://palk365.nav365.ee/)  
 [Personnel365](http://palk365.nav365.ee/)
+
+### Apps for Real Estate Management
+[Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
 
 ---
 

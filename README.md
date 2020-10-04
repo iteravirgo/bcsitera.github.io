@@ -18,7 +18,7 @@
 [Payroll365](http://palk365.nav365.ee/)  
 [Personnel365](http://palk365.nav365.ee/)
 
-### Apps for Real Estate Management
+### Apps for Real Estate
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
 
 ---

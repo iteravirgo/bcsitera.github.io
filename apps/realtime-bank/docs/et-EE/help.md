@@ -3,7 +3,7 @@
 
 - [Seadistused](#seadistused)
 - [Sissetulevad pangasõnumid](#sissetulevad-pangasõnumid)
-- [Processing Bank Account Transactions](#processing-bank-account-transactions)
+- [Pangatehingute töötlemine](#pangatehingute-töötlemine)
 
 ## Seadistused
 
@@ -48,7 +48,7 @@ Then click Show All Entries and choose line.
 You see the status – Processed and No. of Saved Transactions.  
 By pressing this number it is possible to go to the Bank Account Transactions.
 
-## Processing Bank Account Transactions
+## Pangatehingute töötlemine
 
 ### Bank Account Transactions
 

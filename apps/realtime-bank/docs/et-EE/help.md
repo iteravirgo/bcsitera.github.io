@@ -36,19 +36,16 @@ _Reaalajas panga seadistus_ lehel täitke ära väli "Konteeritud tehingute nr."
 Pangasõnumite automaatseks impordiks tuleb vastava pangaühenduse lehel seadistada "Võta uued pangasõnumid" või "Tööjärjekorra kanded". 
 Tööjärjekorra kannetena on võimalik seadistada 4 erinevat tegevust: pangasõnumite import, sissetulevate pangasõnumite töötlemine, pangakonto tehingute sidumine, pangakonto tehingute konteerimine.
 
-Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi on lehel filtrid: Allikas ja Olek, kuvatakse ainult kirjed, mis on töötlemata ning vajavad tähelepanu - s.t. Olek on kas Vastuvõetud või Tõrge.  
+Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi on lehel filtrid: Allikas ja Olek, kuvatakse ainult kirjed, mis on töötlemata ning vajavad tähelepanu - s.t. Olek on kas _Vastuvõetud_ või _Tõrge_.  
 Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".
 
 
 ### Pangasõnumite import käsitsi
 
-
-You can manually import the bank statement file on the _Incoming Bank Messages_ page by clicking the _Import From File_ button. The entry is in the _Received_ status.
-
-To process the file click _Process_ button.  
-Then click Show All Entries and choose line.  
-You see the status – Processed and No. of Saved Transactions.  
-By pressing this number it is possible to go to the Bank Account Transactions.
+Käsitsi on pangasõnumeid võimalik importida lehel _Sissetulevad pangasõnumid_ vajutades nupule "Impordi failist". Imporditud kirje Olek on _Vastuvõetud_.
+Imporditud kirje töötlemiseks vajutage nupule "Töötle".
+Kirje nägemiseks vajutage nupule "Näita kõiki sõnumeid", kirjel on nüüd Olek _Töödeldud_. Paremal olevas kiirinfos on näha _Salvestatud tehingute arv_.
+Sellele numbrile vajutades on võimalik liikuda lehele _Pangakonto tehingud_.
 
 ## Pangatehingute töötlemine
 

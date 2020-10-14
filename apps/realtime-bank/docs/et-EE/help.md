@@ -14,8 +14,7 @@ Võimalik on seadistada ühendused järgmiste pankadega:
 2. SEB Baltic Gateway
 3. LHV Connect
 
-Panga ühenduste seadistamiseks on igal pangal oma kaart. Palun avage vastava panga ühenduse kaart ja täitke vajalikud väljad:
-Each has its own setup card. Please open the setup of your bank connector and enter the following information: 
+Pangaühenduste seadistamiseks on Business Centralis igal pangal oma kaart. Palun avage vastava pangaühenduse kaart ja täitke vajalikud väljad:
 
 Väli |  Selgitus | 
 -- | --

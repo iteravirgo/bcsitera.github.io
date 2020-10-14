@@ -26,7 +26,7 @@ Seadmesertifikaardi parool | Sisestage panga poolt antud sertifikaadi parool.
 _Pangakonto_ kaardil valige väljale "Pangaühendus" vastav seadistatud pangaühendus.
 
 ### Reaalajas panga seadistused
-_Reaalajas panga seadistus_ lehel täitke ära väli "Konteeritud tehingute nr.", määrates vastava numbriseeria.
+Lehel _Reaalajas panga seadistus_ täitke ära väli "Konteeritud tehingute nr.", määrates vastava numbriseeria.
 
 
 ## Sissetulevad pangasõnumid
@@ -40,44 +40,51 @@ Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi
 Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".
 
 
-### Pangasõnumite import käsitsi
+### Pangasõnumite käsitsi import
 
 Käsitsi on pangasõnumeid võimalik importida lehel _Sissetulevad pangasõnumid_ vajutades nupule "Impordi failist". Imporditud kirje Olek on _Vastuvõetud_.
 Imporditud kirje töötlemiseks vajutage nupule "Töötle".
 Kirje nägemiseks vajutage nupule "Näita kõiki sõnumeid", kirjel on nüüd Olek _Töödeldud_. Paremal olevas kiirinfos on näha _Salvestatud tehingute arv_.
 Sellele numbrile vajutades on võimalik liikuda lehele _Pangakonto tehingud_.
 
+
 ## Pangatehingute töötlemine
 
 ### Pangatehingud
 
-In Bank Account card there is a new field Balance in Bank. Drilldown in this field to open Bank Account Transactions. By default you can see unposted transactions which need to be applied before they can be posted.
+Pangakonto kaardil on uus väli "Saldo pangas". Selles summas kajastuvad kõik pangast imporditud tehingud, ka need, mis on veel töötlemata ning konteerimata. Seetõttu võib väljal "Saldo pangas" olev summa erineva väljal "Saldo" kuvatavast summast. 
+Väljal "Saldo pangas" summale vajutades avatakse leht _Pangakonto tehingud_.
+Vaikimisi kuvatakse need pangatehingud, mis on konteerimata, mida kasutaja saab üle vaadata, siduda ja konteerida.
 
 ### Teenustasude sidumine
 
-You can use Text-To-Account functionality or describe the G/L account corresponding to the Transaction Code.
+Teenustasude ja teiste fikseeritud kontode sidumiseks on võimalik kasutada _Tekst-kontoks vastendamine_ funktsionaalsust või kirjeldada PR kontode vastavus "Tehingu tähiste" kaudu.
+Kiirkastis olevale väljale _Tehingu tähis_ vajutades avatakse leht _Pangatehingu tähis_.
 
-Click on the _Transaction Code_ field in the fast box _Bank Account Transaction Details._
-Enter the new line with bank transaction code and G/L Account.
+Lisage uus rida pangatehingu tähise ja sellele vastava PR kontoga. 
+Seejärel vajutades nupule "Seo automaatselt". Vastava pangatehingu Sidumise olek muutus _Kõrge täpsus_.
 
-Then go back to transaction and press the Apply Automatically button.
-The Application status is changed to _High Confidence_.
-
-You can apply one or more transactions at once.
+Võimalik on korraga lisada mitu erinevat rida pangatehingu tähiste ja PR kontodega.
 
 
 ### Arvete sidumine
-Appying can be done either manually or automatically.
 
-For manual application, assign Applied Account No. and click Apply Manually. This will open the list of open ledger entries. Apply entries by clicking Process->Set Applies-to ID.
+Arvetega sidumist saab lehel _Pangakonto tehingud_ teha kas automaatselt või käsitsi. 
 
-For automatic application run the action Apply Automatically.
+Automaatseks sidumiseks käivitage protsess _Seo automaatselt_.
+Kui töötlemise käigus leitakse hankija või kliendiga seotud maksmata arved (arve numbri, viitenumbri ja summa alusel), siis nende sidumise korral on _Sidumise olek_ "Kõrge täpsus".
+Kui töötlemise käigus leitakse hankija või klient, kuid ei leita vastavat arvet, siis kuvatakse _Sidumise olek_ "Madal täpsus".
+Kasutajal on võimalik näha, missuguse arvega on pangatehing seotud, klikkides väljal "Seotud summa". Kasutajal on võimalik siduda arve ringi. 
+Juhul, kui kogu summat ei olnud võimalik arvetega siduda, siis väljal "Seotud summa" erineb väljal "Summa" näidatud summast.
+
+Käsitsi sidumise korral valige real _Seotud konto nr._ ja seejärel vajutage "Seo käsitsi". Avatakse vastava kliendi/hankija andmiku kanded, kus kasutaja on võimalik valida õige arve ja siduda pangatehing vajutades Protsess ->Märgi seose ID.
+
 
 ### Konteerimine
 
-Applied transaction can be posted to ledger entries by clicking Post action.
+Seotud pangatehingud on võimalik konteerida, vajutades nupule "Konteeri".
 
-In addition Job Queue Entry can be configured, which posts transactions automatically when transaction has been applied and Application Status (quality) is 'High Confidence'.
+Võimalik on seadistada Tööjärjekorra kanne, mis konteerib kõik pangatehingud, mille _Sidumise olek_ on "Kõrge täpsus".
 
 ---
 

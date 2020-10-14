@@ -26,17 +26,17 @@ Seadmesertifikaardi parool | Sisestage panga poolt antud sertifikaadi parool.
 _Pangakonto_ kaardil valige väljale "Pangaühendus" vastav seadistatud pangaühendus.
 
 ### Reaalajas panga seadistused
-Reaalajas panga seadistuste lehel täitke ära Konteeritud tehingute numbriseeria.
+_Reaalajas panga seadistus_ lehel täitke ära väli "Konteeritud tehingute nr.", määrates vastava numbriseeria.
 
 
 ## Sissetulevad pangasõnumid
 
 ### Pangasõnumite automaatne import
 
-Pangasõnumite automaatseks impordiks tuleb vastava pangaühenduse lehel seadistada Võta uued pangasõnumid või Tööjärjekorra kanded. 
+Pangasõnumite automaatseks impordiks tuleb vastava pangaühenduse lehel seadistada "Võta uued pangasõnumid" või "Tööjärjekorra kanded". 
 Tööjärjekorra kannetena on võimalik seadistada 4 erinevat tegevust: pangasõnumite import, sissetulevate pangasõnumite töötlemine, pangakonto tehingute sidumine, pangakonto tehingute konteerimine.
 
-Imporditud pangasõnumid kuvatakse lehel Sissetulevad pangasõnumid. Vaikimisi on lehel filtrid: Allikas ja Olek, kuvatakse ainult kirjed, mis on töötlemata ning vajavad tähelepanu - s.t. Olek on kas Vastuvõetud või Tõrge.  
+Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi on lehel filtrid: Allikas ja Olek, kuvatakse ainult kirjed, mis on töötlemata ning vajavad tähelepanu - s.t. Olek on kas Vastuvõetud või Tõrge.  
 Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".
 
 

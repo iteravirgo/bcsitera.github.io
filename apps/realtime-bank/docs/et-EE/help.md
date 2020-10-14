@@ -23,7 +23,7 @@ Seadmesertifikaadi failinimi | Sisestage oma pangalepingus näidatud sertifikaad
 Seadmesertifikaardi parool | Sisestage panga poolt antud sertifikaadi parool.
 
 ### Pangakonto seadistused
-Pangakonto kaardil valige väljale Pangaühendus vastav seadistatud pangaühendus.
+_Pangakonto_ kaardil valige väljale "Pangaühendus" vastav seadistatud pangaühendus.
 
 ### Reaalajas panga seadistused
 Reaalajas panga seadistuste lehel täitke ära Konteeritud tehingute numbriseeria.
@@ -33,13 +33,15 @@ Reaalajas panga seadistuste lehel täitke ära Konteeritud tehingute numbriseeri
 
 ### Pangasõnumite automaatne import
 
-To get bank messages press the button Get New Bank Messages or setup Job Queue Entries on the bank connector setup page.
+Pangasõnumite automaatseks impordiks tuleb vastava pangaühenduse lehel seadistada Võta uued pangasõnumid või Tööjärjekorra kanded. 
+Tööjärjekorra kannetena on võimalik seadistada 4 erinevat tegevust: pangasõnumite import, sissetulevate pangasõnumite töötlemine, pangakonto tehingute sidumine, pangakonto tehingute konteerimine.
 
-The process imports new bank statements to the page Incoming Bank Messages. This page is opened with filters: Source and Status.
+Imporditud pangasõnumid kuvatakse lehel Sissetulevad pangasõnumid. Vaikimisi on lehel filtrid: Allikas ja Olek, kuvatakse ainult kirjed, mis on töötlemata ning vajavad tähelepanu - s.t. Olek on kas Vastuvõetud või Tõrge.  
+Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".
 
-Use the “Show all Entries” to see all entries.
 
 ### Pangasõnumite import käsitsi
+
 
 You can manually import the bank statement file on the _Incoming Bank Messages_ page by clicking the _Import From File_ button. The entry is in the _Received_ status.
 

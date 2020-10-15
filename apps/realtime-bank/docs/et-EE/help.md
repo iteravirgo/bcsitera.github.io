@@ -14,7 +14,7 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 2. SEB Baltic Gateway
 3. LHV Connect
 
-Pangaühenduste seadistamiseks on Business Centralis igal panga kohta oma kaart. Palun avage vastava pangaühenduse kaart ja täitke vajalikud väljad:
+Pangaühenduste seadistamiseks on Business Centralis igal panga kohta oma kaart, kus tuleb täita järgmised väljad:
 
 Väli |  Selgitus | 
 -- | --
@@ -23,7 +23,7 @@ Seadmesertifikaadi failinimi | Sisestage oma pangalepingus näidatud sertifikaad
 Seadmesertifikaardi parool | Sisestage panga poolt antud sertifikaadi parool.
 
 ### Pangakonto seadistused
-_Pangakonto_ kaardil valige väljale "Pangaühendus" vastav seadistatud pangaühendus.
+_Pangakonto_ kaardil saab määrata väljal "Pangaühendus" vastava seadistatud pangaühenduse.
 
 ### Reaalajas panga seadistused
 Lehel _Reaalajas panga seadistus_ täitke ära väli "Konteeritud tehingute nr.", määrates vastava numbriseeria.
@@ -33,8 +33,8 @@ Lehel _Reaalajas panga seadistus_ täitke ära väli "Konteeritud tehingute nr."
 
 ### Pangasõnumite automaatne import
 
-Pangasõnumite automaatseks impordiks tuleb vastava pangaühenduse lehel seadistada "Võta uued pangasõnumid" või "Tööjärjekorra kanded". 
-Tööjärjekorra kannetena on võimalik seadistada 4 erinevat tegevust: pangasõnumite import, sissetulevate pangasõnumite töötlemine, pangakonto tehingute sidumine, pangakonto tehingute konteerimine.
+_Pangaühenduse lehel_ on nupud "Võta uued pangasõnumid", mida saab kasutada pangasõnumite automaatseks impordiks. 
+Vajutades nupule "Tööjärjekorra kanded", avatakse leht _Tööjärjekorra kanded_, kus on võimalik seadistada 4 erinevat tegevust: pangasõnumite import, sissetulevate pangasõnumite töötlemine, pangakonto tehingute sidumine, pangakonto tehingute konteerimine. 
 
 Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi on lehel filtrid: Allikas ja Olek, kuvatakse ainult kirjed, mis on töötlemata ning vajavad tähelepanu - s.t. Olek on kas _Vastuvõetud_ või _Tõrge_.  
 Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".

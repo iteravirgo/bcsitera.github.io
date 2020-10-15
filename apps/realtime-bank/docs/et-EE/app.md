@@ -1,7 +1,7 @@
 # Reaalaja pank
-Reaalajas panga lahendus võimaldab saada ülevaadet ja töödelda reaalajas pangakirjeid  Microsoft Dynamics 365 Business Centralis.
+Reaalajas panga lahendus võimaldab ettevõttel saada ülevaate oma pangakonto liikumistest vastavalt soovitud sagedusele ja töödelda reaalajas pangakirjeid  Microsoft Dynamics 365 Business Centralis.
 
-### Toetatud pankade ühendused
+### Toetatud pangaühendused
 1. Swedbank Gateway (momendil ainult on-prem lahenduses)
 2. SEB Baltic Gateway
 3. LHV Connect
@@ -10,9 +10,9 @@ Reaalajas panga lahendus võimaldab saada ülevaadet ja töödelda reaalajas pan
 * Laadida pangatehingute info jooksvalt Business Centralisse.
 * Näha Business Centralis oleval pangakonto kaardil pangakonto saldot. 
 Kasutaja ei pea pangakonto saldo nägemiseks Business Centralist lahkuma.
-* Töödelda ja siduda pangatehingud avatud arvetega ning eeldefineeritud kulukontodega automaatselt.
+* Töödelda ja siduda pangatehinguid klientide ning hankijate avatud arvetega ning eeldefineeritud kulukontodega.
 * Konteerida kõrge sidumistäpsusega pangatehingud automaatselt.
-* Kasutaja saab tegeleda ainult nende pangatehingutele, mida ei seotud automaatselt ja vajavad üle vaatamist ning käsitsi sidumist.
+* Kasutaja saab tegeleda ainult nende pangatehingutega, mis vajavad üle vaatamist ning käsitsi sekkumist.
 
 ### Toetatud versioonid:
 See laiendus toetab nii Essential kui Premium lahendust Microsoft Dynamics 365 Business Centralile.

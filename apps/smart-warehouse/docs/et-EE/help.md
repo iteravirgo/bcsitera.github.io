@@ -347,6 +347,206 @@ Kui kaubale on määratud partii ja säilivus, siis vajutades kauba reale kuvata
 
 Kui soovitud info on üle kontrollitud vajuta nuppu **Tühjenda**.
 
+## Uuendatud funktsionaalsused
+
+Nutilaole on valminud täiustatud versioon, mis võimaldab rakendust kasutada ka osalise laohalduse puhul. 
+Osalise laohalduse puhul moodustatakse dokumendid ladustamine ja noppimine ning lisaks saab määrata kohustuslikuks aluse ehk riiuli asukoha. 
+Lahendust on täiendatud kasutamiseks ka Android seadmetega. Android seadmetes töötab rakendus Opera veebibrowseris või saab kasutada Business Central api kaudu-selleks on loodud spetsiaalne õiguste komplekt **BCS.BPF SMARTWAREHOU**. Kui kasutajale on lisatud see õiguste komplekt, siis suunatakse ta automaatselt apist Business Centralit avades Nutilao lahendusse. 
+
+## Seadistus
+
+Seadistusse on loodud viis uut menüüd.
+![BCseadistuslehed](BCseadistuslehed.png)
+
+### Kohandatud lisaväljad
+Kohandatud lisaväljad võimaldavad kasutajal tuua Nutilao lahendusse dokumentide juurde vajalikke lisavälju.
+Seadistatav vastavalt kasutaja enda vajadustele ja Nutilao lahendusse saab tuua kõiki kauba kaardil olevaid välju.
+
+![BCkohandatudväljad](BCkohandatudväljad.png)
+
+|Field|Value|
+|-|-|
+|**Väljade kasutus**|kuhu väljale soovitakse lisa kirje tuua.|
+|**Tabeli pealkiri**|kuhu dokumendi peale soovitud väli tuuakse|
+|**Välja pealkiri**|Millist lisa välja peab Nutilaos kuvama|
+|**Eraldaja**|kui soovitakse välja kasutuse välja ja välja pealkirja eraldamist mõne enda soovitud märgiga. Võib ka jääda tühjaks|
+|**Järeleandija**|kui soovitakse välja kasutuse välja ja välja pealkirja eraldamist mõne enda soovitud märgiga. Võib ka jääda tühjaks|
+
+Näide Nutilaost funktsionaalsuse kasutuse kohta:
+
+![SWkohandatudväljad](SWkohandatudväljad.png)
+
+Näiteks antud juhul on lisatud noppe dokumendile eraldajatega Kirjeldus 2 väli kauba kaardilt. 
+
+### Asukohad
+Võimaldab mugavalt ilma Nutilao seadistustest välja minemata seadistada vajalikke parameetreid soovitud laole. Lisaks, kui enamus ladudes ei ole kasutusel Nutiladu ning osades soovitakse ikkagi kasutuse võtta, on võimalik seadistada Nutilao võimalused ka asukoha põhiselt. Nutilao üldised seadistused on prioriteetsemad.
+
+![BCasukohakaart](BCasukohakaart.png)
+
+### Lao töötajad
+Võimaldab mugavalt Nutilao seadistuste juures liikuda otse Lao töötajate juurde, kui on vaja kasutajaid lao töötajateks juurde lisada ilma, et peaks eraldi lehte otsima hakkama.
+
+### Kleepsude loend
+Võimaldab seadistada erinevatele lao tegevustele aluse/riiuli/kasti kleepse. 
+Näide erinevatest kleepsude valikutest:
+
+![BCkleepsud](BCkleepsud.png)
+Loendis on võimalik ära defineerida erinevad kleepsud ning nende suurus.
+Soovitud kleepsu kaarti avades on võimalik ära seadistada, milliseid ridu kleepsu peal kuvatakse. 
+Näiteks:
+![BCkleepsudkaart](BCkleepsudkaart.png)
+Näide noppimise sildist Nutilao lahendusest prindituna:
+![BCkleepsuprint](BCkleepsuprint.png)
+
+### Veebilehe link
+Lingi kaudu on võimalik Nutilao lahendust avada näiteks Opera veebibrowseris, et kasutada lahendust Android seadmes. 
+
+### Seadistuse väljad
+Seadistuse väljad SmartWarehouse seadistustes, mis tuleks sisse lülitada osalise laohalduse puhul(noppimine/ladustamine/alus kohustuslik):
+
+![BCosalinehaldus](BCosalinehaldus.png)
+**Laotegevuste funktsionaalsuse** aktiveerimine defineerib ära selle, et kasutatakse osalist laohaldust. 
+**Laotegevuste registreerimine** saadab nopitud/ladustatud ridade info Business Centralisse.
+**Trüki konteerimisel** võimaldab seadmest välja printida peale dokumendi registreerimist konteeritud müügilähetust/konteeritud ostutarnet. Selle funktsionaalsuse jaoks on juurde loodud automaattöö:
+
+![BCprintiminekoodiblokk](BCprintiminekoodiblokk.png)
+
+**Kasutaja lukustamine laotegevuse** valimisel võimaldab dokumendile kasutaja ID külge panemist st, et kui kasutaja on korra juba dokumendi endale avanud, on tema ID dokumendi küljes ning teistele kasutajatele dokument enam nähtav pole. Sama funktsionaalsus on **kasutaja lukustamine laolähetuse ja kasutaja lukustamine laotarne puhul**. 
+Nutilaos tuleb linnuke nii noppimiste, kui ladustamise juures väljale **Minu**.
+
+![BCkasutajalukustus](BCkasutajalukustus.png)
+
+## Nutilao menüü osalise laohalduse puhul
+![SWpeamenüü](SWpeamenüü.png)
+
+### Ladustamise menüü
+![SWladustamine1](SWladustamine1.png)
+![BCladustamine2](BCladustamine2.png)
+![BCladustamine3](BCladustamine3.png)
+
+### Noppimise menüü
+![SWnoppimine1](SWnoppimine1.png)
+![SWnoppimine2](SWnoppimine2.png)
+![SWnoppimine3](SWnoppimine3.png)
+
+## Ostutellimuse tegevused osalise laohaldusega
+Looge **Business Centralis** uus ostutellimus ning lisage kaubad tellimusele ning vabastage tellimus.
+Ladustamise Nutilao lahendusse saatmiseks vajutade menüü päises **Protsess**-> **Loo varude ladustamine/noppimine**.
+
+![BCOTLadust](BCOTLadust.png)
+
+Seejärel aktiveerige marker väljal **Loo varude ladustamine**.
+
+![BCladuloomine](BCladuloomine.png)
+
+Klikkige **OK**.
+Nüüd liikuge Nutilao lahendusse.
+Klikkige menüül **Lattu**.
+
+![SWladumenüü](SWladumenüü.png)
+
+Seejärel valige menüüst **Ladustamised**.
+
+![SWladumenüü2](SWladumenüü2.png)
+
+Avaneb ladustamise loend erinevate ladustamise dokumentidega.
+
+![SWladuloend](SWladuloend.png)
+
+Valige dokument, mida soovite ladustada. NB! Peale seda, kui olete endale dokumendi avanud, salvestub teie kasutaja ID sellele dokumendile ning väljale **Minu** tuleb linnuke. 
+Kui vaadata Business Centralis Varude Ladustamise all sama dokumenti, näiteks antud näite juures 1056 on näha, et **Määratud kasutaja ID** alla on tekkinud kasutaja ID, kes selle dokumendi endale Nutilao lahenduses avas.
+
+![BCkasutajasalvestus](BCkasutajasalvestus.png)
+
+Liigume tagasi ladustamise protsessi juurde Nutilaos.
+Partii kaubale on võimalik kas Business Centralist saata partii number või sisestada käsitsi programmis. Oleneb, kuidas on partii määramine seadistatud.
+
+![SWladudok](SWladudok.png)
+
+Antud näite puhul on partii käsitsi ladustamisel sisestatud. Väärtust saab sisestada ka käsi skänneriga.
+Kui kogused peaks erinema reaalsest kogusest, tuleb muudatus fikseerida **Kogus** väljal.
+
+![SWladudok2](SWladudok2.png)
+
+Kui kogused on kontrollitud tuleb rida märkida **Valmis**.
+
+![SWladudok3](SWladudok3.png)
+
+Pärast seda, kui kõik read on saanud **Valmis** linnukese, tuleb ladustamine ära registreerida ning info ladustamise kohta jõuab Business Centralisse.
+
+![SWladudok4](SWladudok4.png)
+
+Lisaks prinditakse automattööga välja **Konteeritud ostutarne**.
+
+![BCostutarne](BCostutarne.png)
+
+Liikudes tagasi **Business Centrali** vaatesse ostutellimusel, on näha kogust, mis lattu tariniti. 
+
+![BCOTmuutused](BCOTmuutused.png)
+
+Lisaks partii kauba puhul, saab kaup partii külge, kui seda juba eelnevalt ostutellimusel ära defineeritud polnud.
+
+![BCOTmuutuspartii](BCOTmuutuspartii.png)
+
+## Müügitellimuse tegevused osalise laohaldusega
+Looge **Business Centralis** uus müügitellimus ning lisage kaubad tellimusele ning vabastage tellimus.
+Noppimise Nutilao lahendusse saatmiseks vajutade menüü päises **Protsess**-> **Loo varude ladustamine/noppimine**.
+
+![BCnoppiminetegevus](BCnoppiminetegevus.png)
+
+Aktiveerige avaneval lehel marker Loo varude noppimine ning klikkige **OK**. 
+
+![BCnoppeaktiiv](BCnoppeaktiiv.png)
+
+Igale noppelehele on võimalik Business Centrali poole pealt lisada noppimise prioriteetsust.
+Selleks liikuge **Seotud**-> **Ladu**-> **Varude ladustamis-/noppimisread**.
+
+![BCnoppeleid](BCnoppeleid.png)
+
+Avaneb antud konkreetse müügitellimuse **Varude noppimise loend**.
+Noppimise avamiseks vajutage **Seotud**-> **Rida**-> **Kaart**.
+
+![BCnoppeleid2](BCnoppeleid2.png)
+
+Noppimiselt leiate sellise välja nagu **Prioriteet**. Valides prioriteediks **Kõrge**, kuvatakse kasutajale Nutilao lahenduses seda nopet kõige esimesena ning dokument saab juurde märke **Kiire**.
+
+![BCnoppeleid3](BCnoppeleid3.png)
+
+Nüüd liikuge **Nutilao** lahendusse ja valige menüüst **Laost**. 
+
+![SWnoppemenüü](SWnoppemenüü.png)
+
+Avaneb kõigi vabade noppimiste loend või kuvatakse ainult selle kasutaja ID-ga noppimisi, kes menüü avas. Nt antud juhul kuvatakse kõiki selle konkreetse kasutaja ID-ga noppimisi ning ilma ID-ta noppimisi ei ole. Kiire linnuke on sellel noppimisel, mille prioriteediks valiti Business Centralis noppelehel **Kõrge**.
+
+![SWnoppeloeng](SWnoppeloeng.png)
+
+Avage noppimine, mille kaupu soovite komplekteerida.
+Partii kaubal vajutades väljal partii avaneb kõigi võimalike partiide loend ning vastavad kogused, kui Business Centralis polnud partiid eelnevalt külge pandud, siis lao töötaja saab siit loendist valida selle partii, mis kokku komplekteeritakse. 
+
+![SWnoppepartii](SWnoppepartii.png)
+
+Sarnaselt ostu poolega on võimalik kogus väljal koguseid muuta.
+Kui kaubad on kokku pandud pane linnuke väljale **Valmis** ning **Registreeri** nope, et info kokku pandud kauba kohta jõuaks Business Centralisse. 
+
+![SWnoppereg](SWnoppereg.png)
+
+Seejärel on võimalik otse seadmest välja printida Saateleht ehk **Konteeritud müügilähetuse** dokument. 
+
+![SWnoppesaateleht](SWnoppesaateleht.png)
+
+Liikudes tagasi Business Centrali müügitellimuse juurde on näha tarnitud kogust ning ka seda, et partii kaubal sai partii külge. 
+
+![BClähetatudkogus](BClähetatudkogus.png)
+![BClähetatudpartii](BClähetatudpartii.png)
+
+## Üleviimiskorraldused osalise laohalduse puhul
+Töötab samade dokumentide alusel nagu osalise laohalduse puhul ost ja müük.
+Erinevuseks on see, et dokumendi päises Nutilao lahenduses kuvab ladu kuhu kaup saadetakse või kust kaup vastu võetakse.
+Näide noppimisest Tartu lattu:
+![Üleviiminenope](Üleviiminenope.png)
+Näide ladustamisest Tallinna laost Tartu lattu:
+![Üleviimineladust](Üleviimineladust.png)
+
 Lisainformatsiooni saamiseks palun võta ühendust BCS Itera AS:
 [https://www.itera.ee](https://www.itera.ee)
 

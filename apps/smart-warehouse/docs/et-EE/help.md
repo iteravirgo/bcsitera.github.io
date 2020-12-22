@@ -25,6 +25,7 @@ Smart Warehouse lahendus võimaldab alljärgnevat:
   - [Müügitellimuse toimingud Smart Warehouse programmis](#müügitellimuse-toimingud-smart-warehouse-programmis)
   - [Müügitellimuse kontrollimine Business Centralis ja arveks konteerimine](#müügitellimuse-kontrollimine-business-centralis-ja-arveks-konteerimine)
   - [Aluse sisu kontrollimine](#aluse-sisu-kontrollimine)
+  - [Uuendatud funktsionaalsused](#uuendatud-funktsionaalsused)
 
 <br/>
 
@@ -368,7 +369,7 @@ Seadistatav vastavalt kasutaja enda vajadustele ja Nutilao lahendusse saab tuua 
 |-|-|
 |**Väljade kasutus**|kuhu väljale soovitakse lisa kirje tuua.|
 |**Tabeli pealkiri**|kuhu dokumendi peale soovitud väli tuuakse|
-|**Välja pealkiri**|Millist lisa välja peab Nutilaos kuvama|
+|**Välja pealkiri**|millist lisa välja peab Nutilaos kuvama|
 |**Eraldaja**|kui soovitakse välja kasutuse välja ja välja pealkirja eraldamist mõne enda soovitud märgiga. Võib ka jääda tühjaks|
 |**Järeleandija**|kui soovitakse välja kasutuse välja ja välja pealkirja eraldamist mõne enda soovitud märgiga. Võib ka jääda tühjaks|
 

@@ -24,6 +24,7 @@ Smart Warehouse functionality enables the following:
   - [Sales Order process in Smart Warehouse](#sales-order-process-in-smart-warehouse)
   - [Sales order check in Business Central and order posting](#sales-order-check-in-business-central-and-order-posting)
   - [Bin content check](#bin-content-check)
+  - [New features](#new-features)
 
 <br/>
 
@@ -351,6 +352,213 @@ If item has for example lot, user can check it by clicking on the item line.
 ![SWBinContent2](SWBinContent2.png)
 
 If needed information is checked click button **Clear** and go **Back**. 
+
+## New features
+New improved version has been made to Smart Warehouse solution. Now it is possible to use it with partial warehousing. 
+For partial warehousing the documents you can use for that is Picks and Put away. In addition, you can use Bins. 
+The solution has also been upgraded for use with Android devices in Opera web browser or can be used with Business Central app with the special User permission set: **BCS.BPF SMARTWAREHOU**. When user have this permission set then automatically user will be redirected to Smart Warehouse solution. 
+
+### New setup features
+In setup you can find five new menus. 
+
+![BCnewsetup](BCnewsetup.png)
+
+### Custom fields
+Custom fields allow the user to add the necessary additional fields to the documents in the Smart Warehouse solution.
+Configurable according to the user's own needs and all the fields on the item card can be added to the solution.
+
+![BCCustomfields](BCCustomfields.png)
+
+|Field|Value|
+|-|-|
+|**Field usage**|where you want to add the additional info|
+|**Table Caption**|on what document you want this additional info|
+|**Field Caption**|which additional field info must be displayed|
+|**Separator**|if you need to separate previous two fields info you can use them. It can also be blank|
+|**End separator**|if you need to separate previous two fields info you can use them. It can also be blank|
+
+Example from Smart Warehouse:
+
+![BCcustomfieldsexamp](BCcustomfieldsexamp.png)
+
+For example, in this case for Picking document user added Description 2 fields information from item card to the document with the separators. 
+
+### Locations
+Allows user to set the necessary parameters to warehousing for Locations without leaving the Smart Warehouse settings. In addition, if most Locations do not use Smart Warehouse solution and needs to be used only in a few Locations then it is possible to set solution up on Locations. The general settings in Smart Warehouse setup always have priority. 
+
+![BCLocationcard](BCLocationcard.png)
+
+### Warehouse Employee List
+Allows user to navigate directly to the warehouse employees from the Smart Warehouse settings for example if user needs to add new users as warehouse employees without having to search for the right page. 
+
+### Report List
+Allows to set pallet/bin/box stickers. 
+Example of different sticker options:
+
+![BCReportlist](BCReportlist.png)
+
+You can define different stickers and their size in the list. By opening the desired sticker card, it is possible to set which rows are displayed on the sticker.
+For example:
+
+![BCReportCard](BCReportCard.png)
+
+Example of sticker printed for picking:
+
+![Stickerexamp](Stickerexamp.png)
+
+### Web page link
+The link can be used to open Smart Warehouse solution for example in Opera web browser. 
+
+### Setup fields
+Setup fields that should be enable for partial warehouse management (picking, put away, bin mandatory):
+
+![BCpartialwh](BCpartialwh.png)
+
+**Use Warehouse Activities**- activation defines that partial warehouse management is used.
+**Register Warehouse Activities**- sends pick/put away row’s information to Business Central.
+**Print Whse. Activities**- allows user to print posted sales shipments/ posted purchase receipts after register the document. For that we have Jog Queue Entry:
+
+![BCdokprintjob](BCdokprintjob.png)
+
+**Lock Warehouse Activity User on Select**- allows user to attach a user ID to a Document. Once a user has opened a document for themselves, their ID is attached to the document and the document is no longer visible to other users. Same functionality with **Lock Warehouse Shipment User on Select and Lock Warehouse Receipt User on Select**.
+In Smart Warehouse solution then will be checkmark on Pick/Put away field **My**. 
+
+![SWmyorderid](SWmyorderid.png)
+
+## Smart Warehouse menu for partial warehouse management
+![SWnewmenu](SWnewmenu.png)
+
+### Put away menu
+![Putawaymenu1](Putawaymenu1.png)
+![Putawaymenu2](Putawaymenu2.png)
+![Putawaymenu3](Putawaymenu3.png)
+
+### Picks menu
+![Pickmenu1](Pickmenu1.png)
+![Pickmenu2](Pickmenu2.png)
+![Pickmenu3](Pickmenu3.png)
+
+## Purchase order activities with partial warehouse management 
+Create a new purchase order in Business Central, add items to the order and release the document.
+To send Inventory Put-away into Smart Warehouse solution click in the **Process**-> **Create Inventory Put-away/Pick**.
+
+![Purchorderputawayact](Purchorderputawayact.png)
+
+Then activate activity **Create Invt.Put-Away**
+
+![BCpickact2](BCpickact2.png)
+
+Click **OK**.
+Now move into Smart Warehouse solution.
+In menu click **To Warehouse**.
+
+![SWmenuputaway](SWmenuputaway.png)
+
+Next choose **Put away**.
+
+![SWmenuputaway2](SWmenuputaway2.png)
+
+Then the put away document list will open.
+
+![SWmenuputawaylist](SWmenuputawaylist.png)
+
+Select the Document you want to process. NB! After you have opened the Document your user ID will be saved on the document and you see the checkmark in the box **My**. 
+If we look the same document in Business Central **Inventory Put-away list** you can see that, when user opened the document the **Assigned User ID** will be automatically filled. 
+
+![BCputawayid](BCputawayid.png)
+
+Now let’s move back to the Smart Warehouse solution.
+For Lot item it is possible to add lot no in Business Central or manually in the solution. It depends on how lot assignment is set. 
+
+![SWputawaydoc](SWputawaydoc.png)
+
+In this case lot no is added manually in solution. Also, the value can be added with the scanner. If the received quantities are different from the actual quantity, the change must be recorded in the **Quantity field**.
+
+![SWputawaydoc2](SWputawaydoc2.png)
+
+When the quantities have been checked, mark the lines **Done**.
+
+![SWputawaydoc3](SWputawaydoc3.png)
+
+After all lines has the checkmark **Done**, user must **Register** the Put away and all the lines information will be transferred in Business Central.  
+
+![SWputawaydo4](SWputawaydo4.png)
+
+In addition, with the Job queue entry the **Posted Purchase Receipt** will be automatically open, and user can print the Document.
+
+![BCpurshdokväljatrükk](BCpurshdokväljatrükk.png)
+
+Moving back to the Business Central view on Purchase order, you can see the quantity that was received in the warehouse.
+
+![BCpurchordrec](BCpurchordrec.png)
+
+In addition, with lot items, lot will be attached to the items.
+
+![BCpurchordlotno](BCpurchordlotno.png)
+
+## Sales order activities with partial warehouse management
+Create a new sales order in Business Central and add the items to the order and release the document.
+To send a pick to the Smart Warehouse solution click **Process**-> **Create Inventory Put-away/Pick**.
+
+![BCsalespickact1](BCsalespickact1.png)
+
+Activate option **Create Inv.Pick** and click **OK**. 
+
+![BCpickact2](BCpickact2.png)
+
+It is possible to add picking priority to each pick-up page for warehouse worker from the Business Central side.
+For that go to **Related**-> **Warehouse**-> **Inv. Put-away-/Pick Lines**.
+
+![BCpickact3](BCpickact3.png)
+
+Opens the **Inventory Pick List** for your Sales order.
+For opening the **Pick**, click **Related**-> **Line**-> **Card**.
+
+![BCpickact4](BCpickact4.png)
+
+On the Inv. Pick you can find field **Priority**. By selecting **High** as the priority, the user will see these documents above in Smart Warehouse solution and the document will be marked **Fast**.
+
+![BCpick5](BCpick5.png)
+
+Now move back to Smart Warehouse solution and choose **From Warehouse** in the menu. 
+
+![SWpickmenu1](SWpickmenu1.png)
+
+A list of all free picks and picks with your user ID opens. If the user from Business Central side marked Pick to **high priority**, then Smart Warehouse worker sees them above and have a **Fast** checkmark on that pick. 
+
+![SWpicklist](SWpicklist.png)
+
+Open the Pick you want to send out. In this case it should be the first Document with the checkmark **Fast**. 
+If the item is with Lot no, then you must click on the right item row on Lot no box. Then you see free lot no-s in warehouse and can choose what lot you took for the order. 
+
+![SWpicdoc1](SWpicdoc1.png)
+
+Like the purchase side, it is possible to change the quantities in the quantity field.
+When all the items have been assembled, checkmark the **Done** fields and **Register** the Document. Now Business Central will reach all the information about that Document.
+
+![SWpickdoc2](SWpickdoc2.png)
+
+Then it is possible to print **Posted Sales shipment** Document directly from the device.  
+
+![BCshipmentdok](BCshipmentdok.png)
+
+Moving back to the Business Central sales order, you can see the quantity shipped is filled and you can see that lot no is added to the item. 
+
+![BCsalesordershipped](BCsalesordershipped.png)
+
+![BCsalesorderlotno](BCsalesorderlotno.png)
+
+### Transfer orders with partial warehouse management 
+Works on the bases of the same Document as purchase and sales.
+Only difference is that in Smart Warehouse header you see Location where to send the items or where the items are going. 
+Example pick to Tartu Location:
+
+![SWtransferpick](SWtransferpick.png)
+
+Example put away from Tallinn to Tartu Location: 
+
+![SWtranswerputaway](SWtranswerputaway.png)
+
 
 For more information and pricing please contact BCS Itera AS:
 [https://www.itera.ee](https://www.itera.ee)

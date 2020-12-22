@@ -365,7 +365,7 @@ Seadistatav vastavalt kasutaja enda vajadustele ja Nutilao lahendusse saab tuua 
 
 ![BCkohandatudväljad](BCkohandatudväljad.png)
 
-|Field|Value|
+|Väli|Kasutamine|
 |-|-|
 |**Väljade kasutus**|kuhu väljale soovitakse lisa kirje tuua.|
 |**Tabeli pealkiri**|kuhu dokumendi peale soovitud väli tuuakse|

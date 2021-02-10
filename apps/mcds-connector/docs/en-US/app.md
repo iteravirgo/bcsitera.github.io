@@ -15,9 +15,9 @@ Estonia
 
 ---
 
-[User Guide](help.md)
-[Extension Download](...)
+[User Guide](help.md)  
+[Extension Download](...)  
 
 ### Contact information
 For more information please contact BCS Itera AS:  
-[https://www.bcsitera.ee](https://www.bcsitera.ee)
+[http://www.itera.ee](http://www.itera.ee)

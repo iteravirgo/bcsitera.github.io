@@ -5,7 +5,8 @@
 [Dimension Correction Tool](apps/dimension-correction-tool/docs/en-US/app.md)  
 [Factoring](apps/factoring/docs/en-US/app.md)  
 [Public Sector Accounting and Reporting for Estonia](apps/Public-Sector-Accounting/docs/en-US/app.md)  
-[E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)  
+[E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)
+[MCDS Connector](apps/mcds-connector/docs/en-US/app.md)
 
 ### Apps for Distribution and Retail
 [Smart Warehouse](apps/smart-warehouse/docs/en-US/app.md)  

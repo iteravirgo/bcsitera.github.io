@@ -1,3 +1,4 @@
+![eufinanced](eufinanced.png)
 # MCDS Connector
 This extension adds XBRLGL support for Microsoft Dynamics 365 Business Central.
 
@@ -16,7 +17,7 @@ Estonia
 ---
 
 [User Guide](help.md)  
-[Extension Download](...)  
+[Extension Download](https://github.com/bcsitera/bcsitera.github.io/tree/master/apps/mcds-connector/artifacts)  
 
 ### Contact information
 For more information please contact BCS Itera AS:  

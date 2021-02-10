@@ -1,3 +1,4 @@
+![eufinanced](eufinanced.png)
 # MCDS Connector - User Guide
 
 MCDS (My Company Data Service) Connector allows you to issue business transactions in XBRLGL format. Transactions can be issued to a file or directly to the MCDS.
@@ -5,8 +6,8 @@ MCDS (My Company Data Service) Connector allows you to issue business transactio
 MCDS is a service that stores company's business transactions in XBRGL format and allows to forward transactions to justified parties.
 
 Currently two types of transactions and parties are supported:
- - Sales transactions which can be forwarded to e-invoice operator
- - Payroll transactions which can be forwarded for reporting to Estonian Statistics
+ - Sales transactions, which can be forwarded to e-invoice operator
+ - Payroll transactions, which can be forwarded for reporting to Estonian Statistics
 
 ## Table of Contents
   - [Setup](#setup)
@@ -20,18 +21,18 @@ Currently two types of transactions and parties are supported:
 
 ## Setup
 ### MCDS Connector
-To enable MCDS connection, open MCDS Connector and fill in the following with information provided to you by MCDS operator:
+To enable MCDS connection, open **MCDS Connector** and fill in the following with information provided to you by MCDS operator:
 
 Field | Description
 -- | --
 Service URL | 
-Device Certificate Filename | upload the certificate file provided by MCDS operator
+Device Certificate Filename | You can upload the certificate file by clicking on the field
 Device Certificate Password | 
 
 Click **Test Connection** to validate connectivity.
 
 ### Electronic Document Formats
-To enbale XBRLGL as format open **Electronic Document Formats** and ensure that following format has been setup:
+To enbale XBRLGL as format, open **Electronic Document Formats** and ensure that the following format has been setup:
 
 Field | Value
 -- | --
@@ -42,7 +43,7 @@ Codeunit ID | 70466925
 Delivery Codeunit ID | 70466927
 
 ### Document Sending Profiles
-To prepare MCDS as a document sending profile for the customers open **Document Sending Profiles** and create new profile as following:
+To prepare MCDS as a document sending profile for the customers, open **Document Sending Profiles** and create new profile as following:
 
 Field | Value
 -- | --
@@ -51,18 +52,18 @@ Description | My Company Data Service
 Electronic Document | Through Document Exchange Service
 Format | MCDS-XBRLGL
 
-Assign this profile to the customers who's sales documents should be sent to MCDS.
+Assign this profile to the customers who's sales invoices should be sent to MCDS.
 
 ### G/L Accounts
-In XBRLGL format Et-Gaap accounts are used instead of company's internal chart of accounts. 
+In XBRLGL format, Et-Gaap accounts are used instead of company's internal chart of accounts. 
 
-Open **Chart of Accounts** and assign **Account et-gaap Category** for every account that will be used in business transactions forwarded to MCDS.
+Open **Chart of Accounts** and assign **Account et-gaap Category** for every account that is used in business transactions forwarded to MCDS.
 
 ## Usage
 ### Issue Sales Documents
-To issue sales doument as XBRLGL transaction either use action **Post and Send** on sales document or use action **Send** on posted sales docuemnt.
+To issue sales doument as XBRLGL transaction either use action **Post and Send** on sales document or use action **Send** on already posted sales docuemnt.
 
-Choose the sending options either to save the XBRLGL document to a file or to send to MCDS:
+Choose the sending option either to save the XBRLGL document to a file or to send to MCDS:
 
 Field | Value | Usage
 -- | -- | --
@@ -87,4 +88,4 @@ Field/Value | Description
 **MCDS E-invoice Status:** | 
 'Transmitted' | Indicates invoice has been received by the e-invoice operator for delivering to the buyer.
 
-To investigate status updates in more detail (for troubleshooting) open document **Activity Log**. To see the techical details of the particular communication log entry, you can click **View Details**.
+To investigate status updates in more detail e.g. for troubleshooting, open **Activity Log** for the document. To see technical details of the particular communication entry in the log, you can click **View Details**.

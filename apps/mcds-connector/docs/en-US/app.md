@@ -20,4 +20,4 @@ Estonia
 
 ### Contact information
 For more information please contact BCS Itera AS:  
-[http://www.bcsitera.ee](http://www.bcsitera.ee)
+[https://www.bcsitera.ee](https://www.bcsitera.ee)

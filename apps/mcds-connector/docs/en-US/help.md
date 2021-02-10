@@ -1,16 +1,14 @@
 # MCDS Connector - User Guide
 
-MCDS (My Company Data Service) Connector allows to issue business transactions in XBRLGL format. Transactions can be issued to file or directly to the MCDS.
+MCDS (My Company Data Service) Connector allows you to issue business transactions in XBRLGL format. Transactions can be issued to a file or directly to the MCDS.
 
 MCDS is a service that stores company's business transactions in XBRGL format and allows to forward transactions to justified parties.
 
 Currently two types of transactions and parties are supported:
- - Sales Transactions which can be forwarded to e-invoice operator
- - Payroll Transactions which can be forwarded for reporting to Estonian Statistics
+ - Sales transactions which can be forwarded to e-invoice operator
+ - Payroll transactions which can be forwarded for reporting to Estonian Statistics
 
 ## Table of Contents
-- [MCDS Connector - User Guide](#mcds-connector---user-guide)
-  - [Table of Contents](#table-of-contents)
   - [Setup](#setup)
     - [MCDS Connector](#mcds-connector)
     - [Electronic Document Formats](#electronic-document-formats)
@@ -23,15 +21,18 @@ Currently two types of transactions and parties are supported:
 ## Setup
 ### MCDS Connector
 To enable MCDS connection, open MCDS Connector and fill in the following with information provided to you by MCDS operator:
+
 Field | Description
 -- | --
 Service URL | 
 Device Certificate Filename | upload the certificate file provided by MCDS operator
 Device Certificate Password | 
+
 Click **Test Connection** to validate connectivity.
 
 ### Electronic Document Formats
 To enbale XBRLGL as format open **Electronic Document Formats** and ensure that following format has been setup:
+
 Field | Value
 -- | --
 Code | MCDS-XBRLGL
@@ -42,12 +43,14 @@ Delivery Codeunit ID | 70466927
 
 ### Document Sending Profiles
 To prepare MCDS as a document sending profile for the customers open **Document Sending Profiles** and create new profile as following:
+
 Field | Value
 -- | --
 Code | MCDS
 Description | My Company Data Service
 Electronic Document | Through Document Exchange Service
 Format | MCDS-XBRLGL
+
 Assign this profile to the customers who's sales documents should be sent to MCDS.
 
 ### G/L Accounts
@@ -66,6 +69,7 @@ Field | Value | Usage
 Disk | Electronic Document | to save to file
 Electronic Document | Through Document Exchange Service | to send to MCDS
 Format | MCDS-XBRLGL | 
+
 Click **OK** to send the document.
 
 In case of MCDS, if sending was successful, field **MCDS Status** gets value 'Validation' indicating that MCDS has received the document and it is being validated against the XBRLGL schema and MCDS business rules.
@@ -82,4 +86,5 @@ Field/Value | Description
 'Not Valid' | Transaction is invalid and not stored in MCDS.
 **MCDS E-invoice Status:** | 
 'Transmitted' | Indicates invoice has been received by the e-invoice operator for delivering to the buyer.
+
 To investigate status updates in more detail (for troubleshooting) open document **Activity Log**. To see the techical details of the particular communication log entry, you can click **View Details**.

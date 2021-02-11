@@ -17,7 +17,7 @@ Estonia
 ---
 
 [User Guide](help.md)  
-[Extension Download](https://github.com/bcsitera/bcsitera.github.io/tree/master/apps/mcds-connector/artifacts)  
+[Extension Download](https://github.com/bcsitera/bcsitera.github.io/tree/master/apps/mcds-connector/release)  
 
 ### Contact information
 For more information please contact BCS Itera AS:  

@@ -26,7 +26,7 @@ Sektsioonis **Dimensioonid** määratleme lahenduse toimimiseks vajalikud dimens
 | Rahavoo dimensiooni tähis | Dimensiooni tähis, mis vastab dimensioonile **Rahavoog**. |
 | Tingimuslik rahavoo dimensiooni väärtus | Määrab rahavoogude dimensiooni väärtuse (tavaliselt **01**), mis käivitab saldoandmiku koostamisel tingimusliku rahavoogude loogika lähtuvalt Riigi kontoplaani määratlustest. |
 
-Lisainfot võimalike dimensiooniväärtuste osas saab <a href="https://saldo.fin.ee/" target="_blank">Saldoandmike infosüsteemist</a>.
+Lisainfot võimalike dimensiooniväärtuste osas saab <a href="https://saldo.rtk.ee/saldo-app/" target="_blank">Saldoandmike infosüsteemist</a>.
 <br><br>
 
 Sektsioonis **Üldine** määratletakse :

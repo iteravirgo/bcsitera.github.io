@@ -27,7 +27,7 @@ In **section Dimensions** we specify dimensions necessary for solution:
 | Cashflow Dimension Code | Dimension code for the dimension that is used for **Cashflow**.|
 | Conditional Cashflow Dimension Value | Specific dimension value from Cashflow dimension values. Used for conditional logic when creating State Balance Report lines. Usually value is **01**.|
 
-For more information on possible dimension values please visit <a href="https://saldo.fin.ee/" target="_blank">State Balance Reports Information System</a>
+For more information on possible dimension values please visit <a href="https://saldo.rtk.ee/saldo-app/" target="_blank">State Balance Reports Information System</a>
 <br><br>
 
 In **section General** we specify :

@@ -54,6 +54,11 @@ To test, if the connection is correct, press the button – Test connection.
 
 **NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
 
+### Setup sales invoices number series
+
+**NB!** It is important that Sales invoices and Posted sales invoices use different number series.
+
+
 ### Setup accounting codes in Moderan
 
 In addition to mapping customers, services should be mapped. To do so, setup accounting codes in Moderan.

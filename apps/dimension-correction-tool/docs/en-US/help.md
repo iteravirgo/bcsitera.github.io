@@ -9,7 +9,7 @@ This functionality enables to modify dimension information in **posted**:
 *   Bank Ledger Entries
 *   Job Ledger Entries
 *   Fixed Assets Ledger Entries
-*   Analysis View Entries
+*   Analysis View Entries (only if Date Compression is specified to None on Analysis view card)
 *   Sales Invoice Header
 
 ##  How to Use

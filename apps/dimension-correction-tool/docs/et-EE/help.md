@@ -11,7 +11,7 @@ Dimensiooni parandaja lisab Business Central-i dimensiooni muutmise funktsionaal
 *   Pangakonto kanded
 *   Projekti kanded
 *   Põhivara kanded
-*   Analüüsivaate kanded
+*   Analüüsivaate kanded (ainult juhul kui Analüüsivaate kaardil on Kuupäevatihendus valikuks Pole)
 *   Müügiarve kanded
 
 ## Kuidas kasutada dimensiooni parandajat

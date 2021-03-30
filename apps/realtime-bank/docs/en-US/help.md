@@ -37,14 +37,14 @@ To get bank messages press the button Get New Bank Messages or setup Job Queue E
 
 The process imports new bank statements to the page Incoming Bank Messages. This page is opened with filters: Source and Status.
 
-Use the “Show all Entries” to see all entries.
+Use the “Show all Messages” to see all entries.
 
 ### Import bank statement manually
 
 You can manually import the bank statement file on the _Incoming Bank Messages_ page by clicking the _Import From File_ button. The entry is in the _Received_ status.
 
 To process the file click _Process_ button.  
-Then click Show All Entries and choose line.  
+Then click "Show All Messages" and choose the line.  
 You see the status – Processed and No. of Saved Transactions.  
 By pressing this number it is possible to go to the Bank Account Transactions.
 

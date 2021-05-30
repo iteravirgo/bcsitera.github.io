@@ -82,13 +82,15 @@ Kui tehingupartneri id valitakse, siis lahendus lisab vastava tehingupartneri ko
 <br><br>
 
 ### Pangakontod
-Kasutaja peaks igale pangakontole **määratlema Konstantne riigi TP dimensioon väärtuse**. Seda saab teha pangakonto kaardil. *Nii toimides **puudub vajadus pangakontole vaikedimensiooni määramiseks**.*<br>
-Määratlust kasutatakse riigi saldoandmiku koostamisel, kui riigi kontoplaanis on märgitud väli "Kasuta konstantset pangakonto TP dimensiooni pangakonto kaardilt".<br>
-***Märkus!** Kui väli Konstantne riigi TP dimensioon on kasutusel, siis tuleks vastavalt PR kontolt (leitav pangakonto konteeringurühma kaudu) eemaldada Tähis kohustuslik vaikedimensiooni nõue Tehingupartneri dimensiooni osas.*
-<br><br>
-**Kajasta makseandmikus** määrab kas pangakontolt toimunud maksed võetakse arvesse riigi makseandmiku koostamisel.
-<br><br>
+Kasutaja peaks igale pangakontole **määratlema Konstantne riigi TP dimensioon väärtuse**. Seda saab teha pangakonto kaardil. *Nii toimides **puudub vajadus pangakontole vaikedimensiooni määramiseks**.*  <br>
+Määratlust kasutatakse riigi saldoandmiku koostamisel, kui riigi kontoplaanis on märgitud väli "Kasuta konstantset pangakonto TP dimensiooni pangakonto kaardilt".<br>  
 
+**Märkus!Kui väli Konstantne riigi TP dimensioon on kasutusel, siis tuleks vastavalt PR kontolt (leitav pangakonto konteeringurühma kaudu) eemaldada Tähis kohustuslik vaikedimensiooni nõue Tehingupartneri dimensiooni osas.**
+
+<br>
+**Kajasta makseandmikus** määrab kas pangakontolt toimunud maksed võetakse arvesse riigi makseandmiku koostamisel.
+
+<br><br>
 
 ## Kasutamine
 ### Pearaamatu kanded

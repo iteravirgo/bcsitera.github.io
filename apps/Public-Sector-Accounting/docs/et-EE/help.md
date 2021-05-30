@@ -31,17 +31,18 @@ Sektsioonis **Dimensioonid** määratleme lahenduse toimimiseks vajalikud dimens
 Lisainfot võimalike dimensiooniväärtuste osas saab <a href="https://saldo.rtk.ee/saldo-app/" target="_blank">Saldoandmike infosüsteemist</a>.
 <br><br>
 
-Sektsioonis **Üldine** määratletakse :
+Sektsioonis **Üldine** määratletakse:
 
 |Väli|Selgitus|
 |---|---| 
-| Tehingupartnerite numbrid | Määrab **tehingupartnerite** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
-| Riigi saldoandmiku numbrid | Määrab **saldoandmike** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
-| Riigi makseandmiku numbrid | Määrab **makseandmike** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**. <br>*(Nähtaval ainult juhul, kui ettevõtte tehingupartneri kood on määramata või kui tehingupartneri kood algab numbritega 0 kuni 6 ja neljas number on null kuni 3)*|
-| Ettevõtte tehingupartneri kood | Määrab **ettevõtte enda tehingupartneri koodi**i, mida kasutatakse saldoandmiku XML failis.<br> *(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)*|
-| Ettevõtte tegevusala kood | Määrab **ettevõtte enda tegevusala kood**i. Siin määratud väärtus lisatakse automaatselt vastavale PR kontole, kus Tegevusala dimensioon on nõutud, vaikedimensiooni väärtuseks. <br>*(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)*|
-| Eemalda makseandmikust TP | Määrab **makseandmikust välistatud tehingupartnerid**. Näiteks maksuameti ja eraisikute välistamiseks tuleks sisestada 014001 ning 800699 püstkriipsuga eraldatuna.<br>*(Nähtaval ainult juhul, kui ettevõtte tehingupartneri kood on määramata või kui tehingupartneri kood algab numbritega 0 kuni 6 ja neljas number on null kuni 3)*|
-| Kajasta makseandmikus maksed summast | Määrab **summa, millest alates kajastub makse makseandmikus**. Tavaliselt on väärtuseks 100 <br>*(Nähtaval ainult juhul, kui ettevõtte tehingupartneri kood on määramata või kui tehingupartneri kood algab numbritega 0 kuni 6 ja neljas number on null kuni 3)*|
+| Tehingupartnerite numbrid | Määrab **tehingupartnerite** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**. |
+| Riigi saldoandmiku numbrid | Määrab **saldoandmike** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**. |
+| Riigi makseandmiku numbrid | Määrab **makseandmike** numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**. <br>*(Nähtaval ainult juhul, kui ettevõtte tehingupartneri kood on määramata või kui tehingupartneri kood algab numbritega 0 kuni 6 ja neljas number on null kuni 3)* |
+| Ettevõtte tehingupartneri kood | Määrab **ettevõtte enda tehingupartneri koodi**i, mida kasutatakse saldoandmiku XML failis.<br> *(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)* |
+| Ettevõtte tegevusala kood | Määrab **ettevõtte enda tegevusala kood**i. Siin määratud väärtus lisatakse automaatselt vastavale PR kontole, kus Tegevusala dimensioon on nõutud, vaikedimensiooni väärtuseks. <br>*(Kui sobivat väärtust ei ole valikus, siis tuleb vastav dimensiooniväärtus tehingupartneri dimensiooniväärtustesse lisada.)* |
+| Eemalda makseandmikust TP | Määrab **makseandmikust välistatud tehingupartnerid**. Näiteks maksuameti ja eraisikute välistamiseks tuleks sisestada 014001 ning 800699 püstkriipsuga eraldatuna. <br>*(Nähtaval ainult juhul, kui ettevõtte tehingupartneri kood on määramata või kui tehingupartneri kood algab numbritega 0 kuni 6 ja neljas number on null kuni 3)* |
+| Kajasta makseandmikus maksed summast | Määrab **summa, millest alates kajastub makse makseandmikus**. Tavaliselt on väärtuseks 100 <br>*(Nähtaval ainult juhul, kui ettevõtte tehingupartneri kood on määramata või kui tehingupartneri kood algab numbritega 0 kuni 6 ja neljas number on null kuni 3)* |
+
 <br><br>
 
 ### Riigi kontod

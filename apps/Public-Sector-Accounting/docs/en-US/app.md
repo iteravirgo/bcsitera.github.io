@@ -9,6 +9,11 @@ Management of State Balance Reports
 - Track, check and correct balance report contents line by line
 <br><br>
 
+Management of State Payment Reports
+- Creating and saving State Payment Reports
+- Submitting a State Payment Report as XML file to State Balance Reports Information System
+<br><br>
+
 Management of State G/L Accounts
 - Specifiyng corresponding State G/L Accounts to every General Ledger Account
 - Automatic checking for mandatory transaction information (Transaction Partner, Business Activity, Source, Cashflow)

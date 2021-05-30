@@ -1,5 +1,5 @@
 # Avaliku sektori finantsarvestuse lahendus
-Avaliku sektori finantsarvestuse lahendus võimaldab süsteemist väljastada riigile esitatava saldoandmiku Microsoft Dynamics 365 Business Central tarkvara abil.
+Avaliku sektori finantsarvestuse lahendus võimaldab süsteemist väljastada riigile esitatava saldoandmiku ning makseandmiku Microsoft Dynamics 365 Business Central tarkvara abil.
 <br><br>
 
 ### Lahendus võimaldab:
@@ -7,6 +7,11 @@ Riigi saldoandmike haldust
 - Loo ja salvesta saldoandmikke
 - Esita saldoandmik XML faili abil riigi saldoandmike infosüsteemis
 - Kontrolli ja korrigeeri saldoandmikku rida-realt
+<br><br>
+
+Riigi makseandmike haldust
+- Loo ja salvesta makseandmikke
+- Esita makseandmik XML faili abil riigi saldoandmike infosüsteemis
 <br><br>
 
 Riigi kontode haldust

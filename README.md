@@ -1,6 +1,6 @@
 ### Apps for Financial Managament
 [Realtime Bank](apps/realtime-bank/docs/en-US/app.md)  
-[Contract Management](apps/contract-management/docs/en-us/app.md)  
+[Contract Management](apps/contract-management/docs/en-US/app.md)  
 [Expense Reports](apps/expense-reports/docs/en-US/app.md)  
 [Dimension Correction Tool](apps/dimension-correction-tool/docs/en-US/app.md)  
 [Factoring](apps/factoring/docs/en-US/app.md)  

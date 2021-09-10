@@ -39,10 +39,11 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 |---|---|
 | Customer API* |Production or Development|  
 |Authorization Key*|Moderan authorization key from Moderan Admin -> Integrations| 
-|Registration No. Field*|Please choose which field is a Registration No. in the Customer table| 
 |Moderan Account No. *|Customer account number in Moderan (ask from Moderan)|
-|Customer Registration No. Field |Customer Business Registration No. Field|
+|Customer Registration No. Field |Choose which field is a Customer Business Registration No. in the Customer table|
 |Create Customer Using Moderan No. |Yes - Use Moderna registration No. when creating new Customer. No - use Busines Central No.series|
+|Vendor Registration No. Field |Choose which field is a Vendor Business Registration No. in the Vendor table|
+|Create Vendor Using Moderan No. |Yes - Use Moderna registration No. when creating new Vendor. No - use Busines Central No.series|
 |Invoice Add. Into Field *|Please choose which field is for a Reference No in the Sales Invoice Header table|  
 
 

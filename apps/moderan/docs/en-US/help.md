@@ -56,13 +56,15 @@ To test, if the connection is correct, press the button – Test connection.
  <br/>
 
 ### Organisation Types
-Here is possible to add different Moderan organistions codes which are used for Customer or for Vendor.
+Here is possible to add different Moderan organistions codes which are used for Customer import or for Vendor import.
 Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
+
 
 
 ### Setup customers
 
 **NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
+
 
 
 ### Setup Sales invoices number series
@@ -81,17 +83,17 @@ For example – G/L Account:6115:RENT
 
  <br/>
 
-## How to Get Customers from Moderan
+## How to Get Customers or Vendors from Moderan
 
-To get customers from Moderan, run action **Moderan – Get Customers**. Existing (mapped) customers will be updated, and new customers (who have a Registration No in Moderan) created.
+To get customers or vendors from Moderan, run action **Moderan – Get Customers/Vendors**. Existing (mapped) customers or vendors will be updated, and new customers or vendors (who have a Registration No in Moderan) created.
 
-The customers who do not have a Registration No. will be skipped.
+The customers or vendors who do not have a Registration No. will be skipped.
 
 If the customer has English as the invoicing language, the Language code is also displayed on the BC customer card.
 
-If new customers were created, review customer cards and fill in missing data like **Posting Groups**.
+If new customers or vendors were created, review customer or vendor cards and fill in missing data like **Posting Groups**.
 
-**Moderan – Get Customers** can be setup to run automatically by using **Job Queue** functionality.
+**Moderan – Get Customers/Vendors** can be setup to run automatically by using **Job Queue** functionality.
 
 To do so, open **Job Queue Entries** and create new entry as:
 

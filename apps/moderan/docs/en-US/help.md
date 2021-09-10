@@ -1,7 +1,7 @@
 # Moderan for Business Central User Guide
 
 Moderan Interface enables the following:
-- Get Customers from Moderan
+- Get Customers or Vendors from Moderan
 - Get Invoices from Moderan
 - Send Customer Balances to Moderan
 

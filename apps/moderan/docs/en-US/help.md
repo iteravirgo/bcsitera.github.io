@@ -144,6 +144,7 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 ![GetInvoices](GetInvoices.png)
 
 After successful import, open **Sales Invoices.** Review, post and issue invoices. 
+Separate invoices can be issued for one tenant if they are entered in Moderan as separate agreements.
 
 
 If you run action **Moderan – Get Invoices** more than once for the same period and invoice type, then the following logic will apply:

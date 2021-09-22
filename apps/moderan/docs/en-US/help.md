@@ -11,6 +11,7 @@ Moderan Interface enables the following:
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)
   - [Setup customers](#setup-customers) 
+  - [Setup dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
   - [Setup accounting codes in Moderan](#setup-accounting-codes-in-moderan) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 

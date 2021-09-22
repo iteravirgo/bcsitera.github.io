@@ -11,6 +11,7 @@ Moderan Interface enables the following:
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)
   - [Setup customers](#setup-customers) 
+  - [Setup Sales invoices number series](#setup-sales-invoices-number-series)
   - [Setup dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
   - [Setup Payment Terms Code in Moderan and BC](#setup-payment-terms-code-in-Moderan-and-BC)
   - [Setup Accounting Codes in Moderan](#setup-accounting-codes-in-moderan) 

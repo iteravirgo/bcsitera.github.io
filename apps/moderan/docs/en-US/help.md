@@ -12,7 +12,7 @@ Moderan Interface enables the following:
   - [Setup API ](#setup-api)
   - [Setup customers](#setup-customers) 
   - [Setup Sales invoices number series](#setup-sales-invoices-number-series)
-  - [Setup dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
+  - [Setup Dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
   - [Setup Payment Terms Code in Moderan and BC](#setup-payment-terms-code-in-Moderan-and-BC)
   - [Setup Accounting Codes in Moderan](#setup-accounting-codes-in-moderan) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
@@ -79,7 +79,7 @@ Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
 **NB!** It is important that Sales invoices and Posted sales invoices use different number series.
 
 
-### Setup dimensions in Moderan and BC
+### Setup Dimensions in Moderan and BC
 To use dimensions, add the Accounting Code in the Moderan building card, in format: "Dimension:Dimension Value". 
 
 For example: DEPARTMENT:MAIN.

@@ -12,6 +12,7 @@ Moderan Interface enables the following:
   - [Setup API ](#setup-api)
   - [Setup customers](#setup-customers) 
   - [Setup dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
+  - [Setup Payment Terms Code in Moderan and BC](#setup-payment-terms-code-in-Moderan-and-BC)
   - [Setup accounting codes in Moderan](#setup-accounting-codes-in-moderan) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
@@ -80,6 +81,10 @@ Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
 ### Setup dimensions in Moderan and BC
 To use dimensions, add the Accounting Code of the Moderan building, in the form: DIMENSION:DIMENSIONVALUE. For example: DEPARTMENT:MAIN.
 The same dimension and dimension value must be described in BC.
+
+
+### Setup Payment Terms Code in Moderan and BC
+Describe the same Payment Terms Codes in Moderan and in BC.
 
 
 ### Setup accounting codes in Moderan

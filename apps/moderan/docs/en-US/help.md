@@ -13,7 +13,7 @@ Moderan Interface enables the following:
   - [Setup customers](#setup-customers) 
   - [Setup dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
   - [Setup Payment Terms Code in Moderan and BC](#setup-payment-terms-code-in-Moderan-and-BC)
-  - [Setup accounting codes in Moderan](#setup-accounting-codes-in-moderan) 
+  - [Setup Accounting Codes in Moderan](#setup-accounting-codes-in-moderan) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
   - [Periodization of Invoices](#periodization-of-invoices) 
@@ -79,15 +79,20 @@ Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
 
 
 ### Setup dimensions in Moderan and BC
-To use dimensions, add the Accounting Code of the Moderan building, in the form: DIMENSION:DIMENSIONVALUE. For example: DEPARTMENT:MAIN.
-The same dimension and dimension value must be described in BC.
+To use dimensions, add the Accounting Code in the Moderan building card, in format: "Dimension:Dimension Value". 
+
+For example: DEPARTMENT:MAIN.
+The same dimension and dimension value must be set up in BC.
 
 
 ### Setup Payment Terms Code in Moderan and BC
 Describe the same Payment Terms Codes in Moderan and in BC.
 
+For example: 10 DAYS
+If the Payment Terms codes ar the same in BC and in the Moderan contract, the Invoice Due Date will be calculated based on this code.
 
-### Setup accounting codes in Moderan
+
+### Setup Accounting Codes in Moderan
 
 In addition to mapping customers, services should be mapped. To do so, setup accounting codes in Moderan.
 
@@ -137,10 +142,8 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 
 ![GetInvoices](GetInvoices.png)
 
-After successful import, open **Sales Invoices.** Review, post and issue invoices.
+After successful import, open **Sales Invoices.** Review, post and issue invoices. 
 
-
-If the Payment Terms code is the same in BC and in the Moderan contract, the Invoice Due Date will be calculated based on this code.
 
 If you run action **Moderan – Get Invoices** more than once for the same period and invoice type, then the following logic will apply:
 

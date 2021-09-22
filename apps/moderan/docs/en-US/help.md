@@ -76,6 +76,10 @@ Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
 **NB!** It is important that Sales invoices and Posted sales invoices use different number series.
 
 
+### Setup dimensions in Moderan and BC
+To use dimensions, add the Accounting Code of the Moderan building, in the form: DIMENSION:DIMENSIONVALUE. For example: DEPARTMENT:MAIN.
+The same dimension and dimension value must be described in BC.
+
 
 ### Setup accounting codes in Moderan
 
@@ -124,9 +128,11 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 |Invoice Type*|Choose **Rent** or **Costs** |  
 |Cost Optional Filters*|Choose Distribution Sets |
 
+
 ![GetInvoices](GetInvoices.png)
 
 After successful import, open **Sales Invoices.** Review, post and issue invoices.
+
 
 If the Payment Terms code is the same in BC and in the Moderan contract, the Invoice Due Date will be calculated based on this code.
 

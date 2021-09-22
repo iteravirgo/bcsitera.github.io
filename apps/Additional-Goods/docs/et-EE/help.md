@@ -8,7 +8,9 @@ Kaasnevate kaupade lahendus BC-s võimaldab järgmist:
 ## Seadistamine
 Lahenduse kasutamiseks tuleb esmalt avada **Kaasnevate kaupade seadistus** ning täita järgmised väljad:
 
-### Alampeatükk
+### Seadistused Müügi- ja müügivõlgades
+
+Tekst siia.
 
 |Väli|Selgitus|
 |---|---| 
@@ -17,9 +19,35 @@ Lahenduse kasutamiseks tuleb esmalt avada **Kaasnevate kaupade seadistus** ning 
 
 Teksti siia.   
 
+### Seadistused Kliendikaardil
+
+Teksti siia.
+
+|Väli|Selgitus|
+|---|---| 
+| Esimene väli | Selgitus |
+| Teine väli | Selgitus |
+
+### Seadistused Kaubakaardil
+
+Teksti siia.
+
+|Väli|Selgitus|
+|---|---| 
+| Esimene väli | Selgitus |
+| Teine väli | Selgitus |
+
+### Lisa seadistused kliendispetsiifiliste koguste kohta
+
+Teksti siia.
+
+|Väli|Selgitus|
+|---|---| 
+| Esimene väli | Selgitus |
+| Teine väli | Selgitus |
 
 ## Kasutamine
-### Alampeatükk
+### Müügitellimus
 
 Teksti siia
 

@@ -8,6 +8,8 @@ Kaasnevate kaupade lahendus BC-s võimaldab järgmist:
 ## Seadistamine
 Lahenduse kasutamiseks tuleb esmalt avada **Kaasnevate kaupade seadistus** ning täita järgmised väljad:
 
+### Alampeatükk
+
 |Väli|Selgitus|
 |---|---| 
 | Esimene väli | Selgitus |

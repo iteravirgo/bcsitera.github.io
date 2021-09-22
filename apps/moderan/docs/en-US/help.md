@@ -93,9 +93,9 @@ To get customers or vendors from Moderan, run action **Moderan – Get Customers
 
 The customers or vendors who do not have a Registration No. will be skipped.
 
-If the customer has English as the invoicing language, the Language code is also displayed on the BC customer card.
+If the customer has English as the invoicing language in Moderan, the Language code is also displayed on the BC customer card.
 
-If new customers or vendors were created, review customer or vendor cards and fill in missing data like **Posting Groups**.
+When new customers or vendors were created, review customer or vendor cards and fill in missing data like **Posting Groups**.
 
 **Moderan – Get Customers/Vendors** can be setup to run automatically by using **Job Queue** functionality.
 
@@ -109,15 +109,17 @@ To do so, open **Job Queue Entries** and create new entry as:
 
  <br/>
 
+
 ## How to Get Invoices from Moderan
 
 To get invoices from Moderan, run action **Moderan – Get Invoices** and fill in the parameters as following:
 
 |Field|Description|
 |-|-|
-|Period Start*|Choose period for which invoices will be retrieved|  
+|Period Start*|Choose period from which invoices will be retrieved|  
 |Posting Date*|Enter Posting Date for the invoices|  
 |Document Date*|Enter Document Date for the invoices|  
+|Payment Terms Code*|Select Payment Terms Code. This applies to invoices that do not have a payment term specified in Moderan|
 |Customer Filter|If set, invoices of other customers will be skipped|  
 |Invoice Type*|Choose **Rent**|  
 

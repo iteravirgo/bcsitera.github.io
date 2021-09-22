@@ -61,7 +61,9 @@ To test, if the connection is correct, press the button – Test connection.
 Here is possible to add different Moderan organistions codes which are used for Customer import or for Vendor import.
 Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
 
+![OrganisationTypes](OrganisationTypes.png)
 
+<br/>
 
 ### Setup customers
 

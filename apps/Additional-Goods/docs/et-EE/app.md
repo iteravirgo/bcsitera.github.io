@@ -1,4 +1,4 @@
-# Kasnevad kaubad
+# Kaasnevad kaubad
 Kaasnevate kaupade lahendus Microsoft Dynamics 365 Business Central tarbeks.
 
 ## Lahendus hõlmab:

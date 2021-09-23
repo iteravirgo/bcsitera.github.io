@@ -12,12 +12,17 @@ Lahenduse kasutamiseks tuleb esmalt avada **Kaasnevate kaupade seadistus** ning 
 
 Tekst siia.
 
-|Väli|Selgitus|
+|Lisakauba arvutamine|Selgitus|
 |---|---| 
-| Esimene väli | Selgitus |
-| Teine väli | Selgitus |
+| Lisa iga toote järel | Tootega kaasnevad kaubad lisatakse iga kord peale toodet uute ridadena |
+| Kokkuvõte lõpus | Tootega kaasnevad kaubad summeeritakse kokku müügitellimuse ridade lõppu |
 
 Teksti siia.   
+
+|Pandi arvutamine|Selgitus|
+|---|---| 
+| Lisa iga toote järel | Pant lisatakse iga toote järel uue reana |
+| Kokkuvõte lõpus | Pant arvutatakse kokku müügitellimuse ridade lõppu |
 
 ### Seadistused Kliendikaardil
 

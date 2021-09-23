@@ -24,6 +24,10 @@ Teksti siia.
 | Lisa iga toote järel | Pant lisatakse iga toote järel uue reana |
 | Kokkuvõte lõpus | Pant arvutatakse kokku müügitellimuse ridade lõppu |
 
+Lisaks on võimalik sisse lülitada millistel dokumentidel funktsionaalsust kasutada saab.<br>
+Arvuta müügitellimusel - funktsionaalsus lülitatakse sisse müügitellimustel <br>
+Arvuta müügiarvel - funktsionaalsus lülitatakse sisse müügiarvetel <br>
+
 ### Seadistused Kliendikaardil
 
 Teksti siia.

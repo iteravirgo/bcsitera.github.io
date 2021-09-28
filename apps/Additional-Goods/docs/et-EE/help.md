@@ -9,23 +9,23 @@ Lahenduse kasutamiseks tuleb esmalt teha seadistused. Seadistused võivad olla �
 
 ### Seadistused Müügi- ja müügivõlgades
 
-Kui ettevõttel on kliente kellele kellele kaasnevate kaupade kaasamine müügitellimusele toimub ühesuguselt siis on kõige mõistlikum alustuseks luua üldine seadistus ** Müügi- ja müügivõlgade ** lehel. Võimalikud seadistused on on lisatud kiirkaardile ** Kaasnevad kaubad **, kus kaasnevate kaupade ja pandi lisamis saab reguleerida eraldi.
+Kui ettevõttel on kliente kellele kellele kaasnevate kaupade kaasamine müügitellimusele toimub ühesuguselt siis on kõige mõistlikum alustuseks luua üldine seadistus **Müügi- ja müügivõlgade** lehel. Võimalikud seadistused on on lisatud kiirkaardile **Kaasnevad kaubad**, kus kaasnevate kaupade ja pandi lisamist tuleb reguleerida eraldi.
 
 |Lisakauba arvutamine|Selgitus|
 |---|---| 
 | Lisa iga toote järel | Tootega kaasnevad kaubad lisatakse iga kord peale müüdavat toodet uute ridadena |
 | Kokkuvõte lõpus | Tootega kaasnevad kaubad summeeritakse kokku müügitellimuse lõppu uute ridadena |
 
-Teksti siia.   
+Pandiga kaupadele saab teha seadistused järgnevalt:   
 
 |Pandi arvutamine|Selgitus|
 |---|---| 
-| Lisa iga toote järel | Pant lisatakse iga toote järel uue reana |
-| Kokkuvõte lõpus | Pant arvutatakse kokku müügitellimuse ridade lõppu |
+| Lisa iga toote järel | Pant lisatakse iga pandiga toote järel uue reana |
+| Kokkuvõte lõpus | Pant arvutatakse kokku müügitellimuse ridade lõppu iga pandi kood eraldi |
 
 Lisaks on võimalik sisse lülitada millistel dokumentidel funktsionaalsust kasutada saab.<br>
-Arvuta müügitellimusel - funktsionaalsus lülitatakse sisse müügitellimustel <br>
-Arvuta müügiarvel - funktsionaalsus lülitatakse sisse müügiarvetel <br>
+**Arvuta müügitellimusel** - funktsionaalsus lülitatakse sisse müügitellimustel <br>
+**Arvuta müügiarvel** - funktsionaalsus lülitatakse sisse müügiarvetel <br>
 
 ### Seadistused Kliendikaardil
 

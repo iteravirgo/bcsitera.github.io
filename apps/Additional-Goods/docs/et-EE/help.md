@@ -29,12 +29,25 @@ Lisaks on võimalik sisse lülitada millistel dokumentidel funktsionaalsust kasu
 
 ### Seadistused Kliendikaardil
 
-Teksti siia.
+Kui aga peaks juhtuma, et konkreetsele kliendile on vaja nendekohaseid seadistusi, mis erinevad üldisest seadistusest, siis saab seda teha kliendikaardi kiirkaardilt **Lähetamine** allpool toodud väljadel:
 
-|Väli|Selgitus|
+|Lisakauba arvutamine|Selgitus|
 |---|---| 
-| Esimene väli | Selgitus |
-| Teine väli | Selgitus |
+| <tühi> | Kaasnevate kaupade lisamine võetakse üldisest seadistusest |
+| Ei arvuta | Kaasnevaid kaupasid sellele kliendile ei arvutata |
+| Lisa iga toote järel | Tootega kaasnevad kaubad lisatakse iga kord peale müüdavat toodet uute ridadena |
+| Kokkuvõte lõpus | Tootega kaasnevad kaubad summeeritakse kokku müügitellimuse lõppu uute ridadena |
+
+Ja pandi arvutamisel:
+
+|Pandi arvutamine|Selgitus|
+|---|---| 
+| <tühi> | Pandi lisamine võetakse üldisest seadistusest |
+| Pant e-tellimusel | Pant imporditakse müügitellimusele läbi EDI faili, lisa pandi arvutamist ei toimu |
+| Ei arvuta | Panti sellele kliendile ei arvutata |
+| Lisa iga toote järel | Pant lisatakse iga pandiga toote järel uue reana |
+| Kokkuvõte lõpus | Pant arvutatakse kokku müügitellimuse ridade lõppu iga pandi kood eraldi |
+
 
 ### Seadistused Kaubakaardil
 

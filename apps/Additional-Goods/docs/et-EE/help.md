@@ -1,21 +1,20 @@
 # Kaasnevad kaubad
-Kaasnevate kaupade lahendus BC-s võimaldab järgmist:
-
-- Funktsioon 1
-- Teine
-- Kolmas
+Kaasnevate kaupade lahendus võimaldab:
+* seadistada põhikaupade müümisel nendega koos välja minevad abi tooted
+* seadistada põhikaupade müümisel pandi lisamist müügitellimuse ridadele
+* 
 
 ## Seadistamine
-Lahenduse kasutamiseks tuleb esmalt avada **Kaasnevate kaupade seadistus** ning täita järgmised väljad:
+Lahenduse kasutamiseks tuleb esmalt teha seadistused. Seadistused võivad olla üldised ja/või kliendipõhised, kus kliendipõhine seadistus on tugevam, kui üldine seadistus.
 
 ### Seadistused Müügi- ja müügivõlgades
 
-Tekst siia.
+Kui ettevõttel on kliente kellele kellele kaasnevate kaupade kaasamine müügitellimusele toimub ühesuguselt siis on kõige mõistlikum alustuseks luua üldine seadistus ** Müügi- ja müügivõlgade ** lehel. Võimalikud seadistused on on lisatud kiirkaardile ** Kaasnevad kaubad **, kus kaasnevate kaupade ja pandi lisamis saab reguleerida eraldi.
 
 |Lisakauba arvutamine|Selgitus|
 |---|---| 
-| Lisa iga toote järel | Tootega kaasnevad kaubad lisatakse iga kord peale toodet uute ridadena |
-| Kokkuvõte lõpus | Tootega kaasnevad kaubad summeeritakse kokku müügitellimuse ridade lõppu |
+| Lisa iga toote järel | Tootega kaasnevad kaubad lisatakse iga kord peale müüdavat toodet uute ridadena |
+| Kokkuvõte lõpus | Tootega kaasnevad kaubad summeeritakse kokku müügitellimuse lõppu uute ridadena |
 
 Teksti siia.   
 

@@ -1,8 +1,8 @@
 # Jobs365 - General
 Projektimooduli täiendused sisaldavad järgenvaid funktsionaalsuseid:
 
-- Jobs budget archives.
-- Projekti eelarve PR eelarvesse saatmine.
+- Archiving Job budgets.
+- Send Job budget to GL budget.
 - Projekti plaanimisridadele Kauba/PR konto/Ressursi massasendmaine.
 - Projekti plaanimisridadele allahindluste ja juurdehindluste massmuutmine.
 

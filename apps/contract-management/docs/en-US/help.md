@@ -5,15 +5,31 @@ Contract management functionality in BC enables the following:
 - Tracking of sales header and sales line amounts by contract number
 - Tracking of purchase header and purchase line amounts by contract number
 - Contract support on Job card for creating job sales invoices
-- Partner and contract support on job planning lines for planning purposes 
+- Partner and contract support on job planning lines for planning purposes
+- Use default dimensions on contracts.
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
 
 |Field|Explanation|
 |---|---| 
-| Contract numbers | For defining contract number series. Value can be chosen from **No. Series List**.|
-| Contract Usage Accounts | Allows to define a GL accounts filter for contract usage calculation. For an example income and expense accounts on which you expect transaction related to contracts. It is advisable to exclude VAT, payables and receivables accounts. You can define specific accounts and/or an accounts range (for an example range 30000..90000).|
+| **_Contract numbers_** | For defining contract number series. Value can be chosen from **No. Series List**.|
+| **_Contract Usage Accounts_** | Allows to define a GL accounts filter for contract usage calculation. For an example income and expense accounts on which you expect transaction related to contracts. It is advisable to exclude VAT, payables and receivables accounts. You can define specific accounts and/or an accounts range (for an example range 30000..90000).|
+|**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
+
+### Contract Categories
+
+Contract categories allow you to define different type of categories in order to divide your contracts into different groups.
+
+<img src="ContManContCategories.png" alt="ContManContCategories" width="800"/>
+
+|Field| Explanation|
+|---|---| 
+| **_Contract Category Code_** | Specifies a category code for the contract.|
+| **_Contract Category Description_** | Decription to define which contracts are categorized to this category|
+|**_Sales, Purchase, Other_**| Sales should be marked if category should be availabele on sales contracts (Type **Sales**), Purchase should be marked if category should be availabele on purchase contracts (Type **Purchase**), Other should be marked if category should be availabele other contracts (Type **Other**).
+|**_No. of Sales Contracts_** and **_No. of Purchase contracts_**| Shows number of Sales/Purchase contracts in that category.|
+
  
 ## Use
 ### Contract management
@@ -28,16 +44,18 @@ An empty **Contract card** opens where you can fill the following fields:
 | Name and Description** | For entering contract and short description.
 | Partner No.* | Allows to choose contract partner from **Contact list**. If contact is related to a **Customer** or **Vendor** then related information will be displayed on **Relations** tab  on fields _Customer No. and Name_ and _Vendor No. and Name_. 
 | Contract Type* | Defines if it is a purchase, sales or other type of contract. Option also defines if that contract can be chosen to Purchase document (**Purchase**) or to Sales document (**Sales**).
-|Main Contract No. | Allows to group contracts under a common value (Main Contract), that can be chosen from **Contract List**. Default value is contract's own number.
+|Main Contract No. | Allows to group contracts under a common value (Main Contract), that can be chosen from **Contract List** filtered by field **Main Contract**. Default value is contract's own number.
+|Main Contract| Allows that contract to be chosen as main contract.
 |External Contract No. | Allows to enter partners contract number.
 | Start and End Dates** | Allows to define validity dates of the contract. Field is informative.
 | Amount** | Allows to enter contract amount, this amount is base for calculating the reminder of the contract.
 | Amount Incl. VAT | Allows to enter contract amount including VAT.
-| Payment Terms | Allows to define agreed payment terms (informative field).
+| Payment Terms | Allows to define agreed payment terms. Value will be transferred to Sales/Purchase header after chosing contract in document header.
+|Salesperson/Purchaser Code| Specifies a code for the salesperson/purchaser who is responsible for the contract. Value will be transferred to Sales/Purchase header after chosing contract in document header.
 | Blocked | Allows to mark contract as Blocked. Contract will no longer be displayed in drop down list on purchase and sales documents, job and job planning lines.
 
 *_Fields that must be filled_
-**_Fields taht are advisable to fill_
+**_Fields that are advisable to fill_
 
 Fields displayed on fast tab **Relations** (Customer No. and Name, Vendor No. and Name) are filled automatically after partner selection. Fields will only be filled if the selected **Contact** is related to **Customer** and/or **Vendor**. If the relation will be created later, then contract must be updated manually by pressing button **Update Customer/Vendor link** on contract card. This updates Contact's relations with Customer and Vendor on contract.
  

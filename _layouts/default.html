@@ -19,6 +19,48 @@
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
+          <!-- NAVIGATION -->          
+          <div style="float: left">
+            {% if page.path contains "et-EE" %}
+              <a href="{{ site.url }}">Laiendused</a>
+            {% endif %}
+            {% if page.path contains "en-US" %}
+              <a href="{{ site.url }}">Extensions</a>
+            {% endif %}
+            {% if page.path contains "fi-FI" %}
+              <a href="{{ site.url }}">Extensions</a>
+            {% endif %}
+
+            {% assign appPage = page.dir | remove_first: '/' | append: 'app.md' %}
+            {% assign helpPage = page.dir | remove_first: '/' | append: 'help.md' %}
+            {% assign whatsnewPage = page.dir | remove_first: '/' | append: 'whatsnew.md' %}
+
+            {% for mypage in site.pages %}
+              {% if mypage.path == helpPage %}
+                {% if page.path contains "et-EE" %}
+                  <a href="{{ mypage.url }}">| Kasutajajuhend</a>
+                {% endif %}
+                {% if page.path contains "en-US" %}
+                  <a href="{{ mypage.url }}">| User Guide</a>
+                {% endif %}
+                {% if page.path contains "fi-FI" %}
+                  <a href="{{ mypage.url }}">| Käyttöohje</a>
+                {% endif %}
+              {% endif %}
+              {% if mypage.path == whatsnewPage %}
+                {% if page.path contains "et-EE" %}
+                  <a href="{{ mypage.url }}">| Mis on uut</a>
+                {% endif %}
+                {% if page.path contains "en-US" %}
+                  <a href="{{ mypage.url }}">| What's new</a>
+                {% endif %}
+                {% if page.path contains "fi-FI" %}
+                  <a href="{{ mypage.url }}">| Mitä uutta</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}          
+          </div>          
+          
           <!-- LANGUAGE SELECTOR -->
           <div style="float: right">
           {% if page.path contains "en-US" %}

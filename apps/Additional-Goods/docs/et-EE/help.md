@@ -48,10 +48,16 @@ Ja pandi arvutamisel:
 | Lisa iga toote järel | Pant lisatakse iga pandiga toote järel uue reana |
 | Kokkuvõte lõpus | Pant arvutatakse kokku müügitellimuse ridade lõppu iga pandi kood eraldi |
 
+### Kaasnevad tooted ja kaubad
+
+Kaasnevad tooted lehele saab luua grupid, mille alla defineeritakse kaasnevad kaubad mis liiguvad alati koos. Siia on võimalik luua lugematul hulgal kombinatsioone.
+Selleks valige lintribal nupp "Uus" > andke grupile Tähis ja Kirjeldus > Kaasnevad kaubad. Avanenud lehel kirjeldage ära millised kaasnevad kaubad antud gruppi kuuluma peavad.
+
+
 
 ### Seadistused Kaubakaardil
 
-Teksti siia.
+Lähetamine kiirkaardil tuleb igale kaubale ära seadistada, millised kaasnevad kaubad temaga kaasa peavad liikuma.
 
 |Väli|Selgitus|
 |---|---| 

@@ -8,6 +8,11 @@ Contract management functionality in BC enables the following:
 - Partner and contract support on job planning lines for planning purposes
 - Use default dimensions on contracts.
 
+## Table of Contents
+  - [Settings](#settings)
+  - [Contract Categories](#contract-categories)
+  - [Use](#use)
+
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
 

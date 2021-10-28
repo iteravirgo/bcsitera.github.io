@@ -18,6 +18,7 @@ Contract management functionality in BC enables the following:
     - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
     - [Contract completion tracking](#contract-completion-tracking)
   - [Billing](#billing)
+    - [Create Contract Invoice Lines (CM)](#Create-Contract-Invoice-Lines-(CM)) 
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
@@ -179,7 +180,7 @@ On **Billing Information** tab you can fill following fields:
 | **_Bill-to Customer No._** | Specifies Bill-To Customer. If not filled in Customer default value will be used on invoice creation.|
 | **_Ship-to Code_** | Specifies Ship-To Code. If not filled in Customer default value will be used on invoice creation.|
 | **_Invoicing Frequency Option_** | Specifies default Invoicing Frequency Option for lines.|
-| **_Invoicing Frequency_** | Specifies default Invoicing Frequency for lines.|
+| **_Invoicing Frequency_** | Specifies default Invoicing Frequency for lines. By default field is not visible.|
 | **_Billing Start Date_** | Specifies default Billing Start Date for lines.|
 | **_End Date First Period_** | Specifies default End Date of the first billing period for lines. For an example this field allows to play with the length of the first period in order to adjust future periods to fit into full months.|
 | **_Billing End Date_** | Specifies default Billing End Date for lines.|
@@ -188,6 +189,27 @@ On **Billing Information** tab you can fill following fields:
 On **Contract Lines** tab you can fill following fields:
 
 <img src="ContManContLinesENG.png" alt="ContManContractLines" width="1000"/>
+
+|Field|Explanation|
+|---|---| 
+| **_Type_** | Allows to specify type. Default value will be taken from **Contract Category**.|
+| **_No._** | Allows to specify No. to be billed. First line default value will be taken from **Contract Category**|
+| **_Description_** | Allows to specify line description.|
+| **_Quantity_** | Allows to specify quantity to be billed.|
+| **_Unit of Measure Code_** | Allows to specify unit of measure to be billed. Field is not visible by default.|
+| **_Unit Price Excl. VAT_** | Allows to specify line unit price to be billed.|
+| **_Line Amount Excl. VAT_** | Displays calculated line amount. Field is not editable.|
+| **_Valid_** | Allows to specify if line is valid or not. Default value is Valid.|
+| **_Add Period Text_** | Allows to specify if new text line with period information will be added after this line when creating invoice information.|
+| **_Invoicing Frequency Option_** | Specifies billing period/frequency for current line. Default value will be taken from **Billing Information** tab.|
+| **_Billing Start Date_** | Allows to specify Billing Start Date for current line.|
+| **_End Date First Period_** | Allows to specify End Date First Period for current line. Default value will be taken from **Billing Information** tab.|
+| **_Next Billing Date_** | Displays **Nexte Billing Date** (next period start date) for current line after [Create Contract Invoice Lines (CM)](#Create-Contract-Invoice-Lines-(CM)) has been run|
+| **_Billing End Date_** | Allows to specify Billing End Date for current line.. Default value will be taken from **Billing Information** tab.|
+
+### Create Contract Invoice Lines (CM)
+It is possible to use contract in Job module on **Job Card** and in **Job Planning Lines**.
+
 
 
 ---

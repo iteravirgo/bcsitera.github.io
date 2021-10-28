@@ -14,9 +14,10 @@ Contract management functionality in BC enables the following:
   - [Settings](#settings)
     - [Contract Categories](#contract-categories)
   - [Use](#use)
-    - [Contract management](#create-contract)
+    - [Create contract](#create-contract)
     - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
     - [Contract completion tracking](#contract-completion-tracking)
+  - [Billing](#billing)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
@@ -28,12 +29,19 @@ To use the functionality, **Contract Setup** must be opened and following fields
 | **_Contract numbers_** | For defining contract number series. Value can be chosen from **No. Series List**.|
 | **_Contract Usage Accounts_** | Allows to define a GL accounts filter for contract usage calculation. For an example income and expense accounts on which you expect transaction related to contracts. It is advisable to exclude VAT, payables and receivables accounts. You can define specific accounts and/or an accounts range (for an example range 30000..90000).|
 |**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
-|**_Show Billing Information_**|Enables Billing Information tab on sales contracts.
 |**_Default Contract Type_**|Specifies default Contract Type for new contracts.
 |**_Def. Contract Category Sales_**|Specifies default Contract Category for sales contracts.
 |**_Def. ContractCategory Purchase_**|Specifies default Contract Category for purchase contracts.
+
+_Billing related setup_
+
+|Field|Explanation|
+|---|---| 
+|**_Show Billing Information_**|Enables Billing Information tab on sales contracts.
 |**_Create Contract Invoice Lines Date Formula_**|Specifies default date formula for Next Billing Date in Create Contract Invoice Lines (CM).
 |**_Create Sales Invoices Date Formula_**|Specifies default date formula for Posting Date in Create Sales Invoices (CM).
+
+----
 
 ### Contract Categories
 
@@ -47,11 +55,17 @@ Contract categories allow you to define different type of categories in order to
 | **_Contract Category Description_** | Decription to define which contracts are categorized to this category|
 |**_Sales, Purchase, Other_**| Sales should be marked if category should be availabele on sales contracts (Type **Sales**), Purchase should be marked if category should be availabele on purchase contracts (Type **Purchase**), Other should be marked if category should be availabele other contracts (Type **Other**).
 |**_No. of Sales Contracts_** and **_No. of Purchase contracts_**| Shows number of Sales/Purchase contracts in that category.|
+
+_Billing related category setup_
+
+|Field|Explanation|
+|---|---| 
 | **_Def. InvoicingFrequency Option_** | Specifies default Invoicing Frequency Option for contracts in this category.|
 | **_Invoicing Frequency"_** | Specifies default Invoicing Frequency for contracts in this category.|
 | **_Default Type_** | Specifies default Type for contract lines for contracts in this category.|
 | **_Default No._** | Specifies default No. for contract lines for contracts in this category.|
 
+---
  
 ## Use
 ### Create contract
@@ -82,6 +96,8 @@ An empty **Contract card** opens where you can fill the following fields:
 **_Fields that are advisable to fill_
 
 Fields displayed on fast tab **Relations** (Customer No. and Name, Vendor No. and Name) are filled automatically after partner selection. Fields will only be filled if the selected **Contact** is related to **Customer** and/or **Vendor**. If the relation will be created later, then contract must be updated manually by pressing button **Update Customer/Vendor link** on contract card. This updates Contact's relations with Customer and Vendor on contract.
+
+---
  
 ### Using contracts on purchase and sales documents
 On sales and purchase document headers you can select appropriate contract from **Contract List** in the field **_Contract No._**. If contract has been selected in the header then it will be automatically transferred to lines. It is possible to change contract number on lines. 
@@ -119,6 +135,7 @@ You can track the completion and reminder of the contract from the **Contract Li
 
 Additionally it is possible to open list of related **General Ledger Entries** by using **Completion entries** button in contract list or on contract card.
  
+ ---
 
 ### Using contracts in Jobs
 It is possible to use contract in Job module on **Job Card** and in **Job Planning Lines**.
@@ -137,6 +154,41 @@ Contract will be transferred to **Sales Invoice** when creating an invoice for a
 Selection of contracts that can be chosen to job planning line is limited with the following:
 - Partner - contracts that are related to selected **_Partner No._** can be used.
 - **Blocked** contracts will be left out.
+
+---
+
+## Billing
+
+You can enter billing information on contract card and then fill in contract lines.
+
+#### _Important_
+
+--- 
+_**Billing Information** tab becomes visible only if it is allowed in **Contract Setup** and on contracts of type **Sales**!_
+
+_**Contract Lines** tab becomes visible after billing information date related fields are filled in and **Add Contract Lines** has been clicked!_
+
+---
+
+On **Billing Information** tab you can fill following fields:
+
+<img src="ContManBillingInfoENG.png" alt="ContManBillingInfo" width="1000"/>
+
+|Field|Explanation|
+|---|---| 
+| **_Bill-to Customer No._** | Specifies Bill-To Customer. If not filled in Customer default value will be used on invoice creation.|
+| **_Ship-to Code_** | Specifies Ship-To Code. If not filled in Customer default value will be used on invoice creation.|
+| **_Invoicing Frequency Option_** | Specifies default Invoicing Frequency Option for lines.|
+| **_Invoicing Frequency_** | Specifies default Invoicing Frequency for lines.|
+| **_Billing Start Date_** | Specifies default Billing Start Date for lines.|
+| **_End Date First Period_** | Specifies default End Date of the first billing period for lines. For an example this field allows to play with the length of the first period in order to adjust future periods to fit into full months.|
+| **_Billing End Date_** | Specifies default Billing End Date for lines.|
+| **_Add Contract Lines_** | Enables **Contract Lines** and inserts first contract line with default values from **Contract Category** and **Billing Information** tab.|
+
+On **Contract Lines** tab you can fill following fields:
+
+<img src="ContManContLinesENG.png" alt="ContManContractLines" width="1000"/>
+
 
 ---
 

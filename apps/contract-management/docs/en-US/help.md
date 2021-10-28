@@ -14,9 +14,9 @@ Contract management functionality in BC enables the following:
   - [Settings](#settings)
     - [Contract Categories](#contract-categories)
   - [Use](#use)
-    - [Contract management](#contract-management)
+    - [Contract management](#create-contract)
     - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
-    - [Contract completion tracking](#Contract-completion-tracking)
+    - [Contract completion tracking](#contract-completion-tracking)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
@@ -47,10 +47,14 @@ Contract categories allow you to define different type of categories in order to
 | **_Contract Category Description_** | Decription to define which contracts are categorized to this category|
 |**_Sales, Purchase, Other_**| Sales should be marked if category should be availabele on sales contracts (Type **Sales**), Purchase should be marked if category should be availabele on purchase contracts (Type **Purchase**), Other should be marked if category should be availabele other contracts (Type **Other**).
 |**_No. of Sales Contracts_** and **_No. of Purchase contracts_**| Shows number of Sales/Purchase contracts in that category.|
+| **_Def. InvoicingFrequency Option_** | Specifies default Invoicing Frequency Option for contracts in this category.|
+| **_Invoicing Frequency"_** | Specifies default Invoicing Frequency for contracts in this category.|
+| **_Default Type_** | Specifies default Type for contract lines for contracts in this category.|
+| **_Default No._** | Specifies default No. for contract lines for contracts in this category.|
 
  
 ## Use
-### Contract management
+### Create contract
 
 With contract management it is possible to manage purchase, sales and other contracts. For creating a new contract you must open **Contracts** and use button **+New** in order to create a new entry.
 

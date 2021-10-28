@@ -7,6 +7,8 @@ Contract management functionality in BC enables the following:
 - Contract support on Job card for creating job sales invoices
 - Partner and contract support on job planning lines for planning purposes
 - Use default dimensions on contracts.
+- Create contract lines for billing.
+- Create periodic sales orders and invoices based on contract lines.
 
 ## Table of Contents
   - [Settings](#settings)

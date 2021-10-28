@@ -14,8 +14,8 @@ Contract management functionality in BC enables the following:
   - [Settings](#settings)
     - [Contract Categories](#contract-categories)
   - [Use](#use)
-    - [Contract management](#Contract-management)
-    - [Using contracts on purchase and sales documents](#Using-contracts-on-purchase-and-sales-documents)
+    - [Contract management](#contract-management)
+    - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
     - [Contract completion tracking](#Contract-completion-tracking)
 
 ## Settings
@@ -28,6 +28,12 @@ To use the functionality, **Contract Setup** must be opened and following fields
 | **_Contract numbers_** | For defining contract number series. Value can be chosen from **No. Series List**.|
 | **_Contract Usage Accounts_** | Allows to define a GL accounts filter for contract usage calculation. For an example income and expense accounts on which you expect transaction related to contracts. It is advisable to exclude VAT, payables and receivables accounts. You can define specific accounts and/or an accounts range (for an example range 30000..90000).|
 |**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
+|**_Show Billing Information_**|Enables Billing Information tab on sales contracts.
+|**_Default Contract Type_**|Specifies default Contract Type for new contracts.
+|**_Def. Contract Category Sales_**|Specifies default Contract Category for sales contracts.
+|**_Def. ContractCategory Purchase_**|Specifies default Contract Category for purchase contracts.
+|**_Create Contract Invoice Lines Date Formula_**|Specifies default date formula for Next Billing Date in Create Contract Invoice Lines (CM).
+|**_Create Sales Invoices Date Formula_**|Specifies default date formula for Posting Date in Create Sales Invoices (CM).
 
 ### Contract Categories
 

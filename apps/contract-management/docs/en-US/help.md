@@ -10,11 +10,16 @@ Contract management functionality in BC enables the following:
 
 ## Table of Contents
   - [Settings](#settings)
-  - [Contract Categories](#contract-categories)
+    - [Contract Categories](#contract-categories)
   - [Use](#use)
+    - [Contract management](#Contract-management)
+    - [Using contracts on purchase and sales documents](#Using-contracts-on-purchase-and-sales-documents)
+    - [Contract completion tracking](#Contract-completion-tracking)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
+
+<img src="ContManSetupENG.png" alt="ContManContSetup" width="1000"/>
 
 |Field|Explanation|
 |---|---| 
@@ -26,7 +31,7 @@ To use the functionality, **Contract Setup** must be opened and following fields
 
 Contract categories allow you to define different type of categories in order to divide your contracts into different groups.
 
-<img src="ContManContCategories.png" alt="ContManContCategories" width="800"/>
+<img src="ContManContCategoriesENG.png" alt="ContManContCategories" width="1000"/>
 
 |Field| Explanation|
 |---|---| 
@@ -42,6 +47,8 @@ Contract categories allow you to define different type of categories in order to
 With contract management it is possible to manage purchase, sales and other contracts. For creating a new contract you must open **Contracts** and use button **+New** in order to create a new entry.
 
 An empty **Contract card** opens where you can fill the following fields:
+
+<img src="ContManContractCardENG.png" alt="ContManContractCard" width="1000"/>
 
 |Field| Explanation|
 |---|---| 
@@ -92,6 +99,8 @@ _It must be taken into account that document header contract number will be tran
 ### Contract completion tracking
 
 You can track the completion and reminder of the contract from the **Contract List** or **Contract Card** by checking following fields:
+
+<img src="ContManCompletionTrackingENG.png" alt="ContManCompletionTracking" width="1000"/>
 
 - **Completion (LCY)** - displays contract related amounts from **General Ledger Entries**. Account filter from the **Contract Setup** has been applied to entries.
 - **Reminder (LCY)** - displays contract remaining amount that is calculated on the basis of fields **_Amount_** and **_Completion (LCY)_**.

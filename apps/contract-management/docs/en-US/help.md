@@ -27,7 +27,7 @@ To use the functionality, **Contract Setup** must be opened and following fields
 
 [<img src="ContManSetupENG.png" alt="ContManContSetup" width="800"/>](https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupENG.png)
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupENG.png" target="_blank">Setup</a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupENG.png" target="_blank"><img src="ContManSetupENG.png" alt="ContManContSetup" width="800"/></a>
 
 |Field|Explanation|
 |---|---| 

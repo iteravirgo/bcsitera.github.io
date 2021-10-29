@@ -50,9 +50,7 @@ _Billing related setup_
 
 Contract categories allow you to define different type of categories in order to divide your contracts into different groups.
 
-<img src="ContManContCategoriesENG.png" alt="ContManContCategories" width="1000"/>
-
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupENG.png" target="_blank"><img src="ContManContCategoriesENG.png" alt="ContManContCategories" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContCategoriesENG.png" target="_blank"><img src="ContManContCategoriesENG.png" alt="ContManContCategories" width="800"/></a>
 
 |Field| Explanation|
 |---|---| 
@@ -79,7 +77,8 @@ With contract management it is possible to manage purchase, sales and other cont
 
 An empty **Contract card** opens where you can fill the following fields:
 
-<img src="ContManContractCardENG.png" alt="ContManContractCard" width="1000"/>
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContractCardENG.png" target="_blank"><img src="ContManContractCardENG.png" alt="ContManContractCard" width="800"/></a>
 
 |Field| Explanation|
 |---|---| 
@@ -133,7 +132,8 @@ _It must be taken into account that document header contract number will be tran
 
 You can track the completion and reminder of the contract from the **Contract List** or **Contract Card** by checking following fields:
 
-<img src="ContManCompletionTrackingENG.png" alt="ContManCompletionTracking" width="1000"/>
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCompletionTrackingENG.png" target="_blank"><img src="ContManCompletionTrackingENG.png" alt="ContManCompletionTracking" width="1000"/></a>
 
 - **Completion (LCY)** - displays contract related amounts from **General Ledger Entries**. Account filter from the **Contract Setup** has been applied to entries.
 - **Reminder (LCY)** - displays contract remaining amount that is calculated on the basis of fields **_Amount_** and **_Completion (LCY)_**.
@@ -175,7 +175,7 @@ _**Billing Information** tab becomes visible only if it is allowed in **Contract
 
 On **Billing Information** tab you can fill following fields:
 
-<img src="ContManBillingInfoENG.png" alt="ContManBillingInfo" width="1000"/>
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManBillingInfoENG.png" target="_blank"><img src="ContManBillingInfoENG.png" alt="ContManBillingInfo" width="1000"/></a>
 
 |Field|Explanation|
 |---|---| 
@@ -190,7 +190,7 @@ On **Billing Information** tab you can fill following fields:
 
 On **Contract Lines** tab you can fill following fields:
 
-<img src="ContManContLinesENG.png" alt="ContManContractLines" width="1000"/>
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContLinesENG.png" target="_blank"><img src="ContManContLinesENG.png" alt="ContManContractLines" width="800"/></a>
 
 |Field|Explanation|
 |---|---| 
@@ -217,7 +217,7 @@ First step is to create **Contract Invoice Lines**.
 Open **Contracts List** or **Contract Card** and use action **Create Contract Invoice Lines (CM)**.
 Following window will be opened:
 
-<img src="ContManCreateContInvLinesENG.png" alt="ContManCreateContInvLinesENG" width="500"/>
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCreateContInvLinesENG.png" target="_blank"><img src="ContManCreateContInvLinesENG.png" alt="ContManCreateContInvLinesENG" width="500"/></a>
 
 Fill in **Next Billing Date**, this date will be an end date for a range that will be applied to **Valid** contract lines. It will be applied to **Next Invoicing Date** or to **Billing Start Date** (if the other is empty) and **Contract Invoice Lines** will be created for each **Contract Line** that meets the filtering criteria. 
 * By default it is filled with Today + date formula from **_Create Contract Invoice Lines Date Formula_** in **Contract Setup**.
@@ -228,7 +228,7 @@ Press **OK**.
 
 Use action **Contract Invoice Lines** from **Contract Card** to open list. Check if lines were created and if they look OK for creating invoices/orders. _List is not editable_.
 
-<img src="ContManContInvLinesENG.png" alt="ContManContInvLinesENG" width="1000"/>
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContInvLinesENG.png" target="_blank"><img src="ContManContInvLinesENG.png" alt="ContManContInvLinesENG" width="800"/></a>
 
 Some of the fields need no explanation. Other will be explained below.
 

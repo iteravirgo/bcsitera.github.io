@@ -25,7 +25,7 @@ Contract management functionality in BC enables the following:
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
 
-[<img src="ContManSetupENG.png" alt="ContManContSetup" width="800"/>](#https://github.com/bcsitera/bcsitera.github.io/edit/master/apps/contract-management/docs/en-US/ContManSetupENG.png)
+[<img src="ContManSetupENG.png" alt="ContManContSetup" width="800"/>](https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupENG.png)
 
 |Field|Explanation|
 |---|---| 

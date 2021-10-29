@@ -17,8 +17,10 @@ Contract management functionality in BC enables the following:
     - [Create contract](#create-contract)
     - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
     - [Contract completion tracking](#contract-completion-tracking)
+    - [Using contracts in Jobs](#usingjcontractsjin-jobs)
   - [Billing](#billing)
-    - [Create Contract Invoice Lines (CM)](#Create-Contract-Invoice-Lines-(CM)) 
+    - [Create Contract Invoice Lines](#create-contract-invoice-lines)
+    - [Contract Invoice Lines](#contract-invoice-lines)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
@@ -160,14 +162,12 @@ Selection of contracts that can be chosen to job planning line is limited with t
 
 ## Billing
 
-You can enter billing information on contract card and then fill in contract lines.
+You can enter billing information on contract card and then fill in contract lines. After that billing lines can be created, in order to check possible deviations and to have a longer view, and finally sales documents can be created.
 
 #### _Important_
 
 --- 
-_**Billing Information** tab becomes visible only if it is allowed in **Contract Setup** and on contracts of type **Sales**!_
-
-_**Contract Lines** tab becomes visible after billing information date related fields are filled in and **Add Contract Lines** has been clicked!_
+_**Billing Information** tab becomes visible only if it is allowed in **Contract Setup** and on contracts of type **Sales**! **Contract Lines** tab becomes visible after billing information date related fields are filled in and **Add Contract Lines** has been clicked!_
 
 ---
 
@@ -204,13 +204,38 @@ On **Contract Lines** tab you can fill following fields:
 | **_Invoicing Frequency Option_** | Specifies billing period/frequency for current line. Default value will be taken from **Billing Information** tab.|
 | **_Billing Start Date_** | Allows to specify Billing Start Date for current line.|
 | **_End Date First Period_** | Allows to specify End Date First Period for current line. Default value will be taken from **Billing Information** tab.|
-| **_Next Billing Date_** | Displays **Nexte Billing Date** (next period start date) for current line after [Create Contract Invoice Lines (CM)](#Create-Contract-Invoice-Lines-(CM)) has been run|
+| **_Next Billing Date_** | Displays **Nexte Billing Date** (next period start date) for current line after [Create Contract Invoice Lines](#create-contract-invoice-lines) has been run|
 | **_Billing End Date_** | Allows to specify Billing End Date for current line.. Default value will be taken from **Billing Information** tab.|
 
-### Create Contract Invoice Lines (CM)
-It is possible to use contract in Job module on **Job Card** and in **Job Planning Lines**.
+Contract line based sales orders/invoices creation consists of two steps.
 
+### Create Contract Invoice Lines
+First step is to create **Contract Invoice Lines**.
 
+Open **Contracts List** or **Contract Card** and use action **Create Contract Invoice Lines (CM)**.
+Following window will be opened:
+
+<img src="ContManCreateContInvLinesENG.png" alt="ContManCreateContInvLinesENG" width="500"/>
+
+Fill in **Next Billing Date**, this date will be an end date for a range that will be applied to **Valid** contract lines. It will be applied to **Next Invoicing Date** or to **Billing Start Date** (if the other is empty) and **Contract Invoice Lines** will be created for each **Contract Line** that meets the filtering criteria. 
+* By default it is filled with Today + date formula from **_Create Contract Invoice Lines Date Formula_** in **Contract Setup**.
+* Additonal filter can be applied from **Contracts** or **Contract Invoice Lines**.
+* If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
+
+Press **OK**.
+
+Use action **Contract Invoice Lines** from **Contract Card** to open list. Check if lines were created and if they look OK for creating invoices/orders. _List is not editable_.
+
+<img src="ContManContInvLinesENG.png" alt="ContManContInvLinesENG" width="1000"/>
+
+Some of the fields need no explanation. Other will be explained below.
+
+|Field|Explanation|
+|---|---| 
+| **_Posting Date_** | By default **Period Start Date**.|
+| **_Period Start Date_** and **_Period End Date_**  | Are reflecting the actual billing period|
+| **_Status_** | Shows status of current line. **New** - First status for alla created lines. Also line gets this status back when it is removed from order/invoice. or removed . **Order** - **Sales Order** has been created from that line. **Invoice** - **Sales Invoice** has been created from that line. **Posted** - involved sales order/invoice has been posted. **Canceled** - line has been canceled by using action **Cancel**, only **New** lines can be canceled.|
+| **_Document No._** | Shows document number of the involved document (order, invoice, posted invoice).|
 
 ---
 

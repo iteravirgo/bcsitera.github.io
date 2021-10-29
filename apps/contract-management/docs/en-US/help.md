@@ -20,7 +20,7 @@ Contract management functionality in BC enables the following:
     - [Using contracts in Jobs](#usingjcontractsjin-jobs)
   - [Billing](#billing)
     - [Create Contract Invoice Lines](#create-contract-invoice-lines)
-    - [Contract Invoice Lines](#contract-invoice-lines)
+    - [Create Sales Invoices](#create-sales-invoices)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
@@ -221,7 +221,7 @@ Following window will be opened:
 
 Fill in **Next Billing Date**, this date will be an end date for a range that will be applied to **Valid** contract lines. It will be applied to **Next Invoicing Date** or to **Billing Start Date** (if the other is empty) and **Contract Invoice Lines** will be created for each **Contract Line** that meets the filtering criteria. 
 * By default it is filled with Today + date formula from **_Create Contract Invoice Lines Date Formula_** in **Contract Setup**.
-* Additonal filter can be applied from **Contracts** or **Contract Invoice Lines**.
+* Additonal filters can be applied from **Contracts** or **Contract Lines**.
 * If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
 
 Press **OK**.
@@ -238,6 +238,29 @@ Some of the fields need no explanation. Other will be explained below.
 | **_Period Start Date_** and **_Period End Date_**  | Are reflecting the actual billing period|
 | **_Status_** | Shows status of current line. **New** - First status for alla created lines. Also line gets this status back when it is removed from order/invoice. or removed . **Order** - **Sales Order** has been created from that line. **Invoice** - **Sales Invoice** has been created from that line. **Posted** - involved sales order/invoice has been posted. **Canceled** - line has been canceled by using action **Cancel**, only **New** lines can be canceled.|
 | **_Document No._** | Shows document number of the involved document (order, invoice, posted invoice).|
+
+---
+
+### Create Sales Invoices
+Second step is to create **Sales Orders** or **Sales Invoices**.
+
+Open **Contracts List** or **Contract Card** and use action **Create Sales Invoices (CM)**.
+Following window will be opened:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCreateSalesInvENG.png" target="_blank"><img src="ContManCreateSalesInvENG.png" alt="ContManCreateSalesInvENG" width="500"/></a>
+
+Fill in **Posting Date**, this date will be an end date for a range that will be applied to **Contract Invocie Lines**. It will be applied to **Posting Date** and **Sales Invoices/Orders** will be created for contract invoice lines that meet the filtering criteria and combined according to **Create Invoices By**.
+* By default it is filled with Today + date formula from **_Create Sales Invoices Date Formula_** in **Contract Setup**.
+* Additonal filters can be applied from **Contracts** or **Contract Invoice Lines**.
+* If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
+
+|Field|Explanation|
+|---|---| 
+| **_Replace Posting Date_** | Allows to replace invoice/order **Posting Date**. Otherwise Posting Date will be taken from Contract Invoice Line. |
+| **_Create Invoices By_** | Allows to select how the lines should be grouped among documents. **Contract** - one invoice/order for each contract. Only lines from one contract will be included in one invoice/order. **Customer** - one invoice/order per customer. Lines from different contracts that have the same customer will be included in one invoice/order. **Main Contract** - one invoice/order per main contract. Lines from different contracts that have the same main contract will be included in one invoice/order.|
+| **_Create as Invocie or Order_** | Allows to select which type of sales docuemnts should be created: **Invoices** (default) or **Orders**.|
+
+Press **OK**.
 
 ---
 

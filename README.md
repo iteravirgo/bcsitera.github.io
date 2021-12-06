@@ -14,6 +14,7 @@
 [Campaign Management](apps/Campaign-management/docs/en-US/app.md)  
 [Extended Credit Check](apps/credit-check/docs/en-US/app.md)  
 [Estonian Language for LS Central](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  
+[LS Central EE Country App](apps/ls-central-ee-country-app/docs/en-US/app.md)  
 
 ### Apps for Human Resources
 [Payroll365](http://palk365.nav365.ee/)  

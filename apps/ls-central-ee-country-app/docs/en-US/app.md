@@ -5,7 +5,10 @@ https://dynamicspartnersee.github.io/
 
 ### Key Features
 * Dynamics 365 Business Central Estonian localization related functionality to LS Central functions and pages (lists and cards).
-* VAT reporting support for LS POS transactions
+* VAT reporting support for LS POS transactions.
+* See user guide for details.
+
+
 
 ### Supported Editions
 This extension supports SaaS and On-prem versions of LS Central.

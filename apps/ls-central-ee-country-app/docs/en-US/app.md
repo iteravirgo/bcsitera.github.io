@@ -1,5 +1,5 @@
 # LS Central Estonian Country App
-LS Central Estonian Country App extends Dynamics 365 Business Central Estonian localization related functionality to LS Central functions and pages (lists and cards).  
+LS Central Estonian Country App extends Dynamics 365 Business Central Estonian localization functionality related data fields and actions to LS Central pages (metadata cards/lists and documents).  
 Installation of Dynamics 365 Business Central Estonian localization apps is a prerequisite for using LS Central Estonian Country App. Needed Estonian localization related extensions are listed in [User Guide](help.md)
 
 ### Key Features

@@ -1,4 +1,4 @@
-# äpi nimi
+# LS Central Estonian Country App – User Guide
 
 ## Setup
 

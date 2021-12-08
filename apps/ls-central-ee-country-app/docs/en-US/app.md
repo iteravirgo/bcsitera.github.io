@@ -4,7 +4,7 @@ Installation of Dynamics 365 Business Central Estonian localization apps is a pr
 
 ### Key Features
 * Dynamics 365 Business Central Estonian localization related functionality to LS Central functions and pages (lists and cards).
-* VAT reporting support for LS POS transactions.
+* VAT reporting support for VAT entries created from statement posting.
 * See User Guide for details.
 
 

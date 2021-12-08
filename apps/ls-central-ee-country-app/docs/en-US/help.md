@@ -49,7 +49,7 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 
 * **Report 81100 "BCS.LSR VAT Declar"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
 
-***Note!** The use added fields and actions is described in user guides links specified above.*
+***Note!** The use of added fields and actions is described in user guides links specified above.*
 <br><br>
 
 

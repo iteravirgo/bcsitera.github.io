@@ -26,6 +26,7 @@ LS Central Estonian Country App is small app which adds ynamics 365 Business Cen
 * Peport 81100 "BCS.LSR VAT Declar"
 
 
+
 ### Contact Information
 For more information and pricing please contact:  
 [https://apps.itera.ee/docs/en-us/support](https://apps.itera.ee/docs/en-us/support)

@@ -23,6 +23,9 @@
 ### Apps for Real Estate
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
 
+### Apps for Utilities
+[Water Management](apps/water-management/docs/en-US/app.md)  
+
 ---
 
 [Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/)

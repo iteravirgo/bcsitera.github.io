@@ -13,12 +13,18 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 * Estonian Dynamics Partners VAT Reporting localization for Estonia – User Guide: [https://dynamicspartnersee.github.io/apps/estonian-vat-reporting/docs/en-US/help](https://dynamicspartnersee.github.io/apps/estonian-vat-reporting/docs/en-US/help)
 
 
-### ...
+### Technical detail about LS Central Estonian Country App
+LS Central Estonian Country App is small app which adds ynamics 365 Business Central Estonian localization related functionality data fields and actions to LS Central pages (metadata cards/lists and documents). Includes the following objects:
+* Pageextension 81100 "BCS.LSC CustomerListExt" extends "Retail Customer List"
+* Pageextension 81101 "BCS.LSC CustomerCardExt" extends "Retail Customer Card"
+* Pageextension 81102 "BCS.LSC VendorListExt" extends "Retail Vendor List"
+* Pageextension 81103 "BCS.LSC VendorCardExt" extends "Retail Vendor Card"
+* Pageextension 81104 "BCS.LSC ItemCardExt" extends "Retail Item Card"
+* Pageextension 81105 "BCS.LSC PostedSalesInvCardExt" extends "Retail Posted Sales Invoice"
+* Pageextension 81106 "BCS.LSR Sales Order" extends "Retail Sales Order"
+* Codeunit 81100 "BCS.LSR Management"
+* Peport 81100 "BCS.LSR VAT Declar"
 
-[https://dynamicspartnersee.github.io](https://dynamicspartnersee.github.io)
-...
-
----
 
 ### Contact Information
 For more information and pricing please contact:  

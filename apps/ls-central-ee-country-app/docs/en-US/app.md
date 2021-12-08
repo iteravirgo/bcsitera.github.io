@@ -24,4 +24,3 @@ The app is available in: Estonian (Estonia) and English (United States)
 ### Contact Information
 For more information and pricing please contact:  
 [https://apps.itera.ee/docs/en-us/support](https://apps.itera.ee/docs/en-us/support)
-[https://apps.itera.ee/docs/en-us/support](https://apps.itera.ee/docs/en-us/support)

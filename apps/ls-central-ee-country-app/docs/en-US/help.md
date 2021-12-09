@@ -31,7 +31,7 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   Actions added: **Update Data from Business Register** 
 
 * **Pageextension 81103 "BCS.LSC VendorCardExt"** extends **"LSC Retail Vendor Card"**
-    *   Fields added: **Balance Statement E-Mail**, Registration No.**, **Payment Reference No.**
+    *   Fields added: **Balance Statement E-Mail**, **Registration No.**, **Payment Reference No.**
     *   Actions added: **Query from Business Register**
 
 * **Pageextension 81104 "BCS.LSC ItemCardExt"** extends **"LSC Retail Item Card"**

@@ -2,7 +2,7 @@
 This extension provides additional functionality for Jobs module.
 
 Solution offers:
-- Job archivin
+- Job archiving.
 - Sending job amounts to GL budget.
 - Batch changing markup/discount on job planning lines.
 - Batch changing GL account/Item/Resource on job planning lines.

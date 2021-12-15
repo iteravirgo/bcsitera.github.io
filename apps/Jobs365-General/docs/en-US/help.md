@@ -14,6 +14,14 @@ Funktsionaalsus-->
 ### Archiving Job budget
 Archiving job budget allows you to archive a jobs budget at certain time and compare it later to current budget.
 
+Go to **Jobs list** and use button **Archive Budget** under Process tab.
+
+Insert **Version description** in the opening window for informational purposes.
+
+Open **Job card** and assign suitable version in **Initial Budget Version** field.
+
+Open **Job Task Lines** and check **Archive..** columns.
+
 ### Send Job budget to GL budget
 Functionality allows you to send Job budgets (data from Job Planning Lines) to GL budget, so it would be easier to compare date in finance.
 

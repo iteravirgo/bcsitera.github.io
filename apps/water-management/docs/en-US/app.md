@@ -5,6 +5,7 @@ See service contracts, water meters and create invoices from water readings.
 * Create and manage objects
 * Create and manage water meters
 * Create service contracts and post them
+* Create service invoices, post them and send to customers
 * Insert readings
 * Send messages about unreported readings
 * Create forecast readings

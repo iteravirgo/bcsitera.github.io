@@ -1,18 +1,14 @@
-# Reaalaja pank
-Reaalajas panga lahendus võimaldab ettevõttel saada ülevaate oma pangakonto liikumistest vastavalt soovitud sagedusele ja töödelda reaalajas pangakirjeid  Microsoft Dynamics 365 Business Centralis.
+# Veemajanduse lahendus
+Veemajanduse lahendus võimaldab näha ja hallata objekte, veemõõtjaid, teenuslepingud ning koostada näitude alusel arveid.
 
-### Toetatud pangaühendused
-1. Swedbank Gateway (momendil ainult on-prem lahenduses)
-2. SEB Baltic Gateway
-3. LHV Connect
-
-### Reaalaja panga lahendus võimaldab:
-* Laadida pangatehingute info jooksvalt Business Centralisse.
-* Näha Business Centralis oleval pangakonto kaardil pangakonto saldot. 
-Kasutaja ei pea pangakonto saldo nägemiseks Business Centralist lahkuma.
-* Töödelda ja siduda pangatehinguid klientide ning hankijate avatud arvetega ning eeldefineeritud kulukontodega.
-* Konteerida kõrge sidumistäpsusega pangatehingud automaatselt.
-* Kasutaja saab tegeleda ainult nende pangatehingutega, mis vajavad üle vaatamist ning käsitsi sekkumist.
+### Veemajanduse lahendus võimaldab:
+* Luua objekti kaarte ja hallata neid
+* Luua arvesti kaarte, siduda neid objektidega
+* Sõlmida teenuste lepinguid erinevate teenuse kasutamise kohta
+* Sisestada arvestite näite
+* Koostada teenuste kasutamise eest arveid vastavalt esitatud näitudele
+* Saata klientidele teavitusi esitamata näitude osas
+* Koostada prognoosnäite ja koostada nende alusel arveid.
 
 ### Toetatud versioonid:
 See laiendus toetab nii Essential kui Premium lahendust Microsoft Dynamics 365 Business Centralile.

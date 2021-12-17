@@ -15,7 +15,7 @@ Projektide arhiveerimine võimaldab arhiveerida projekti eelarve teatud seisuga 
 ### Seadistus
 Avage **Projektide seadistus** ning täitke vahekaardil **Arhiivi seadistamine** vajalikud väljad.
 
-<img src="Jobs365ProSetupEE.png" alt="Projektide seadistus" width="400"/>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365ProSetupEE.png" target="_blank"><img src="Jobs365ProSetupEE.png" alt="Projektide seadistus" width="800"/></a>
 
 | Väli | Selgitus|
 | --- | --- |

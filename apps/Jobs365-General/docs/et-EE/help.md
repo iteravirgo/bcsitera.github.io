@@ -6,12 +6,18 @@ Projektimooduli täiendused sisaldavad järgenvaid funktsionaalsuseid:
 - Projekti plaanimisridadele Kauba/PR konto/Ressursi massasendmaine.
 - Projekti plaanimisridadele allahindluste ja juurdehindluste massmuutmine.
 
+## Table of Contents
+  - [Projektide arhiveeirmine](#projektide-arhiveerimine)
+  - [Projekti eelarve PR eelarvesse saatmine](#projekti-eelarve-pr-eelarvesse-saatmine)
 
-## Kasutamine
-### Projektide arhiveerimine
+## Projektide arhiveerimine
+### Seadistus
+
+
+### Kasutamine
 Projektide arhiveerimine võimaldab arhiveerida projekti eelarve teatud seisuga ning võrrelda seda hiljem jooksva eelarvega.
 
-### Projekti eelarve PR eelarvesse saatmine
+## Projekti eelarve PR eelarvesse saatmine
 Funktsionaalsus võimaldab saata proejktide eelarved PR eelarvesse, et neid saaks mugavalt kaasta finantseelarve võrdlusesse.
 
 Avage **Projektide loend** ning kasutage nuppu **Saada PR eelarvesse**.

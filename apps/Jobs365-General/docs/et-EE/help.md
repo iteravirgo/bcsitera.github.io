@@ -19,16 +19,22 @@ Avage **Projektide seadistus** ning täitke vahekaardil **Arhiivi seadistamine**
 
 | Väli | Selgitus|
 | --- | --- |
-| ***Projekti arhiivi numbriseeria***| .|
-| ***Arhiivi koguse mõõtühik***| .|
-|***Kuva arhiveeritud eelarve kogus***| .|
-|***Kuva arhiveeritud eelarve (kogukulu)*** | .
-|***Kuva arhiveeritud eelarve (koguhind)*** |.|
-|***Kuva arhiveeritud arveldatav (koguhind***| .|
-
+| ***Projekti arhiivi numbriseeria***| Võimaldab määrata projekti arhiivide numbriseeria.|
+| ***Arhiivi koguse mõõtühik***| Võimaldab määrata enimkasutatava mõõtühiku mille koguseid hakatakse kuvama Projekti ülesande ridadel veerus **Arhiveeritud eelarve kogus**.|
+|***Kuva arhiveeritud eelarve kogus***| Võimladab määrata kas antud veergu kuvatakse Projekti ülesande ridadel.|
+|***Kuva arhiveeritud eelarve (kogukulu)*** | Võimladab määrata kas antud veergu kuvatakse Projekti ülesande ridadel.|
+|***Kuva arhiveeritud eelarve (koguhind)*** |Võimladab määrata kas antud veergu kuvatakse Projekti ülesande ridadel.|
+|***Kuva arhiveeritud arveldatav (koguhind***| Võimladab määrata kas antud veergu kuvatakse Projekti ülesande ridadel.|
 
 ### Kasutamine
-Projektide arhiveerimine võimaldab arhiveerida projekti eelarve teatud seisuga ning võrrelda seda hiljem jooksva eelarvega.
+Projekti arhiveerimiseks avage **Projektide loend**, valige välja sobiv projekt ning kasutage nuppu **Arhiveeri eelarve**. Avanevas aknas lisage **Arhiivi versiooni kirjeldus**, et hiljem oleks erienvaid arhiive lihtsam üksteisest eristada, ning klõpsake OK:
+
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365ArhiveerimineEE.png" target="_blank"><img src="Jobs365ArhiveerimineEE.png" alt="Projekti arhiveerimine" width="600"/></a>
+
+Avage **Projekti kaart** ning valige sobiv eelarve versioon väljal **Algse eelarve versioon**.
+Seejärel avage **Projekti ülesande read** (Projektide loendist) ning vaadake "arhiivi" veerge. Peale eelarves muudatuste tegemist jäävad "arhiivi" veerud samaks seni kuni valite **Projekti kaardil** uue eealrve arhiivi versiooni.
+
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365ArhiveerimineProÜlReadEE.png" target="_blank"><img src="Jobs365ArhiveerimineProÜlReadEE.png" alt="Projekti ülesande read" width="600"/></a>
 
 ## Projekti eelarve PR eelarvesse saatmine
 Funktsionaalsus võimaldab saata proejktide eelarved PR eelarvesse, et neid saaks mugavalt kaasta finantseelarve võrdlusesse.

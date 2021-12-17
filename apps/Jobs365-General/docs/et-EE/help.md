@@ -11,7 +11,20 @@ Projektimooduli täiendused sisaldavad järgenvaid funktsionaalsuseid:
   - [Projekti eelarve PR eelarvesse saatmine](#projekti-eelarve-pr-eelarvesse-saatmine)
 
 ## Projektide arhiveerimine
+Projektide arhiveerimine võimaldab arhiveerida projekti eelarve teatud seisuga ning võrrelda seda hiljem jooksva eelarvega.
 ### Seadistus
+Avage **Projektide seadistus** ning täitke vahekaardil **Arhiivi seadistamine** vajalikud väljad.
+
+<img src="Jobs365ProSetupEE.png" alt="Projektide seadistus" width="400"/>
+
+| Väli | Selgitus|
+| --- | --- |
+| ***Projekti arhiivi numbriseeria***| .|
+| ***Arhiivi koguse mõõtühik***| .|
+|***Kuva arhiveeritud eelarve kogus***| .|
+|***Kuva arhiveeritud eelarve (kogukulu)*** | .
+|***Kuva arhiveeritud eelarve (koguhind)*** |.|
+|***Kuva arhiveeritud arveldatav (koguhind***| .|
 
 
 ### Kasutamine

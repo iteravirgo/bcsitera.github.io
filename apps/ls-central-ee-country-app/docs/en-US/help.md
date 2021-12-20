@@ -16,7 +16,7 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 <br><br>
 
 ### Technical detail about LS Central Estonian Country App
-**BCS Itera LSC Estonian Country App xx.xxxxx.x.app** is a small app which adds Dynamics 365 Business Central Estonian localization functionality related data fields and actions to LS Central pages (metadata cards/lists and documents). It includes the following objects:
+**BCS Itera_LSC Estonian Country App_xx.x.xxxxx.x.app** is a small app which adds Dynamics 365 Business Central Estonian localization functionality related data fields and actions to LS Central pages (metadata cards/lists and documents). It includes the following objects:
 
 * **Pageextension 70404925 "BCS.LSC CustomerListExt"** extends **"LSC Retail Customer List"**
     *   Fields added: **Registration No.**

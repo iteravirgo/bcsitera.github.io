@@ -16,7 +16,7 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 <br><br>
 
 ### Technical detail about LS Central Estonian Country App
-**BCS Itera_LSC_EE_Country_App_xx.x.x.x.app** is a small app which adds Dynamics 365 Business Central Estonian localization functionality related data fields and actions to LS Central pages (metadata cards/lists and documents). It includes the following objects:
+**BCS Itera LSC Estonian Country App xx.xxxxx.x.app** is a small app which adds Dynamics 365 Business Central Estonian localization functionality related data fields and actions to LS Central pages (metadata cards/lists and documents). It includes the following objects:
 
 * **Pageextension 70404925 "BCS.LSC CustomerListExt"** extends **"LSC Retail Customer List"**
     *   Fields added: **Registration No.**
@@ -41,13 +41,13 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 * **Pageextension 70404930 "BCS.LSC PostedSalesInvCardExt"** extends **"LSC Retail P. Sales Invoice"**
     *   Fields added: **Payment Reference No.**
 
-* **Pageextension 70404931 "BCS.LSR Sales Order"** extends **"LSC Retail Sales Order"**
+* **Pageextension 70404931 "BCS.LSC Sales Order"** extends **"LSC Retail Sales Order"**
     *   Fields added: **Payment Reference No.**
     *   Actions added: **Get Cust. Spec. Prepayment**
 
-* **Codeunit 70404925 "BCS.LSR Management"** - used for setting up VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
+* **Codeunit 70404925 "BCS.LSC Management"** - used for setting up VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
 
-* **Report 70404925 "BCS.LSR VAT Declar"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
+* **Report 70404925 "BCS.LSC VAT Declar"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
 
 ***Note!** The use of added fields and actions is described in user guides links specified above.*
 <br><br>

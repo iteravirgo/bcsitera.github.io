@@ -4,7 +4,7 @@ Projektimooduli täiendused sisaldavad järgenvaid funktsionaalsuseid:
   - [Projektide arhiveeirmine](#projektide-arhiveerimine)
   - [Projekti eelarve PR eelarvesse saatmine](#projekti-eelarve-pr-eelarvesse-saatmine)
   - [Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine](#projekti-plaanimisridadel-allahindluste-ja-juurdehindluste-massmuutmine)
-  - [Projekti plaanimisridadel Kauba/PR konto/Ressursi massasendamine](#projekti-plaanimisridadel-kauba-pr-konto-ressursi-massasendamine)
+  - [Projekti plaanimisridadel Kauba, PR konto või Ressursi massasendamine](#projekti-plaanimisridadel-kauba,-pr-konto-või-ressursi-massasendamine)
   - [Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine](#projekti-plaanimisridadel-ühiku-omahindade-ja-müügihindade-massuuendamine)
 
 ## Projektide arhiveerimine
@@ -58,7 +58,7 @@ Peale **OK** vajutamist saadetakse **Projekti plaanimisridade** andmed **PR eela
 ## Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine
 Funktsionaalsus võimaldab 
 
-## Projekti plaanimisridadel Kauba/PR konto/Ressursi massasendamine
+## Projekti plaanimisridadel Kauba, PR konto või Ressursi massasendamine
 Funktsionaalsus võimaldab 
 
 ## Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine

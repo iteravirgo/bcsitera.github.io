@@ -1,14 +1,11 @@
 # Jobs365 - General
 Projektimooduli täiendused sisaldavad järgenvaid funktsionaalsuseid:
 
-- Projektide arhiveerimine.
-- Projekti eelarve PR eelarvesse saatmine.
-- Projekti plaanimisridadele Kauba/PR konto/Ressursi massasendmaine.
-- Projekti plaanimisridadele allahindluste ja juurdehindluste massmuutmine.
-
-## Table of Contents
   - [Projektide arhiveeirmine](#projektide-arhiveerimine)
   - [Projekti eelarve PR eelarvesse saatmine](#projekti-eelarve-pr-eelarvesse-saatmine)
+  - [Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine](#projekti-plaanimisridadel-allahindluste-ja-juurdehindluste-massmuutmine)
+  - [Projekti plaanimisridadel Kauba/PR konto/Ressursi massasendamine](#projekti-plaanimisridadel-Kauba/PR konto/Ressursi-massasendamine)
+  - [Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine](#projekti-plaanimisridadel-ühiku omahindade-ja-müügihindade-massuuendamine)
 
 ## Projektide arhiveerimine
 Projektide arhiveerimine võimaldab arhiveerida projekti eelarve teatud seisuga ning võrrelda seda hiljem jooksva eelarvega.
@@ -57,3 +54,12 @@ Avaneb järgenv vaade:
 Täiendavalt on võimalik valida filtreid ka **Projektide**, **Projekti Ülesannete** ja **Projekti plaanimisridade** tabelitest.
 
 Peale **OK** vajutamist saadetakse **Projekti plaanimisridade** andmed **PR eelarvesse**.
+
+## Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine
+Funktsionaalsus võimaldab 
+
+## Projekti plaanimisridadel Kauba/PR konto/Ressursi massasendamine
+Funktsionaalsus võimaldab 
+
+## Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine
+Funktsionaalsus võimaldab 

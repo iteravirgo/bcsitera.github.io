@@ -4,7 +4,7 @@ Projektimooduli täiendused sisaldavad järgenvaid funktsionaalsuseid:
   - [Projektide arhiveeirmine](#projektide-arhiveerimine)
   - [Projekti eelarve PR eelarvesse saatmine](#projekti-eelarve-pr-eelarvesse-saatmine)
   - [Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine](#projekti-plaanimisridadel-allahindluste-ja-juurdehindluste-massmuutmine)
-  - [Projekti plaanimisridadel Kauba, PR konto või Ressursi massasendamine](#projekti-plaanimisridadel-kauba,-pr-konto-või-ressursi-massasendamine)
+  - [Projekti plaanimisridadel Kauba, PR konto või Ressursi massasendamine](#projekti-plaanimisridadel-kauba-või-pr-konto-või-ressursi-massasendamine)
   - [Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine](#projekti-plaanimisridadel-ühiku-omahindade-ja-müügihindade-massuuendamine)
 
 ## Projektide arhiveerimine
@@ -56,10 +56,28 @@ Täiendavalt on võimalik valida filtreid ka **Projektide**, **Projekti Ülesann
 Peale **OK** vajutamist saadetakse **Projekti plaanimisridade** andmed **PR eelarvesse**.
 
 ## Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine
+Funktsionaalsus võimaldab muuta alla- või juurdehindlust mitmel projekti plaanimisreal korraga.
+
+Avage **Projekti ülesande read** või **Projekti plaanimisread** ning kasutage nuppu **Muuda juurde/allahindlust**.
+
+Avaneb järgenv vaade:
+
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365MuudaJuurdeAllahindlustEE.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustEE.png" alt="Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine" width="400"/></a>
+
+| Väli | Selgitus|
+| --- | --- |
+| ***Projekt***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
+| ***Juurdehindluse %***| Võimaldab määrata juurdehindluse % ehk kui palju tuleks ühiku omahinnale müügihinna saamiseks juurde lisada. _Näide: Kui sisestada siia number 40 (ehk 40%) ning kui rea/ridade **Ühiku omahind** on 100 siis selle tulemsuena muudetakse rea/ridade **Müügihind** 140-ks (100*1,4)_.|
+| ***Muuda juurdehindlust***| Võimaldab määrata kas antud käivitusega rakendatakse juurdehindluse muutmist või mitte.|
+| ***Allahinduse %***| Võimaldab määrata allahindluse % mida soovitakse real/ridadele rakendada. Peale käivitamist muudetakse kõikidel filtrisse jäävatel ridadel veergu **Rea hinnaalandi % (Allahindluse %)** ning arvutatakse vastavalt sellele ümber ka veerg **Rea summa**.|
+| ***Muuda allahindlust***| Võimaldab määrata kas antud käivitusega rakendatakse allahindluse muutmist või mitte.|
+
+## Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine
 Funktsionaalsus võimaldab 
 
-## Projekti plaanimisridadel Kauba, PR konto või Ressursi massasendamine
-Funktsionaalsus võimaldab 
+| Väli | Selgitus|
+| --- | --- |
+| ***Projekt***| võim **PR eelarvesse**.|
 
 ## Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine
 Funktsionaalsus võimaldab 

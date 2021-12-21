@@ -72,12 +72,53 @@ Avaneb järgenv vaade:
 | ***Allahinduse %***| Võimaldab määrata allahindluse % mida soovitakse real/ridadele rakendada. Peale käivitamist muudetakse kõikidel filtrisse jäävatel ridadel veergu **Rea hinnaalandi % (Allahindluse %)** ning arvutatakse vastavalt sellele ümber ka veerg **Rea summa**.|
 | ***Muuda allahindlust***| Võimaldab määrata kas antud käivitusega rakendatakse allahindluse muutmist või mitte.|
 
+Täiendavalt on võimalik valida filtreid **Projekti plaanimisridade** tabelist.
+
+Peale **OK** vajutamist käivitatakse funtksionaalsus soovitud parameetritega.
+
 ## Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine
-Funktsionaalsus võimaldab 
+Funktsionaalsus võimaldab kauba, PR konto või Ressursi asendamist mitmel projekti plaanimisreal korraga. 
+
+Avage **Projekti plaanimisread** ning kasutage nuppu **Asenda Kaup/Ressurss/PR konto**.
+
+Avaneb järgenv vaade:
+
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365AsendaPRkontoRessurssKaupEE.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupEE.png" alt="Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine" width="400"/></a>
 
 | Väli | Selgitus|
 | --- | --- |
-| ***Projekt***| võim **PR eelarvesse**.|
+| ***Projekt***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
+| ***Asendatav liik***| Võimaldab määrata millist liiki hakatakse asendama.|
+| ***Asendatav Kaup/Ressurss/PR konto***| Võimaldab määrata millist kaupa, ressurssi või PR kontot soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Asendatav liik**.|
+| ***Uus liik***| Võimaldab määrata millise liigiga hakatakse asendama.|
+| ***Uus Kaup/Ressurss/PR konto***| Võimaldab määrata millise kauba, ressurssi või PR kontoga soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Uus liik**.|
+| ***Säilita omahind***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Ühiku omahind** või uuendataske see vastavalt uuele kaubale või ressursile.|
+| ***Säilita müügihind***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Müügihind** või uuendataske see vastavalt uuele kaubale või ressursile.|
+| ***Uuenda kirjeldus***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Kirjaldus** või uuendataske see vastavalt uuele kaubale, ressursile või PR kontole.|
+
+Täiendavalt on võimalik valida filtreid **Projekti plaanimisridade** tabelist.
+
+Peale **OK** vajutamist käivitatakse funtksionaalsus soovitud parameetritega.
 
 ## Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine
-Funktsionaalsus võimaldab 
+Funktsionaalsus võimaldab kauba, PR konto või Ressursi asendamist mitmel projekti plaanimisreal korraga. 
+
+Avage **Projekti ülesande read** või**Projekti plaanimisread** ning kasutage nuppu **Uuenda omahinnad/müügihinnad**.
+
+Avaneb järgenv vaade:
+
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365UuendaMüügihinnadOmahinnadEE.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadEE.png" alt="Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine" width="400"/></a>
+
+| Väli | Selgitus|
+| --- | --- |
+| ***Projekt***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
+| ***Uuenda ühiku omahind***| Võimaldab määrata kas antud käivitusega rakendatakse ühiku omahinna uuendus või mitte.|
+| ***Ühiku omahinna uuendamise alus***| Võimaldab määrata mille alusel ühiku omahinda uuendatakse. **_Ühiku omahind_** - Ühiku omahind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Otsene kulu_** - Ühiku omahind uuendatakse kauba kaardilt (**Viimane otsene kulu**) või ressursi kaardilt () välja alusel. **_Ostuhinnakiri_** -  Ühiku omahind uuendatakse valitud **Ostuhinnakirja** alusel.|
+| ***Ostuhinnakirja tähis***| Võimaldab määrata millise **Ostuhinnakirja** alusel Ühiku omahindu uuendatakse kui aluseks oli valitud **_Ostuhinnakiri_**.|
+| ***Uuenda müügihind***| Võimaldab määrata kas antud käivitusega rakendatakse müügihinna uuendus või mitte.|
+| ***Müügihinna uuendamise alus***| kuvatak.|
+| ***Müügihinnakirja tähis***| kuvatak.|
+
+Täiendavalt on võimalik valida filtreid **Projekti plaanimisridade** tabelist.
+
+Peale **OK** vajutamist käivitatakse funtksionaalsus soovitud parameetritega.

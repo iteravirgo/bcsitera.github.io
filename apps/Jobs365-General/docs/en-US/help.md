@@ -12,7 +12,7 @@ Archiving job budget allows you to archive a jobs budget at certain time and com
 ### Setup
 Open **Jobs Setup** and fill in relevant fields on **Archive Setup** tab.
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365ProSetupENG.png" target="_blank"><img src="Jobs365ProSetupENG.png" alt="Jobs Setup" width="600"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365ProSetupENG.png" target="_blank"><img src="Jobs365ProSetupENG.png" alt="Jobs Setup" width="600"/></a>
 
 | Field | Explanation|
 | --- | --- |
@@ -26,12 +26,12 @@ Open **Jobs Setup** and fill in relevant fields on **Archive Setup** tab.
 ### Usage
 Open **Jobs list**, select relevant job and use button **Archive Budget** under Process tab. Insert **Version description** in the opening window for informational purposes and click **OK**:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365ArhiveerimineENG.png" target="_blank"><img src="Jobs365ArhiveerimineENG.png" alt="Job Archiving" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365ArhiveerimineENG.png" target="_blank"><img src="Jobs365ArhiveerimineENG.png" alt="Job Archiving" width="400"/></a>
 
 Open **Job Card** and assign suitable archive version in **Initial Budget Version** field.
 Open **Job Task Lines** (from Jobs List) and check **Archive..** columns. After changing budget/billable amounts the "archive" columns stay unchanged until you assign new archive version on **Job Card**.
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365ArhiveerimineProÜlReadENG.png" target="_blank"><img src="Jobs365ArhiveerimineProÜlReadENG.png" alt="Job Task Lines" width="700"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365ArhiveerimineProÜlReadENG.png" target="_blank"><img src="Jobs365ArhiveerimineProÜlReadENG.png" alt="Job Task Lines" width="700"/></a>
 
 ## Send Job budget to GL budget
 Functionality allows you to send Job budgets (data from Job Planning Lines) to GL budget, so it would be easier to compare date in finance.
@@ -65,7 +65,7 @@ Avage **Projekti ülesande read** või **Projekti plaanimisread** ning kasutage 
 
 Avaneb järgenv vaade:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365MuudaJuurdeAllahindlustEE.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustEE.png" alt="Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365MuudaJuurdeAllahindlustEE.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustEE.png" alt="Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine" width="400"/></a>
 
 | Väli | Selgitus|
 | --- | --- |
@@ -86,7 +86,7 @@ Avage **Projekti plaanimisread** ning kasutage nuppu **Asenda Kaup/Ressurss/PR k
 
 Avaneb järgenv vaade:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365AsendaPRkontoRessurssKaupEE.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupEE.png" alt="Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365AsendaPRkontoRessurssKaupEE.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupEE.png" alt="Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine" width="400"/></a>
 
 | Väli | Selgitus|
 | --- | --- |
@@ -110,7 +110,7 @@ Avage **Projekti ülesande read** või**Projekti plaanimisread** ning kasutage n
 
 Avaneb järgenv vaade:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/et-EE/Jobs365UuendaMüügihinnadOmahinnadEE.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadEE.png" alt="Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365UuendaMüügihinnadOmahinnadEE.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadEE.png" alt="Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine" width="400"/></a>
 
 | Väli | Selgitus|
 | --- | --- |

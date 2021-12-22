@@ -65,7 +65,7 @@ Open **Job Task Lines** or **Job Planning Lines** and use button **Change markup
 
 Following view will be displayed:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365MuudaJuurdeAllahindlustEE.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustEE.png" alt="Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365MuudaJuurdeAllahindlustENG.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustENG.png" alt="Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine" width="400"/></a>
 
 | Field | Explanation|
 | --- | --- |
@@ -86,7 +86,7 @@ Open **Job Planning Lines** and use button **Replace Iteam/Resource/GL Account**
 
 Following view will be displayed:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365AsendaPRkontoRessurssKaupEE.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupEE.png" alt="Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365AsendaPRkontoRessurssKaupENG.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupENG.png" alt="Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine" width="400"/></a>
 
 | Field | Explanation|
 | --- | --- |
@@ -110,7 +110,7 @@ Avage **Projekti ülesande read** või**Projekti plaanimisread** ning kasutage n
 
 Following view will be displayed:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365UuendaMüügihinnadOmahinnadEE.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadEE.png" alt="Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365UuendaMüügihinnadOmahinnadENG.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadENG.png" alt="Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine" width="400"/></a>
 
 | Field | Explanation|
 | --- | --- |

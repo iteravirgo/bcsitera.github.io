@@ -58,61 +58,61 @@ After pressing **OK** information from **Job Planning Lines** will be transferre
 # Jobs365 - General
 
 
-## Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine
-Funktsionaalsus võimaldab muuta alla- või juurdehindlust mitmel projekti plaanimisreal korraga.
+## Batch changing discount or markup on Job Planning Lines
+Functionality allows you to batch change markup or discount on **Job Planning Lines**.
 
-Avage **Projekti ülesande read** või **Projekti plaanimisread** ning kasutage nuppu **Muuda juurde/allahindlust**.
+Open **Job Task Lines** or **Job Planning Lines** and use button **Change markup/discount**.
 
-Avaneb järgenv vaade:
+Following view will be displayed:
 
 <a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365MuudaJuurdeAllahindlustEE.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustEE.png" alt="Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine" width="400"/></a>
 
-| Väli | Selgitus|
+| Field | Explanation|
 | --- | --- |
-| ***Projekt***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
-| ***Juurdehindluse %***| Võimaldab määrata juurdehindluse % ehk kui palju tuleks ühiku omahinnale müügihinna saamiseks juurde lisada. _Näide: Kui sisestada siia number 40 (ehk 40%) ning kui rea/ridade **Ühiku omahind** on 100 siis selle tulemsuena muudetakse rea/ridade **Müügihind** 140-ks (100*1,4)_.|
-| ***Muuda juurdehindlust***| Võimaldab määrata kas antud käivitusega rakendatakse juurdehindluse muutmist või mitte.|
-| ***Allahinduse %***| Võimaldab määrata allahindluse % mida soovitakse real/ridadele rakendada. Peale käivitamist muudetakse kõikidel filtrisse jäävatel ridadel veergu **Rea hinnaalandi % (Allahindluse %)** ning arvutatakse vastavalt sellele ümber ka veerg **Rea summa**.|
-| ***Muuda allahindlust***| Võimaldab määrata kas antud käivitusega rakendatakse allahindluse muutmist või mitte.|
+| ***Job***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
+| ***Markup %***| Võimaldab määrata juurdehindluse % ehk kui palju tuleks ühiku omahinnale müügihinna saamiseks juurde lisada. _Näide: Kui sisestada siia number 40 (ehk 40%) ning kui rea/ridade **Ühiku omahind** on 100 siis selle tulemsuena muudetakse rea/ridade **Müügihind** 140-ks (100*1,4)_.|
+| ***Change Markup***| Võimaldab määrata kas antud käivitusega rakendatakse juurdehindluse muutmist või mitte.|
+| ***Discount %***| Võimaldab määrata allahindluse % mida soovitakse real/ridadele rakendada. Peale käivitamist muudetakse kõikidel filtrisse jäävatel ridadel veergu **Rea hinnaalandi % (Allahindluse %)** ning arvutatakse vastavalt sellele ümber ka veerg **Rea summa**.|
+| ***Change Discount***| Võimaldab määrata kas antud käivitusega rakendatakse allahindluse muutmist või mitte.|
 
-Täiendavalt on võimalik valida filtreid **Projekti plaanimisridade** tabelist.
+Additionally it is possible to use filter form **Job Planning Line** table.
 
-Peale **OK** vajutamist käivitatakse funtksionaalsus soovitud parameetritega.
+After pressing **OK** functionality will run with specified parameters.
 
 ## Batch replacing Item or GL account or Resource on Job Planning Lines
-Funktsionaalsus võimaldab kauba, PR konto või Ressursi asendamist mitmel projekti plaanimisreal korraga. 
+Functionality allows you to batch replace Itema, GL Account or Resource on **Job Planning Lines**.
 
-Avage **Projekti plaanimisread** ning kasutage nuppu **Asenda Kaup/Ressurss/PR konto**.
+Open **Job Planning Lines** and use button **Replace Iteam/Resource/GL Account**.
 
-Avaneb järgenv vaade:
+Following view will be displayed:
 
 <a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365AsendaPRkontoRessurssKaupEE.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupEE.png" alt="Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine" width="400"/></a>
 
-| Väli | Selgitus|
+| Field | Explanation|
 | --- | --- |
-| ***Projekt***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
-| ***Asendatav liik***| Võimaldab määrata millist liiki hakatakse asendama.|
-| ***Asendatav Kaup/Ressurss/PR konto***| Võimaldab määrata millist kaupa, ressurssi või PR kontot soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Asendatav liik**.|
-| ***Uus liik***| Võimaldab määrata millise liigiga hakatakse asendama.|
-| ***Uus Kaup/Ressurss/PR konto***| Võimaldab määrata millise kauba, ressurssi või PR kontoga soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Uus liik**.|
-| ***Säilita omahind***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Ühiku omahind** või uuendataske see vastavalt uuele kaubale või ressursile.|
-| ***Säilita müügihind***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Müügihind** või uuendataske see vastavalt uuele kaubale või ressursile.|
-| ***Uuenda kirjeldus***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Kirjaldus** või uuendataske see vastavalt uuele kaubale, ressursile või PR kontole.|
+| ***Job***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
+| ***Old Type to Change***| Võimaldab määrata millist liiki hakatakse asendama.|
+| ***Old Item/Resource/GL Account to Change***| Võimaldab määrata millist kaupa, ressurssi või PR kontot soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Asendatav liik**.|
+| ***New Type***| Võimaldab määrata millise liigiga hakatakse asendama.|
+| ***New Item/Resource/GL Account***| Võimaldab määrata millise kauba, ressurssi või PR kontoga soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Uus liik**.|
+| ***Maintain Unit Cost***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Ühiku omahind** või uuendataske see vastavalt uuele kaubale või ressursile.|
+| ***Maintain Unit Price***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Müügihind** või uuendataske see vastavalt uuele kaubale või ressursile.|
+| ***Update Description***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Kirjaldus** või uuendataske see vastavalt uuele kaubale, ressursile või PR kontole.|
 
-Täiendavalt on võimalik valida filtreid **Projekti plaanimisridade** tabelist.
+Additionally it is possible to use filter form **Job Planning Line** table.
 
-Peale **OK** vajutamist käivitatakse funtksionaalsus soovitud parameetritega.
+After pressing **OK** functionality will run with specified parameters.
 
 ## Batch updating unit cost and unit price on job planning lines based on relevant cards or pricelists
 Funktsionaalsus võimaldab kauba, PR konto või Ressursi asendamist mitmel projekti plaanimisreal korraga. 
 
 Avage **Projekti ülesande read** või**Projekti plaanimisread** ning kasutage nuppu **Uuenda omahinnad/müügihinnad**.
 
-Avaneb järgenv vaade:
+Following view will be displayed:
 
 <a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365UuendaMüügihinnadOmahinnadEE.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadEE.png" alt="Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine" width="400"/></a>
 
-| Väli | Selgitus|
+| Field | Explanation|
 | --- | --- |
 | ***Projekt***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
 | ***Uuenda ühiku omahind***| Võimaldab määrata kas antud käivitusega rakendatakse ühiku omahinna uuendus või mitte.|
@@ -122,7 +122,7 @@ Avaneb järgenv vaade:
 | ***Müügihinna uuendamise alus***| Võimaldab määrata mille alusel müügihinda uuendatakse. **_Ühiku hind_** - Ühiku hind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Müügihinnakiri_** -  Ühiku hind uuendatakse valitud **Müügihinnakirja** alusel.|
 | ***Müügihinnakirja tähis***| Võimaldab määrata millise **Müüghinnakirja** alusel Müügihindu (Ühiku hindu) uuendatakse kui aluseks oli valitud **_Müügihinnakiri_**.|
 
-Täiendavalt on võimalik valida filtreid **Projekti plaanimisridade** tabelist.
+Additionally it is possible to use filter form **Job Planning Line** table.
 
-Peale **OK** vajutamist käivitatakse funtksionaalsus soovitud parameetritega.
+After pressing **OK** functionality will run with specified parameters.
 

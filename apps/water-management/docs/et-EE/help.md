@@ -17,6 +17,8 @@ Näitude meeldetuletuste sisus on võimalik kasutada muutujaid: Arvesti, Lepingu
 
 ![MeiliMuutujad](MeiliMuutujad.png)
 
+<br/>
+
 Kasutajal on võimalik seadistada teenuslepingute arvete ja teenuslepingute konteeritud arvete jaoks eraldi numbriseeriad.
 
 

@@ -44,6 +44,9 @@ Objektide info lisamine käib objekti kaardi kaudu ja objekti kaardile on võima
 |Staatus|Objekti staatus. Võimalik valida etteantud väärtuste vahel:Aktiivne, Mitteaktiivne, Ajutiselt peatatud, Lõpetatud |
 |Objekti grupp|Võimalik lisada Objekti iseloomustavat rühmitatavat tunnust, näiteks Eramu, Kortermaja, Büroo jt. Neid tunnuseid on võimalik kasutajatel endil defineerida lehe Objektirühma loend kaudu.|
 
+<br/>
+
+
 ---
 
 ### Kontaktinfo

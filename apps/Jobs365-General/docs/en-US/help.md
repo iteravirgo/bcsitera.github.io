@@ -65,7 +65,7 @@ Open **Job Task Lines** or **Job Planning Lines** and use button **Change markup
 
 Following view will be displayed:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365MuudaJuurdeAllahindlustENG.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustENG.png" alt="Projekti plaanimisridadel allahindluste ja juurdehindluste massmuutmine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365MuudaJuurdeAllahindlustENG.png" target="_blank"><img src="Jobs365MuudaJuurdeAllahindlustENG.png" alt="Batch changing discount or markup on Job Planning Lines" width="400"/></a>
 
 | Field | Explanation|
 | --- | --- |
@@ -86,7 +86,7 @@ Open **Job Planning Lines** and use button **Replace Iteam/Resource/GL Account**
 
 Following view will be displayed:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365AsendaPRkontoRessurssKaupENG.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupENG.png" alt="Projekti plaanimisridadel Kauba või PR konto või Ressursi massasendamine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365AsendaPRkontoRessurssKaupENG.png" target="_blank"><img src="Jobs365AsendaPRkontoRessurssKaupENG.png" alt="Batch replacing Item or GL account or Resource on Job Planning Lines" width="400"/></a>
 
 | Field | Explanation|
 | --- | --- |
@@ -110,7 +110,7 @@ Open **Job Task Lines** or **Job Planning Lines** and use button **Batch Update 
 
 Following view will be displayed:
 
-<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365UuendaMüügihinnadOmahinnadENG.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadENG.png" alt="Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine" width="400"/></a>
+<a href="https://apps.itera.ee/apps/Jobs365-General/docs/en-US/Jobs365UuendaMüügihinnadOmahinnadENG.png" target="_blank"><img src="Jobs365UuendaMüügihinnadOmahinnadENG.png" alt="Batch updating unit cost and unit price on job planning lines based on relevant cards or pricelists" width="400"/></a>
 
 | Field | Explanation|
 | --- | --- |

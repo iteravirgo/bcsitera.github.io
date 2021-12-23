@@ -39,10 +39,11 @@ Objektide info lisamine käib objekti kaardi kaudu ja objekti kaardile on võima
 |-|-|
 |Objekti nr.|Objekti tunnus, kohustuslik väli |
 |Objekti nimetus|Objekti nimetus|
+|KOV|Võimalik lisada objektile piirkonna tunnus. Piirkonna tunnuseid on võimalik ise defineerida ja nende järgi on võimalik loendis objekte filtreerida|
 |Veevärk|Võimalik sisestada objekti iseloomustav üks dimensiooniväärtus, näiteks veepiirkonna tähis|
 |Kanalisatsioon|Võimalik sisestada objekti iseloomustav teine dimensiooniväärtus, näiteks kanalisatsioonipumpla tähis|
-|Staatus|Objekti staatus. Võimalik valida etteantud väärtuste vahel:Aktiivne, Mitteaktiivne, Ajutiselt peatatud, Lõpetatud |
-|Objekti grupp|Võimalik lisada Objekti iseloomustavat rühmitatavat tunnust, näiteks Eramu, Kortermaja, Büroo jt. Neid tunnuseid on võimalik kasutajatel endil defineerida lehe Objektirühma loend kaudu.|
+|Staatus|Objekti staatus. Võimalik valida etteantud väärtuste vahel:Aktiivne, Mitteaktiivne, Ajutiselt peatatud, Lõpetatud|
+|Objekti grupp|Võimalik lisada Objekti iseloomustavat rühmitatavat tunnust, näiteks Eramu, Kortermaja, Büroo jt. Neid tunnuseid on võimalik kasutajatel endil defineerida lehe Objektirühma loend kaudu|
 
 <br/>
 

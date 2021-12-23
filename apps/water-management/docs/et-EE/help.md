@@ -3,6 +3,7 @@
 
 - [Seadistused](#seadistused)
 - [Rollikeskus](#Rollikeskus)
+- [Objektid](#Objektid)
 
 ## Seadistused
 
@@ -29,6 +30,7 @@ Sisestada tuleb aruande nr. (Müügiarve 1306). Võimalik on sisestada kehtivusa
 ## Rollikeskus
 Raamatupidaja rollikeskusesse on lisatud eraldi menüü - Veemajandus, mille all avanevad lehed: Objektid, Arvestid, Teenuslepingud, Konteeritud teenuslepingud.
 
+<br/>
 
 ## Objektid
 Objektide info lisamine käib objekti kaardi kaudu ja objekti kaardile on võimalik sisestada katastri tunnus ning aadressi info. Objektile on kaardi väljade kaudu võimalik sisestada 2 erinevat dimensiooni. Kui objektiga on seotud rohkem dimensioone, siis need saab lisada päises dimensiooni nupu kaudu. Päises oleva nupu Märkus kaudu saab sisestada erinevaid märkusi, mis avanevad ka kaardil Märkus väljalt.

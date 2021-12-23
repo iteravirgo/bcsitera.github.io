@@ -115,12 +115,12 @@ Following view will be displayed:
 | Field | Explanation|
 | --- | --- |
 | ***Job***| Information about affected job is being displayed. Field is not editable.|
-| ***Update Unit Cost***| Võimaldab määrata kas antud käivitusega rakendatakse ühiku omahinna uuendus või mitte.|
-| ***Update Unit Cost as***| Võimaldab määrata mille alusel ühiku omahinda uuendatakse. **_Ühiku omahind_** - Ühiku omahind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Otsene kulu_** - Ühiku omahind uuendatakse kauba kaardilt (**Viimane otsene kulu**) või ressursi kaardilt () välja alusel. **_Ostuhinnakiri_** -  Ühiku omahind uuendatakse valitud **Ostuhinnakirja** alusel.|
-| ***Purchase Price Code***| Võimaldab määrata millise **Ostuhinnakirja** alusel Ühiku omahindu uuendatakse kui aluseks oli valitud **_Ostuhinnakiri_**.|
-| ***Update Sales Price***| Võimaldab määrata kas antud käivitusega rakendatakse müügihinna uuendus või mitte.|
-| ***Update Sales Price as***| Võimaldab määrata mille alusel müügihinda uuendatakse. **_Ühiku hind_** - Ühiku hind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Müügihinnakiri_** -  Ühiku hind uuendatakse valitud **Müügihinnakirja** alusel.|
-| ***Sales Price Code***| Võimaldab määrata millise **Müüghinnakirja** alusel Müügihindu (Ühiku hindu) uuendatakse kui aluseks oli valitud **_Müügihinnakiri_**.|
+| ***Update Unit Cost***| Allows you to decide if unit cost update is activated with current run.|
+| ***Update Unit Cost as***| Allows you to choose what will be the base for updating unit cost. **_Unit Cost_** - Unit cost will be updated based on Item or Resource card's relevant field. **_Last Direct Cost_** - Unit cost will be updated based on Item card (**Last Direct Cost**). **_Purchase Price List_** - Unit cost will be updated based on selected **Purchase Price List**.|
+| ***Purchase Price List***| Allows you to choose which **Purchase Price List** will be base for updateing unit cost if the selected method is **_Purchase Price List_**.|
+| ***Update Sales Price***| Allows you to decide if unit price update is activated with current run.|
+| ***Update Sales Price as***| Allows you to choose what will be the base for updating unit price. **_Unit Price_** - Unit cost will be updated based on Item or Resource card's relevant field. **_Sales Price List_** - Unit price will be updated based on selected **Sales Price List**.|
+| ***Sales Price List***| Allows you to choose which **Sales Price List** will be base for updateing unit price if the selected method is **_Sales Price List_**.|
 
 Additionally it is possible to use filter form **Job Planning Line** table.
 

@@ -2,7 +2,7 @@
 ## Sisukord
 
 - [Seadistused](#seadistused)
--
+- [Rollikeskus](#Rollikeskus)
 
 ## Seadistused
 
@@ -26,7 +26,21 @@ Sisestada tuleb aruande nr. (Müügiarve 1306). Võimalik on sisestada kehtivusa
 <br/>
 
 
+## Rollikeskus
+Raamatupidaja rollikeskusesse on lisatud eraldi menüü - Veemajandus, mille all avanevad lehed: Objektid, Arvestid, Teenuslepingud, Konteeritud teenuslepingud.
 
+
+## Objektid
+Objektide info lisamine käib objekti kaardi kaudu ja objekti kaardile on võimalik sisestada katastri tunnus ning aadressi info. Objektile on kaardi väljade kaudu võimalik sisestada 2 erinevat dimensiooni. Kui objektiga on seotud rohkem dimensioone, siis need saab lisada päises dimensiooni nupu kaudu. Päises oleva nupu Märkus kaudu saab sisestada erinevaid märkusi, mis avanevad ka kaardil Märkus väljalt.
+
+|Väli|Selgitus|
+|-|-|
+|Objekti nr.|Objekti tunnus, kohustuslik väli |
+|Objekti nimetus|Objekti nimetus|
+|Veevärk|Võimalik sisestada objekti iseloomustav üks dimensiooniväärtus, näiteks veepiirkonna tähis|
+|Kanalisatsioon|Võimalik sisestada objekti iseloomustav teine dimensiooniväärtus, näiteks kanalisatsioonipumpla tähis|
+|Staatus|Objekti staatus. Võimalik valida etteantud väärtuste vahel:Aktiivne, Mitteaktiivne, Ajutiselt peatatud, Lõpetatud |
+|Objekti grupp|Võimalik lisada Objekti iseloomustavat rühmitatavat tunnust, näiteks Eramu, Kortermaja, Büroo jt. Neid tunnuseid on võimalik kasutajatel endil defineerida lehe Objektirühma loend kaudu.|
 
 ---
 

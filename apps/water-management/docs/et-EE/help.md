@@ -21,10 +21,7 @@ Näitude meeldetuletuste sisus on võimalik kasutada muutujaid: Arvesti, Lepingu
 ### Lisatekstide seadistused
 Müügi- ja müügivõlgade lehel on võimalik seadistada lisatekste erinevatele dokumentidele, näiteks arvetele või teenuslepingutele.
 Seadistus avaneb Müügi- ja müügivõlgade lehe päises nupu Aruannete lisa infod alt.
-
-![Lisatekstid](Lisatekstid.png)
-
- <br/>
+Sisestada tuleb aruande nr. (Müügiarve 1306). Võimalik on sisestada kehtivusaega, lisateksti, erinevaid muutujaid, kirja suurust ja kas teksti kuvatakse paksus kirjas.
 
 <br/>
 

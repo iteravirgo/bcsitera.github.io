@@ -47,7 +47,7 @@ Following view will be displayed:
 | ***GL Budget name***| allows you to choose into which **GL Budget** you would like to send job data.|
 | ***From Date*** and ***To Date***| allow you to filter which date range should be sent to **GL budget**. Filter will be applied to **Job Planning Lines** to be included.|
 |***Line Type***| allows you to chosse which type of **Job Planning Lines** should be included.|
-|***Include Cost Amounts*** and ***Include Price Amounts*** | allow you to choose if only costs should be sent to budget or only price amounts or both.
+|***Include Cost Amounts*** and ***Include Price Amounts*** | allows you to choose if only costs should be sent to budget or only price amounts or both.
 |***Default Gen. Business Posting Group*** | allows you to choose which **Gen. Business Posting Group** will be used for Item and Resource lines to find which Sales, Purchases or COGS account should be used.|
 |***Include Budget Dimensions***| allows you to transfer dimension information from jobs to budget if some of the job dimensions match Budget dimensions.|
 
@@ -69,11 +69,11 @@ Following view will be displayed:
 
 | Field | Explanation|
 | --- | --- |
-| ***Job***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
-| ***Markup %***| Võimaldab määrata juurdehindluse % ehk kui palju tuleks ühiku omahinnale müügihinna saamiseks juurde lisada. _Näide: Kui sisestada siia number 40 (ehk 40%) ning kui rea/ridade **Ühiku omahind** on 100 siis selle tulemsuena muudetakse rea/ridade **Müügihind** 140-ks (100*1,4)_.|
-| ***Change Markup***| Võimaldab määrata kas antud käivitusega rakendatakse juurdehindluse muutmist või mitte.|
-| ***Discount %***| Võimaldab määrata allahindluse % mida soovitakse real/ridadele rakendada. Peale käivitamist muudetakse kõikidel filtrisse jäävatel ridadel veergu **Rea hinnaalandi % (Allahindluse %)** ning arvutatakse vastavalt sellele ümber ka veerg **Rea summa**.|
-| ***Change Discount***| Võimaldab määrata kas antud käivitusega rakendatakse allahindluse muutmist või mitte.|
+| ***Job***| Information about affected job is being displayed. Field is not editable.|
+| ***Markup %***| Allows you to insert markup % in other in other words how much should be added to unit cost to get the unit price. _Example: If you insert number 40 (i.e. 40%) and if line/lines **Unit Cost** is 100 then the result for **Unit Price** would be 140 (100*1,4)_.|
+| ***Change Markup***| Allows you to select if markup change is activated with current run.|
+| ***Discount %***| Allows you to insert discount % that you would like to assign to line/lines. After running, the field **Line Discount %** will be changed on all lines within the filter and field **Line Amount** will be recalculated accordingly.|
+| ***Change Discount***| Allows you to select if discount change is activated with current run.|
 
 Additionally it is possible to use filter form **Job Planning Line** table.
 
@@ -90,23 +90,23 @@ Following view will be displayed:
 
 | Field | Explanation|
 | --- | --- |
-| ***Job***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
-| ***Old Type to Change***| Võimaldab määrata millist liiki hakatakse asendama.|
-| ***Old Item/Resource/GL Account to Change***| Võimaldab määrata millist kaupa, ressurssi või PR kontot soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Asendatav liik**.|
-| ***New Type***| Võimaldab määrata millise liigiga hakatakse asendama.|
-| ***New Item/Resource/GL Account***| Võimaldab määrata millise kauba, ressurssi või PR kontoga soovitakse asendada. Valik sõltub sellest mis väärtus valiti väljale **Uus liik**.|
-| ***Maintain Unit Cost***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Ühiku omahind** või uuendataske see vastavalt uuele kaubale või ressursile.|
-| ***Maintain Unit Price***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Müügihind** või uuendataske see vastavalt uuele kaubale või ressursile.|
-| ***Update Description***| Võimaldab määrata kas asendamisel säilitatakse rea olemasoelv **Kirjaldus** või uuendataske see vastavalt uuele kaubale, ressursile või PR kontole.|
+| ***Job***| Information about affected job is being displayed. Field is not editable.|
+| ***Old Type to Change***| Allows you to choose replaceable type.|
+| ***Old Item/Resource/GL Account to Change***| Allows you to choose repleaceable Itema, Resource or GL Account. Selection depends on which value was selected in field **Old Type to Change**.|
+| ***New Type***| Allows you to choose replacement type.|
+| ***New Item/Resource/GL Account***| Allows you to choose replacement Item, Resource or GL Account. Selection depends on which value was selected in field **New Type**.|
+| ***Maintain Unit Cost***| Allows you to decide if line's **Unit Cost** will remain unchanged or it will be updated according to new Item or Resource.|
+| ***Maintain Unit Price***| Allows you to decide if line's **Unit Price** will remain unchanged or it will be updated according to new Item or Resource.|
+| ***Update Description***|  Allows you to decide if line's **Unit Price** will remain unchanged or it will be updated according to new Item, Resource or GL Account.|
 
 Additionally it is possible to use filter form **Job Planning Line** table.
 
 After pressing **OK** functionality will run with specified parameters.
 
 ## Batch updating unit cost and unit price on job planning lines based on relevant cards or pricelists
-Funktsionaalsus võimaldab kauba, PR konto või Ressursi asendamist mitmel projekti plaanimisreal korraga. 
+Functionality allows you to batch update **Unit Cost** and **Unit Price** on **Job Planning Lines**. 
 
-Avage **Projekti ülesande read** või**Projekti plaanimisread** ning kasutage nuppu **Uuenda omahinnad/müügihinnad**.
+Open **Job Task Lines** or **Job Planning Lines** and use button **Batch Update Unit Cost/Price**.
 
 Following view will be displayed:
 
@@ -114,13 +114,13 @@ Following view will be displayed:
 
 | Field | Explanation|
 | --- | --- |
-| ***Projekt***| kuvatakse millise projekti ridu hakatakse muutma. Väli ei ole muudetav.|
-| ***Uuenda ühiku omahind***| Võimaldab määrata kas antud käivitusega rakendatakse ühiku omahinna uuendus või mitte.|
-| ***Ühiku omahinna uuendamise alus***| Võimaldab määrata mille alusel ühiku omahinda uuendatakse. **_Ühiku omahind_** - Ühiku omahind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Otsene kulu_** - Ühiku omahind uuendatakse kauba kaardilt (**Viimane otsene kulu**) või ressursi kaardilt () välja alusel. **_Ostuhinnakiri_** -  Ühiku omahind uuendatakse valitud **Ostuhinnakirja** alusel.|
-| ***Ostuhinnakirja tähis***| Võimaldab määrata millise **Ostuhinnakirja** alusel Ühiku omahindu uuendatakse kui aluseks oli valitud **_Ostuhinnakiri_**.|
-| ***Uuenda müügihind***| Võimaldab määrata kas antud käivitusega rakendatakse müügihinna uuendus või mitte.|
-| ***Müügihinna uuendamise alus***| Võimaldab määrata mille alusel müügihinda uuendatakse. **_Ühiku hind_** - Ühiku hind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Müügihinnakiri_** -  Ühiku hind uuendatakse valitud **Müügihinnakirja** alusel.|
-| ***Müügihinnakirja tähis***| Võimaldab määrata millise **Müüghinnakirja** alusel Müügihindu (Ühiku hindu) uuendatakse kui aluseks oli valitud **_Müügihinnakiri_**.|
+| ***Job***| Information about affected job is being displayed. Field is not editable.|
+| ***Update Unit Cost***| Võimaldab määrata kas antud käivitusega rakendatakse ühiku omahinna uuendus või mitte.|
+| ***Update Unit Cost as***| Võimaldab määrata mille alusel ühiku omahinda uuendatakse. **_Ühiku omahind_** - Ühiku omahind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Otsene kulu_** - Ühiku omahind uuendatakse kauba kaardilt (**Viimane otsene kulu**) või ressursi kaardilt () välja alusel. **_Ostuhinnakiri_** -  Ühiku omahind uuendatakse valitud **Ostuhinnakirja** alusel.|
+| ***Purchase Price Code***| Võimaldab määrata millise **Ostuhinnakirja** alusel Ühiku omahindu uuendatakse kui aluseks oli valitud **_Ostuhinnakiri_**.|
+| ***Update Sales Price***| Võimaldab määrata kas antud käivitusega rakendatakse müügihinna uuendus või mitte.|
+| ***Update Sales Price as***| Võimaldab määrata mille alusel müügihinda uuendatakse. **_Ühiku hind_** - Ühiku hind uuendatakse kauba või ressursi kaardilt vastava välja alusel. **_Müügihinnakiri_** -  Ühiku hind uuendatakse valitud **Müügihinnakirja** alusel.|
+| ***Sales Price Code***| Võimaldab määrata millise **Müüghinnakirja** alusel Müügihindu (Ühiku hindu) uuendatakse kui aluseks oli valitud **_Müügihinnakiri_**.|
 
 Additionally it is possible to use filter form **Job Planning Line** table.
 

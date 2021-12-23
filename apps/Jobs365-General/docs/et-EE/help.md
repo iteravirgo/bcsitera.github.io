@@ -101,7 +101,7 @@ Täiendavalt on võimalik valida filtreid **Projekti plaanimisridade** tabelist.
 Peale **OK** vajutamist käivitatakse funtksionaalsus soovitud parameetritega.
 
 ## Projekti plaanimisridadel ühiku omahindade ja müügihindade massuuendamine
-Funktsionaalsus võimaldab kauba, PR konto või Ressursi asendamist mitmel projekti plaanimisreal korraga. 
+Funktsionaalsus võimaldab ühiku omahinna ja ühiku hinna uuendamist mitmel projekti plaanimisreal korraga. 
 
 Avage **Projekti ülesande read** või**Projekti plaanimisread** ning kasutage nuppu **Uuenda omahinnad/müügihinnad**.
 

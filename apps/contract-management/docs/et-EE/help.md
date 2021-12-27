@@ -29,9 +29,8 @@ Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmi
 
 | Väli | Selgitus |
 | --- | --- | 
-| Lepingute numbrid | Antud väljal määratakse ära lepingute numbriseeria. Väärtus on valitav **Numbriseeriate** loendist.|
-| Lepingu täitmise kontod | Tuleb ära määrata PR kontode filter mille pealt hakatakse lugema lepingu täitmist. Näiteks tulu ja kulukontod, kuhu tekib lepingu kandeid. Kindlast võiks välja jätta käibemaksu ja reskontroga seotud kontod. Võib sisestada konkreetsed kontod ja/või kontode vahemiku (näiteks vahemik 30000..90000).|
-
+| **_Lepingute numbrid_** | Antud väljal määratakse ära lepingute numbriseeria. Väärtus on valitav **Numbriseeriate** loendist.|
+| **_Lepingu täitmise kontod_** | Tuleb ära määrata PR kontode filter mille pealt hakatakse lugema lepingu täitmist. Näiteks tulu ja kulukontod, kuhu tekib lepingu kandeid. Kindlast võiks välja jätta käibemaksu ja reskontroga seotud kontod. Võib sisestada konkreetsed kontod ja/või kontode vahemiku (näiteks vahemik 30000..90000).|
 |**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
 |**_Default Contract Type_**|Specifies default Contract Type for new contracts.
 |**_Def. Contract Category Sales_**|Specifies default Contract Category for sales contracts.
@@ -77,6 +76,8 @@ _Billing related category setup_
 Lepingute lahenduse puhul on võimalik hallata nii ostu-, müügi- kui ka muid lepinguid. Uue lepingu sisestamiseks tuleb avada **Lepingud** ning luua uus kirje kasutades nuppu **+Uus**.
 
 Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContractCardEE.png" target="_blank"><img src="ContManContractCardEE.png" alt="Lepingu kaart" width="800"/></a>
 
 | Väli | Selgitus |
 | --- | --- | 
@@ -127,6 +128,8 @@ _Arvestama peab sellega, et kliendi- ja hankijareskontrosse liigub lepingu numbe
 
 Lepingu täituvust ning jääki on võimalik jälgida **Lepingute loendist** või **Lepingu kaardilt** järgnevatelt väljadelt:
 
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCompletionTrackingEE.png" target="_blank"><img src="ContManCompletionTrackingEE.png" alt="Lepingu täituvuse jälgimine" width="1000"/></a>
+
 - Täitmine (KV) - kuvab lepinguga seotud summasid **Pearaamatu kannete alusel**. Kannetele on summa arvutamiseks rakendatud **Lepingute seadistuses** määratud filtrit.
 - Jääk (KV) - kuvab lepingu jääki mis leitakse väljade **_Summa_** ja **_Täitmine (KV)_** alusel
 
@@ -151,6 +154,108 @@ Projekti müügiarve loomisel kantakse leping üle ka loodavale **Müügiarvele*
 Lepingu valimisel rakenduvad järgnevad filtrid:
 - Partner ehk projekti plaanimisreale saab valida lepinguid mis on seotud projekti plaanimisreale märgitud **_Partneri nr._**-ga.
 - Valikust jäävad välja ka **_Lukus_** lepingud.
+
+---
+
+## Billing
+
+You can enter billing information on contract card and then fill in contract lines. After that billing lines can be created, in order to check possible deviations and to have a longer view, and finally sales documents can be created.
+
+#### _Important_
+
+--- 
+_**Billing Information** tab becomes visible only if it is allowed in **Contract Setup** and on contracts of type **Sales**! **Contract Lines** tab becomes visible after billing information date related fields are filled in and **Add Contract Lines** has been clicked!_
+
+---
+
+On **Billing Information** tab you can fill following fields:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManBillingInfoEE.png" target="_blank"><img src="ContManBillingInfoEE.png" alt="Arvelduse info" width="1000"/></a>
+
+|Field|Explanation|
+|---|---| 
+| **_Bill-to Customer No._** | Specifies Bill-To Customer. If not filled in Customer default value will be used on invoice creation.|
+| **_Ship-to Code_** | Specifies Ship-To Code. If not filled in Customer default value will be used on invoice creation.|
+| **_Invoicing Frequency Option_** | Specifies default Invoicing Frequency Option for lines.|
+| **_Invoicing Frequency_** | Specifies default Invoicing Frequency for lines. By default field is not visible.|
+| **_Billing Start Date_** | Specifies default Billing Start Date for lines.|
+| **_End Date First Period_** | Specifies default End Date of the first billing period for lines. For an example this field allows to play with the length of the first period in order to adjust future periods to fit into full months.|
+| **_Billing End Date_** | Specifies default Billing End Date for lines.|
+| **_Add Contract Lines_** | Enables **Contract Lines** and inserts first contract line with default values from **Contract Category** and **Billing Information** tab.|
+
+On **Contract Lines** tab you can fill following fields:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContLinesEE.png" target="_blank"><img src="ContManContLinesEE.png" alt="Lepingu read" width="800"/></a>
+
+|Field|Explanation|
+|---|---| 
+| **_Type_** | Allows to specify type. Default value will be taken from **Contract Category**.|
+| **_No._** | Allows to specify No. to be billed. First line default value will be taken from **Contract Category**|
+| **_Description_** | Allows to specify line description.|
+| **_Quantity_** | Allows to specify quantity to be billed.|
+| **_Unit of Measure Code_** | Allows to specify unit of measure to be billed. Field is not visible by default.|
+| **_Unit Price Excl. VAT_** | Allows to specify line unit price to be billed.|
+| **_Line Amount Excl. VAT_** | Displays calculated line amount. Field is not editable.|
+| **_Valid_** | Allows to specify if line is valid or not. Default value is Valid.|
+| **_Add Period Text_** | Allows to specify if new text line with period information will be added after this line when creating invoice information.|
+| **_Invoicing Frequency Option_** | Specifies billing period/frequency for current line. Default value will be taken from **Billing Information** tab.|
+| **_Billing Start Date_** | Allows to specify Billing Start Date for current line.|
+| **_End Date First Period_** | Allows to specify End Date First Period for current line. Default value will be taken from **Billing Information** tab.|
+| **_Next Billing Date_** | Displays **Nexte Billing Date** (next period start date) for current line after [Create Contract Invoice Lines](#create-contract-invoice-lines) has been run|
+| **_Billing End Date_** | Allows to specify Billing End Date for current line.. Default value will be taken from **Billing Information** tab.|
+
+Contract line based sales orders/invoices creation consists of two steps.
+
+### Create Contract Invoice Lines
+First step is to create **Contract Invoice Lines**.
+
+Open **Contracts List** or **Contract Card** and use action **Create Contract Invoice Lines (CM)**.
+Following window will be opened:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCreateContInvLinesEE.png" target="_blank"><img src="ContManCreateContInvLinesEE.png" alt="Lepingu arvelduse ridade loomine" width="500"/></a>
+
+Fill in **Next Billing Date**, this date will be an end date for a range that will be applied to **Valid** contract lines. It will be applied to **Next Invoicing Date** or to **Billing Start Date** (if the other is empty) and **Contract Invoice Lines** will be created for each **Contract Line** that meets the filtering criteria. 
+* By default it is filled with Today + date formula from **_Create Contract Invoice Lines Date Formula_** in **Contract Setup**.
+* Additonal filters can be applied from **Contracts** or **Contract Lines**.
+* If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
+
+Press **OK**.
+
+Use action **Contract Invoice Lines** from **Contract Card** to open list. Check if lines were created and if they look OK for creating invoices/orders. _List is not editable_.
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContInvLinesEE.png" target="_blank"><img src="ContManContInvLinesEE.png" alt="Lepingu arvelduse read" width="800"/></a>
+
+Some of the fields need no explanation. Other will be explained below.
+
+|Field|Explanation|
+|---|---| 
+| **_Posting Date_** | By default **Period Start Date**.|
+| **_Period Start Date_** and **_Period End Date_**  | Are reflecting the actual billing period|
+| **_Status_** | Shows status of current line. **New** - First status for alla created lines. Also line gets this status back when it is removed from order/invoice. or removed . **Order** - **Sales Order** has been created from that line. **Invoice** - **Sales Invoice** has been created from that line. **Posted** - involved sales order/invoice has been posted. **Canceled** - line has been canceled by using action **Cancel**, only **New** lines can be canceled.|
+| **_Document No._** | Shows document number of the involved document (order, invoice, posted invoice).|
+
+---
+
+### Create Sales Invoices
+Second step is to create **Sales Orders** or **Sales Invoices**.
+
+Open **Contracts List** or **Contract Card** and use action **Create Sales Invoices (CM)**.
+Following window will be opened:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCreateSalesInvEE.png" target="_blank"><img src="ContManCreateSalesInvEE.png" alt="Lepingu müügiarvete loomine" width="500"/></a>
+
+Fill in **Posting Date**, this date will be an end date for a range that will be applied to **Contract Invocie Lines**. It will be applied to **Posting Date** and **Sales Invoices/Orders** will be created for contract invoice lines that meet the filtering criteria and combined according to **Create Invoices By**.
+* By default it is filled with Today + date formula from **_Create Sales Invoices Date Formula_** in **Contract Setup**.
+* Additonal filters can be applied from **Contracts** or **Contract Invoice Lines**.
+* If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
+
+|Field|Explanation|
+|---|---| 
+| **_Replace Posting Date_** | Allows to replace invoice/order **Posting Date**. Otherwise Posting Date will be taken from Contract Invoice Line. |
+| **_Create Invoices By_** | Allows to select how the lines should be grouped among documents. **Contract** - one invoice/order for each contract. Only lines from one contract will be included in one invoice/order. **Customer** - one invoice/order per customer. Lines from different contracts that have the same customer will be included in one invoice/order. **Main Contract** - one invoice/order per main contract. Lines from different contracts that have the same main contract will be included in one invoice/order.|
+| **_Create as Invocie or Order_** | Allows to select which type of sales docuemnts should be created: **Invoices** (default) or **Orders**.|
+
+Press **OK**.
 
 ---
 

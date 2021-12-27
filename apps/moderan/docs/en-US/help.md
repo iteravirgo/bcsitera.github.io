@@ -192,9 +192,10 @@ Priority can be used to determine the most important role of the contact person.
 ![OrganisationRoles](OrganisationRoles.png)
 
 
-### Setup Salutaions
+### Setup Salutations
 
-Open **Salutaions** page and add the codes, which used as Gender codes in Moderan.
+Open **Salutations** page and add the codes, which used as Gender codes in Moderan.
+
 
 ### Get Contacts
 

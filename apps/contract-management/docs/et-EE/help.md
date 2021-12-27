@@ -90,8 +90,8 @@ Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
 | Algus- ja Lõpukuupäev** | Määratakse ära mis on lepingu kehtivusaeg. Väli on informatiivse tähendusega|
 | Summa** | Võimaldab määrata lepingu summa, mille alusel hakatakse kuvama ka lepingu jääki.|
 | Summa KM-ga | Võimaldab sisestada lepingu summa koos käibemaksuga.|
-| Maksetingimused | Võimaldab määrata lepingus kokkulepitud maksetingimused. Value will be transferred to Sales/Purchase header after chosing contract in document header.|
-|Salesperson/Purchaser Code| Specifies a code for the salesperson/purchaser who is responsible for the contract. Value will be transferred to Sales/Purchase header after chosing contract in document header.
+| Maksetingimused | Võimaldab määrata lepingus kokkulepitud maksetingimused. Väärtus kantakse üle müügi/ostu päisesse peale lepingu nr valimist dokumendi päises.|
+|Müügiisiku/Sisseostja tähis| Võimaldab määrata müügiisiku/sisseostja kes on vastava lepingu eest vastutav. Väärtus kantakse üle müügi/ostu päisesse peale lepingu nr valimist dokumendi päises.
 | Lukus | Võimaldab lepingu märkida lukus olevaks. Lepingut ei kuvata enam lepingu valiku juures ost- ja müügidokumentidel ega projektide valikutes.|
 
 *_Väljad mis tuleb kndlasti täita_
@@ -159,31 +159,31 @@ Lepingu valimisel rakenduvad järgnevad filtrid:
 
 ## Arveldamine
 
-You can enter billing information on contract card and then fill in contract lines. After that billing lines can be created, in order to check possible deviations and to have a longer view, and finally sales documents can be created.
+Funktsionaalsus võimaldab sisestada arvldamise infot lepingu kaardile ning seejärel lepingu ridadele. Peale seda saate luua lepingu arvelduse ridu, et kontrollida õigsust ning kõrvalekaldeid, ning seejärel saate nende ridade alusel luua müügidokumente.
 
-#### _Important_
+#### _Tähtis_
 
 --- 
-_**Billing Information** tab becomes visible only if it is allowed in **Contract Setup** and on contracts of type **Sales**! **Contract Lines** tab becomes visible after billing information date related fields are filled in and **Add Contract Lines** has been clicked!_
+_**Arvelduse info** vahekaart on nähtav ainult juhul kui **Lepingute seadistuses** on see lubatud ja lepingu tüüp on **Müük**! **Lepingu read** vahekaart muutub nähtavaks peale seda kui arveldus info kuupäevaväljad on täidetud ning on klikatud **Lisa lepingu read**!_
 
 ---
 
-On **Billing Information** tab you can fill following fields:
+**Arvelduse info** vahekaardil on võimalik täita järgenvad väljad:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManBillingInfoEE.png" target="_blank"><img src="ContManBillingInfoEE.png" alt="Arvelduse info" width="1000"/></a>
 
 |Väli|Selgitus|
 |---|---| 
-| **_Bill-to Customer No._** | Specifies Bill-To Customer. If not filled in Customer default value will be used on invoice creation.|
-| **_Ship-to Code_** | Specifies Ship-To Code. If not filled in Customer default value will be used on invoice creation.|
-| **_Invoicing Frequency Option_** | Specifies default Invoicing Frequency Option for lines.|
-| **_Invoicing Frequency_** | Specifies default Invoicing Frequency for lines. By default field is not visible.|
-| **_Billing Start Date_** | Specifies default Billing Start Date for lines.|
-| **_End Date First Period_** | Specifies default End Date of the first billing period for lines. For an example this field allows to play with the length of the first period in order to adjust future periods to fit into full months.|
-| **_Billing End Date_** | Specifies default Billing End Date for lines.|
-| **_Add Contract Lines_** | Enables **Contract Lines** and inserts first contract line with default values from **Contract Category** and **Billing Information** tab.|
+| **_Maksja kliendi nr._** | Võimaldab määrata maksja kliendi numbri. Kui väli pole täidetud siis kasutatakse müügidokumendi loomsiel kliendi vaikeväärtust.|
+| **_Saaja-aadressi tähis_** | Võimaldab määrata saaja-aadressi. Kui väli pole täidetud siis kasutatakse müügidokumendi loomsiel kliendi vaikeväärtust.|
+| **_Arveldusperioodi valik_** | Võimaldab määrata vaikimisi arvldusperioodi valiku lepingu ridade jaoks.|
+| **_Arveldusperiood_** | Võimaldab määrata vaikimisi arvldusperioodi lepingu ridade jaoks. Vaikimisi on väli peidetud.|
+| **_Arvelduse alguskuupäev_** | Võimaldab määrata vaikimisi arvelduse alguskuupeäva lepingu ridade jaoks.|
+| **_Esimese perioodi lõppkuupäev_** | Võimaldab määrata vaikimisi esimese perioodi lõppkuupäeva lepingu ridade jaoks. See väli võmaldab mängida esimese perioodi pikkusega, et sättida tuelvikuperioodid täiskuude peale.|
+| **_Arvelduse lõppkuupäev_** | Võimaldab määrata vaikimisi arvelduse lõppkuupäeva lepingu ridade jaoks|
+| **_Lisa lepingu read_** | Enables **Contract Lines** and inserts first contract line with default values from **Contract Category** and **Billing Information** tab.|
 
-On **Contract Lines** tab you can fill following fields:
+**Lepingu read** vahekaardil on võimalik täita järgenvad väljad:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContLinesEE.png" target="_blank"><img src="ContManContLinesEE.png" alt="Lepingu read" width="800"/></a>
 

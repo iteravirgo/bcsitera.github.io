@@ -57,7 +57,7 @@ Lepingu kategooriad võimaldavad teil kirjeldada erienvat tüüpi kategooriaid, 
 | **_Lepingu kategooria tähis_** | Võimaldab määrata lepingu kategooria tähise.|
 | **_Lepingu kategooria kirjeldus_** | Võimaldab määrata lepingu kategooria kirjelduse.|
 |**_Müük, Ost, Muu_**| Müük tuleks märkida juhul kui kategooriat peaks saama valida müügilepingutele (Tüüp **Müük**), Ost tuleks märkdia juhul kui kategooriat peaks saama valida ostulepingutele (Tüüp **Ost**), Muu tuleks märkida juhul kui kategooriat peaks saama valida ka muudele lepingutele (Tüüp **Muu**).
-|**_Müügilepingute arv_** and **_Ostulepingute arv_**| Kuvab müügi/ostulepingute arvu antud kategoorias.|
+|**_Müügilepingute arv_** ja **_Ostulepingute arv_**| Kuvab müügi/ostulepingute arvu antud kategoorias.|
 
 _Arveldamisega seotud seadistused_
 
@@ -181,7 +181,7 @@ _**Arvelduse info** vahekaart on nähtav ainult juhul kui **Lepingute seadistuse
 | **_Arvelduse alguskuupäev_** | Võimaldab määrata vaikimisi arvelduse alguskuupeäva lepingu ridade jaoks.|
 | **_Esimese perioodi lõppkuupäev_** | Võimaldab määrata vaikimisi esimese perioodi lõppkuupäeva lepingu ridade jaoks. See väli võmaldab mängida esimese perioodi pikkusega, et sättida tuelvikuperioodid täiskuude peale.|
 | **_Arvelduse lõppkuupäev_** | Võimaldab määrata vaikimisi arvelduse lõppkuupäeva lepingu ridade jaoks|
-| **_Lisa lepingu read_** | Enables **Contract Lines** and inserts first contract line with default values from **Contract Category** and **Billing Information** tab.|
+| **_Lisa lepingu read_** | Aktiveerib vahekaardi **Lepingu read** ja sisestab esimese lepingu rea vaikeväärtustega **Lepingu kategoorialt** ja **Arvelduse info** vahekaardilt.|
 
 **Lepingu read** vahekaardil on võimalik täita järgenvad väljad:
 
@@ -189,11 +189,11 @@ _**Arvelduse info** vahekaart on nähtav ainult juhul kui **Lepingute seadistuse
 
 |Väli|Selgitus|
 |---|---| 
-| **_Type_** | Allows to specify type. Default value will be taken from **Contract Category**.|
-| **_No._** | Allows to specify No. to be billed. First line default value will be taken from **Contract Category**|
-| **_Description_** | Allows to specify line description.|
-| **_Quantity_** | Allows to specify quantity to be billed.|
-| **_Unit of Measure Code_** | Allows to specify unit of measure to be billed. Field is not visible by default.|
+| **_Liik_** | Võimldab määrata liiki. Vaikeväärtus võetakse **Lepingu kategooria** alusel.|
+| **_Nr._** | Võimaldab määrata nr. mida hakatakse arveldama. Esimese rea vaikeväärtus võetakse **Lepingu kategooria** alusel|
+| **_Kirjeldus_** | Võimaldab määrata rea kirjelduse.|
+| **_Quantity_** | Võimaldab määrata arveldatavat kogust.|
+| **_Unit of Measure Code_** | Võimaldab määrata arveldatavat mõõtühikut. Vaikimsi on väli peidetud.|
 | **_Unit Price Excl. VAT_** | Allows to specify line unit price to be billed.|
 | **_Line Amount Excl. VAT_** | Displays calculated line amount. Field is not editable.|
 | **_Valid_** | Allows to specify if line is valid or not. Default value is Valid.|

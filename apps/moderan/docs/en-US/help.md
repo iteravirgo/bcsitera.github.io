@@ -3,6 +3,7 @@
 Moderan Interface enables the following:
 - Get Customers or Vendors from Moderan
 - Get Sales invoices from Moderan
+- Get Contacts from Moderan
 - Send Customer Balances to Moderan
 
 ## Contents
@@ -18,6 +19,7 @@ Moderan Interface enables the following:
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
   - [Periodization of Invoices](#periodization-of-invoices) 
+- [How to Get Contacts from Moderan](#how-to-get-contacts-from-moderan)
 - [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan) 
   
   <br/>
@@ -174,6 +176,8 @@ If there are services on the invoice which are not for the current period, the *
 User can filter out these invoices and perform periodization tasks if required.
 
  <br/>
+
+## How to Get Contacts from Moderan
 
 ## How to Send Customer Balances to Moderan
 

@@ -201,6 +201,8 @@ Open **Salutations** page and add the codes, which used as Gender codes in Moder
 
 To get customers or vendors from Moderan, run action **Moderan – Get Contacts** and press OK. Contacts are imported from Moderan into company-type contacts. The contact is assigned a role according to the prority on the **Moderan Organisation Roles** page.
 
+**NB!** Only contacts that have the role described on the **Moderan Organisation Roles** page will be imported.
+
 **Moderan – Get Contacts** can be setup to run automatically by using **Job Queue** functionality.
 
 To do so, open **Job Queue Entries** and create new entry as:

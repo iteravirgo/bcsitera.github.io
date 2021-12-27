@@ -6,7 +6,21 @@ Lepingute funktsionaalsus võimaldab BC-s järgmist:
 - Ostupäise ja osturidade summade jälgimist lepingu numbri alusel
 - Lepingute tugi projekti kaardil projekti müügiarvet loomiseks
 - Partneri ja lepingute tugi projekti plaanimisridadel planeerimise eesmärgil 
+- Vaikedimensioonide kasutamine lepingtel
+- Lepingu arvelduse ridade loomine
+- Perioodiliste müügiarvete loomine lepingu arvelduse ridade alusel
 
+## Table of Contents
+  - [Seadistamine](#seadistamine)
+    - [Lepingu kategooriad](#lepingu-kategooriad)
+  - [Kasutamine](#kasutamine)
+    - [Lepingu loomine](#lepingu-loomine)
+    - [Lepingu kasutamine ostu- ja müügidokumentidel](#lepingu-kasutamine-ostu--ja-müügidokumentidel)
+    - [Contract completion tracking](#contract-completion-tracking)
+    - [Using contracts in Jobs](#usingjcontractsjin-jobs)
+  - [Billing](#billing)
+    - [Create Contract Invoice Lines](#create-contract-invoice-lines)
+    - [Create Sales Invoices](#create-sales-invoices)
 
 ## Seadistamine
 Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmised väljad:
@@ -15,9 +29,48 @@ Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmi
 | --- | --- | 
 | Lepingute numbrid | Antud väljal määratakse ära lepingute numbriseeria. Väärtus on valitav **Numbriseeriate** loendist.|
 | Lepingu täitmise kontod | Tuleb ära määrata PR kontode filter mille pealt hakatakse lugema lepingu täitmist. Näiteks tulu ja kulukontod, kuhu tekib lepingu kandeid. Kindlast võiks välja jätta käibemaksu ja reskontroga seotud kontod. Võib sisestada konkreetsed kontod ja/või kontode vahemiku (näiteks vahemik 30000..90000).|
+
+|**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
+|**_Default Contract Type_**|Specifies default Contract Type for new contracts.
+|**_Def. Contract Category Sales_**|Specifies default Contract Category for sales contracts.
+|**_Def. ContractCategory Purchase_**|Specifies default Contract Category for purchase contracts.
+
+_Billing related setup_
+
+|Field|Explanation|
+|---|---| 
+|**_Show Billing Information_**|Enables Billing Information tab on sales contracts.
+|**_Create Contract Invoice Lines Date Formula_**|Specifies default date formula for Next Billing Date in Create Contract Invoice Lines (CM).
+|**_Create Sales Invoices Date Formula_**|Specifies default date formula for Posting Date in Create Sales Invoices (CM).
+
+----
+
+### Lepingu kategooriad
+
+Contract categories allow you to define different type of categories in order to divide your contracts into different groups.
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContCategoriesENG.png" target="_blank"><img src="ContManContCategoriesENG.png" alt="ContManContCategories" width="800"/></a>
+
+|Field| Explanation|
+|---|---| 
+| **_Contract Category Code_** | Specifies a category code for the contract.|
+| **_Contract Category Description_** | Decription to define which contracts are categorized to this category|
+|**_Sales, Purchase, Other_**| Sales should be marked if category should be availabele on sales contracts (Type **Sales**), Purchase should be marked if category should be availabele on purchase contracts (Type **Purchase**), Other should be marked if category should be availabele other contracts (Type **Other**).
+|**_No. of Sales Contracts_** and **_No. of Purchase contracts_**| Shows number of Sales/Purchase contracts in that category.|
+
+_Billing related category setup_
+
+|Field|Explanation|
+|---|---| 
+| **_Def. InvoicingFrequency Option_** | Specifies default Invoicing Frequency Option for contracts in this category.|
+| **_Invoicing Frequency"_** | Specifies default Invoicing Frequency for contracts in this category.|
+| **_Default Type_** | Specifies default Type for contract lines for contracts in this category.|
+| **_Default No._** | Specifies default No. for contract lines for contracts in this category.|
+
+---
  
 ## Kasutamine
-### Lepingute haldamine
+### Lepingu loomine
 
 Lepingute lahenduse puhul on võimalik hallata nii ostu-, müügi- kui ka muid lepinguid. Uue lepingu sisestamiseks tuleb avada **Lepingud** ning luua uus kirje kasutades nuppu **+Uus**.
 
@@ -34,7 +87,8 @@ Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
 | Algus- ja Lõpukuupäev** | Määratakse ära mis on lepingu kehtivusaeg. Väli on informatiivse tähendusega|
 | Summa** | Võimaldab määrata lepingu summa, mille alusel hakatakse kuvama ka lepingu jääki.|
 | Summa KM-ga | Võimaldab sisestada lepingu summa koos käibemaksuga.|
-| Maksetingimused | Võimaldab määrata lepingus kokkulepitud maksetingimused (informatiivne väli)|
+| Maksetingimused | Võimaldab määrata lepingus kokkulepitud maksetingimused. Value will be transferred to Sales/Purchase header after chosing contract in document header.|
+|Salesperson/Purchaser Code| Specifies a code for the salesperson/purchaser who is responsible for the contract. Value will be transferred to Sales/Purchase header after chosing contract in document header.
 | Lukus | Võimaldab lepingu märkida lukus olevaks. Lepingut ei kuvata enam lepingu valiku juures ost- ja müügidokumentidel ega projektide valikutes.|
 
 *_Väljad mis tuleb kndlasti täita_

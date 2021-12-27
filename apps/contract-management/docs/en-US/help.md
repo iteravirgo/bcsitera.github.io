@@ -17,7 +17,7 @@ Contract management functionality in BC enables the following:
     - [Create contract](#create-contract)
     - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
     - [Contract completion tracking](#contract-completion-tracking)
-    - [Using contracts in Jobs](#usingjcontractsjin-jobs)
+    - [Using contracts in Jobs](#using-contracts-in-jobs)
   - [Billing](#billing)
     - [Create Contract Invoice Lines](#create-contract-invoice-lines)
     - [Create Sales Invoices](#create-sales-invoices)

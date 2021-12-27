@@ -31,42 +31,42 @@ Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmi
 | --- | --- | 
 | **_Lepingute numbrid_** | Antud väljal määratakse ära lepingute numbriseeria. Väärtus on valitav **Numbriseeriate** loendist.|
 | **_Lepingu täitmise kontod_** | Tuleb ära määrata PR kontode filter mille pealt hakatakse lugema lepingu täitmist. Näiteks tulu ja kulukontod, kuhu tekib lepingu kandeid. Kindlast võiks välja jätta käibemaksu ja reskontroga seotud kontod. Võib sisestada konkreetsed kontod ja/või kontode vahemiku (näiteks vahemik 30000..90000).|
-|**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
-|**_Default Contract Type_**|Specifies default Contract Type for new contracts.
-|**_Def. Contract Category Sales_**|Specifies default Contract Category for sales contracts.
-|**_Def. ContractCategory Purchase_**|Specifies default Contract Category for purchase contracts.
+|**_Kanna lepingu nr. projekti arve päisesse_** |Võimaldab projekti kaardile valitud lepingu numbri kaasa võtta projekti arve loomisel ning lisada selle loodud projekti arve päissesse.
+|**_Vaikimis lepingu tüüp_**|Määrab ära uute lpingute vaikimisi lepingu tüübi.
+|**_Vaikimisi lepingu kategooria müügi jaoks_**|Määrab uute müügilepingute vaikimisi kategooria.
+|**_Vaikimisi lepingu kategooria ostu jaoks_**|Määrab uute ostulepingute vaikimisi kategooria.
 
-_Billing related setup_
+_Arveldamisega seotud seadistused_
 
-|Field|Explanation|
+|Väli|Selgitus|
 |---|---| 
-|**_Show Billing Information_**|Enables Billing Information tab on sales contracts.
-|**_Create Contract Invoice Lines Date Formula_**|Specifies default date formula for Next Billing Date in Create Contract Invoice Lines (CM).
-|**_Create Sales Invoices Date Formula_**|Specifies default date formula for Posting Date in Create Sales Invoices (CM).
+|**_Näita arvelduse infot_**|Määrab kas **_Arveldamise info_** vahekaart on müügilepingutel nähtav või mitte.
+|**_Lepingu arvelduse ridade loomise kuupäevavalem_**|Määrab vaikimisi kuupäevavalemi **_Järgmise arvelduse kuupäeva_** jaoks kui kasutatakse funtksiooni **Lepingu arvelduse ridade loomine (CM)**.
+|**_Müügiarvete loomise kuupäevavalem_**|Määrab vaikimisi kuupäevavalemi **_Konteerimiskuupäeva_** jaoks kui kasutatakse funtksiooni **Müügiarvete loomine (CM)**.
 
 ----
 
 ### Lepingu kategooriad
 
-Contract categories allow you to define different type of categories in order to divide your contracts into different groups.
+Lepingu kategooriad võimaldavad teil kirjeldada erienvat tüüpi kategooriaid, et lepinguid oleks lihtsam grupeerida.
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContCategoriesEE.png" target="_blank"><img src="ContManContCategoriesEE.png" alt="Lepingu kategooriad" width="800"/></a>
 
-|Field| Explanation|
+|Väli|Selgitus|
 |---|---| 
-| **_Contract Category Code_** | Specifies a category code for the contract.|
-| **_Contract Category Description_** | Decription to define which contracts are categorized to this category|
-|**_Sales, Purchase, Other_**| Sales should be marked if category should be availabele on sales contracts (Type **Sales**), Purchase should be marked if category should be availabele on purchase contracts (Type **Purchase**), Other should be marked if category should be availabele other contracts (Type **Other**).
-|**_No. of Sales Contracts_** and **_No. of Purchase contracts_**| Shows number of Sales/Purchase contracts in that category.|
+| **_Lepingu kategooria tähis_** | Võimaldab määrata lepingu kategooria tähise.|
+| **_Lepingu kategooria kirjeldus_** | Võimaldab määrata lepingu kategooria kirjelduse.|
+|**_Müük, Ost, Muu_**| Müük tuleks märkida juhul kui kategooriat peaks saama valida müügilepingutele (Tüüp **Müük**), Ost tuleks märkdia juhul kui kategooriat peaks saama valida ostulepingutele (Tüüp **Ost**), Muu tuleks märkida juhul kui kategooriat peaks saama valida ka muudele lepingutele (Tüüp **Muu**).
+|**_Müügilepingute arv_** and **_Ostulepingute arv_**| Kuvab müügi/ostulepingute arvu antud kategoorias.|
 
-_Billing related category setup_
+_Arveldamisega seotud seadistused_
 
-|Field|Explanation|
+|Väli|Selgitus|
 |---|---| 
-| **_Def. InvoicingFrequency Option_** | Specifies default Invoicing Frequency Option for contracts in this category.|
-| **_Invoicing Frequency"_** | Specifies default Invoicing Frequency for contracts in this category.|
-| **_Default Type_** | Specifies default Type for contract lines for contracts in this category.|
-| **_Default No._** | Specifies default No. for contract lines for contracts in this category.|
+| **_Vaikimisi arveldusperioodi valik_** | Võimaldab antud kategooriasse kuuluvate lepingute jaoks määrata vaikimis arveldusperioodi valiku.|
+| **_Vaikimisi arveldusperiood_** | Võimaldab antud kategooriasse kuuluvate lepingute jaoks määrata vaikimis arveldusperioodi.|
+| **_Vaikimisi liik_** | Võimaldab antud kategooriasse kuuluvate lepingute lepingu ridade jaoks määrata vaikimisi liigi.|
+| **_Vaikimisi nr._** | Võimaldab antud kategooriasse kuuluvate lepingute lepingu ridade jaoks määrata vaikimisi nr.|
 
 ---
  
@@ -172,7 +172,7 @@ On **Billing Information** tab you can fill following fields:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManBillingInfoEE.png" target="_blank"><img src="ContManBillingInfoEE.png" alt="Arvelduse info" width="1000"/></a>
 
-|Field|Explanation|
+|Väli|Selgitus|
 |---|---| 
 | **_Bill-to Customer No._** | Specifies Bill-To Customer. If not filled in Customer default value will be used on invoice creation.|
 | **_Ship-to Code_** | Specifies Ship-To Code. If not filled in Customer default value will be used on invoice creation.|
@@ -187,7 +187,7 @@ On **Contract Lines** tab you can fill following fields:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContLinesEE.png" target="_blank"><img src="ContManContLinesEE.png" alt="Lepingu read" width="800"/></a>
 
-|Field|Explanation|
+|Väli|Selgitus|
 |---|---| 
 | **_Type_** | Allows to specify type. Default value will be taken from **Contract Category**.|
 | **_No._** | Allows to specify No. to be billed. First line default value will be taken from **Contract Category**|
@@ -227,7 +227,7 @@ Use action **Contract Invoice Lines** from **Contract Card** to open list. Check
 
 Some of the fields need no explanation. Other will be explained below.
 
-|Field|Explanation|
+|Väli|Selgitus|
 |---|---| 
 | **_Posting Date_** | By default **Period Start Date**.|
 | **_Period Start Date_** and **_Period End Date_**  | Are reflecting the actual billing period|
@@ -249,7 +249,7 @@ Fill in **Posting Date**, this date will be an end date for a range that will be
 * Additonal filters can be applied from **Contracts** or **Contract Invoice Lines**.
 * If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
 
-|Field|Explanation|
+|Väli|Selgitus|
 |---|---| 
 | **_Replace Posting Date_** | Allows to replace invoice/order **Posting Date**. Otherwise Posting Date will be taken from Contract Invoice Line. |
 | **_Create Invoices By_** | Allows to select how the lines should be grouped among documents. **Contract** - one invoice/order for each contract. Only lines from one contract will be included in one invoice/order. **Customer** - one invoice/order per customer. Lines from different contracts that have the same customer will be included in one invoice/order. **Main Contract** - one invoice/order per main contract. Lines from different contracts that have the same main contract will be included in one invoice/order.|

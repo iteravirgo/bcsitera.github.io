@@ -16,16 +16,16 @@ Lepingute funktsionaalsus võimaldab BC-s järgmist:
   - [Kasutamine](#kasutamine)
     - [Lepingu loomine](#lepingu-loomine)
     - [Lepingu kasutamine ostu- ja müügidokumentidel](#lepingu-kasutamine-ostu--ja-müügidokumentidel)
-    - [Contract completion tracking](#contract-completion-tracking)
-    - [Using contracts in Jobs](#usingjcontractsjin-jobs)
-  - [Billing](#billing)
-    - [Create Contract Invoice Lines](#create-contract-invoice-lines)
-    - [Create Sales Invoices](#create-sales-invoices)
+    - [Lepingu täituvuse jälgimine](#lepingu-täituvuse-jälgimine)
+    - [Lepingute kasutamine projektides](#lepingute-kasutamine-projektides)
+  - [Arveldamine](#arveldamine)
+    - [Lepingu arvelduse ridade loomine](#lepingu-arvelduse-ridade-loomine)
+    - [Loo lepingu müügiarved](#loo-lepingu-müügiarved)
 
 ## Seadistamine
 Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmised väljad:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupEE.png" target="_blank"><img src="ContManSetupEE.png" alt="Lepingute Seadistus" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManSetupEE.png" target="_blank"><img src="ContManSetupEE.png" alt="Lepingute Seadistus" width="800"/></a>
 
 | Väli | Selgitus |
 | --- | --- | 
@@ -50,7 +50,7 @@ _Billing related setup_
 
 Contract categories allow you to define different type of categories in order to divide your contracts into different groups.
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContCategoriesEE.png" target="_blank"><img src="ContManContCategoriesEE.png" alt="Lepingu kategooriad" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContCategoriesEE.png" target="_blank"><img src="ContManContCategoriesEE.png" alt="Lepingu kategooriad" width="800"/></a>
 
 |Field| Explanation|
 |---|---| 
@@ -77,7 +77,7 @@ Lepingute lahenduse puhul on võimalik hallata nii ostu-, müügi- kui ka muid l
 
 Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContractCardEE.png" target="_blank"><img src="ContManContractCardEE.png" alt="Lepingu kaart" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardEE.png" target="_blank"><img src="ContManContractCardEE.png" alt="Lepingu kaart" width="800"/></a>
 
 | Väli | Selgitus |
 | --- | --- | 
@@ -128,7 +128,7 @@ _Arvestama peab sellega, et kliendi- ja hankijareskontrosse liigub lepingu numbe
 
 Lepingu täituvust ning jääki on võimalik jälgida **Lepingute loendist** või **Lepingu kaardilt** järgnevatelt väljadelt:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCompletionTrackingEE.png" target="_blank"><img src="ContManCompletionTrackingEE.png" alt="Lepingu täituvuse jälgimine" width="1000"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCompletionTrackingEE.png" target="_blank"><img src="ContManCompletionTrackingEE.png" alt="Lepingu täituvuse jälgimine" width="1000"/></a>
 
 - Täitmine (KV) - kuvab lepinguga seotud summasid **Pearaamatu kannete alusel**. Kannetele on summa arvutamiseks rakendatud **Lepingute seadistuses** määratud filtrit.
 - Jääk (KV) - kuvab lepingu jääki mis leitakse väljade **_Summa_** ja **_Täitmine (KV)_** alusel
@@ -157,7 +157,7 @@ Lepingu valimisel rakenduvad järgnevad filtrid:
 
 ---
 
-## Billing
+## Arveldamine
 
 You can enter billing information on contract card and then fill in contract lines. After that billing lines can be created, in order to check possible deviations and to have a longer view, and finally sales documents can be created.
 
@@ -170,7 +170,7 @@ _**Billing Information** tab becomes visible only if it is allowed in **Contract
 
 On **Billing Information** tab you can fill following fields:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManBillingInfoEE.png" target="_blank"><img src="ContManBillingInfoEE.png" alt="Arvelduse info" width="1000"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManBillingInfoEE.png" target="_blank"><img src="ContManBillingInfoEE.png" alt="Arvelduse info" width="1000"/></a>
 
 |Field|Explanation|
 |---|---| 
@@ -185,7 +185,7 @@ On **Billing Information** tab you can fill following fields:
 
 On **Contract Lines** tab you can fill following fields:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContLinesEE.png" target="_blank"><img src="ContManContLinesEE.png" alt="Lepingu read" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContLinesEE.png" target="_blank"><img src="ContManContLinesEE.png" alt="Lepingu read" width="800"/></a>
 
 |Field|Explanation|
 |---|---| 
@@ -206,13 +206,13 @@ On **Contract Lines** tab you can fill following fields:
 
 Contract line based sales orders/invoices creation consists of two steps.
 
-### Create Contract Invoice Lines
+### Lepingu arvelduse ridade loomine
 First step is to create **Contract Invoice Lines**.
 
 Open **Contracts List** or **Contract Card** and use action **Create Contract Invoice Lines (CM)**.
 Following window will be opened:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCreateContInvLinesEE.png" target="_blank"><img src="ContManCreateContInvLinesEE.png" alt="Lepingu arvelduse ridade loomine" width="500"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCreateContInvLinesEE.png" target="_blank"><img src="ContManCreateContInvLinesEE.png" alt="Lepingu arvelduse ridade loomine" width="500"/></a>
 
 Fill in **Next Billing Date**, this date will be an end date for a range that will be applied to **Valid** contract lines. It will be applied to **Next Invoicing Date** or to **Billing Start Date** (if the other is empty) and **Contract Invoice Lines** will be created for each **Contract Line** that meets the filtering criteria. 
 * By default it is filled with Today + date formula from **_Create Contract Invoice Lines Date Formula_** in **Contract Setup**.
@@ -223,7 +223,7 @@ Press **OK**.
 
 Use action **Contract Invoice Lines** from **Contract Card** to open list. Check if lines were created and if they look OK for creating invoices/orders. _List is not editable_.
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContInvLinesEE.png" target="_blank"><img src="ContManContInvLinesEE.png" alt="Lepingu arvelduse read" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContInvLinesEE.png" target="_blank"><img src="ContManContInvLinesEE.png" alt="Lepingu arvelduse read" width="800"/></a>
 
 Some of the fields need no explanation. Other will be explained below.
 
@@ -236,13 +236,13 @@ Some of the fields need no explanation. Other will be explained below.
 
 ---
 
-### Create Sales Invoices
-Second step is to create **Sales Orders** or **Sales Invoices**.
+### Loo lepingu müügiarved
+Teien samm on **Müügitellimuste** või **Müügiarvete** loomine.
 
 Open **Contracts List** or **Contract Card** and use action **Create Sales Invoices (CM)**.
 Following window will be opened:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCreateSalesInvEE.png" target="_blank"><img src="ContManCreateSalesInvEE.png" alt="Lepingu müügiarvete loomine" width="500"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCreateSalesInvEE.png" target="_blank"><img src="ContManCreateSalesInvEE.png" alt="Lepingu müügiarvete loomine" width="500"/></a>
 
 Fill in **Posting Date**, this date will be an end date for a range that will be applied to **Contract Invocie Lines**. It will be applied to **Posting Date** and **Sales Invoices/Orders** will be created for contract invoice lines that meet the filtering criteria and combined according to **Create Invoices By**.
 * By default it is filled with Today + date formula from **_Create Sales Invoices Date Formula_** in **Contract Setup**.

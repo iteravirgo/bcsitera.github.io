@@ -186,6 +186,9 @@ User can filter out these invoices and perform periodization tasks if required.
 Open **Moderan Organisation Roles** page and insert lines, which links Moderan Organisation Roles with Organisation Level Codes in BC.
 Priority can be used to determine the most important role of the contact person.
 
+![OrganisationRoles](OrganisationRoles.png)
+
+<br/>
 
 ## How to Send Customer Balances to Moderan
 

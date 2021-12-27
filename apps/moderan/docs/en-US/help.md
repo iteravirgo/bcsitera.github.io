@@ -145,6 +145,7 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 |Cost Optional Filters*|Choose Distribution Sets |
 
 
+
 ![GetInvoices](GetInvoices.png)
 
 After successful import, open **Sales Invoices.** Review, post and issue invoices. 
@@ -160,6 +161,7 @@ If you run action **Moderan – Get Invoices** more than once for the same perio
 |Invoice has been posted|Import will skip invoice|
 
 If the invoice amount in Moderan is 0, then an invoice will not be created in Business Central.
+
 
 **Moderan – Get Invoices** can be setup to run automatically by using **Job Queue** functionality.
 
@@ -186,7 +188,9 @@ User can filter out these invoices and perform periodization tasks if required.
 Open **Moderan Organisation Roles** page and insert lines, which links Moderan Organisation Roles with Organisation Level Codes in BC.
 Priority can be used to determine the most important role of the contact person.
 
+
 ![OrganisationRoles](OrganisationRoles.png)
+
 
 ### Setup Salutaions
 

@@ -10,7 +10,7 @@ Lepingute funktsionaalsus võimaldab BC-s järgmist:
 - Lepingu arvelduse ridade loomine
 - Perioodiliste müügiarvete loomine lepingu arvelduse ridade alusel
 
-## Table of Contents
+## Sisukord
   - [Seadistamine](#seadistamine)
     - [Lepingu kategooriad](#lepingu-kategooriad)
   - [Kasutamine](#kasutamine)
@@ -24,6 +24,8 @@ Lepingute funktsionaalsus võimaldab BC-s järgmist:
 
 ## Seadistamine
 Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmised väljad:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupEE.png" target="_blank"><img src="ContManSetupEE.png" alt="Lepingute Seadistus" width="800"/></a>
 
 | Väli | Selgitus |
 | --- | --- | 
@@ -49,7 +51,7 @@ _Billing related setup_
 
 Contract categories allow you to define different type of categories in order to divide your contracts into different groups.
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContCategoriesENG.png" target="_blank"><img src="ContManContCategoriesENG.png" alt="ContManContCategories" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContCategoriesEE.png" target="_blank"><img src="ContManContCategoriesEE.png" alt="Lepingu kategooriad" width="800"/></a>
 
 |Field| Explanation|
 |---|---| 

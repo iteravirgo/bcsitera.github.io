@@ -107,6 +107,8 @@ For example – G/L Account:6115:RENT
 
 ## How to Get Customers or Vendors from Moderan
 
+**NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
+
 To get customers or vendors from Moderan, run action **Moderan – Get Customers/Vendors**. Existing (mapped) customers or vendors will be updated, and new customers or vendors (who have a Registration No in Moderan) created.
 
 The customers or vendors who do not have a Registration No. will be skipped.
@@ -178,6 +180,12 @@ User can filter out these invoices and perform periodization tasks if required.
  <br/>
 
 ## How to Get Contacts from Moderan
+
+### Setup Moderan Organisation Roles
+
+Open **Moderan Organisation Roles** page and insert lines, which links Moderan Organisation Roles with Organisation Level Codes in BC.
+Priority can be used to determine the most important role of the contact person.
+
 
 ## How to Send Customer Balances to Moderan
 

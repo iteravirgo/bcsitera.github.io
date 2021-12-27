@@ -188,6 +188,24 @@ Priority can be used to determine the most important role of the contact person.
 
 ![OrganisationRoles](OrganisationRoles.png)
 
+### Setup Salutaions
+
+Open **Salutaions** page and add the codes, which used as Gender codes in Moderan.
+
+### Get Contacts
+
+To get customers or vendors from Moderan, run action **Moderan – Get Contacts** and press OK. Contacts are imported from Moderan into company-type contacts. The contact is assigned a role according to the prority on the **Moderan Organisation Roles** page.
+
+**Moderan – Get Contacts** can be setup to run automatically by using **Job Queue** functionality.
+
+To do so, open **Job Queue Entries** and create new entry as:
+
+|Field/Tab|Value/Description|
+|-|-|
+|Object Type to Run|Report|
+|Object ID to Run|24007903|
+|Recurrence|Indicate desired recurrence|
+
 <br/>
 
 ## How to Send Customer Balances to Moderan

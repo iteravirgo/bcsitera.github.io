@@ -225,14 +225,14 @@ Kasutage **Lepingu kaardilt** nuppu  **Lepingu arvelduse read**, et avada loend.
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContInvLinesEE.png" target="_blank"><img src="ContManContInvLinesEE.png" alt="Lepingu arvelduse read" width="800"/></a>
 
-Some of the fields need no explanation. Other will be explained below.
+Mõned väljad selgitust ei vaja, kuid mõnele on selgitused lisatud allpool.
 
 |Väli|Selgitus|
 |---|---| 
-| **_Konteerimiskuupäev_** | By default **Period Start Date**.|
-| **_Perioodi alguskuupäev_** and **_Perioodi lõppkuupäev_**  | Are reflecting the actual billing period|
-| **_Status_** | Shows status of current line. **New** - First status for alla created lines. Also line gets this status back when it is removed from order/invoice. or removed . **Order** - **Sales Order** has been created from that line. **Invoice** - **Sales Invoice** has been created from that line. **Posted** - involved sales order/invoice has been posted. **Canceled** - line has been canceled by using action **Cancel**, only **New** lines can be canceled.|
-| **_Document No._** | Shows document number of the involved document (order, invoice, posted invoice).|
+| **_Konteerimiskuupäev_** | Vaikimisi **Perioodi alguskuupäev**.|
+| **_Perioodi alguskuupäev_** ja **_Perioodi lõppkuupäev_**  | Kuvavad tegelikku arvelduse perioodi.|
+| **_Olek_** | Kuvab antud rea olekut. **Uus** - Esimene olek kõikidel loodud ridadel. Samuti taastatakse selline oleks ridadel mis müügidokumendilt eemaldatakse või kui kogu müügodokument eemaldatakse. **Tellimus** - Kui ridade alusel on loodud **Müügitellimus**. **Arve** - Kui ridade alsuel on loodud **Müügiarve**. **Konteeritud** - seotud müügidokument on konteeritud. **Tühistatud** - rida on tühistatud kasutades nuppu **Tühista**. Tühistada saab ainult ridu mille olek on **Uus**.|
+| **_Dokumendi nr._** | Kuvab seotud dokeumdni numbrit (tellimus, arve, konteeritud arve).|
 
 ---
 

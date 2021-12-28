@@ -20,7 +20,7 @@ Lepingute funktsionaalsus võimaldab BC-s järgmist:
     - [Lepingute kasutamine projektides](#lepingute-kasutamine-projektides)
   - [Arveldamine](#arveldamine)
     - [Lepingu arvelduse ridade loomine](#lepingu-arvelduse-ridade-loomine)
-    - [Loo lepingu müügiarved](#loo-lepingu-müügiarved)
+    - [Müügiarvete loomine](#müügiarvete-loomine)
 
 ## Seadistamine
 Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmised väljad:
@@ -192,36 +192,36 @@ _**Arvelduse info** vahekaart on nähtav ainult juhul kui **Lepingute seadistuse
 | **_Liik_** | Võimldab määrata liiki. Vaikeväärtus võetakse **Lepingu kategooria** alusel.|
 | **_Nr._** | Võimaldab määrata nr. mida hakatakse arveldama. Esimese rea vaikeväärtus võetakse **Lepingu kategooria** alusel|
 | **_Kirjeldus_** | Võimaldab määrata rea kirjelduse.|
-| **_Quantity_** | Võimaldab määrata arveldatavat kogust.|
-| **_Unit of Measure Code_** | Võimaldab määrata arveldatavat mõõtühikut. Vaikimsi on väli peidetud.|
-| **_Unit Price Excl. VAT_** | Allows to specify line unit price to be billed.|
-| **_Line Amount Excl. VAT_** | Displays calculated line amount. Field is not editable.|
-| **_Valid_** | Allows to specify if line is valid or not. Default value is Valid.|
-| **_Add Period Text_** | Allows to specify if new text line with period information will be added after this line when creating invoice information.|
-| **_Invoicing Frequency Option_** | Specifies billing period/frequency for current line. Default value will be taken from **Billing Information** tab.|
-| **_Billing Start Date_** | Allows to specify Billing Start Date for current line.|
-| **_End Date First Period_** | Allows to specify End Date First Period for current line. Default value will be taken from **Billing Information** tab.|
-| **_Next Billing Date_** | Displays **Nexte Billing Date** (next period start date) for current line after [Create Contract Invoice Lines](#create-contract-invoice-lines) has been run|
-| **_Billing End Date_** | Allows to specify Billing End Date for current line.. Default value will be taken from **Billing Information** tab.|
+| **_Kogus_** | Võimaldab määrata arveldatavat kogust.|
+| **_Mõõtühik_** | Võimaldab määrata arveldatavat mõõtühikut. Vaikimsi on väli peidetud.|
+| **_Ühiku hind KM-ta_** | Võimaldab määrata arveldatavat ühiku hinda.|
+| **_Rea summa KM-ta_** | Kuvab arvutatud rea summat. Väli ei ole muudetav.|
+| **_Kehtiv_** | Võimaldab määrata kas rida on kehtiv või mitte. Vaikeväärtus on Kehtiv.|
+| **_Lisa perioodi tekst_** | Võimaldab määrata kas uus perioodi infoga tekstirida lisatakse peale antud rida kui luuakse lepingu arvelduse ridu.|
+| **_Arveldusperioodi valik_** | Võimaldab määrata arveldusperioodi valiku antud reale. Vaikeväärtus võetakse **Arvelduse info** vahekaardilt.|
+| **_Arvelduse alguskuupäev_** | Võimaldab määrata arvelduse alguskuupäeva antud reale. Vaikeväärtus võetakse **Arvelduse info** vahekaardilt.|
+| **_Esimese perioodi lõppkuupäev_** | Võimaldab määrata arveldusperioodi valiku antud reale. Vaikeväärtus võetakse **Arvelduse info** vahekaardilt.|
+| **_Järgmsie arvelduse kuupäev_** | Kuvab antud rea **Järgmsie arvelduse kuupäeva** (järgmsie perioodi alguskuupäev), väli täidetakse automaatselt peale tegevuse [Lepingu arvelduse ridade loomine](#lepingu-arvelduse-ridade-loomine) käivitamist. Väli ei ole muudetav.|
+| **_Arvelduse lõppkuupäev_** | Võimaldab määrata arvelduse lõppkuupäeva antud reale. Vaikeväärtus võetakse **Arvelduse info** vahekaardilt.|
 
-Contract line based sales orders/invoices creation consists of two steps.
+Lepingu ridade põhine müügidokumentide loomine koosneb kahest sammust: Lepingu arvelduse ridade loomine ja Müügiarvete loomine.
 
 ### Lepingu arvelduse ridade loomine
-First step is to create **Contract Invoice Lines**.
+Esimene samma on luua **Lepingu arvelduse read**.
 
-Open **Contracts List** or **Contract Card** and use action **Create Contract Invoice Lines (CM)**.
-Following window will be opened:
+Ava **Lepingute loend** või **Lepingu kaart** ja kasutage nuppu **Lepingu arvelduse ridade loomine (CM)**.
+Avaneb järgnev vaade:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCreateContInvLinesEE.png" target="_blank"><img src="ContManCreateContInvLinesEE.png" alt="Lepingu arvelduse ridade loomine" width="500"/></a>
 
-Fill in **Next Billing Date**, this date will be an end date for a range that will be applied to **Valid** contract lines. It will be applied to **Next Invoicing Date** or to **Billing Start Date** (if the other is empty) and **Contract Invoice Lines** will be created for each **Contract Line** that meets the filtering criteria. 
-* By default it is filled with Today + date formula from **_Create Contract Invoice Lines Date Formula_** in **Contract Setup**.
-* Additonal filters can be applied from **Contracts** or **Contract Lines**.
-* If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
+Täitke ära **Järgmise arvelduse kuupäev**, seda kuupeäva rakendatakse lõpu filtrina vaheimikule mida rakendatakse **Kehtivatele** lepingu ridadele. Seda rakendatakse väljale **Järgmine arvelduse kuupäev** või **Arvelduse alguskuupeäv** (kui eelnev väli on veel tühi) ning seejärel luuakse **Lepingu arvelduse read** iga **Lepingu rea** kohta mis vastav filtri kriteeriumitele. 
+* Vaikimisi täidetakse see Täna + kuupäevavalem  **Lepingute seadistuse** väljalt **_Lepingu arvelduse ridade loomise kuupäevavalem_**.
+* Täiendavalt on võimalik valida filtreid ka **Lepingu** ja **Lepingu ridade** tabelitest.
+* Kui nuppu klõpsatakse **Lepingu kaardilt** siis vaikimisi rakendatakse **_Lepingu nr._** filtrit. 
 
-Press **OK**.
+Vajutage **OK**.
 
-Use action **Contract Invoice Lines** from **Contract Card** to open list. Check if lines were created and if they look OK for creating invoices/orders. _List is not editable_.
+Kasutage **Lepingu kaardilt** nuppu  **Lepingu arvelduse read**, et avada loend. Kontrollige kas arvleudse read loodi ning kas need paistavad korrektsed, et nende alusel müügidokumendid luua. _Loend ei ole redigeeritav_.
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContInvLinesEE.png" target="_blank"><img src="ContManContInvLinesEE.png" alt="Lepingu arvelduse read" width="800"/></a>
 
@@ -229,14 +229,14 @@ Some of the fields need no explanation. Other will be explained below.
 
 |Väli|Selgitus|
 |---|---| 
-| **_Posting Date_** | By default **Period Start Date**.|
-| **_Period Start Date_** and **_Period End Date_**  | Are reflecting the actual billing period|
+| **_Konteerimiskuupäev_** | By default **Period Start Date**.|
+| **_Perioodi alguskuupäev_** and **_Perioodi lõppkuupäev_**  | Are reflecting the actual billing period|
 | **_Status_** | Shows status of current line. **New** - First status for alla created lines. Also line gets this status back when it is removed from order/invoice. or removed . **Order** - **Sales Order** has been created from that line. **Invoice** - **Sales Invoice** has been created from that line. **Posted** - involved sales order/invoice has been posted. **Canceled** - line has been canceled by using action **Cancel**, only **New** lines can be canceled.|
 | **_Document No._** | Shows document number of the involved document (order, invoice, posted invoice).|
 
 ---
 
-### Loo lepingu müügiarved
+### Müügiarvete loomine
 Teien samm on **Müügitellimuste** või **Müügiarvete** loomine.
 
 Open **Contracts List** or **Contract Card** and use action **Create Sales Invoices (CM)**.

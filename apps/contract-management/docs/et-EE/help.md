@@ -239,23 +239,23 @@ Mõned väljad selgitust ei vaja, kuid mõnele on selgitused lisatud allpool.
 ### Müügiarvete loomine
 Teien samm on **Müügitellimuste** või **Müügiarvete** loomine.
 
-Open **Contracts List** or **Contract Card** and use action **Create Sales Invoices (CM)**.
-Following window will be opened:
+Avage **Lepingute loend** või **Lepingu kaart** ja kasutage nuppu **Müügiarvete loomine (CM)**.
+Avaneb järgnev vaade:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCreateSalesInvEE.png" target="_blank"><img src="ContManCreateSalesInvEE.png" alt="Lepingu müügiarvete loomine" width="500"/></a>
 
-Fill in **Posting Date**, this date will be an end date for a range that will be applied to **Contract Invocie Lines**. It will be applied to **Posting Date** and **Sales Invoices/Orders** will be created for contract invoice lines that meet the filtering criteria and combined according to **Create Invoices By**.
+Täitke ära **Konteerimiskuupäev**, seda kuupeäva rakendatakse lõpu filtrina vaheimikule mida rakendatakse **Lepingu arvelduse ridadele** mille olek on **Uus**. Seda rakendatakse väljale **Konteerimiskuupäev** ning seejärel luuakse **Müügairved/Tellimsued** kõikide lepingu arvelduse ridadega mis vastavad filtrite kriteeriumitele ning need grupeeritakse vastavalt **Arvete loomise alusele**.
 * By default it is filled with Today + date formula from **_Create Sales Invoices Date Formula_** in **Contract Setup**.
 * Additonal filters can be applied from **Contracts** or **Contract Invoice Lines**.
 * If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
 
 |Väli|Selgitus|
 |---|---| 
-| **_Replace Posting Date_** | Allows to replace invoice/order **Posting Date**. Otherwise Posting Date will be taken from Contract Invoice Line. |
-| **_Create Invoices By_** | Allows to select how the lines should be grouped among documents. **Contract** - one invoice/order for each contract. Only lines from one contract will be included in one invoice/order. **Customer** - one invoice/order per customer. Lines from different contracts that have the same customer will be included in one invoice/order. **Main Contract** - one invoice/order per main contract. Lines from different contracts that have the same main contract will be included in one invoice/order.|
-| **_Create as Invocie or Order_** | Allows to select which type of sales docuemnts should be created: **Invoices** (default) or **Orders**.|
+| **_Asenda konteerimiskuupäev_** | Võimaldab loodavatel müügidokumentidel asendada **Konteerimiskuupäeva**. Vaikimisi võetakse müügidokumendi konteerimiskuupäev esimeselt sellele dokumendile lisati lepingu arvelduse realt. |
+| **_Arvete loomise alus_** | Võimaldab määrata mille alusel ridadest dokumendid luuakse. **Leping** - üks arve/tellimus iga lepingu kohta. Ainult ühe lepinguga seotud read lisatakse ühele arvele/tellimsuele. **Klient** - üks arve/tellimuse kliendi kohta. Read erinevatest sama kliendi lepingutest koondatakse kokku ühele arvele/tellimusele. **Pealeping** - üks arve/tellimus pealepingu kohta. Read erienvatest lepingutest millel on sama pealepingu number koondatakse kokku ühele arvele/tellimusele.|
+| **_Loo kui_** | Võimaldab määrata millist tüüpi müügidokumendid luuakse: **Arved** (vaikimisi) või **Tellimsued**.|
 
-Press **OK**.
+Vajutage **OK**.
 
 ---
 

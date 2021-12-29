@@ -21,8 +21,8 @@ See laiendus toetab nii Essential kui Premium lahendust Microsoft Dynamics 365 B
 Laiendus on saadava nii eesti kui inglise keeles.
 
 ---
-[Kasutusjuhend](help.md)
-
+[Kasutusjuhend](help.md)  
+[Liitumisjuhis](join.md)
 
 ### Kontaktinfo
 Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:

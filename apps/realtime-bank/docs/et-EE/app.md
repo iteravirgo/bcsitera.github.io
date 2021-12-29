@@ -22,7 +22,7 @@ Laiendus on saadava nii eesti kui inglise keeles.
 
 ---
 [Kasutusjuhend](help.md)  
-[Liitumisjuhis](join.md)
+[Liitumisjuhend](join.md)
 
 ### Kontaktinfo
 Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:

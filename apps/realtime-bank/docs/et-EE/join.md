@@ -1,7 +1,7 @@
 # Liitumine
 
 ## Taotluse esitamine
-Business Central kasutab liidestamisel otsekanalit. Liitumiseks esitage vastav taotlus.
+Business Central kasutab liidestamisel otsekanalit. Liitumiseks võtke ühendust oma kliendihalduriga või esitage taotlus panga kodulehel.
 
 ### Swedbank
 [https://www.swedbank.ee/business/d2d/ebanking/gateway](https://www.swedbank.ee/business/d2d/ebanking/gateway)  

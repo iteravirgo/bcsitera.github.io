@@ -25,10 +25,10 @@ Toetatud teenused:
   NB! seadistage Business Central väljavõtet laadima piisava sagedusega, et päeva lõpust ei jääks mõni tehing laadimata.
 
 ## Turvasertifikaat
-Allolevate sertfikaaditegevuste teostamiseks pöörduge tehn. konsultandi poole.
+Allolevate sertfikaaditegevuste teostamiseks palun pöörduge oma BC partneri poole.
 - Sertifikaadipäringu (CSR fail) koostamine, sertifikaadi tellimiseks. NB! Sertifikaadipäringut ei pea koostama BC serveris (BC cloud versiooni puhul ei saagi).
-- Sertifikaadi- ja privaatvõtmefaili liitmine pfx failiks ja parooli genereerimine
-- pfx faili ja parooli seadistamine BC-s
+- Sertifikaadi- ja privaatvõtmefaili liitmine pfx/p12 failiks ja parooli genereerimine
+- pfx/p12 faili ja parooli seadistamine BC-s
 
-Swedi juhend:  
-http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf
+Swedbank juhend:
+[http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf](http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf)

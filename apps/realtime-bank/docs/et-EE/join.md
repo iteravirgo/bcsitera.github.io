@@ -25,7 +25,9 @@ Toetatud teenused:
   NB! seadistage Business Central väljavõtet laadima piisava sagedusega, et päeva lõpust ei jääks mõni tehing laadimata.
 
 ## Turvasertifikaat
-Allolevate sertifikaaditegevuste teostamiseks palun pöörduge oma BC partneri poole.
+Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.
+
+Kokkuvõtvalt on vajalik:
 - Sertifikaadipäringu (CSR fail) koostamine, sertifikaadi tellimiseks. NB! Sertifikaadipäringut ei pea koostama BC serveris (BC cloud versiooni puhul ei saagi).
 - Sertifikaadi- ja privaatvõtmefaili liitmine pfx/p12 failiks ja parooli genereerimine.
 - pfx/p12 faili ja parooli seadistamine BC-s.

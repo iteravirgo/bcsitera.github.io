@@ -183,6 +183,12 @@ User can filter out these invoices and perform periodization tasks if required.
 
 ## How to Get Contacts from Moderan
 
+In order to synchronize the contact card with a customer card, you must fill in the relevant field in the **Bus. Relation Code** for section on the **Interactions** FastTab on the **Marketing Setup** page.
+
+If you have customers that you want to create contact cards for, you can use the **Create Contacts from Custome** batch jobs to create contacts from the existing data. When you create a contact this way, the contact information is afterwards synchronized with the related customer information. 
+
+After customers' company-type contacts are created, it is possible to import person-type contacts from **Moderan**.
+
 ### Setup Moderan Organisation Roles
 
 Open **Moderan Organisation Roles** page and insert lines, which links Moderan Organisation Roles with Organisation Level Codes in BC.

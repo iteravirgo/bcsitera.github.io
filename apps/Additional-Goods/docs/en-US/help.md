@@ -1,12 +1,13 @@
 # Additional Goods
-Additional Goods solution in BC enables the following:
+Additional Goods solution in BC enables following features:
 
-- Feature 1
-- Feature 2
+* assign Additional Goods for items sold via Sales Orders
+* assign Deposit for items which require it
 
 
 ## Settings
-To use the solution, **Additional Goods Setup** must be opened ...
+You must set up Additional Goods for every different combination you have.
+To use the solution,  needs to be done
 
 |Field|Explanation|
 |---|---| 

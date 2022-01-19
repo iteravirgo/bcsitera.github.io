@@ -1,6 +1,6 @@
 # Kaasnevad kaubad
 Kaasnevate kaupade lahendus võimaldab:
-* seadistada põhikaupade müümisel nendega koos välja minevad abi tooted
+* seadistada põhikaupade müümisel nendega koos välja minevad abitooted
 * seadistada põhikaupade müümisel pandi lisamist müügitellimuse ridadele
 
 ## Seadistamine

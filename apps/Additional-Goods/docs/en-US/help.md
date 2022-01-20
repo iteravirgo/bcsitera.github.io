@@ -11,7 +11,9 @@ You must set up Additional Items for every different combination you use in your
 
 ### Additional Items Setup
 
-Before you can manage Customer specific rules it is wise to define general policy for Additional Items and Deposits. You must define the general setup on the **Additional Items Setup** page. This general setup is typically performed once during the initial implementation. On General FastTab you must select separately how Additional Items and Deposit are gonna be added on document lines.
+Before you can manage Customer specific rules it is wise to define general policy for Additional Items and Deposits. You must define the general setup on the
+**Additional Items Setup** page. This general setup is typically performed once during the initial implementation. On General FastTab you must select separately how
+Additional Items and Deposit are gonna be added on document lines.
 
 |Additional Items Calculation|Explanation|
 |---|---| 
@@ -36,7 +38,8 @@ If all the previous selections are done you have to enable on which documents yo
 
 ### Settings on Customer Card
 
-In addition for general setup you can specify the customer specific rules on the Customer Card. To do that open the Customer Card and on **Shipping** FastTab you can choose between following options for Additional Items:
+In addition for general setup you can specify the customer specific rules on the Customer Card. To do that open the Customer Card and on **Shipping** FastTab you can
+choose between following options for Additional Items:
 
 |Additional Items Calculation|Explanation|
 |---|---| 
@@ -58,8 +61,10 @@ And to calculate Deposit:
 
  ### Additional Item Groups
 
-Additional Items are dependent on the Items you sell. Instead of defining Additional Items to every Customer separately you can create groups. These are called **Additional Item Groups**. In these groups you define which additional items are always sold together.
-Choose search and enter **Additional Item Groups**. To create a new group select **New > give it a Code and Description**. After that select **Actions > Additional Items**. Additional Items page opens. Fill out the lines with items which are additional to the main item. 
+Additional Items are dependent on the Items you sell. Instead of defining Additional Items to every Customer separately you can create groups. These are called
+**Additional Item Groups**. In these groups you define which additional items are always sold together.
+Choose search and enter **Additional Item Groups**. To create a new group select **New > give it a Code and Description**. After that select **Actions > Additional
+Items**. Additional Items page opens. Fill out the lines with items which are additional to the main item. 
 Description for fields are following:
 **Item no** - Additional Item item no<br>
 **Quantity (base)** - quantity per base unit <br>
@@ -75,7 +80,9 @@ Description for fields are following:
 
 ## On sale documents
 
-If all the previous setups are done you are now ready to use functionality. If you enabled option **Add Additional Items/Deposit at Document Release** all Additional Items will be added automatically when you release the document. But if you want to add them manually here is what you should do. On Sales Order Lines menu click **Manage > Add Additional Items/Deposit**. In the next window 
+If all the previous setups are done you are now ready to use functionality. If you enabled option **Add Additional Items/Deposit at Document Release** all Additional
+Items will be added automatically when you release the document. But if you want to add them manually here is what you should do. On Sales Order Lines menu click
+**Manage > Add Additional Items/Deposit**. In the next window 
 
 |Field|Explanation|
 |---|---| 

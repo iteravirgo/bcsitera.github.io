@@ -1,33 +1,36 @@
 # Kaasnevad kaubad
 Kaasnevate kaupade lahendus võimaldab:
 * seadistada põhikaupade müümisel nendega koos välja minevad abitooted
-* seadistada põhikaupade müümisel pandi lisamist müügitellimuse ridadele
+* seadistada põhikaupade müümisel pandi kaasamist müügitellimuse ridadele
 
 ## Seadistamine
 Lahenduse kasutamiseks tuleb esmalt teha seadistused. Seadistused võivad olla üldised ja/või kliendipõhised, kus kliendipõhine seadistus on tugevam, kui üldine
 seadistus.
 
-### Seadistused Müügi- ja müügivõlgades
+### Kaasnevate kaupade seadistus
 
-Kui ettevõttel on kliente kellele kellele kaasnevate kaupade kaasamine müügitellimusele toimub ühesuguselt siis on kõige mõistlikum alustuseks luua üldine seadistus
-**Müügi- ja müügivõlgade** lehel. Võimalikud seadistused on on lisatud kiirkaardile **Kaasnevad kaubad**, kus kaasnevate kaupade ja pandi lisamist tuleb reguleerida
-eraldi.
+Kui ettevõttel on kliente kellele kaasnevate kaupade kaasamine müügitellimusele toimub samasuguselt siis on kõige mõistlikum alustuseks luua üldine seadistus. Selleks trüki otsingusse **Kaasnevate kaupade seadistus**. Üldine kiirkaardil tuleb eraldi seadistada Lisakauba ja Pandi lisandumise käitumised.
 
 |Lisakauba arvutamine|Selgitus|
 |---|---| 
-| Lisa iga toote järel | Tootega kaasnevad kaubad lisatakse iga kord peale müüdavat toodet uute ridadena |
-| Kokkuvõte lõpus | Tootega kaasnevad kaubad summeeritakse kokku müügitellimuse lõppu uute ridadena |
+| Lisa iga toote järel | Põhitootega kaasnevad kaubad lisatakse iga kord peale müüdavat toodet uute ridadena |
+| Kokkuvõte lõpus | Põhitootega kaasnevad kaubad summeeritakse kokku müügitellimuse lõppu uute ridadena |
 
 Pandiga kaupadele saab teha seadistused järgnevalt:   
 
 |Pandi arvutamine|Selgitus|
 |---|---| 
-| Lisa iga toote järel | Pant lisatakse iga pandiga toote järel uue reana |
+| Lisa iga toote järel | Pant lisatakse iga põhitoote järel uue reana |
 | Kokkuvõte lõpus | Pant arvutatakse kokku müügitellimuse ridade lõppu iga pandi kood eraldi |
 
-Lisaks on võimalik sisse lülitada millistel dokumentidel funktsionaalsust kasutada saab.<br>
+
+Üldise seadistusena saab valida, kas Kaasnevad kauba ja/või pant lisatakse automaatselt dokumendi vabastamisel ning kas arvesse võetakse Ostja-klient või Maksja-klient seadistusi.
+
+
+Lõpetuseks tuleb sisse lülitada millistel dokumentidel funktsionaalsust kasutada tahetakse.<br>
 **Arvuta müügitellimusel** - funktsionaalsus lülitatakse sisse müügitellimustel <br>
 **Arvuta müügiarvel** - funktsionaalsus lülitatakse sisse müügiarvetel <br>
+**Arvuta müügikreeditil** - funktsionaalsus lülitatakse sisse müügikreeditarvetel <br>
 
 ### Seadistused Kliendikaardil
 

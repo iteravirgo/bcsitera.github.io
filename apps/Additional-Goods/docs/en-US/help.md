@@ -16,16 +16,18 @@ To use the solution,  needs to be done
 
  
 
-## Use
-### Some subidary topic
-
-Text here  
-
-### Another subsidary topic
-
-Text here
+# How to use
 
 
+## On sale documents
+
+If all the previous setups are done you are now ready to use functionality. If you enabled option **Add Additional Items/Deposit at Document Release** all Additional Items will be added automatically when you release the document. But if you want to add them manually here is what you should do. On Sales Order Lines menu click **Manage > Add Additional Items/Deposit**. In the next window 
+
+|Field|Explanation|
+|---|---| 
+| Add/Update Additional Items | Adds or updates additional item lines |
+| Add/Update Deposit Lines | Adds or updates deposit lines |
+| Customer | Choose if selection is to be made according to Sell-To or Bill-To Customer card setup |
 
 ---
 

@@ -71,6 +71,16 @@ Items**. Additional Items page opens. Fill out the lines with items which are ad
 **Deposit** - shows if the item acts as a Deposit, taken from Item card field <br>
  
  
+### Settings on Item Card
+
+Finally you have to define which Additional Items are connected to main item. For this go to the main Item Card and on FastTab **Additional Items/Deposit** choose
+on the field **Additional Items** additional item group what you have defined previously.
+
+If Item Card itself is Deposit, following parameters must be applied: **Type = Non-Inventory** and **Deposit == Yes**.
+
+ 
+ 
+ 
  
  
 

@@ -34,6 +34,28 @@ If all the previous selections are done you have to enable on which documents yo
 **Calculate on Credit Memo** - functionality is enabled on Sales Credit Memos <br>
 
  
+### Settings on Customer Card
+
+In addition for general setup you can specify the customer specific rules on the Customer Card. To do that open the Customer Card and on **Shipping** FastTab you can choose between following options for Additional Items:
+
+|Additional Items Calculation|Explanation|
+|---|---| 
+| <blank> | Additional Items calculation is according to general Additional Items Setup page |
+| Not Applicable | No Additional Items calculations are done for this customer |
+| Add After Each Item | Adds Additional Items as new lines after the main product line |
+| Total At The End | Sums Additional Items at the end of the document lines per item code |
+
+And to calculate Deposit:
+
+|Deposit Calculation|Explanation|
+|---|---| 
+| <blank> | Deposit calculation is according to general Additional Items Setup page |
+| Deposit from e-Order | Deposits are imported from the e-document, no additional calculations are done |
+| Not Applicable | No Deposit calculations are done for this customer |
+| Add After Each Item | Adds Deposit as a new line after the main product line |
+| Total At The End | Sums Deposits at the end of the document lines per deposit code |
+
+
 
 # How to use
 

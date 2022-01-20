@@ -69,7 +69,7 @@ Kaasnevad tooted lehele saab luua grupid, mille sisse defineeritakse kaasnevad k
 
 Selleks, et kaasnevad kaubad põhitootega koos välja liiguvad tuleb need aktiveerida kaubakaardil. Selleks mine põhitoote kaubakaardile ning **Kaasnevad kaubad/pant** kiirkaardil vali **Kaasnevad kaubad** väljal eelnevalt seadistatud **Kaasnevad tooted** grupp.
 
-Kui on tegu kaubakaardiga, mis on pant siis tuleb määrata kaubakaardi järgmised parameetrid: **Liik = Mitte-varud** ja **Pant = jah**.
+Kui on tegu kaubakaardiga, mis on pant siis tuleb määrata kaubakaardi järgmised parameetrid: **Liik = Mitte-varud** ja **Pant = Jah**.
 
 
 ### Kliendi mõõtühikud

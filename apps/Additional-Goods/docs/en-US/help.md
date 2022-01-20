@@ -33,7 +33,7 @@ If all the previous selections are done you have to enable on which documents yo
 **Calculate on Invoice** - functionality is enabled on Sales Invoices <br>
 **Calculate on Credit Memo** - functionality is enabled on Sales Credit Memos <br>
 
- 
+
 ### Settings on Customer Card
 
 In addition for general setup you can specify the customer specific rules on the Customer Card. To do that open the Customer Card and on **Shipping** FastTab you can choose between following options for Additional Items:
@@ -56,6 +56,18 @@ And to calculate Deposit:
 | Total At The End | Sums Deposits at the end of the document lines per deposit code |
 
 
+ ### Additional Item Groups
+
+Additional Items are dependent on the Items you sell. Instead of defining Additional Items to every Customer separately you can create groups. These are called **Additional Item Groups**. In these groups you define which additional items are always sold together.
+Choose search and enter **Additional Item Groups**. To create a new group select **New > give it a Code and Description**. After that select **Actions > Additional Items**. Additional Items page opens. Fill out the lines with items which are additional to the main item. Description for fields are following:
+**Item no** - Additional Item item no<br>
+**Quantity (base)** - quantity per base unit <br>
+**Type** - type of Additional Item (optional) <br>
+**Deposit** - shows if the item acts as a Deposit, taken from Item card field <br>
+ 
+ 
+ 
+ 
 
 # How to use
 

@@ -58,7 +58,7 @@ Ja pandi arvutamisel:
 
 ### Kaasnevad tooted ja kaubad
 
-Kaasnevad tooted lehele saab luua grupid, mille sisse defineeritakse kaasnevad kaubad mis liiguvad alati kombinatsioonis koos. Siin on võimalik luua lugematul hulgal erinevaid kombinatsioone. Selleks valige lintribal nupp **Uus > andke grupile Tähis ja Kirjeldus**. Seejärel valige menüüst **Toimingud > Kaasnevad kaubad**. Avanenud lehel kirjeldage ära millised kaasnevad kaubad antud gruppi kuuluvad.
+Kaasnevad tooted lehele saab luua grupid, mille sisse defineeritakse kaasnevad kaubad mis liiguvad alati kombinatsioonis koos. Siin on võimalik luua lugematul hulgal erinevaid kombinatsioone. Selleks valige lintribal nupp **Uus > andke grupile Tähis ja Kirjeldus**. Seejärel valige menüüst **Toimingud > Kaasnevad kaubad**. Avanenud lehel kirjeldage ära millised kaasnevad kaubad antud gruppi kuuluvad.<br>
 Olulised väljad on siin:
 **Kauba nr** - kaasneva kauba nr<br>
 **Kogus (alus)** - kogus kauba alusmõõtühiku kohta <br>
@@ -75,7 +75,7 @@ Kui on tegu kaubakaardiga, mis on pant siis tuleb määrata kaubakaardi järgmis
 
 ### Kliendi mõõtühikud
 
-Kui peaks juhtuma, et mõnel kaubal on klientide jaoks erinevad veerand-, pool- või täisaluse kogused, siis saab seda seadistada **Kliendi mõõtühikud** lehel.
+Kui peaks juhtuma, et mõnel kaubal on klientide jaoks põhikogustest erinevad veerand-, pool- või täisaluse kogused, siis saab neid seadistada **Kliendi mõõtühikud** lehel.
 
 |Väli|Selgitus|
 |---|---| 
@@ -85,19 +85,18 @@ Kui peaks juhtuma, et mõnel kaubal on klientide jaoks erinevad veerand-, pool- 
 
 NB! Erinevad mõõtühikud ja nende seosed peavad olema eelnevalt ära defineeritud antud kauba **Kauba mõõtühikute** lehel.
 
+
 ## Kasutamine
 
 ### Müügidokumentidel
 
-Kui eelnevad seadistused on tehtud, siis saab kaasnevaid kaupasid lisada müügitellimuse lindil **Protsess > Lisa kaasnevad kaubad/pant**. Avanenud aknas saad teha
-järgmised valikud:
+Kui eelnevad seadistused on tehtud, siis automaatse kaasamise puhul võetakse kaasnevad kaubad dokumendi ridadele automaatselt. Manuaalselt saab kaasnevaid kaupasid  lisada müügitellimuse ridade menüüst **Halda > Lisa kaasnevad kaubad/pant**. Avanenud aknas saad teha järgmised valikud:
 
 |Väli|Selgitus|
 |---|---| 
 | Lisa/Uuenda kaasnevad kaubad | Lisab või uuendab müügitellimuse ridadel kaasnevad kaubad |
 | Lisa/Uuenda pandiread | Lisab või uuendab müügitellimuse ridadel kaupadega kaasa minevad pandid |
-| Klient | Võimalik valida, kas tooted leitakse Maksja-klient või Ostja-klient kliendikaardi seadsituste järgi |
-
+| Klient | Võimalik valida, kas kaasnevad kaubad leitakse Maksja-klient või Ostja-klient kliendikaardi seadsituste järgi |
 
 
 ---

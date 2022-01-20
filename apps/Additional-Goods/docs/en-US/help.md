@@ -59,7 +59,8 @@ And to calculate Deposit:
  ### Additional Item Groups
 
 Additional Items are dependent on the Items you sell. Instead of defining Additional Items to every Customer separately you can create groups. These are called **Additional Item Groups**. In these groups you define which additional items are always sold together.
-Choose search and enter **Additional Item Groups**. To create a new group select **New > give it a Code and Description**. After that select **Actions > Additional Items**. Additional Items page opens. Fill out the lines with items which are additional to the main item. Description for fields are following:
+Choose search and enter **Additional Item Groups**. To create a new group select **New > give it a Code and Description**. After that select **Actions > Additional Items**. Additional Items page opens. Fill out the lines with items which are additional to the main item. 
+Description for fields are following:
 **Item no** - Additional Item item no<br>
 **Quantity (base)** - quantity per base unit <br>
 **Type** - type of Additional Item (optional) <br>

@@ -1,18 +1,37 @@
-# Additional Goods
-Additional Goods solution in BC enables following features:
+# Additional Items
+Additional Items solution in BC enables following features:
 
-* assign Additional Goods for items sold via Sales Orders
+* assign Additional Items for items sold via Sales Orders
 * assign Deposit for items which require it
 
 
 ## Settings
-You must set up Additional Goods for every different combination you have.
-To use the solution,  needs to be done
 
-|Field|Explanation|
+You must set up Additional Items for every different combination you use in your sale procsess.
+
+### Additional Items Setup
+
+Before you can manage Customer specific rules it is wise to define general policy for Additional Items and Deposits. You must define the general setup on the **Additional Items Setup** page. This general setup is typically performed once during the initial implementation. On General FastTab you must select separately how Additional Items and Deposit are gonna be added on document lines.
+
+|Additional Items Calculation|Explanation|
 |---|---| 
-| Field Name | Explanation |
-| Field Name2 | Explanation |
+| Add After Each Item | Adds Additional Items as new lines after the main product line |
+| Document Total At The End | Sums Additional Items at the end of the document lines per item code |
+
+For Deposit calculations you can choose between following options:
+
+|Deposit Calculation|Explanation|
+|---|---| 
+| Add After Each Item | Adds Deposit as a new line after the main product line |
+| Document Total At The End | Sums Deposits at the end of the document lines per deposit code |
+
+If **Add Additional Items at Document Release** and/or **Add Deposit at Document Release** are enabled operations are done automatically on documents.
+
+
+If all the previous selections are done you have to enable on which documents you want to use the functionality.<br>
+**Calculate on Order** - functionality is enabled on Sales Orders <br>
+**Calculate on Invoice** - functionality is enabled on Sales Invoices <br>
+**Calculate on Credit Memo** - functionality is enabled on Sales Credit Memos <br>
 
  
 

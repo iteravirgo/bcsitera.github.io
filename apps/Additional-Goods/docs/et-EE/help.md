@@ -85,9 +85,9 @@ Kui peaks juhtuma, et mõnel kaubal on klientide jaoks põhikogustest erinevad v
 NB! Erinevad mõõtühikud ja nende seosed peavad olema eelnevalt ära defineeritud antud kauba **Kauba mõõtühikute** lehel.
 
 
-## Kasutamine
+# Kasutamine
 
-### Müügidokumentidel
+## Müügidokumentidel
 
 Kui eelnevad seadistused on tehtud, siis automaatse kaasamise puhul võetakse kaasnevad kaubad dokumendi ridadele automaatselt. Manuaalselt saab kaasnevaid kaupasid  lisada müügitellimuse ridade menüüst **Halda > Lisa kaasnevad kaubad/pant**. Avanenud aknas saad teha järgmised valikud:
 

@@ -77,16 +77,26 @@ Finally you have to define which Additional Items are connected to main item. Fo
 on the field **Additional Items** additional item group what you have defined previously.
 
 If Item Card itself is Deposit, following parameters must be applied: **Type = Non-Inventory** and **Deposit == Yes**.
-
- 
- 
- 
  
  
 
+### Customer Units of Measure
+
+Sometimes you might have different pallet quantities for different Customers. In order Additional Item Group Quantity (base) to work you must define those differences
+in **Customer Units of Measure** page.
+
+|Field|Explanation|
+|---|---| 
+| Customer No | Customer no to whom exception applies |
+| Item No | Item no to which exception applies |
+| Unit of Measure Code | Unit of Measure to which exception applies in Item Units of Measure page |
+
+NB! All Units of Measure and Quantities must be set up previously on **Item Units of Measure** page.
+ 
+ 
 # How to use
-
-
+ 
+ 
 ## On sale documents
 
 If all the previous setups are done you are now ready to use functionality. If you enabled option **Add Additional Items/Deposit at Document Release** all Additional

@@ -58,8 +58,7 @@ Ja pandi arvutamisel:
 
 ### Kaasnevad tooted ja kaubad
 
-Kaasnevad tooted lehele saab luua grupid, mille sisse defineeritakse kaasnevad kaubad mis liiguvad alati kombinatsioonis koos. Siin on võimalik luua lugematul hulgal erinevaid kombinatsioone. Selleks valige lintribal nupp **Uus > andke grupile Tähis ja Kirjeldus**. Seejärel valige menüüst **Toimingud > Kaasnevad kaubad**. Avanenud lehel kirjeldage ära millised kaasnevad kaubad antud gruppi kuuluvad.<br>
-Olulised väljad on siin:
+Kaasnevad tooted lehele saab luua grupid, mille sisse defineeritakse kaasnevad kaubad mis liiguvad alati kombinatsioonis koos. Siin on võimalik luua lugematul hulgal erinevaid kombinatsioone. Selleks valige lintribal nupp **Uus > andke grupile Tähis ja Kirjeldus**. Seejärel valige menüüst **Toimingud > Kaasnevad kaubad**. Avanenud lehel kirjeldage ära millised kaasnevad kaubad antud gruppi kuuluvad. Olulised väljad on siin:
 **Kauba nr** - kaasneva kauba nr<br>
 **Kogus (alus)** - kogus kauba alusmõõtühiku kohta <br>
 **Liik** - kaasneva kauba liik <br>

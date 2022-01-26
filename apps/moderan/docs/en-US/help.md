@@ -17,7 +17,9 @@ Moderan Interface enables the following:
   - [Setup Payment Terms Code in Moderan and BC](#setup-payment-terms-code-in-Moderan-and-BC)
   - [Setup Accounting Codes in Moderan](#setup-accounting-codes-in-moderan) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
-- [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
+- [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan)
+  - [Dimensions in the sales invoice header](#dimensions-in-the-sales-invoice-header)
+  - [Job Queues](#job_queues)
   - [Periodization of Invoices](#periodization-of-invoices) 
 - [How to Get Contacts from Moderan](#how-to-get-contacts-from-moderan)
 - [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan) 
@@ -163,12 +165,15 @@ If you run action **Moderan – Get Invoices** more than once for the same perio
 If the invoice amount in Moderan is 0, then an invoice will not be created in Business Central.
 <br/>
 
+### Dimensions in the sales invoice header
 
 To get the Dimension value in the Sales Invoice Header, the **Apply Dimension to Header** button on the **Interface** page must be turned on. 
 In the Invoice header displays the Dimension value, which is the Dimension value of the last invoice line.
 
 <br/>
 
+
+### Job Queues
 
 **Moderan – Get Invoices** can be setup to run automatically by using **Job Queue** functionality.
 

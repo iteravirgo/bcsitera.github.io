@@ -19,7 +19,7 @@ Moderan Interface enables the following:
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan)
   - [Dimensions in the sales invoice header](#dimensions-in-the-sales-invoice-header)
-  - [Job Queues](#job_queues)
+  - [Job Queue](#job_queue)
   - [Periodization of Invoices](#periodization-of-invoices) 
 - [How to Get Contacts from Moderan](#how-to-get-contacts-from-moderan)
 - [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan) 
@@ -173,7 +173,7 @@ In the Invoice header displays the Dimension value, which is the Dimension value
 <br/>
 
 
-### Job Queues
+### Job Queue
 
 **Moderan – Get Invoices** can be setup to run automatically by using **Job Queue** functionality.
 

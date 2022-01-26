@@ -167,6 +167,7 @@ If the invoice amount in Moderan is 0, then an invoice will not be created in Bu
 To get the Dimension value in the Sales Invoice Header, the **Apply Dimension to Header** button on the **Interface** page must be turned on. 
 In the Invoice header displays the Dimension value, which is the Dimension value of the last invoice line.
 
+<br/>
 
 
 **Moderan – Get Invoices** can be setup to run automatically by using **Job Queue** functionality.
@@ -179,6 +180,7 @@ To do so, open **Job Queue Entries** and create new entry as:
 |Object ID to Run|24007901|
 |Recurrence|Indicate desired recurrence|
 
+<br/>
 
 ### Periodization of Invoices
 

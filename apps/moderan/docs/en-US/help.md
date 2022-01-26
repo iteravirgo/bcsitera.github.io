@@ -162,6 +162,9 @@ If you run action **Moderan – Get Invoices** more than once for the same perio
 
 If the invoice amount in Moderan is 0, then an invoice will not be created in Business Central.
 
+To get the Dimension value in the Sales Invoice Header, the **Apply Dimension to Header** button on the **Interface** page must be turned on. 
+In the Invoice header displays the Dimension value, which is the Dimension value of the last invoice line.
+
 
 **Moderan – Get Invoices** can be setup to run automatically by using **Job Queue** functionality.
 

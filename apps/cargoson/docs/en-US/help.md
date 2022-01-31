@@ -90,19 +90,27 @@ Price request from Cargoson can be initiated from the following Business Central
 - Purchase orders
 
 Process:
-- Business Central document, e.g. Sales Order is created and reviewed 
-- Cargoson price requests query is initiated from **Process -> Send to Cargoson**  
+- Create Business Central document, e.g. Sales Order 
+- Initiate Cargoson price request query from the document header **Process -> Send to Cargoson**  
 - Cargoson Order Lines window will be opened:
 ![Cargoson Order Lines](3_cargoson_order_lines.png)
-- Purchase orders
-
+- Check transportation order data (mandatory fields marked with *):
 |Field|Description|
 |---|---|
-|Salespers./Purch. Code|User related salesperson code. Data is taken to Cargoson queries|  
-|E-Mail|User e-mail address. Data is taken to Cargoson queries| 
-|Phone No.|User Phone No.. Data is taken to Cargoson queries|
-|Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
-
+|Header||
+|Collection Date*|Transportation Order collection date|  
+|Delivery date|Transportation Order delivery date|
+|Shipping Agent Service|Transportation Order Shipping Agent Service Code|
+|Lines||
+|Package Code*|Transportation Order Line package type| 
+|Quantity*|Transportation Order Line package quantity|
+|Weight (kg)*|Transportation Order Line package weight|
+|Length (cm)|Transportation Order Line package length|
+|Width (cm)|Transportation Order Line package width|
+|Height (cm)|Transportation Order Line package height|
+|CBM|Transportation Order Line CBM|
+|LDM|Transportation Order line LDM|
+|Description|Transportation Order line description|
 
 
 |Field/Tab|Value/Description|

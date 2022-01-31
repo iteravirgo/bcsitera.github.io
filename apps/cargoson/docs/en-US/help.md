@@ -110,7 +110,7 @@ Process:
 |Lines||
 |Package Code*|Transportation Order Line package type| 
 |Quantity*|Transportation Order Line package quantity|
-|Weight (kg)*|Transportation Order Line package weight|
+|Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled, Net weight is used instead.|
 |Length (cm)|Transportation Order Line package length|
 |Width (cm)|Transportation Order Line package width|
 |Height (cm)|Transportation Order Line package height|
@@ -155,7 +155,7 @@ Process:
 |Lines||
 |Package Code*|Transportation Order Line package type| 
 |Quantity*|Transportation Order Line package quantity|
-|Weight (kg)*|Transportation Order Line package weight|
+|Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled, Net weight is used instead.|
 |Length (cm)|Transportation Order Line package length|
 |Width (cm)|Transportation Order Line package width|
 |Height (cm)|Transportation Order Line package height|
@@ -172,5 +172,26 @@ Process:
  <br/>
 
 ## How to check Cargoson Log entries
-
-T
+Transportation order related queries between Business Central and Cargoson are saved to Cargoson Log entries table. Search for **Cargoson Log Entries** to open the Cargoson Log entries page:
+![Cargoson Log Entries](8_cargoson_log_entries.png)
+|Field|Description|
+|---|---|
+|Header||
+|Collection Date*|Transportation Order collection date|  
+|Delivery date|Transportation Order delivery date|
+|Shipping Agent Service|Transportation Order Shipping Agent Service Code|
+|Details||
+|Collection Postcode*|Postcode has to be filled in Location card selected to source document|  
+|Collection Country*|Country code has to be filled in Location card selected to source document|
+|Delivery Postcode*|Ship-to postcode has to be filled in source document|  
+|Delivery Country*|Ship-to country has to be filled in source document|
+|Lines||
+|Package Code*|Transportation Order Line package type| 
+|Quantity*|Transportation Order Line package quantity|
+|Weight (kg)*|Transportation Order Line package weight|
+|Length (cm)|Transportation Order Line package length|
+|Width (cm)|Transportation Order Line package width|
+|Height (cm)|Transportation Order Line package height|
+|CBM|Transportation Order Line CBM|
+|LDM|Transportation Order line LDM|
+|Description|Transportation Order line description|

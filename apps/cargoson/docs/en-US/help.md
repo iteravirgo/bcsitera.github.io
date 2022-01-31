@@ -113,6 +113,10 @@ Process:
 |LDM|Transportation Order line LDM|
 |Description|Transportation Order line description|
 
+- Press button **Cargoson Price Request** to send the query to Cargoson.
+- Cargoson will reply with price offers from different carriers:
+![Cargoson Carrier Prices](4_cargoson_carrier_prices.png)
+
 
 |Field/Tab|Value/Description|
 |-|-|

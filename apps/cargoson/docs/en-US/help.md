@@ -13,7 +13,7 @@ Cargoson Interface enables the following:
   - [Setup Package Types](#setup-package-types) 
   - [Setup User for Cargoson](#setup-user-for-cargoson)
   - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson) 
-- [How to send transportation orders (incl. transportation orders with direct booking) to Cargoson](#how-to-send-transportation-orders-to-cargoson) 
+- [How to send transportation orders to Cargoson](#how-to-send-transportation-orders-to-cargoson) 
 - [How to make price requests from Cargoson](#how-to-make-price-requests-from-cargoson) 
 - [How to check Cargoson Log entries](#how-to-check-cargoson-log-entries)
 
@@ -85,6 +85,11 @@ Search for **Shipping Agents** to open the Shipping Agents setup page and add ne
  <br/>
 
 ## How to make price requests from Cargoson
+Price request from Cargoson can be initiated from the following Business Central documents:
+- Sales Quotes, 
+- Sales Orders, 
+- Posted Sales Shipments, 
+- Purchase orders
 
 **NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
 
@@ -109,7 +114,7 @@ To do so, open **Job Queue Entries** and create new entry as:
  <br/>
 
 
-## How to send transportation orders (incl. transportation orders with direct booking) to Cargoson
+## How to send transportation orders to Cargoson
 
 To get invoices from Moderan, run action **Moderan – Get Invoices** and fill in the parameters as following:
 

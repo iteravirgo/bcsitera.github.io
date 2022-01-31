@@ -11,7 +11,8 @@ Cargoson Interface enables the following:
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)
   - [Setup Package Types](#setup-package-types) 
-  - [Setup User for Cargoson](#setup-user-for-cargoson) 
+  - [Setup User for Cargoson](#setup-user-for-cargoson)
+  - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
   - [Periodization of Invoices](#periodization-of-invoices) 
@@ -35,10 +36,10 @@ Search for **Cargoson Setup** to open the Cargoson Setup page and fill the field
 
 |Field|Description|
 |---|---|
-| Service URL* |Cargoson Service URL given by Cargoson support|  
-|Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support| 
-|Default Line Description*|Specifies Cargoson transportation order default line description|
-|Default Package Code*|Specifies Cargoson transportation order line default Package Type|
+|Service URL*|Cargoson Service URL given by Cargoson support.|  
+|Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support.| 
+|Default Line Description*|Specifies Cargoson transportation order default line description.|
+|Default Package Code*|Specifies Cargoson transportation order line default Package Type.|
 |Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field Collection Location Code.|
 
   <br/>
@@ -49,15 +50,16 @@ Search for **Package Types** to open the Package Types setup page and fill the f
 
 |Field|Description|
 |---|---|
-||Cargoson Service URL given by Cargoson support|  
-|Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support| 
-|Default Line Description*|Specifies Cargoson transportation order default line description|
-|Default Package Code*|Specifies Cargoson transportation order line default Package Type|
-|Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field Collection Location Code.|
+|Code*|Cargoson Service URL given by Cargoson support.|  
+|Type*|Package Type code used in Cargoson queries. These codes must be mapped with Cargoson.| 
+|Description|Package Type description for internal use.|
+|Length (cm)|Package Type Length (cm) which is taken to Cargoson transportation lines.|
+|Width (cm)|Package Type Length (cm) which is taken to Cargoson transportation lines.|
+|Calculate LDM|If marked then LDM is calculated Cargoson transportation lines automatically.|
 
   <br/>
 
-![InterfaceCard](InterfaceCard.png)
+![PackageTypes](1_package_types.png)
 
  <br/>
 
@@ -77,6 +79,15 @@ Search for **User Setup** to open the User Setup page and fill the fields as fol
 ![InterfaceCard](InterfaceCard.png)
 
  <br/>
+
+
+### Setup Shipping Agents and Shipping Agent Services for Cargoson
+
+Search for **Shipping Agents** to open the Shipping Agents setup page and add necessary Shipping Agents and Shipping Agent Service Codes (these must be agreed with Cargoson): 
+
+  <br/>
+
+![ShippingAgents](2_shipping_agents.png)
 
 
 ## How to Get Customers or Vendors from Moderan

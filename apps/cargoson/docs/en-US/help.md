@@ -98,15 +98,16 @@ Process:
 
 |Field|Description|
 |---|---|
-|Header|Header|
+|Header||
 |Collection Date*|Transportation Order collection date|  
 |Delivery date|Transportation Order delivery date|
 |Shipping Agent Service|Transportation Order Shipping Agent Service Code|
+|Details||
 |Collection Postcode*|Postcode has to be filled in Location card selected to source document|  
 |Collection Country*|Country code has to be filled in Location card selected to source document|
 |Delivery Postcode*|Ship-to postcode has to be filled in source document|  
 |Delivery Country*|Ship-to country has to be filled in source document|
-|Lines|Lines|
+|Lines||
 |Package Code*|Transportation Order Line package type| 
 |Quantity*|Transportation Order Line package quantity|
 |Weight (kg)*|Transportation Order Line package weight|

@@ -121,16 +121,10 @@ Process:
 - Press button **Cargoson Price Request** to send the query to Cargoson.
 - Cargoson will reply with price offers from different carriers:
 ![Cargoson Carrier Services](4_cargoson_carrier_services.png)
-
-
-|Field/Tab|Value/Description|
-|-|-|
-|Object Type to Run|Report|
-|Object ID to Run|24007900|
-|Recurrence|Indicate desired recurrence|
+- Mark suitable line and press **OK** to select carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**  
 
  <br/>
-
+ <br/>
 
 ## How to send transportation orders to Cargoson
 

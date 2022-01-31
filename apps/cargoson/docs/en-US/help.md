@@ -10,11 +10,8 @@ Cargoson Interface enables the following:
 - [Menu](#menu) 
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)
-  - [Setup customers](#setup-customers) 
-  - [Setup Sales invoices number series](#setup-sales-invoices-number-series)
-  - [Setup Dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
-  - [Setup Payment Terms Code in Moderan and BC](#setup-payment-terms-code-in-Moderan-and-BC)
-  - [Setup Accounting Codes in Moderan](#setup-accounting-codes-in-moderan) 
+  - [Setup Package Types](#setup-package-types) 
+  - [Setup Authentication Phrase for User](#setup-authentication-phrase-for-user) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
   - [Periodization of Invoices](#periodization-of-invoices) 
@@ -28,16 +25,13 @@ Cargoson Interface enables the following:
 Open **Extension Management** and check if extension named ‘Cargoson’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
 
 ## Menu
-
 Cargoson menu items can be found from all Business Central Role centers via search functionality. Actions can be run from related pages (see instrctions below). 
-
-
 
 ## How to setup
 
 ### Setup API
 
-Search for **Cargoson Setup** to open page Cargoson Setup and fill the fields as following (mandatory fields marked with *):
+Search for **Cargoson Setup** to open the Cargoson Setup page and fill the fields as following (mandatory fields marked with *):
 
 |Field|Description|
 |---|---|
@@ -48,56 +42,42 @@ Search for **Cargoson Setup** to open page Cargoson Setup and fill the fields as
 |Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field Collection Location Code.|
 
   <br/>
- 
 
-To test, if the connection is correct, press the button – Test connection.
+### Setup Package Types
+
+Search for **Package Types** to open the Package Types setup page and fill the fields as following (mandatory fields marked with *):
+
+|Field|Description|
+|---|---|
+||Cargoson Service URL given by Cargoson support|  
+|Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support| 
+|Default Line Description*|Specifies Cargoson transportation order default line description|
+|Default Package Code*|Specifies Cargoson transportation order line default Package Type|
+|Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field Collection Location Code.|
+
+  <br/>
 
 ![InterfaceCard](InterfaceCard.png)
 
  <br/>
 
-### Organisation Types
-Here is possible to add different Moderan organistions codes which are used for Customer import or for Vendor import.
-Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
+### Setup Authentication Phrase for User
 
-![OrganisationTypes](OrganisationTypes.png)
+Search for **User Setup** to open the User Setup page and fill the fields as following (mandatory fields marked with *):
 
-<br/>
+|Field|Description|
+|---|---|
+|Salespers./Purch. Code|User related salesperson code. Data is taken to Cargoson queries|  
+|E-Mail|User e-mail address. Data is taken to Cargoson queries| 
+|Phone No.|User Phone No.. Data is taken to Cargoson queries|
+|Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specifine Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
 
-### Setup customers
+  <br/>
 
-**NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
-
-
-
-### Setup Sales invoices number series
-
-**NB!** It is important that Sales invoices and Posted sales invoices use different number series.
-
-
-### Setup Dimensions in Moderan and BC
-To use dimensions, add the Accounting Code in the Moderan building card, in format: "Dimension:Dimension Value". 
-
-For example: DEPARTMENT:MAIN.
-The same dimension and dimension value must be set up in BC.
-
-
-### Setup Payment Terms Code in Moderan and BC
-Describe the same Payment Terms Codes in Moderan and in BC.
-
-For example: 10 DAYS
-If the Payment Terms codes ar the same in BC and in the Moderan contract, the Invoice Due Date will be calculated based on this code.
-
-
-### Setup Accounting Codes in Moderan
-
-In addition to mapping customers, services should be mapped. To do so, setup accounting codes in Moderan.
-
-Accounting code should be in format: “Type:No.:GeneralProductPostingGroup”
-
-For example – G/L Account:6115:RENT
+![InterfaceCard](InterfaceCard.png)
 
  <br/>
+
 
 ## How to Get Customers or Vendors from Moderan
 

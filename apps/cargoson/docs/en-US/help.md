@@ -29,7 +29,7 @@ Open **Extension Management** and check if extension named ‘Cargoson’ is ins
 
 ## Menu
 
-Moderan menu items can be found in the Role centers: Accountant and Business Manager.
+Cargoson menu items can be found from all Business Central Role centers via search functionality. Actions can be run from related pages (see instrctions below). 
 
 
 

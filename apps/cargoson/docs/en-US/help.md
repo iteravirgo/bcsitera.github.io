@@ -41,16 +41,11 @@ Search for **Cargoson Setup** to open page Cargoson Setup and fill the fields as
 
 |Field|Description|
 |---|---|
-| Customer API* |Production or Development|  
-|Authorization Key*|Moderan authorization key from Moderan Admin -> Integrations| 
-|Moderan Account No. *|Customer account number in Moderan (ask from Moderan)|
-|Customer Registration No. Field |Choose which field is a Customer Business Registration No. in the Customer table|
-|Create Customer Using Moderan No. |Yes - Use Moderan registration No. for creating new Customer. No - use Busines Central No.series|
-|Vendor Registration No. Field |Choose which field is a Vendor Business Registration No. in the Vendor table|
-|Create Vendor Using Moderan No. |Yes - Use Moderan registration No. for creating new Vendor. No - use Busines Central No.series|
-|Invoice Add. Into Field *|Specify field for additional info in the Sales Header table|  
-|Invoice Desc. Into Field *|Specify field for Invoice posting description in the Sales Header table|
-|Posting Description on 1st Line *|Yes - Invoice posting description will be included on first line on Invoice.|
+| Service URL* |Cargoson Service URL given by Cargoson support|  
+|Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support| 
+|Default Line Description*|Specifies Cargoson transportation order default line description|
+|Default Package Code*|Specifies Cargoson transportation order line default Package Type|
+|Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field Collection Location Code.|
 
   <br/>
  

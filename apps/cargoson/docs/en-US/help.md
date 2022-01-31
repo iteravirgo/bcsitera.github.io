@@ -11,7 +11,7 @@ Cargoson Interface enables the following:
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)
   - [Setup Package Types](#setup-package-types) 
-  - [Setup Authentication Phrase for User](#setup-authentication-phrase-for-user) 
+  - [Setup User for Cargoson](#setup-user-for-cargoson) 
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
   - [Periodization of Invoices](#periodization-of-invoices) 
@@ -70,7 +70,7 @@ Search for **User Setup** to open the User Setup page and fill the fields as fol
 |Salespers./Purch. Code|User related salesperson code. Data is taken to Cargoson queries|  
 |E-Mail|User e-mail address. Data is taken to Cargoson queries| 
 |Phone No.|User Phone No.. Data is taken to Cargoson queries|
-|Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specifine Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
+|Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
 
   <br/>
 

@@ -13,8 +13,8 @@ Cargoson Interface enables the following:
   - [Setup Package Types](#setup-package-types) 
   - [Setup User for Cargoson](#setup-user-for-cargoson)
   - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson) 
-- [How to send transportation orders to Cargoson](#how-to-send-transportation-orders-to-cargoson) 
-- [How to make price requests from Cargoson](#how-to-make-price-requests-from-cargoson) 
+- [How to make price requests from Cargoson](#how-to-make-price-requests-from-cargoson)
+- [How to send transportation orders to Cargoson](#how-to-send-transportation-orders-to-cargoson)  
 - [How to check Cargoson Log entries](#how-to-check-cargoson-log-entries)
 
   <br/>  
@@ -93,7 +93,7 @@ Process:
 - Business Central document, e.g. Sales Order is created and reviewed 
 - Cargoson price requests query is initiated from **Process -> Send to Cargoson**  
 - Cargoson Order Lines window will be opened:
-![Cargoson Order Lines](2_cargoson_order_lines.png)
+![Cargoson Order Lines](3_cargoson_order_lines.png)
 - Purchase orders
 
 |Field|Description|

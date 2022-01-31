@@ -55,7 +55,7 @@ Search for **Package Types** to open the Package Types setup page and fill the f
 |Description|Package Type description for internal use.|
 |Length (cm)|Package Type Length (cm) which is taken to Cargoson transportation lines.|
 |Width (cm)|Package Type Length (cm) which is taken to Cargoson transportation lines.|
-|Calculate LDM|If marked then LDM is calculated Cargoson transportation lines automatically.|
+|Calculate LDM|If marked then LDM is calculated to Cargoson transportation lines automatically.|
 
   <br/>
 

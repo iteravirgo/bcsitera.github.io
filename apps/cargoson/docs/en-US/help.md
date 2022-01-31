@@ -181,17 +181,17 @@ Transportation order related query responses between Business Central and Cargos
 |Document No.|Document number from which the query was sent|  
 |Cargoson Order No.|Related Cargoson Order number. Field acts as link and clicking on it opens Cargoson website with related Transportation Order|
 |Customer reference|Customer reference number|
-|Pickup|Collection|
-|Postal|Postcode has to be filled in Location card selected to source document|  
-|Country|Country code has to be filled in Location card selected to source document|
-|Delivery|Ship-to postcode has to be filled in source document|  
-|Postal|Postcode has to be filled in Location card selected to source document|  
-|Country|Country code has to be filled in Location card selected to source document|
-|Collection date|Transportation Order Line package type| 
-|Delivery date|Transportation Order Line package quantity|
-|Carrier Service ID|Transportation Order Line package weight|
-|Carrier Service Description|Transportation Order Line package length|
-|Incoterms Code|Transportation Order Line package width|
-|Label link|Transportation Order Line package height|
-|Tracking ID link|Transportation Order Line CBM|
-|Entry No.|Transportation Order line LDM|
+|Pickup|Company name where the goods were collected|
+|Postal|Transportation Order collection Postcode|  
+|Country|Transportation Order collection Country|
+|Delivery|Company name where the goods were delivered|  
+|Postal|Transportation Order Delivery Postcode|  
+|Country|Transportation Order Delivery Country|
+|Collection date|Transportation Order Collection Date| 
+|Delivery date|Transportation Order Delivery date|
+|Carrier Service ID|Transportation Order Service ID. Indicates that Transportation Order was sent to Cargoson with Direct Booking option|
+|Carrier Service Description|Transportation Order Service ID description from BC|
+|Incoterms Code|Incoterms code related Transportation Order|
+|Label link|Package label link. Field acts as link and clicking on it opens related package label|
+|Tracking ID link|Package tracking link. Field acts as link and clicking on it opens related package tracking website|
+|Entry No.|Log Entry unique number|

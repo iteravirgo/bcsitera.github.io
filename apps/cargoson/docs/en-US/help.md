@@ -85,7 +85,7 @@ Search for **Shipping Agents** to open the Shipping Agents setup page and add ne
  <br/>
  <br/>
 
-## How to Get Customers or Vendors from Moderan
+## How to make price requests from Cargoson
 
 **NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
 
@@ -110,7 +110,7 @@ To do so, open **Job Queue Entries** and create new entry as:
  <br/>
 
 
-## How to Get Invoices from Moderan
+## How to send transportation orders (incl. transportation orders with direct booking) to Cargoson
 
 To get invoices from Moderan, run action **Moderan – Get Invoices** and fill in the parameters as following:
 
@@ -161,52 +161,6 @@ User can filter out these invoices and perform periodization tasks if required.
 
  <br/>
 
-## How to Get Contacts from Moderan
+## How to check Cargoson Log entries
 
-### Setup Moderan Organisation Roles
-
-Open **Moderan Organisation Roles** page and insert lines, which links Moderan Organisation Roles with Organisation Level Codes in BC.
-Priority can be used to determine the most important role of the contact person.
-
-
-![OrganisationRoles](OrganisationRoles.png)
-
-
-### Setup Salutations
-
-Open **Salutations** page and add the codes, which used as Gender codes in Moderan.
-
-
-### Get Contacts
-
-To get customers or vendors from Moderan, run action **Moderan – Get Contacts** and press OK. Contacts are imported from Moderan into company-type contacts. The contact is assigned a role according to the prority on the **Moderan Organisation Roles** page.
-
-**NB!** Only contacts that have the role described on the **Moderan Organisation Roles** page will be imported.
-
-**Moderan – Get Contacts** can be setup to run automatically by using **Job Queue** functionality.
-
-To do so, open **Job Queue Entries** and create new entry as:
-
-|Field/Tab|Value/Description|
-|-|-|
-|Object Type to Run|Report|
-|Object ID to Run|24007903|
-|Recurrence|Indicate desired recurrence|
-
-<br/>
-
-## How to Send Customer Balances to Moderan
-
-To send customer overdue balances from Business Central to Moderan, run action **Moderan – Send Balances**.
-
-Action will send current balance information for all the customers with **Moderan ID**.
-
-Sending balances can be setup to run automatically by using **Job Queue** functionality.
-
-To do so, open **Job Queue Entries** and create new entry as:
-
-|Field/Tab|Value/Description|
-|-|-|
-|Object Type to Run|Report|
-|Object ID to Run|24007902|
-|Recurrence|Indicate desired recurrence|
+TO DO

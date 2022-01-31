@@ -13,11 +13,10 @@ Cargoson Interface enables the following:
   - [Setup Package Types](#setup-package-types) 
   - [Setup User for Cargoson](#setup-user-for-cargoson)
   - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson) 
-- [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
-- [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan) 
-  - [Periodization of Invoices](#periodization-of-invoices) 
-- [How to Get Contacts from Moderan](#how-to-get-contacts-from-moderan)
-- [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan) 
+- [How to send transportation orders (incl. transportation orders with direct booking) to Cargoson](#how-to-send-transportation-orders-to-cargoson) 
+- [How to make price requests from Cargoson](#how-to-make-price-requests-from-cargoson) 
+- [How to check Cargoson Log entries](#how-to-check-cargoson-log-entries)
+
   
   <br/>
   
@@ -163,4 +162,4 @@ User can filter out these invoices and perform periodization tasks if required.
 
 ## How to check Cargoson Log entries
 
-TO DO
+T

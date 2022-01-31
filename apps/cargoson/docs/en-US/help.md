@@ -1,6 +1,6 @@
-# Moderan for Business Central User Guide
+# Cargoson Interface for Business Central User Guide
 
-Moderan Interface enables the following:
+Cargoson Interface enables the following:
 - Get Customers or Vendors from Moderan
 - Get Sales invoices from Moderan
 - Get Contacts from Moderan

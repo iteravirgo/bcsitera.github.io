@@ -65,7 +65,7 @@ Search for **Package Types** to open the Package Types setup page and fill the f
 
 ### Setup Authentication Phrase for User
 
-Search for **User Setup** to open the User Setup page and fill the fields as following (mandatory fields marked with *):
+Search for **User Setup** to open the User Setup page and add necessary users and fill the fields as following (mandatory fields marked with *):
 
 |Field|Description|
 |---|---|
@@ -74,21 +74,16 @@ Search for **User Setup** to open the User Setup page and fill the fields as fol
 |Phone No.|User Phone No.. Data is taken to Cargoson queries|
 |Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
 
-  <br/>
-
-![InterfaceCard](InterfaceCard.png)
-
  <br/>
-
 
 ### Setup Shipping Agents and Shipping Agent Services for Cargoson
 
 Search for **Shipping Agents** to open the Shipping Agents setup page and add necessary Shipping Agents and Shipping Agent Service Codes (these must be agreed with Cargoson): 
 
-  <br/>
-
 ![ShippingAgents](2_shipping_agents.png)
 
+ <br/>
+ <br/>
 
 ## How to Get Customers or Vendors from Moderan
 

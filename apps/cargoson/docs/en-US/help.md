@@ -24,8 +24,8 @@ Cargoson Interface enables the following:
   <br/>
   
 
-## Moderan App Installation
-Open **Extension Management** and check if extension named ‘Moderan’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
+## Cargoson App Installation
+Open **Extension Management** and check if extension named ‘Cargoson’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
 
 ## Menu
 
@@ -37,7 +37,7 @@ Moderan menu items can be found in the Role centers: Accountant and Business Man
 
 ### Setup API
 
-Open **Interface** in Moderan menu or page Moderan Interface and fill the fields as following (mandatory fields marked with *):
+Search for **Cargoson Setup** to open page Cargoson Setup and fill the fields as following (mandatory fields marked with *):
 
 |Field|Description|
 |---|---|

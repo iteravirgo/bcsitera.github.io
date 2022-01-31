@@ -6,7 +6,7 @@ Cargoson Interface enables the following:
 - See data exchange log between Business Central and Cargoson.
 
 ## Contents
-- [Moderan Installation](#moderan-installation)
+- [Cargoson App Installation](#Cargoson-app-installation)
 - [Menu](#menu) 
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)
@@ -24,7 +24,7 @@ Cargoson Interface enables the following:
   <br/>
   
 
-## Moderan Installation
+## Moderan App Installation
 Open **Extension Management** and check if extension named ‘Moderan’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
 
 ## Menu

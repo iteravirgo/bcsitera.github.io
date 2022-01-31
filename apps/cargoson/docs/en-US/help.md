@@ -115,7 +115,7 @@ Process:
 
 - Press button **Cargoson Price Request** to send the query to Cargoson.
 - Cargoson will reply with price offers from different carriers:
-![Cargoson Carrier Prices](4_cargoson_carrier_prices.png)
+![Cargoson Carrier Services](4_cargoson_carrier_services.png)
 
 
 |Field/Tab|Value/Description|

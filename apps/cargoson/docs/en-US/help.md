@@ -95,13 +95,14 @@ Process:
 - Cargoson Order Lines window will be opened:
 ![Cargoson Order Lines](3_cargoson_order_lines.png)
 - Check transportation order data (mandatory fields marked with *):
+
 |Field|Description|
 |---|---|
-|Header||
+|Header|Header|
 |Collection Date*|Transportation Order collection date|  
 |Delivery date|Transportation Order delivery date|
 |Shipping Agent Service|Transportation Order Shipping Agent Service Code|
-|Lines||
+|Lines|Lines|
 |Package Code*|Transportation Order Line package type| 
 |Quantity*|Transportation Order Line package quantity|
 |Weight (kg)*|Transportation Order Line package weight|

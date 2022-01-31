@@ -1,10 +1,9 @@
 # Cargoson Interface for Business Central User Guide
 
 Cargoson Interface enables the following:
-- Get Customers or Vendors from Moderan
-- Get Sales invoices from Moderan
-- Get Contacts from Moderan
-- Send Customer Balances to Moderan
+- Sending transportation orders (incl. Direct Booking ones) from Business Central to Cargoson. Sending transportation orders is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.  
+- Sending transportation price requests from Business Central to Cargoson and applying the selection directly to the documents. Sending price requests is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.
+- See data exchange log between Business Central and Cargoson.
 
 ## Contents
 - [Moderan Installation](#moderan-installation)

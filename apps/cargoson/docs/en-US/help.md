@@ -17,9 +17,7 @@ Cargoson Interface enables the following:
 - [How to make price requests from Cargoson](#how-to-make-price-requests-from-cargoson) 
 - [How to check Cargoson Log entries](#how-to-check-cargoson-log-entries)
 
-  
-  <br/>
-  
+  <br/>  
 
 ## Cargoson App Installation
 Open **Extension Management** and check if extension named ‘Cargoson’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
@@ -91,19 +89,21 @@ Price request from Cargoson can be initiated from the following Business Central
 - Posted Sales Shipments, 
 - Purchase orders
 
-**NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
+Process:
+- Business Central document, e.g. Sales Order is created and reviewed 
+- Cargoson price requests query is initiated from **Process -> Send to Cargoson**  
+- Cargoson Order Lines window will be opened:
+![Cargoson Order Lines](2_cargoson_order_lines.png)
+- Purchase orders
 
-To get customers or vendors from Moderan, run action **Moderan – Get Customers/Vendors**. Existing (mapped) customers or vendors will be updated, and new customers or vendors (who have a Registration No in Moderan) created.
+|Field|Description|
+|---|---|
+|Salespers./Purch. Code|User related salesperson code. Data is taken to Cargoson queries|  
+|E-Mail|User e-mail address. Data is taken to Cargoson queries| 
+|Phone No.|User Phone No.. Data is taken to Cargoson queries|
+|Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
 
-The customers or vendors who do not have a Registration No. will be skipped.
 
-If the customer has English as the invoicing language in Moderan, the Language code is also displayed on the BC customer card.
-
-When new customers or vendors were created, review customer or vendor cards and fill in missing data like **Posting Groups**.
-
-**Moderan – Get Customers/Vendors** can be setup to run automatically by using **Job Queue** functionality.
-
-To do so, open **Job Queue Entries** and create new entry as:
 
 |Field/Tab|Value/Description|
 |-|-|

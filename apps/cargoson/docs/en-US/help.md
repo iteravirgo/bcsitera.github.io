@@ -1,7 +1,7 @@
 # Cargoson Interface for Business Central User Guide
 
 Cargoson Interface enables the following:
-- Sending transportation orders (incl. Direct Booking ones) from Business Central to Cargoson. Sending transportation orders is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.  
+- Sending Transportation Orders (incl. Direct Booking ones) from Business Central to Cargoson. Sending Transportation Orders is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.  
 - Sending transportation price requests from Business Central to Cargoson and applying the selection directly to the documents. Sending price requests is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.
 - See data exchange log between Business Central and Cargoson.
 
@@ -68,7 +68,7 @@ Search for **User Setup** to open the User Setup page and add necessary users an
 |---|---|
 |Salespers./Purch. Code|User related salesperson code. Data is taken to Cargoson queries|  
 |E-Mail|User e-mail address. Data is taken to Cargoson queries| 
-|Phone No.|User Phone No.. Data is taken to Cargoson queries|
+|Phone No.|User Phone Number. Data is taken to Cargoson queries|
 |Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
 
  <br/>
@@ -126,55 +126,49 @@ Process:
  <br/>
  <br/>
 
-## How to send transportation orders to Cargoson
+## How to send Transportation Orders to Cargoson
 
-To get invoices from Moderan, run action **Moderan – Get Invoices** and fill in the parameters as following:
+Price request from Cargoson can be initiated from the following Business Central documents:
+- Sales Quotes, 
+- Sales Orders, 
+- Posted Sales Shipments, 
+- Purchase orders
+
+Process:
+- Create Business Central document, e.g. Sales Order 
+- Initiate Cargoson price request query from the document header **Process -> Send to Cargoson**  
+- Cargoson Order Lines window will be opened:
+![Cargoson Order Lines](3_cargoson_order_lines.png)
+- Check transportation order data (mandatory fields marked with *):
 
 |Field|Description|
-|-|-|
-|Period Start*|Choose period from which invoices will be retrieved|  
-|Posting Date*|Enter Posting Date for the invoices|  
-|Document Date*|Enter Document Date for the invoices|  
-|Payment Terms Code|Select Payment Terms Code. This applies to invoices that do not have a payment term specified in Moderan|
-|Customer Filter|If set, invoices of other customers will be skipped|  
-|Invoice Type*|Choose **Rent** or **Costs** |  
-|Cost Optional Filters*|Choose Distribution Sets |
+|---|---|
+|Header||
+|Collection Date*|Transportation Order collection date|  
+|Delivery date|Transportation Order delivery date|
+|Shipping Agent Service|Transportation Order Shipping Agent Service Code|
+|Details||
+|Collection Postcode*|Postcode has to be filled in Location card selected to source document|  
+|Collection Country*|Country code has to be filled in Location card selected to source document|
+|Delivery Postcode*|Ship-to postcode has to be filled in source document|  
+|Delivery Country*|Ship-to country has to be filled in source document|
+|Lines||
+|Package Code*|Transportation Order Line package type| 
+|Quantity*|Transportation Order Line package quantity|
+|Weight (kg)*|Transportation Order Line package weight|
+|Length (cm)|Transportation Order Line package length|
+|Width (cm)|Transportation Order Line package width|
+|Height (cm)|Transportation Order Line package height|
+|CBM|Transportation Order Line CBM|
+|LDM|Transportation Order line LDM|
+|Description|Transportation Order line description|
 
+- Press button **Cargoson Price Request** to send the query to Cargoson.
+- Cargoson will reply with price offers from different carriers:
+![Cargoson Carrier Services](4_cargoson_carrier_services.png)
+- Mark suitable line and press **OK** to select carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**  
 
-
-![GetInvoices](GetInvoices.png)
-
-After successful import, open **Sales Invoices.** Review, post and issue invoices. 
-Separate invoices can be issued for one tenant if they are entered in Moderan as separate agreements.
-
-
-If you run action **Moderan – Get Invoices** more than once for the same period and invoice type, then the following logic will apply:
-
-|Invoice in Business Central|Explanation|
-|-|-|
-|Invoice does not exist|Import will create invoice|
-|Invoice has not been posted|Import will update the invoice (delete old and create new)|
-|Invoice has been posted|Import will skip invoice|
-
-If the invoice amount in Moderan is 0, then an invoice will not be created in Business Central.
-
-
-**Moderan – Get Invoices** can be setup to run automatically by using **Job Queue** functionality.
-
-To do so, open **Job Queue Entries** and create new entry as:
-
-|Field/Tab|Value/Description|
-|-|-|
-|Object Type to Run|Report|
-|Object ID to Run|24007901|
-|Recurrence|Indicate desired recurrence|
-
-### Periodization of Invoices
-
-If there are services on the invoice which are not for the current period, the **Periodization** checkmark will be set on the invoice header and according message will be shown in the end of import.
-
-User can filter out these invoices and perform periodization tasks if required.
-
+ <br/>
  <br/>
 
 ## How to check Cargoson Log entries

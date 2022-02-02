@@ -3,7 +3,7 @@ Exchanges data between Microsoft Dynamics 365 Business Central and Cargoson
 [https://https://www.cargoson.com/](https://www.cargoson.com/).
 
 ### Key Features
-* Send Transportation Orders (incl. Direct Booking orders) from Business Central to Cargoson.
+* Send Transportation Orders (incl. Direct Booking Transportation Orders) from Business Central to Cargoson.
 * Send Transportation Price Requests from Business Central to Cargoson and apply selection directly to the source documents.    
 * See Data exchange Log between Business Central and Cargoson.
 

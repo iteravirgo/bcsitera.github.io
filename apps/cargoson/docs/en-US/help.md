@@ -6,7 +6,7 @@ Cargoson Interface enables the following:
 - See Data Exchange Log between Business Central and Cargoson.
 
 ## Contents
-- [Cargoson App Installation](#Cargoson-app-installation)
+- [Cargoson App Installation](#cargoson-app-installation)
 - [Menu](#menu) 
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)

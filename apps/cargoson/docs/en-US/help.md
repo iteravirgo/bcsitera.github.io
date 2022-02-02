@@ -128,7 +128,7 @@ Process:
 
 ## How to send Transportation Orders to Cargoson
 
-Price request from Cargoson can be initiated from the following Business Central documents:
+Transportation Order can be sent to Cargoson from the following Business Central documents:
 - Sales Quotes, 
 - Sales Orders, 
 - Posted Sales Shipments, 
@@ -136,7 +136,7 @@ Price request from Cargoson can be initiated from the following Business Central
 
 Process:
 - Create Business Central document, e.g. Sales Order 
-- Initiate Cargoson price request query from the document header **Process -> Send to Cargoson**  
+- On the document header press **Process -> Send to Cargoson** to start Transportaion Order sending process  
 - Cargoson Order Lines window will be opened:
 ![Cargoson Order Lines](3_cargoson_order_lines.png)
 - Check transportation order data (mandatory fields marked with *):
@@ -144,18 +144,21 @@ Process:
 |Field|Description|
 |---|---|
 |Header||
-|Collection Date*|Transportation Order collection date|  
-|Delivery date|Transportation Order delivery date|
-|Shipping Agent Service|Transportation Order Shipping Agent Service Code|
+|Collection Date*|Transportation Order collection date. Field must be filled in with today's date or later otherwise Transportation Order cannot not be sent to Cargoson|  
+|Delivery date|Transportation Order delivery date. This date is usually given by shipping agent, but it is possible to send it to Cargoson id necessary. Value must be equal on later from **Collection Date**|
+|Shipping Agent Service|Transportation Order Shipping Agent Service Code. Field must be filled with Shipping Agent Service Code if Transportation Order is sent to Cargoson with Direct Booking Option (it means that Carogoson will forward the order directly to shipping agent without user intervention in Cargoson's website)|
 |Details||
 |Collection Postcode*|Postcode has to be filled in Location card selected to source document|  
 |Collection Country*|Country code has to be filled in Location card selected to source document|
 |Delivery Postcode*|Ship-to postcode has to be filled in source document|  
 |Delivery Country*|Ship-to country has to be filled in source document|
+|Cargoson Delivery Comment|Additional delivery related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment)|
+|Cargoson Collection Comment|Additional collection related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment)|
+|Cargoson Customer Remark|Remarks to the customer. Text can be added on related source document (excl. Posted Sales Shipment)|
 |Lines||
 |Package Code*|Transportation Order Line package type| 
 |Quantity*|Transportation Order Line package quantity|
-|Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled, Net weight is used instead.|
+|Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled on item card, Net weight is used instead.|
 |Length (cm)|Transportation Order Line package length|
 |Width (cm)|Transportation Order Line package width|
 |Height (cm)|Transportation Order Line package height|
@@ -163,10 +166,11 @@ Process:
 |LDM|Transportation Order line LDM|
 |Description|Transportation Order line description|
 
-- Press button **Cargoson Price Request** to send the query to Cargoson.
+- Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fielda have been filled with data (if not, the corresponding message is displayed to the user). If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
+- Press button **SEND DIRECTLY TO SHIPPING AGENT** to send the Transportation Order to Cargoson with Direct Booking option. If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
 - Cargoson will reply with price offers from different carriers:
 ![Cargoson Carrier Services](4_cargoson_carrier_services.png)
-- Mark suitable line and press **OK** to select carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**  
+- ct carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**  
 
  <br/>
  <br/>

@@ -146,7 +146,7 @@ Process:
 |Header||
 |Collection Date*|Transportation Order collection date. Field must be filled in with today's date or later otherwise Transportation Order cannot not be sent to Cargoson|  
 |Delivery date|Transportation Order delivery date. This date is usually given by shipping agent, but it is possible to send it to Cargoson id necessary. Value must be equal on later from **Collection Date**|
-|Shipping Agent Service|Transportation Order Shipping Agent Service Code. Field must be filled with Shipping Agent Service Code if Transportation Order is sent to Cargoson with Direct Booking Option (it means that Carogoson will forward the order directly to shipping agent without user intervention in Cargoson's website)|
+|Shipping Agent Service|Transportation Order Shipping Agent Service Code. Field must be filled with Shipping Agent Service Code if Transportation Order is sent to Cargoson with Direct Booking Option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention in Cargoson's website).|
 |Details||
 |Collection Postcode*|Postcode has to be filled in Location card selected to source document|  
 |Collection Country*|Country code has to be filled in Location card selected to source document|
@@ -166,9 +166,9 @@ Process:
 |LDM|Transportation Order line LDM|
 |Description|Transportation Order line description|
 
-- Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fielda have been filled with data (if not, the corresponding message is displayed to the user). If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
-- Press button **SEND DIRECTLY TO SHIPPING AGENT** to send the Transportation Order to Cargoson with Direct Booking option. If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
-- Cargoson will reply with price offers from different carriers:
+- Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
+- Press button **SEND DIRECTLY TO SHIPPING AGENT** to send the Transportation Order to Cargoson with Direct Booking option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention in Cargoson's website). System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). User will be notified with attention message: **Current order will be forwarded from Cargoson to carrier automatically. Do you want to continue?**. If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
+- If sending process was successful, user will be notified with message **Transportation order is successfully sent to Cargoson.** and Transportaton Order is listed in Cargoson website:
 ![Cargoson Carrier Services](4_cargoson_carrier_services.png)
 - ct carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**  
 

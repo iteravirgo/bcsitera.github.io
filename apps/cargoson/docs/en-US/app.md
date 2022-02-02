@@ -2,9 +2,9 @@
 Exchange data between Cargoson and Microsoft Dynamics 365 Business Central.
 
 ### Key Features
-* Send transportation orders (incl. Direct Booking ones) from Business Central to Cargoson.
-* Send transportation price requests from Business Central to Cargoson and apply selection directly to the documents.    
-* See data exchange log between Business Central and Cargoson.
+* Send Transportation Orders (incl. Direct Booking ones) from Business Central to Cargoson.
+* Send Transportation Price Requests from Business Central to Cargoson and apply selection directly to the source documents.    
+* See Data exchange Log between Business Central and Cargoson.
 
 ### Supported Editions
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.

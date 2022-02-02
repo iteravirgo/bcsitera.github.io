@@ -1,0 +1,12 @@
+---
+---
+##### Versioon 15.3.22031.0
+- Fikseeritud kululiikide asemel kohandatav puu struktuuriga kululiigid, mida saab ka CostPocketiga sünkroniseerida
+- BC-s saab aruande ettevalmistada ning CostPocketisse saata (et nt seal dokumendid lisada)
+- Kuludokumentidele saab otse BC-st pildistades dokumenti lisada
+- BC ning CostPocketi liides kasutab nüüdsest staatuse märget nii aruannete tõmbamisel, kui tõmmatud aruande märkimisel saadetuks
+- BC-s saab nüüd kuluaruandelt algatada kuludokumendi loomist
+- Täiendatud kulukonto valikut dokumendil nii, et kuvatakse ainult konteerimise liigiga kasumiaruande kontod
+- Lähetuse algus- ja lõppkuupäev ning päevarahade summa kuvatakse nüüd ainult aruannetel, mil liigiks Lähetus 
+- Parandatud olukord, kus ettevalmistatud kuludokumentide lisamisel BC-s ei tekkinud seost kuludokumendi rea ning aruande vahel
+- Väiksemad UX täiendused

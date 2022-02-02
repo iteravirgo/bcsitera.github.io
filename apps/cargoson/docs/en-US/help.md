@@ -33,8 +33,8 @@ Search for **Cargoson Setup** to open the Cargoson Setup page and fill the field
 
 |Field|Description|
 |---|---|
-|Service URL*|Cargoson Service URL given by Cargoson support.|  
-|Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support.| 
+|Service URL*|Cargoson Service URL given by Cargoson support person.|  
+|Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support person.| 
 |Default Line Description*|Specifies Cargoson transportation order default line description.|
 |Default Package Code*|Specifies Cargoson transportation order line default Package Type.|
 |Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field **Collection Location Code**.|
@@ -47,7 +47,7 @@ Search for **Package Types** to open the Package Types setup page and fill the f
 
 |Field|Description|
 |---|---|
-|Code*|Internal package code used in BC.|  
+|Code*|Internal package code used in Business Central (may be the same as Cargoson Package Type code).|  
 |Type*|Package Type code used in Cargoson queries. These codes must be mapped with Cargoson.| 
 |Description|Package Type description (for internal use).|
 |Length (cm)|Package Type Length (cm) which is taken to Cargoson Transportation Order lines.|
@@ -67,8 +67,8 @@ Search for **User Setup** to open the User Setup page and add necessary users an
 |Field|Description|
 |---|---|
 |Salespers./Purch. Code|User related salesperson code. Salesperson data is taken to Cargoson queries.|  
-|E-Mail|User e-mail address. Data is taken to Cargoson queries.| 
-|Phone No.|User Phone Number. Data is taken to Cargoson queries.|
+|E-Mail|User e-mail address. Data is used in Cargoson queries.| 
+|Phone No.|User Phone Number. Data is used in Cargoson queries.|
 |Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate Transportation Orders by users in Cargoson webpage.|
 
  <br/>
@@ -83,16 +83,16 @@ Search for **Shipping Agents** to open the Shipping Agents setup page and add ne
  <br/>
 
 ## How to make transportation price requests from Cargoson
-Price request from Cargoson can be initiated from the following Business Central documents:
+Price request from Cargoson can be initiated on the following Business Central documents:
 - Sales Quotes, 
 - Sales Orders, 
 - Posted Sales Shipments, 
 - Purchase orders
 
 Process:
-- Create Business Central document, e.g. Sales Order (process it the same with all prementioned source documents) 
+- Create Business Central document, e.g. Sales Order (process is the same with all prementioned source documents) 
 - Initiate Cargoson price request query from the document header **Process -> Send to Cargoson**  
-- Cargoson Order Lines window will be opened:
+- Cargoson Order Lines window will open:
 ![Cargoson Order Lines](3_cargoson_order_lines.png)
 - Check transportation order data (mandatory fields marked with *):
 
@@ -107,7 +107,7 @@ Process:
 |Collection Country*|Country code has to be filled in Location card selected to source document.|
 |Delivery Postcode*|Ship-to postcode has to be filled in source document.|  
 |Delivery Country*|Ship-to country has to be filled in source document.|
-|Lines|User can add additional lines manually or modify excisting ones if necessary.|
+|Lines|User can add additional lines manually or modify existing ones if necessary.|
 |Package Code*|Transportation Order Line package type.| 
 |Quantity*|Transportation Order Line package quantity.|
 |Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled, Net weight is used instead.|
@@ -119,9 +119,9 @@ Process:
 |Description|Transportation Order line description.|
 
 - Press button **Cargoson Price Request** to send the query to Cargoson.
-- Cargoson will reply with price offers from different carriers:
+- Cargoson will reply instantly with price offers from different carriers:
 ![Cargoson Carrier Services](4_cargoson_carrier_services.png)
-- Mark suitable line and press **OK** to select carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**  
+- Mark suitable line and press **OK** to select carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**.  
 
  <br/>
  <br/>
@@ -135,16 +135,16 @@ Transportation Order can be sent to Cargoson from the following Business Central
 - Purchase orders
 
 Process:
-- Create Business Central document, e.g. Sales Order (process it the same with all prementioned source documents)
-- On the document header press **Process -> Send to Cargoson** to start Transportaion Order sending process  
-- Cargoson Order Lines window will be opened:
+- Create Business Central document, e.g. Sales Order (process is the same with all prementioned source documents)
+- On the document header press **Process -> Send to Cargoson** to start Transportation Order sending process  
+- Cargoson Order Lines window will open:
 ![Cargoson Order Lines](3_cargoson_order_lines.png)
 - Check Transportation Order data (mandatory fields are marked with *):
 
 |Field|Description|
 |---|---|
 |Header||
-|Collection Date*|Transportation Order collection date. Field must be filled in with today's date or later otherwise Transportation Order cannot not be sent to Cargoson.|  
+|Collection Date*|Transportation Order collection date. Field must be filled in with today's date or later otherwise Transportation Order can not be sent to Cargoson.|  
 |Delivery date|Transportation Order delivery date. This date is usually given by shipping agent, but it is possible to send it to Cargoson id necessary. Value must be equal on later from **Collection Date**.|
 |Shipping Agent Service|Transportation Order Shipping Agent Service Code. Field must be filled with Shipping Agent Service Code if Transportation Order is sent to Cargoson with Direct Booking Option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention in Cargoson's website).|
 |Details||
@@ -155,7 +155,7 @@ Process:
 |Cargoson Delivery Comment|Additional delivery related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment).|
 |Cargoson Collection Comment|Additional collection related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment).|
 |Cargoson Customer Remark|Remarks to the customer. Text can be added on related source document (excl. Posted Sales Shipment).|
-|Lines|User can add additional lines manually or modify excisting ones if necessary.|
+|Lines|User can add additional lines manually or modify existing ones if necessary.|
 |Package Code*|Transportation Order Line package type.| 
 |Quantity*|Transportation Order Line package quantity.|
 |Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled on item card, Net weight is used instead.|

@@ -1,8 +1,8 @@
 # Cargoson Interface for Business Central User Guide
 
 Cargoson Interface enables the following:
-- Sending Transportation Orders (incl. Direct Booking ones) from Business Central to Cargoson. Sending Transportation Orders is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.  
-- Sending Transportation Price Requests from Business Central to Cargoson and applying the selection directly to the source documents. Sending Price Requests is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.
+- Sending Transportation Orders (incl. Transportation Orders with Direct Booking option) from Business Central to Cargoson. Sending Transportation Orders is possible from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.  
+- Sending Transportation Price Requests from Business Central to Cargoson and applying the selection directly to the source documents. Sending Price Requests is possible from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.
 - See Data Exchange Log between Business Central and Cargoson.
 
 ## Contents

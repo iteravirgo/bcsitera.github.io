@@ -13,7 +13,7 @@ Cargoson Interface enables the following:
   - [Setup Package Types](#setup-package-types) 
   - [Setup User for Cargoson](#setup-user-for-cargoson)
   - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson) 
-- [How to make price requests from Cargoson](#how-to-make-price-requests-from-cargoson)
+- [How to make transportation price requests from Cargoson](#how-to-make-transportation-price-requests-from-cargoson)
 - [How to send transportation orders to Cargoson](#how-to-send-transportation-orders-to-cargoson)  
 - [How to check Cargoson Log entries](#how-to-check-cargoson-log-entries)
 
@@ -82,7 +82,7 @@ Search for **Shipping Agents** to open the Shipping Agents setup page and add ne
  <br/>
  <br/>
 
-## How to make price requests from Cargoson
+## How to make transportation price requests from Cargoson
 Price request from Cargoson can be initiated from the following Business Central documents:
 - Sales Quotes, 
 - Sales Orders, 

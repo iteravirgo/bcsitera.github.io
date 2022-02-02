@@ -2,7 +2,7 @@
 
 Cargoson Interface enables the following:
 - Sending Transportation Orders (incl. Direct Booking ones) from Business Central to Cargoson. Sending Transportation Orders is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.  
-- Sending transportation price requests from Business Central to Cargoson and applying the selection directly to the documents. Sending price requests is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.
+- Sending Transportation Price Requests from Business Central to Cargoson and applying the selection directly to the source document. Sending price requests is supported from Business Central Sales Quotes, Sales Orders, Posted Sales Shipments and Purchase orders.
 - See data exchange log between Business Central and Cargoson.
 
 ## Contents
@@ -23,7 +23,7 @@ Cargoson Interface enables the following:
 Open **Extension Management** and check if extension named ‘Cargoson’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
 
 ## Menu
-Cargoson menu items can be found from all Business Central Role centers via search functionality. Actions can be run from related pages (see instrctions below). 
+Cargoson menu items can be found from all Business Central Role centers via search functionality. Actions can be run from related pages (see instructions below). 
 
 ## How to setup
 
@@ -37,7 +37,7 @@ Search for **Cargoson Setup** to open the Cargoson Setup page and fill the field
 |Authentication Phrase*|Cargoson Authentication Phrase given by Cargoson support.| 
 |Default Line Description*|Specifies Cargoson transportation order default line description.|
 |Default Package Code*|Specifies Cargoson transportation order line default Package Type.|
-|Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field Collection Location Code.|
+|Use Collection Location Code|If activated then Cargoson collection information is taken from Location card specified in sales document field **Collection Location Code**.|
 
   <br/>
 
@@ -47,12 +47,12 @@ Search for **Package Types** to open the Package Types setup page and fill the f
 
 |Field|Description|
 |---|---|
-|Code*|Cargoson Service URL given by Cargoson support.|  
+|Code*|Internal package code used in BC.|  
 |Type*|Package Type code used in Cargoson queries. These codes must be mapped with Cargoson.| 
-|Description|Package Type description for internal use.|
-|Length (cm)|Package Type Length (cm) which is taken to Cargoson transportation lines.|
-|Width (cm)|Package Type Length (cm) which is taken to Cargoson transportation lines.|
-|Calculate LDM|If marked then LDM is calculated to Cargoson transportation lines automatically.|
+|Description|Package Type description (for internal use).|
+|Length (cm)|Package Type Length (cm) which is taken to Cargoson Transportation Order lines.|
+|Width (cm)|Package Type Length (cm) which is taken to Cargoson Transportation Order lines.|
+|Calculate LDM|If marked then LDM is calculated to Cargoson Transportation Order lines automatically.|
 
   <br/>
 
@@ -66,10 +66,10 @@ Search for **User Setup** to open the User Setup page and add necessary users an
 
 |Field|Description|
 |---|---|
-|Salespers./Purch. Code|User related salesperson code. Data is taken to Cargoson queries|  
-|E-Mail|User e-mail address. Data is taken to Cargoson queries| 
-|Phone No.|User Phone Number. Data is taken to Cargoson queries|
-|Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate transportation orders by users in Cargoson webpage.|
+|Salespers./Purch. Code|User related salesperson code. Salesperson data is taken to Cargoson queries.|  
+|E-Mail|User e-mail address. Data is taken to Cargoson queries.| 
+|Phone No.|User Phone Number. Data is taken to Cargoson queries.|
+|Cargoson Authentication Phrase|User based Cargoson Authentication Phrase given by Cargoson support. If defined in user level, it will be used in Cargoson queries instead of the one specified in Cargoson Setup table. It allows to differentiate Transportation Orders by users in Cargoson webpage.|
 
  <br/>
 
@@ -99,24 +99,24 @@ Process:
 |Field|Description|
 |---|---|
 |Header||
-|Collection Date*|Transportation Order collection date|  
-|Delivery date|Transportation Order delivery date|
-|Shipping Agent Service|Transportation Order Shipping Agent Service Code|
+|Collection Date*|Transportation Order collection date.|  
+|Delivery date|Transportation Order delivery date.|
+|Shipping Agent Service|Transportation Order Shipping Agent Service Code.|
 |Details||
-|Collection Postcode*|Postcode has to be filled in Location card selected to source document|  
-|Collection Country*|Country code has to be filled in Location card selected to source document|
-|Delivery Postcode*|Ship-to postcode has to be filled in source document|  
-|Delivery Country*|Ship-to country has to be filled in source document|
-|Lines||
-|Package Code*|Transportation Order Line package type| 
-|Quantity*|Transportation Order Line package quantity|
+|Collection Postcode*|Postcode has to be filled in Location card selected to source document.|  
+|Collection Country*|Country code has to be filled in Location card selected to source document.|
+|Delivery Postcode*|Ship-to postcode has to be filled in source document.|  
+|Delivery Country*|Ship-to country has to be filled in source document.|
+|Lines|User can add additional lines manually or modify excisting ones if necessary.|
+|Package Code*|Transportation Order Line package type.| 
+|Quantity*|Transportation Order Line package quantity.|
 |Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled, Net weight is used instead.|
-|Length (cm)|Transportation Order Line package length|
-|Width (cm)|Transportation Order Line package width|
-|Height (cm)|Transportation Order Line package height|
-|CBM|Transportation Order Line CBM|
-|LDM|Transportation Order line LDM|
-|Description|Transportation Order line description|
+|Length (cm)|Transportation Order Line package length.|
+|Width (cm)|Transportation Order Line package width.|
+|Height (cm)|Transportation Order Line package height.|
+|CBM|Transportation Order Line CBM.|
+|LDM|Transportation Order line LDM.|
+|Description|Transportation Order line description.|
 
 - Press button **Cargoson Price Request** to send the query to Cargoson.
 - Cargoson will reply with price offers from different carriers:
@@ -144,33 +144,33 @@ Process:
 |Field|Description|
 |---|---|
 |Header||
-|Collection Date*|Transportation Order collection date. Field must be filled in with today's date or later otherwise Transportation Order cannot not be sent to Cargoson|  
-|Delivery date|Transportation Order delivery date. This date is usually given by shipping agent, but it is possible to send it to Cargoson id necessary. Value must be equal on later from **Collection Date**|
+|Collection Date*|Transportation Order collection date. Field must be filled in with today's date or later otherwise Transportation Order cannot not be sent to Cargoson.|  
+|Delivery date|Transportation Order delivery date. This date is usually given by shipping agent, but it is possible to send it to Cargoson id necessary. Value must be equal on later from **Collection Date**.|
 |Shipping Agent Service|Transportation Order Shipping Agent Service Code. Field must be filled with Shipping Agent Service Code if Transportation Order is sent to Cargoson with Direct Booking Option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention in Cargoson's website).|
 |Details||
-|Collection Postcode*|Postcode has to be filled in Location card selected to source document|  
-|Collection Country*|Country code has to be filled in Location card selected to source document|
-|Delivery Postcode*|Ship-to postcode has to be filled in source document|  
-|Delivery Country*|Ship-to country has to be filled in source document|
-|Cargoson Delivery Comment|Additional delivery related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment)|
-|Cargoson Collection Comment|Additional collection related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment)|
-|Cargoson Customer Remark|Remarks to the customer. Text can be added on related source document (excl. Posted Sales Shipment)|
-|Lines||
-|Package Code*|Transportation Order Line package type| 
-|Quantity*|Transportation Order Line package quantity|
+|Collection Postcode*|Postcode has to be filled in Location card selected to source document.|  
+|Collection Country*|Country code has to be filled in Location card selected to source document.|
+|Delivery Postcode*|Ship-to postcode has to be filled in source document.|  
+|Delivery Country*|Ship-to country has to be filled in source document.|
+|Cargoson Delivery Comment|Additional delivery related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment).|
+|Cargoson Collection Comment|Additional collection related information. (e.g., "Code to enter the gate is 1234"). Text can be added on related source document (excl. Posted Sales Shipment).|
+|Cargoson Customer Remark|Remarks to the customer. Text can be added on related source document (excl. Posted Sales Shipment).|
+|Lines|User can add additional lines manually or modify excisting ones if necessary.|
+|Package Code*|Transportation Order Line package type.| 
+|Quantity*|Transportation Order Line package quantity.|
 |Weight (kg)*|Transportation Order Line package weight. Is filled automatically by items Gross weight sum from source document lines. If Gross weight has not been filled on item card, Net weight is used instead.|
-|Length (cm)|Transportation Order Line package length|
-|Width (cm)|Transportation Order Line package width|
-|Height (cm)|Transportation Order Line package height|
-|CBM|Transportation Order Line CBM|
-|LDM|Transportation Order line LDM|
-|Description|Transportation Order line description|
+|Length (cm)|Transportation Order Line package length.|
+|Width (cm)|Transportation Order Line package width.|
+|Height (cm)|Transportation Order Line package height.|
+|CBM|Transportation Order Line CBM.|
+|LDM|Transportation Order line LDM.|
+|Description|Transportation Order line description.|
 
-- Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
-- Press button **SEND DIRECTLY TO SHIPPING AGENT** to send the Transportation Order to Cargoson with Direct Booking option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention in Cargoson's website). System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). User will be notified with attention message: **Current order will be forwarded from Cargoson to carrier automatically. Do you want to continue?**. If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
+- Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fields have been filled with data (if not, corresponding message is displayed to the user). If Transportaton Order has already been sent to Cargoson from related source document, then user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
+- Press button **SEND DIRECTLY TO SHIPPING AGENT** to send the Transportation Order to Cargoson with Direct Booking option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention on Cargoson's website). System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). User will be notified with attention message: **Current order will be forwarded from Cargoson to carrier automatically. Do you want to continue?**. If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
 - If sending process was successful, user will be notified with message **Transportation order is successfully sent to Cargoson.**
-- Cargoson Order No. will be saved to source document field **Cargoson Order No.** indicating that Transportation Order related to this document has been sent to Cargoson. Clicking on the Cargoson Order No. opens related Cargoson log entry there you can open Cargoson website with related Transportation Order, open related package label or open related package tracking website.
-- Transportaton Order is listed in Cargoson website (depending on the sending option used **New** or **Booked**):
+- Cargoson Order No. will be saved to source document field **Cargoson Order No.** indicating that Transportation Order related to this document has been sent to Cargoson. Clicking on the Cargoson Order No. opens related Cargoson log entry there you can open Cargoson website with related Transportation Order, open related package label or open related package tracking website (for details see next chapter **How to check Cargoson Log entries**).
+- Transportaton Order is listed on Cargoson website (depending on the sending option used **New** or **Booked**):
 ![Cargoson Website](6_cargoson_website.png)
 
  <br/>

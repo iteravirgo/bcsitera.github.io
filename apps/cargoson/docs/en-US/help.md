@@ -168,8 +168,8 @@ Process:
 
 - Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
 - Press button **SEND DIRECTLY TO SHIPPING AGENT** to send the Transportation Order to Cargoson with Direct Booking option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention in Cargoson's website). System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). User will be notified with attention message: **Current order will be forwarded from Cargoson to carrier automatically. Do you want to continue?**. If Transportaton Order has already been sent to Cargoson from related source document, theb user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
-- If sending process was successful, user will be notified with message **Transportation order is successfully sent to Cargoson.** and Transportaton Order is listed in Cargoson website:
-![Cargoson Carrier Services](4_cargoson_carrier_services.png)
+- If sending process was successful, user will be notified with message **Transportation order is successfully sent to Cargoson.** and Transportaton Order is listed in Cargoson website (depending on the sending option **New** or **Booked**):
+![Cargoson Website](6_cargoson_website.png)
 - ct carrier service to the source document as Shipping Agent and Shipping Agent Service (it is needed for direct booking) or discard the selection by pressing **Cancel**  
 
  <br/>

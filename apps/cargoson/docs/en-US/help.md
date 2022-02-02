@@ -11,7 +11,7 @@ Cargoson Interface enables the following:
 - [How to setup](#how-to-setup) 
   - [Setup API ](#setup-api)
   - [Setup Package Types](#setup-package-types) 
-  - [Setup User for Cargoson](#setup-user-for-cargoson)
+  - [Setup BC User for Cargoson](#setup-bc-user-for-cargoson)
   - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson) 
 - [How to make transportation price requests from Cargoson](#how-to-make-transportation-price-requests-from-cargoson)
 - [How to send transportation orders to Cargoson](#how-to-send-transportation-orders-to-cargoson)  
@@ -60,7 +60,7 @@ Search for **Package Types** to open the Package Types setup page and fill the f
 
  <br/>
 
-### Setup Authentication Phrase for User
+### Setup BC User for Cargoson
 
 Search for **User Setup** to open the User Setup page and add necessary users and fill the fields as following (mandatory fields marked with *):
 

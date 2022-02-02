@@ -182,21 +182,21 @@ Transportation order related query responses between Business Central and Cargos
 
 |Field|Description|
 |---|---|
-|Document Type|Document type from which the query was sent|
-|Document No.|Document number from which the query was sent|  
-|Cargoson Order No.|Related Cargoson Order number. Field acts as link and clicking on it opens Cargoson website with related Transportation Order|
-|Customer reference|Customer reference number|
-|Pickup|Company name where the goods were collected|
-|Postal|Transportation Order collection Postcode|  
-|Country|Transportation Order collection Country|
-|Delivery|Company name where the goods were delivered|  
-|Postal|Transportation Order Delivery Postcode|  
-|Country|Transportation Order Delivery Country|
-|Collection date|Transportation Order Collection Date| 
-|Delivery date|Transportation Order Delivery date|
-|Carrier Service ID|Transportation Order Service ID. Indicates that Transportation Order was sent to Cargoson with Direct Booking option|
-|Carrier Service Description|Transportation Order Service ID description from BC|
-|Incoterms Code|Incoterms code related Transportation Order|
-|Label link|Package label link. Field acts as link and clicking on it opens related package label|
-|Tracking ID link|Package tracking link. Field acts as link and clicking on it opens related package tracking website|
-|Entry No.|Log Entry unique number|
+|Document Type|Document type from which the query was sent.|
+|Document No.|Document number from which the query was sent.|  
+|Cargoson Order No.|Related Cargoson Order number. Field acts as link and clicking on it opens Cargoson website with related Transportation Order.|
+|Customer reference|Customer reference number.|
+|Pickup|Company name where the goods were collected.|
+|Postal|Transportation Order collection Postcode.|  
+|Country|Transportation Order collection Country.|
+|Delivery|Company name where the goods were delivered.|  
+|Postal|Transportation Order Delivery Postcode.|  
+|Country|Transportation Order Delivery Country.|
+|Collection date|Transportation Order Collection Date.| 
+|Delivery date|Transportation Order Delivery date.|
+|Carrier Service ID|Transportation Order Service ID. Indicates that Transportation Order was sent to Cargoson with Direct Booking option.|
+|Carrier Service Description|Transportation Order Service ID description from BC.|
+|Incoterms Code|Incoterms code related Transportation Order.|
+|Label link|Package label link. Field acts as link and clicking on it opens related package label.|
+|Tracking ID link|Package tracking link. Field acts as link and clicking on it opens related package tracking website.|
+|Entry No.|Log Entry unique number.|

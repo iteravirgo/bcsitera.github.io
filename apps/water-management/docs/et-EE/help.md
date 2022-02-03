@@ -2,8 +2,8 @@
 ## Sisukord
 
 - [Seadistused](#seadistused)
-- [Rollikeskus](#Rollikeskus)
-- [Objektid](#Objektid)
+- [Rollikeskus](#rollikeskus)
+- [Objektid](#objektid)
 
 ## Seadistused
 

@@ -5,8 +5,8 @@
 - BC-s saab aruande ettevalmistada ning CostPocketisse saata (et nt seal dokumendid lisada)
 - Kuludokumentidele saab otse BC-st pildistades dokumenti lisada
 - BC ning CostPocketi liides kasutab nüüdsest staatuse märget nii aruannete tõmbamisel, kui tõmmatud aruande märkimisel saadetuks
-- BC-s saab nüüd kuluaruandelt algatada kuludokumendi loomist
+- BC-s saab nüüd otse kuluaruandelt algatada uue kuludokumendi loomist
 - Täiendatud kulukonto valikut dokumendil nii, et kuvatakse ainult konteerimise liigiga kasumiaruande kontod
-- Lähetuse algus- ja lõppkuupäev ning päevarahade summa kuvatakse nüüd ainult aruannetel, mil liigiks Lähetus 
+- Lähetuse algus- ja lõppkuupäev ning päevarahade summa kuvatakse nüüd ainult aruannetel, mille liigiks Lähetus 
 - Parandatud olukord, kus ettevalmistatud kuludokumentide lisamisel BC-s ei tekkinud seost kuludokumendi rea ning aruande vahel
 - Väiksemad UX täiendused

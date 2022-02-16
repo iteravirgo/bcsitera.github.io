@@ -10,14 +10,16 @@ This extension provides Expence Reports functionality for Microsoft Dynamics 365
 #### Time saving and correct bookkeeping:
 - Save up to 70% of time spent on expense reports
 - Documents with different currencies and exchange rates
-- Default cost accounts for predetermined cost types
-- Document entries to Vendor and debt entries to Employees, if document is paid by an employee
+- Default general ledger accounts for predetermined expense types
+- Document entries to Vendor and debt entries to Employees (if document is paid by an employee)
 - Add dimensions and lines to documents, change VAT posting groups, change amounts etc  
   
 #### Fully digitized archive:
 - Posted documents with document pictures  
   
-#### Full manual functionality if digitization not needed.  
+#### Full manual functionality if digitization not needed  
+- Create expense reports and documents
+- Take document picture directly from BC
 
 [User Guide](help.md)
 

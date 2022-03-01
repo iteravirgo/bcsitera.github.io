@@ -15,6 +15,7 @@ Contract management functionality in BC enables the following:
     - [Contract Categories](#contract-categories)
   - [Use](#use)
     - [Create contract](#create-contract)
+      - [Copy contract](#copy-contract) 
     - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
     - [Contract completion tracking](#contract-completion-tracking)
     - [Using contracts in Jobs](#using-contracts-in-jobs)
@@ -117,6 +118,20 @@ An empty **Contract card** opens where you can fill the following fields:
 **_Fields that are advisable to fill_
 
 Fields displayed on fast tab **Relations** (Customer No. and Name, Vendor No. and Name) are filled automatically after partner selection. Fields will only be filled if the selected **Contact** is related to **Customer** and/or **Vendor**. If the relation will be created later, then contract must be updated manually by pressing button **Update Customer/Vendor link** on contract card. This updates Contact's relations with Customer and Vendor on contract.
+
+#### Copy contract
+
+Open **Contracts List** or **Contract Card** and use action **Copy Contract**.
+Following window will be opened:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCopyContractENG.png" target="_blank"><img src="ContManCopyContractENG.png" alt="Copy Contract" width="500"/></a>
+
+Fill in **New contract no.**, if you would like to assign number manually, or mark **Use No. Series**, if you would like to take the number from number series. Additionally you can decide if contract lines will be copied - **Copy Contract Lines* 
+* By default **Contract No.** and **Contract Name** will be filled with information from the contract that is being copied. 
+
+Press **OK**.
+
+**Contract Card** will be opened with new contract data, from which dimension and amount info has been cleared during copying.
 
 ---
  

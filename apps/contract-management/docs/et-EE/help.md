@@ -31,10 +31,10 @@ Funktsionaalsuse kasutamiseks tuleb **Lepingute seadistuses** seadistada järgmi
 | --- | --- | 
 | **_Lepingute numbrid_** | Antud väljal määratakse ära lepingute numbriseeria. Väärtus on valitav **Numbriseeriate** loendist.|
 | **_Lepingu täitmise kontod_** | Tuleb ära määrata PR kontode filter mille pealt hakatakse lugema lepingu täitmist. Näiteks tulu ja kulukontod, kuhu tekib lepingu kandeid. Kindlast võiks välja jätta käibemaksu ja reskontroga seotud kontod. Võib sisestada konkreetsed kontod ja/või kontode vahemiku (näiteks vahemik 30000..90000).|
-|**_Kanna lepingu nr. projekti arve päisesse_** |Võimaldab projekti kaardile valitud lepingu numbri kaasa võtta projekti arve loomisel ning lisada selle loodud projekti arve päissesse.
 |**_Vaikimis lepingu tüüp_**|Määrab ära uute lpingute vaikimisi lepingu tüübi.
 |**_Vaikimisi lepingu kategooria müügi jaoks_**|Määrab uute müügilepingute vaikimisi kategooria.
 |**_Vaikimisi lepingu kategooria ostu jaoks_**|Määrab uute ostulepingute vaikimisi kategooria.
+|**_Lepingu aruande ID_**|Määrab vaikimisi aruande ID lepingu väljatrüki jaoks, vaikimisi kantakse see edasi uutele Lepingu kategooriatele.
 
 _Arveldamisega seotud seadistused_
 
@@ -43,6 +43,21 @@ _Arveldamisega seotud seadistused_
 |**_Näita arvelduse infot_**|Määrab kas **_Arveldamise info_** vahekaart on müügilepingutel nähtav või mitte.
 |**_Lepingu arvelduse ridade loomise kuupäevavalem_**|Määrab vaikimisi kuupäevavalemi **_Järgmise arvelduse kuupäeva_** jaoks kui kasutatakse funtksiooni **Lepingu arvelduse ridade loomine (CM)**.
 |**_Müügiarvete loomise kuupäevavalem_**|Määrab vaikimisi kuupäevavalemi **_Konteerimiskuupäeva_** jaoks kui kasutatakse funtksiooni **Müügiarvete loomine (CM)**.
+
+_Projektidega seotud seadistused_
+
+|Väli|Selgitus|
+|---|---| 
+|**_Kanna lepingu nr. projekti arve päisesse_** |Võimaldab projekti kaardile valitud lepingu numbri kaasa võtta projekti arve loomisel ning lisada selle loodud projekti arve päissesse.
+
+
+_Kontaktidega seotud algseadistus kui kontaktimoodul pole kasutuses_
+
+|Väli|Selgitus|
+|---|---| 
+|**_Ava turunduse seadistus ja täida automaatselt kliendi ja hankija ärisuhte tähised, kontaktide numbriseeria_** |Avab turunduse seadistuse ja täidab automaatselt Kliendi ja Hnakija ärisuhete tähised kui need on tühjad. Lisaks loob ja täidab kontaktide numbriseeria kui see väli on tühi.
+|**_Käivita masstöö "Loo klientidest kontaktid_** |Runs BC batchjob that creates Contacts from Customers.
+|**_Käivita masstöö "Loo hankijatest kontaktid_** |Runs BC batchjob that creates Contacts from Vendors.
 
 ----
 

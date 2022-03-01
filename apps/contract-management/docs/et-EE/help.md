@@ -124,9 +124,9 @@ Müügi- ja ostudokumentidel on võimalus valida päisesse väljale **_Lepingu n
 #### _Tähtis_
 ---
 _Dokumentidele valitavate lepingute valik on piiratud järgnevate tunnuste alusel:_
-- _Lepingu liigiga ehk müügidokumentidele saab valida lepinguid liigiga **_Müük_** ja ostudokumentidele liigiga **_Ost_**._
-- _Ostja või müüja numbriga ehk müügidokumentidel **_Ostja-kliendi number_** ning ostudokumentidel **_Müüja-Hankija number_**._
-- _Valikust jäävad välja ka **_Lukus_** lepingud._
+- _Lepingu liigiga ehk müügidokumentidele saab valida lepinguid liigiga **Müük** ja ostudokumentidele liigiga **Ost**._
+- _Ostja või müüja numbriga ehk müügidokumentidel **Ostja-kliendi number** ning ostudokumentidel **Müüja-Hankija number**._
+- _Valikust jäävad välja ka **Lukus** lepingud._
 
 _Kui tingimustele vastavat lepingut siiski valikus ei kuvata võib asi olla selles, et lepingul on uuendamata Kliendi/Hankija seos. Uuendamiseks tuleb **Lepingu kaardil** vajutada nuppu **Uuenda kliendi/hankija seos**, mis uuendab **Kontaktiga** (Partneri nr.) seotud **Kliendi** ja **Hankija** väärtused lepingul._
 

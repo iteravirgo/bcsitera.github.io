@@ -1,6 +1,6 @@
 ---
 ##### Versioon 18.0.22052.0 Avaldatud 21.02.2022
-- Kopeeri leping täiendused: Kopeeri read ja käsitsi määratav number.
+- Lepingu kopeerimise täiendused: Kopeeri read ja käsitsi määratav number.
 - Juhendatud seadistuse täiendused.
 
 ##### Versioon 18.0.22031.0 Avaldatud 31.01.2022

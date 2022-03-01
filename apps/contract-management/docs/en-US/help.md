@@ -72,6 +72,9 @@ Contract categories allow you to define different type of categories in order to
 | **_Contract Category Description_** | Decription to define which contracts are categorized to this category|
 |**_Sales, Purchase, Other_**| Sales should be marked if category should be availabele on sales contracts (Type **Sales**), Purchase should be marked if category should be availabele on purchase contracts (Type **Purchase**), Other should be marked if category should be availabele other contracts (Type **Other**).
 |**_No. of Sales Contracts_** and **_No. of Purchase contracts_**| Shows number of Sales/Purchase contracts in that category.|
+|**_Transfer Ext. Contract No. to Sales Doc._**| Specifies default for new Contracts in this category for transferring Ext. Contract No. to Sales Documents header into field Externatl Document No.|
+| **_Contract Report ID_** | Specifies default, for new Contracts in this category, Contract Report ID that is the base for contract printout.|
+| **_Contract Layout Description_** | Specifies default, for new Contracts in this category, Contract Layout Description - selected from customer defined Custom Report Layouts for specified Report ID.|
 
 _Billing related category setup_
 

@@ -73,6 +73,9 @@ Lepingu kategooriad võimaldavad teil kirjeldada erienvat tüüpi kategooriaid, 
 | **_Lepingu kategooria kirjeldus_** | Võimaldab määrata lepingu kategooria kirjelduse.|
 |**_Müük, Ost, Muu_**| Müük tuleks märkida juhul kui kategooriat peaks saama valida müügilepingutele (Tüüp **Müük**), Ost tuleks märkdia juhul kui kategooriat peaks saama valida ostulepingutele (Tüüp **Ost**), Muu tuleks märkida juhul kui kategooriat peaks saama valida ka muudele lepingutele (Tüüp **Muu**).
 |**_Müügilepingute arv_** ja **_Ostulepingute arv_**| Kuvab müügi/ostulepingute arvu antud kategoorias.|
+|**_Kanna Välise lepingu nr. müügipäisesse_**| Määrab vaikeväärtuse, selle kategooria uute lepingute jaoks, kandmaks Välise lepingu nr.-t edasi müügipäisesse.|
+| **_Lepingu Aruande ID_** | Määrab vaikeväärtuse, selle kategooria uute lepingute jaoks, lepingu aruande ID jaoks mis on leingu väljatrüki aluseks.|
+| **_Lepingu kujunduse kirjeldus_** | Määrab vaikeväärtuse, selle kategooria uute lepingute jaoks, lepingu kujunduse kirjelduse - valitakse kliendi pooltsellele aruande ID-le määratletud Kohandatud aruannete kujunduste hulgast.|
 
 _Arveldamisega seotud seadistused_
 

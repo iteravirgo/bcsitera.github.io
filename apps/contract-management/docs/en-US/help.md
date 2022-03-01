@@ -127,11 +127,11 @@ On sales and purchase document headers you can select appropriate contract from 
 #### _Important_
 ---
 _Selection of contracts that can be chosen to document is limited with the following:_
-- _Contract type - on sales documents you can select contracts with the type of **_Sales_** and on purchase documents with the type of **_Purchase_**._
-- _Buyer or Seller number - sales documents **_Sell-To Customer No._** and purchase documents **_Buy-From Vendor No._**._
+- _Contract type - on sales documents you can select contracts with the type of **Sales** and on purchase documents with the type of **Purchase**._
+- _Buyer or Seller number - sales documents **Sell-To Customer No.** and purchase documents **Buy-From Vendor No.**._
 - _**Blocked** contracts will be left out._
 
-_If there is no contract in the selection that meets the requirement, then it might be due to Customer/Vendor relations that have not been updated on contract card. In order to update the relations button **_Update Customer/Vendor link_** must be pressed on related contract card.This updates Contact's relations with Customer and Vendor on contract_.
+_If there is no contract in the selection that meets the requirement, then it might be due to Customer/Vendor relations that have not been updated on contract card. In order to update the relations button **Update Customer/Vendor link** must be pressed on related contract card.This updates Contact's relations with Customer and Vendor on contract_.
 
 ---
 

@@ -15,6 +15,7 @@ Lepingute funktsionaalsus võimaldab BC-s järgmist:
     - [Lepingu kategooriad](#lepingu-kategooriad)
   - [Kasutamine](#kasutamine)
     - [Lepingu loomine](#lepingu-loomine)
+      - [Lepingu kopeerimine](#lepingu-kopeerimine)  
     - [Lepingu kasutamine ostu- ja müügidokumentidel](#lepingu-kasutamine-ostu--ja-müügidokumentidel)
     - [Lepingu täituvuse jälgimine](#lepingu-täituvuse-jälgimine)
     - [Lepingute kasutamine projektides](#lepingute-kasutamine-projektides)
@@ -116,6 +117,20 @@ Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
 **_Väljad mis on soovituslikud täita_
 
 Vahekaardil **Seosed** kuvatavad väljad (Kliendi nr. ja nimi ning Hankija nr. ja nimi) täituvad automaatselt peale partneri valimist. Väljad täituvad ainult juhul kui partneriks valitud **Kontakt** on seotud kliendi ja/või hankijaga. Kui seos luuakse hiljem, siis tuleb lepingu päises kasutada tegevust **Uuenda kliendi/hankija seos**, mis uuendab Kontaktiga (Partneri nr.) seotud Kliendi ja Hankija seosed ka lepingul.
+
+#### Lepingu kopeerimine
+
+Ava **Lepingute loend** või **Lepingu kaart** ja kasutage nuppu **Kopeeri leping**.
+Avaneb järgnev vaade:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCopyContractEE.png" target="_blank"><img src="ContManCopyContractEE.png" alt="Lepingu kopeerimine" width="500"/></a>
+
+Täitke ära **Uue lepingu nr.**, kui soovite lepingule numbri käsitsi määrata, või märkige linnukes **Kasuta numbriseeriat**, kui soovite, et uue lepingu number võetakse numbriseeriast. Täiendavalt saate valida ka seda kas kopeeritakse ka lepingu read - **Kopeeri lepingu read* 
+* Vaikimisi täidetakse **Lepingu nr.** ja **Lepingu nimi** selle lepingu infoga mida kopeeritakse. 
+
+Vajutage **OK**.
+
+Avaneb **Lepingu kaart** uue lepingu andmetega, millelt kopeerimisel eemaldati dimensioonide ja summade info.
  
 ### Lepingu kasutamine ostu- ja müügidokumentidel
 Müügi- ja ostudokumentidel on võimalus valida päisesse väljale **_Lepingu number_** sobiv leping **Lepingute loendist**. Kui dokumendi päisesse on lepingu number valitud siis lisatakse see automaatselt ka igale dokumendi reale. Dokumendi ridadel on võimalik lepingu numbrit muuta. 

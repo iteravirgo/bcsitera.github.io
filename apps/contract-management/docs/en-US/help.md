@@ -101,12 +101,14 @@ An empty **Contract card** opens where you can fill the following fields:
 |Field| Explanation|
 |---|---| 
 | Contract No.* | Is filled automatically according to defined Number Series from **Contract Setup**.
+| Contract Type* | Defines if it is a purchase, sales or other type of contract. Option also defines if that contract can be chosen to Purchase document (**Purchase**) or to Sales document (**Sales**).
+| Contract Category** | To classify contract and to get category based default values to contract card you can select contract category. Selection from the Contract Category list.|
 | Name and Description** | For entering contract and short description.
 | Partner No.* | Allows to choose contract partner from **Contact list**. If contact is related to a **Customer** or **Vendor** then related information will be displayed on **Relations** tab  on fields _Customer No. and Name_ and _Vendor No. and Name_. 
-| Contract Type* | Defines if it is a purchase, sales or other type of contract. Option also defines if that contract can be chosen to Purchase document (**Purchase**) or to Sales document (**Sales**).
 |Main Contract No. | Allows to group contracts under a common value (Main Contract), that can be chosen from **Contract List** filtered by field **Main Contract**. Default value is contract's own number.
 |Main Contract| Allows that contract to be chosen as main contract.
 |External Contract No. | Allows to enter partners contract number.
+|Transfer Ext. Contract No. to Sales Doc. | Allows to choose that if Contract No. will be selected to sales header then External Contract No. will be transferred to field Exteranl Doc. No.|
 | Start and End Dates** | Allows to define validity dates of the contract. Field is informative.
 | Amount** | Allows to enter contract amount, this amount is base for calculating the reminder of the contract.
 | Amount Incl. VAT | Allows to enter contract amount including VAT.

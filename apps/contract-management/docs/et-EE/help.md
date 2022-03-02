@@ -101,11 +101,13 @@ Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
 | Väli | Selgitus |
 | --- | --- | 
 | Lepingu nr.* | Täitub automaatselt vastavalt **Lepingute seadistuses** määratud numbriseeriale.|
+| Lepingu tüüp* | Määratakse ära kas tegemist on ostu, müügi või mõne muu lepinguga. Valik määrab ühtlasi ära ka selle kas leping on valitav ostuarvele (**Ost**) või müügiarvele (**Müük**).|
+| Lepingu kategooria** | Lepingu liigitamiseks ja kategooriapõhiste vaikeväärtuste toomiseks lepingu kaardile saab valida lepingu kategooria. Valik Lepingu kategooriate loendist.|
 | Nimetus ja Kirjeldus** | Lepingu nimetuse ja lühikirjelduse sisestamiseks.|
 | Partneri nr.* | Võimaldab määrata lepingu osapoole, valik toimub **Kontaktide loendist**. Kui kontakt on seotud ka mõne **Kliendi** või **Hankijaga** siis kuvatakse vastavad andmed väljadel _Kliendi nr ja nimi_ ning _Hankija nr ja nimi_. |
-| Lepingu tüüp* | Määratakse ära kas tegemist on ostu, müügi või mõne muu lepinguga. Valik määrab ühtlasi ära ka selle kas leping on valitav ostuarvele (**Ost**) või müügiarvele (**Müük**).|
 |Pealepingu nr. | Võimaldab lepingute grupeerimist ühise tunnuse (pealepingu) alla, väljalt avaneb valik **Lepingute loendisse**. Vaikimisi täidetakse lepingu enda numbriga.|
 |Välise lepingu nr. | Võimaldab sisestada partneripoolse lepingu numbri.|
+|Kanna Välise lepingu nr. müügipäisesse | Võimaldab valida kas soovitakse arvele lepingu numbri valimisel kaasa tuua ka Välise lepingu nr. mis lisatakse Välise dokumendi nr. väljale.|
 | Algus- ja Lõpukuupäev** | Määratakse ära mis on lepingu kehtivusaeg. Väli on informatiivse tähendusega|
 | Summa** | Võimaldab määrata lepingu summa, mille alusel hakatakse kuvama ka lepingu jääki.|
 | Summa KM-ga | Võimaldab sisestada lepingu summa koos käibemaksuga.|

@@ -76,7 +76,7 @@ Lepingu kategooriad võimaldavad teil kirjeldada erienvat tüüpi kategooriaid, 
 |**_Müügilepingute arv_** ja **_Ostulepingute arv_**| Kuvab müügi/ostulepingute arvu antud kategoorias.|
 |**_Kanna Välise lepingu nr. müügipäisesse_**| Määrab vaikeväärtuse, selle kategooria uute lepingute jaoks, kandmaks Välise lepingu nr.-t edasi müügipäisesse.|
 | **_Lepingu Aruande ID_** | Määrab vaikeväärtuse, selle kategooria uute lepingute jaoks, lepingu aruande ID jaoks mis on leingu väljatrüki aluseks.|
-| **_Lepingu kujunduse kirjeldus_** | Määrab vaikeväärtuse, selle kategooria uute lepingute jaoks, lepingu kujunduse kirjelduse - valitakse kliendi pooltsellele aruande ID-le määratletud Kohandatud aruannete kujunduste hulgast.|
+| **_Lepingu kujunduse kirjeldus_** | Määrab vaikeväärtuse, selle kategooria uute lepingute jaoks, lepingu kujunduse kirjelduse - valitakse kliendi poolt sellele aruande ID-le määratletud Kohandatud aruannete kujunduste hulgast.|
 
 _Arveldamisega seotud seadistused_
 
@@ -94,7 +94,7 @@ _Arveldamisega seotud seadistused_
 
 Lepingute lahenduse puhul on võimalik hallata nii ostu-, müügi- kui ka muid lepinguid. Uue lepingu sisestamiseks tuleb avada **Lepingud** ning luua uus kirje kasutades nuppu **+Uus**.
 
-Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
+Avaneval lepingu kaardil on võimalik täita ja jälgida järgenvaid välju:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardEE.png" target="_blank"><img src="ContManContractCardEE.png" alt="Lepingu kaart" width="800"/></a>
 
@@ -109,16 +109,37 @@ Avaneval lepingu kaardil on võimalik täita järgenvad väljad:
 |Välise lepingu nr. | Võimaldab sisestada partneripoolse lepingu numbri.|
 |Kanna Välise lepingu nr. müügipäisesse | Võimaldab valida kas soovitakse arvele lepingu numbri valimisel kaasa tuua ka Välise lepingu nr. mis lisatakse Välise dokumendi nr. väljale.|
 | Algus- ja Lõpukuupäev** | Määratakse ära mis on lepingu kehtivusaeg. Väli on informatiivse tähendusega|
-| Summa** | Võimaldab määrata lepingu summa, mille alusel hakatakse kuvama ka lepingu jääki.|
-| Summa KM-ga | Võimaldab sisestada lepingu summa koos käibemaksuga.|
 | Maksetingimused | Võimaldab määrata lepingus kokkulepitud maksetingimused. Väärtus kantakse üle müügi/ostu päisesse peale lepingu nr valimist dokumendi päises.|
 |Müügiisiku/Sisseostja tähis| Võimaldab määrata müügiisiku/sisseostja kes on vastava lepingu eest vastutav. Väärtus kantakse üle müügi/ostu päisesse peale lepingu nr valimist dokumendi päises.
 | Lukus | Võimaldab lepingu märkida lukus olevaks. Lepingut ei kuvata enam lepingu valiku juures ost- ja müügidokumentidel ega projektide valikutes.|
 
-*_Väljad mis tuleb kndlasti täita_
-**_Väljad mis on soovituslikud täita_
+Vahekaardil **Finants** on võimalik täita ja jälgida järgenvaid välju:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardFinEE.png" target="_blank"><img src="ContManContractCardFinEE.png" alt="Lepingu kaart" width="800"/></a>
+
+| Väli | Selgitus |
+| --- | --- | 
+| Summa** | Võimaldab määrata lepingu summa, mille alusel hakatakse kuvama ka lepingu jääki.|
+| Summa KM-ga | Võimaldab sisestada lepingu summa koos käibemaksuga.|
+| Täitmine (KV) | Kuvab lepinguga seotud summasid **Pearaamatu kannete alusel**. Kannetele on summa arvutamiseks rakendatud **Lepingute seadistuses** määratud filtrit.
+| Täitmise % | Kuvab täitmise protsenti mida arvutatske vastavalt väljadele **_Summa_** ja **_Täitmine (KV)_**.
+| Jääk (KV) | Kuvab lepingu jääki mis leitakse väljade **_Summa_** ja **_Täitmine (KV)_** alusel
+| Alamlepingute arv | Kuvab alamlepingute arvu ehk lepinguid millele on pealepinguks valitud antud leping. Pealeping ise ei lähe arvesse.|
+| Alamlepingute täitmine (KV) | Kuvab alamlepingute **_Täitmine (KV)_** summat. Pealeping täitmist siia ei liideta.|
+
+Vahekaardil **Seosed** on võimalik täita ja jälgida järgenvaid välju:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardRelationsEE.png" target="_blank"><img src="ContManContractCardRelationsEE.png" alt="Lepingu kaart" width="800"/></a>
 
 Vahekaardil **Seosed** kuvatavad väljad (Kliendi nr. ja nimi ning Hankija nr. ja nimi) täituvad automaatselt peale partneri valimist. Väljad täituvad ainult juhul kui partneriks valitud **Kontakt** on seotud kliendi ja/või hankijaga. Kui seos luuakse hiljem, siis tuleb lepingu päises kasutada tegevust **Uuenda kliendi/hankija seos**, mis uuendab Kontaktiga (Partneri nr.) seotud Kliendi ja Hankija seosed ka lepingul.
+
+| Väli | Selgitus |
+| --- | --- | 
+| Lepingu Aruande ID | Määrab millist aruande ID-d kasutatakse antud lepingu väljatrükki aluseks.|
+| Lepingu kujunduse kirjeldus | Määrab millist lepingu kujunduse kirjeldust kasutatakse antud lepingu väljatrükiks - valitakse kliendi poolt sellele aruande ID-le määratletud Kohandatud aruannete kujunduste hulgast.|
+
+*_Väljad mis tuleb kndlasti täita_
+**_Väljad mis on soovituslikud täita_
 
 #### Lepingu kopeerimine
 

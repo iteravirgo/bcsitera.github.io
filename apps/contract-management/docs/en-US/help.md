@@ -93,7 +93,7 @@ _Billing related category setup_
 
 With contract management it is possible to manage purchase, sales and other contracts. For creating a new contract you must open **Contracts** and use button **+New** in order to create a new entry.
 
-An empty **Contract card** opens where you can fill the following fields:
+An empty **Contract card** opens where you can fill and track following fields:
 
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContractCardENG.png" target="_blank"><img src="ContManContractCardENG.png" alt="ContManContractCard" width="800"/></a>
@@ -110,16 +110,37 @@ An empty **Contract card** opens where you can fill the following fields:
 |External Contract No. | Allows to enter partners contract number.
 |Transfer Ext. Contract No. to Sales Doc. | Allows to choose that if Contract No. will be selected to sales header then External Contract No. will be transferred to field Exteranl Doc. No.|
 | Start and End Dates** | Allows to define validity dates of the contract. Field is informative.
-| Amount** | Allows to enter contract amount, this amount is base for calculating the reminder of the contract.
-| Amount Incl. VAT | Allows to enter contract amount including VAT.
 | Payment Terms | Allows to define agreed payment terms. Value will be transferred to Sales/Purchase header after chosing contract in document header.
 |Salesperson/Purchaser Code| Specifies a code for the salesperson/purchaser who is responsible for the contract. Value will be transferred to Sales/Purchase header after chosing contract in document header.
 | Blocked | Allows to mark contract as Blocked. Contract will no longer be displayed in drop down list on purchase and sales documents, job and job planning lines.
 
-*_Fields that must be filled_
-**_Fields that are advisable to fill_
+On **Finance** tab you can fill and track following fields:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardFinENG.png" target="_blank"><img src="ContManContractCardFinENG.png" alt="Lepingu kaart" width="800"/></a>
+
+|Field| Explanation|
+|---|---| 
+| Amount** | Allows to enter contract amount, this amount is base for calculating the reminder of the contract.
+| Amount Incl. VAT | Allows to enter contract amount including VAT.
+| Completion (LCY) | Displays contract related amounts from **General Ledger Entries**. Account filter from the **Contract Setup** has been applied to entries.
+| Completion % | Displays completion percentage that ise calculated on the basis of fields **_Amount_** and **_Completion (LCY)_**.
+| Reminder (LCY) | Displays contract remaining amount that is calculated on the basis of fields **_Amount_** and **_Completion (LCY)_**.
+| No. of subcontract | Displays the number of related subcontact i.e. contracts that have current contract selected as their main contract. Main contract itself is not accounted.|
+| Subcontracts completion (LCY) | Displays subcontracts **_Completion (LCY)_** amount. Main contract completion is not included.|
+
+On **Relations** tab you can fill and track following fields:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardRelationsENG.png" target="_blank"><img src="ContManContractCardRelationsENG.png" alt="Lepingu kaart" width="800"/></a>
 
 Fields displayed on fast tab **Relations** (Customer No. and Name, Vendor No. and Name) are filled automatically after partner selection. Fields will only be filled if the selected **Contact** is related to **Customer** and/or **Vendor**. If the relation will be created later, then contract must be updated manually by pressing button **Update Customer/Vendor link** on contract card. This updates Contact's relations with Customer and Vendor on contract.
+
+|Field| Explanation|
+|---|---|
+| Contract Report ID | Specifies Contract Report ID for this specific contract that is the base for contract printout.|
+| Contract Layout Description | Specifies Contract Layout Description for this contract - selected from customer defined Custom Report Layouts that are specified for Report ID.|
+
+*_Fields that must be filled_
+**_Fields that are advisable to fill_
 
 #### Copy contract
 

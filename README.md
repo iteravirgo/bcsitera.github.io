@@ -14,6 +14,7 @@
 [Assortment Management](apps/StockRange/docs/en-US/app.md)  
 [Campaign Management](apps/Campaign-management/docs/en-US/app.md)  
 [Extended Credit Check](apps/credit-check/docs/en-US/app.md)  
+[Additional Goods](apps/Additional-Goods/docs/en-US/app.md)  
 [Estonian Language for LS Central](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  
 [LS Central EE Country App](apps/ls-central-ee-country-app/docs/en-US/app.md)  
 [Cargoson](apps/cargoson/docs/en-US/app.md)  

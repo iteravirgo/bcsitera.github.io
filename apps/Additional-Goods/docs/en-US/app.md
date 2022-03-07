@@ -1,18 +1,13 @@
 # Additional Goods
 This extension provides Additional Goods functionality for Microsoft Dynamics 365 Business Central.
+  
+If you are in the business where you have to handle multilevel packaging, lot of additional goods and where you also have need to track deposit goods then this app is for you. It helps save time in sales oderd handling.
 
-## Solution offers:
-#### Something mega here
-* First point 
-* Second
-* Third
-  
-  
-#### Another subtopic here
-Text here
+## Solution offers
+* Saves time in salesorder handling
+* Helps keep in trcak deposit goods
 
 [User Guide](help.md)
-
-### Contact information
-For more information and pricing please contact BCS Itera:<br>
+## Contact information
+For more information and pricing please contact BCS Itera:  
 <a href="https://www.itera.ee/en/about-us/" target="_blank">https://www.itera.ee/en/about-us/</a>

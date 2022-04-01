@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 15.3.22091.0
+- Parandatud olukord, kus kuluaruannete loendist õnnestus konteerida kinnitamata, kuid aktiivse kinnituse töövooga, kuluaruanne
+- Väiksemad bugiparandused ja UX täiendused
+
 ##### Versioon 15.3.22031.0
 - Fikseeritud kululiikide asemel kohandatav puu struktuuriga kululiigid, mida saab ka CostPocketiga sünkroniseerida
 - BC-s saab aruande ettevalmistada ning CostPocketisse saata (et nt seal dokumendid lisada)

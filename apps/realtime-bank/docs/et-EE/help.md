@@ -10,7 +10,7 @@
 ### Pangaühenduste seadistused
 
 Võimalik on seadistada pangaühendused järgmiste pankadega:
-1. Swedbank Gateway (momendil ainult on-prem)
+1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
 

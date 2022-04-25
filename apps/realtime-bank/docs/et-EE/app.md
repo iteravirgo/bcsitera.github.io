@@ -2,7 +2,7 @@
 Reaalajas panga lahendus võimaldab ettevõttel saada ülevaate oma pangakonto liikumistest vastavalt soovitud sagedusele ja töödelda reaalajas pangakirjeid  Microsoft Dynamics 365 Business Centralis.
 
 ### Toetatud pangaühendused
-1. Swedbank Gateway (momendil ainult on-prem lahenduses)
+1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
 

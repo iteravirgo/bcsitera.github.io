@@ -2,7 +2,7 @@
 See and process bank account transactions in real-time in Microsoft Dynamics 365 Business Central.
 
 ### Supported Bank Connectors
-1. Swedbank Gateway (currently on-prem only)
+1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
 

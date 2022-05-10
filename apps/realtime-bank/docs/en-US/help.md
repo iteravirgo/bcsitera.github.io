@@ -10,7 +10,7 @@
 ### Setup Bank Connetors
 
 Three connectors are supported out-of-the-box:
-1. Swedbank Gateway (currently on-prem only)
+1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
 

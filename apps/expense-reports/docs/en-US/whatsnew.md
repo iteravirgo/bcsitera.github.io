@@ -1,5 +1,12 @@
 ---
 ---
+##### Version 15.6.22143.1
+- It's now possible to add dimensions to expense document lines
+
+##### Version 15.3.22091.0
+- Fixed situation where it was possible to post expense report from expense report list without approving although approval workflow was enabled
+- Smaller bugfixes and UX improvements
+
 ##### Version 15.3.22031.0
 - Instead of fixed cost types now there are tree structured editable Expense types that can be synced with CostPocket
 - Now You can prepare Expense Report in BC and send it to CostPocket (for adding digitized documents)

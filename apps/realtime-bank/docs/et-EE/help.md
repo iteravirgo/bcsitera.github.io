@@ -20,9 +20,9 @@ Pangaühenduste seadistamiseks on Business Centralis igal panga kohta oma kaart,
 
 Väli |  Selgitus | 
 -- | --
-Teenuse URL | Sisestage panga teenuse aadress
-Seadmesertifikaadi failinimi | Sisestage oma pangalepingus näidatud sertifikaadi failinimi.
-Seadmesertifikaardi parool | Sisestage panga poolt antud sertifikaadi parool.
+Teenuse URL | Sisestage panga teenuse aadress. <br> - Swedbank: https://swedbankgateway.net/ <br> - SEB: https://api.bgw.baltics.sebgroup.com/ <br> - LHV: https://connect.lhv.eu/
+Seadmesertifikaadi failinimi | Importige sertifikaadi fail (pfx/p12 formaat).
+Seadmesertifikaardi parool | Sisestage sertifikaadi parool.
 
 ### Pangakonto seadistused
 _Pangakonto_ kaardil saab määrata väljal "Pangaühendus" vastava seadistatud pangaühenduse.

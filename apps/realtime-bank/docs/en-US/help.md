@@ -14,13 +14,15 @@ Three connectors are supported out-of-the-box:
 2. SEB Baltic Gateway
 3. LHV Connect
 
+Instructions to join with the service can be found [here (in estonian)](../et-EE/join.md).
+
 Each has its own setup card. Please open the setup of your bank connector and enter the following information: 
 
 Field |  Description | 
 -- | --
-Service URL | Enter the address of bank service
-Authorization/Device Certificate Filename | Enter your Certificate filename according to contract.
-Authorization/Device Certificate Password | Enter your Certificate password according to contract.
+Service URL | Enter the address of bank service. <br> - Swedbank: https://swedbankgateway.net/ <br> - SEB: https://api.bgw.baltics.sebgroup.com/ <br> - LHV: https://connect.lhv.eu/
+Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format).
+Authorization/Device Certificate Password | Enter certificate password.
 
 ### Setup Bank Account
 Open Bank Account card and choose the connector in the Bank Connector field.

@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 15.6.22143.1
+- Nüüd saab lisada dimensioone ka kuludokumendi ridadele
+
 ##### Versioon 15.3.22091.0
 - Parandatud olukord, kus kuluaruannete loendist õnnestus konteerida kinnitamata, kuid aktiivse kinnituse töövooga, kuluaruanne
 - Väiksemad bugiparandused ja UX täiendused

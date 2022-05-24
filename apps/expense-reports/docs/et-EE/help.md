@@ -51,7 +51,7 @@ Kasutaja saab kuluaruandel muuta **Päevarahade summat** ning konteerimiseks kas
 
 Kasutaja saab avada seotud kuludokumentide loetelu, vajutades väljal **Dokumentide arv** olevale numbrile.    
 
-Kuluaruandele määratavad **Globaaldimensioonid** kanduvad edasi ka kõikidele seotud dokumentidele (kui kasutaja vastava valiku kinnitab). Esitajast töötaja küljes olevad vaikedimensioonid lisatakse samuti automaatselt kõikidele seotud dokumentidele.    
+Kuluaruandele määratavad **Dimensioonid** kanduvad edasi ka kõikidele seotud dokumentidele (kui kasutaja vastava valiku kinnitab). Esitajast töötaja küljes olevad vaikedimensioonid lisatakse samuti automaatselt kõikidele seotud dokumentidele.    
 
 **Kinnitamise protsess** vastab tavapärasele BC kinnitamise loogikale (vt <a href="https://docs.microsoft.com/en-US/dynamics365/business-central/across-how-use-approval-workflows/" target="_blank">Use Approval Workflows</a>).    
 
@@ -66,9 +66,9 @@ Käsitsi kuludokumendi loomine on võimalik ning sarnaneb ostuarve loomisele.
 **Hankija ning Esitaja peab olema** kuludokumendil määratud.  Kuludokumentide importimisel CostPocketist otsitakse Hankija reg. nr. ja/või Hankija KM reg. nr. väärtuse alusel Hankijate registrist hankijat. Analoogselt otsitakse töötajate registrist (välja Ettevõtte e-post alusel) kuludokumendi esitajat, väljal Esitaja e-post oleva väärtuse alusel.
 Kasutaja võib luua mitme reaga arve, kasutades erinevaid konteeringurühmasid (KM korrektseks haldamiseks).    
 
-**Dimensioonid** saab lisada ainult päisele.    
+**Dimensioonid** saab lisada nii päisele kui ridadele (analoogselt ostuarvetele).    
 
-Ainult .jpg ning .jpeg tüüpi faile saab hetkel lisada **manustena**.    
+Kõiki enamlevinuid pildifaile (nt .png .jpg .jpeg) saab lisada **pildimanustena**. Lisaks saab dokumendimanustena lisada kõiksugu faile (nt digiallkirjastatud dokumente).   
 
 Kuludokumendi **Makse tüüp** saab olla kas Makstud eraisikuna või Makstud e/v vahenditest, sõltuvalt tehingu finantseerijast.    
 

@@ -45,7 +45,7 @@ User can change **Sum of Daily Allowance** and Allowance Account No. if needed.
 
 User can open list of connected expense documents when clicking on **Number of Documents** field value.    
 
-**Global dimensions** selected to expense report shall be used on all connected documents (if confirmed by user). Default dimensions attached to submitter employee are also automatically added to all connected documents.    
+**Dimensions** selected to expense report shall be used on all connected documents and document rows (if confirmed by user). Default dimensions attached to submitter employee are also automatically added to all connected documents.    
 
 **Approval** process is similar to <a href="https://docs.microsoft.com/en-US/dynamics365/business-central/across-how-use-approval-workflows/" target="_blank">Use Approval Workflows</a>.    
 
@@ -59,8 +59,9 @@ Manual creation of expense document is possible and is similar to regular purcha
 
 **Vendor and Submitter must be used**.  *When getting documents from CostPocket system looks for Vendor Registration No. and/or VAT Registration No. in order to find Vendor from existing Vendors. Similarly submitter e-mail is used to look for Employee with matching company Email from Employees.*  
 User can make multiple document lines with different posting groups (to manage VAT).    
-**Dimensions** are applied for document header only.  
-Only .jpg and .jpeg type attachments can be currently uploaded.  
+**Dimensions** are applied for document header and lines.  
+
+Most common picture file formats (like .png .jpg .jpeg) are supported and can be uploaded as picture attachments. Additionally as document attachments all kinds of documents can be added (for example digitally signed documents) to document attachments.  
 
 Expense document's **Billing Type** can be Personal or Company, depending on finances used.    
 

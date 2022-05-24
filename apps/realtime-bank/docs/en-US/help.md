@@ -20,7 +20,7 @@ Each has its own setup card. Please open the setup of your bank connector and en
 
 Field |  Description | 
 -- | --
-Service URL | Enter the address of bank service. <br> - Swedbank: https://swedbankgateway.net/ <br> - SEB: https://api.bgw.baltics.sebgroup.com/ <br> - LHV: https://connect.lhv.eu/
+Service URL | Enter the address of bank service. <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/
 Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format).
 Authorization/Device Certificate Password | Enter certificate password.
 

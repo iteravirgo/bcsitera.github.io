@@ -29,9 +29,11 @@
 ### Apps for Utilities
 [Water Management](apps/water-management/docs/en-US/app.md)  
 
----
+### Other
 
-[Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/)
+[Realtime Economy Pack](apps/rte/docs/et-EE/app.md)  
+[Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/
+)  
 
 ---
 

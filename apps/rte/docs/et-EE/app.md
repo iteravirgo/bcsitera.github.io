@@ -1,7 +1,7 @@
 # Reaalajamajanduse pakett
 Dynamics 365 Business Central on enim kasutatud Microsofti majandustarkvara nii maailmas kui ka Eestis.
 
-Tegemist on kogu ettevõtte tarneahelat katva terviklahendusega, mis pakub äärmiselt rikkalikku funktsionaalsust. Samas on igas riigis omad eripärad ja digitaliseerimise võimalused. Eesti on alustanud nn reaalajamajanduse (https://www.realtimeeconomy.ee/) initsiatiiviga, et muuta nii ettevõtted kui ka keskkond konkurentsivõimelisemaks.
+Tegemist on kogu ettevõtte tarneahelat katva terviklahendusega, mis pakub äärmiselt rikkalikku funktsionaalsust. Samas on igas riigis omad eripärad ja digitaliseerimise võimalused. Eesti on alustanud nn [reaalajamajanduse](https://www.realtimeeconomy.ee/) initsiatiiviga, et muuta nii ettevõtted kui ka keskkond konkurentsivõimelisemaks.
 
 Sellest tulenevalt oleme liitnud ühte paketti hulga täiendavaid võimalusi, mis aitavad ettevõttel tegutseda kõige kaasaegsemas digitaliseeritud inforuumis.
 

@@ -1,5 +1,9 @@
 ---
 ---
+##### Version 15.6.22178.0
+- Fixed situation where it was not possible to add attachments to Expense reports/documents
+- Fixed error "The Workflow Event does not exist" that came when reports were imported from CostPocket
+
 ##### Version 15.6.22143.1
 - It's now possible to add dimensions to expense document lines
 

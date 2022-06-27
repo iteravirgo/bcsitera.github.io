@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 15.6.22178.0
+- Parandatud olukord, kus manuseid ei õnnestunud kuluaruannetele/kuludokumentidele BC20 versiooniga lisada
+- Parandatud olukord, kus kuluaruannete toomisel Costpocketist tuli viga "Tabelit Töövoo sündmus pole olemas."
+
 ##### Versioon 15.6.22143.1
 - Nüüd saab lisada dimensioone ka kuludokumendi ridadele
 

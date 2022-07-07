@@ -20,8 +20,8 @@
 [Cargoson](apps/cargoson/docs/en-US/app.md)  
 
 ### Apps for Human Resources
-[Payroll365](apps/payroll365/docs/et-EE/help.md)  
-[Personnel365](apps/payroll365/docs/et-EE/help.md)
+[Payroll365](apps/payroll365/docs/et-ee/help.md)  
+[Personnel365](apps/payroll365/docs/et-ee/help.md)
 
 ### Apps for Real Estate
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  

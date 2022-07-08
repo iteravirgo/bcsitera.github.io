@@ -3,7 +3,7 @@
 
 ##### Versioon 20.2.22189.0
 - Täiendatud on makse sidumise reeglitest lähtuvat sidumisloogikat:
-  - Lisatud on Keskmine sisdumistäpsuse tunnus, kuna ka maksete sidumisreeglites see on.
+  - Lisatud on sidumistäpsuse tunnus Keskmine, kuna maksete sidumisreeglites on kasutusel.
   - Tekst kontoks vastendamine toetab filtri kujul sisestusi n. "*pangateenus*".
 - Tekst kontoks vastendamise aknasse on lisatud vaikedimensioonide seadistamise võimalus.
 

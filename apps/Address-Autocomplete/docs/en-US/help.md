@@ -1,7 +1,7 @@
 # Address Autocomplete
 Address Autocomplete solution in Business Central enables the following: 
 - Search for addresses as You type
-- Fill address fields with selected aadress
+- Fill address fields with selected aadress (_Currently only estonian addresses supported_)
 
 
 ## Setup

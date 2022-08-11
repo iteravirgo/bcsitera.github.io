@@ -1,7 +1,7 @@
 # Aadressiotsing (Address Autocomplete)
 Lahendus võimaldab Business Centralis teha järgmist: 
 - Aadresside otsingut aadressi kirjutamisel 
-- Aadressiväljade täitmist valitud aadressiga
+- Aadressiväljade täitmist valitud aadressiga (_hetkel ainult eesti aadressid toetatud_)
 
 
 ## Seadistus

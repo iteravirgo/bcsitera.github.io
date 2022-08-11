@@ -14,15 +14,15 @@ Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja 
 
 **Registrid**
 - <a href="https://dynamicspartnersee.github.io/apps/estonian-business-register/docs/et-EE/help.html" target="_blank">Äriregister</a>
-- <a href="http://apps.itera.ee/apps/Address-Autocomplete/docs/et-EE/app.html" target="_blank">Aadressiregister</a>
+- <a href="https://apps.itera.ee/apps/Address-Autocomplete/docs/et-EE/app.html" target="_blank">Aadressiregister</a>
 
 **Raamatupidamine**
 - <a href="https://dynamicspartnersee.github.io/apps/einvoices-for-estonia/docs/et-EE/help.html" target="_blank">Finbite, UnifiedPost</a>, <a href="https://dynamicspartnersee.github.io/apps/telema-edi/docs/et-EE/help.html" target="_blank">Telema</a>
-- <a href="http://apps.itera.ee/apps/expense-reports/docs/et-EE/app.html" target="_blank">E-kuluaruanded - CostPocket</a>
+- <a href="https://apps.itera.ee/apps/expense-reports/docs/et-EE/app.html" target="_blank">E-kuluaruanded - CostPocket</a>
 
 **Pangateenused**
-- <a href="http://apps.itera.ee/apps/realtime-bank/docs/et-EE/app.html" target="_blank">Reaalajas pank - Swedbank Gateway, SEB Baltic Gateway, LHV Connect</a>
-- <a href="http://apps.itera.ee/apps/factoring/docs/et-EE/app.html" target="_blank">Faktooring - Swedbank, SEB, Luminor</a>
+- <a href="https://apps.itera.ee/apps/realtime-bank/docs/et-EE/app.html" target="_blank">Reaalajas pank - Swedbank Gateway, SEB Baltic Gateway, LHV Connect</a>
+- <a href="https://apps.itera.ee/apps/factoring/docs/et-EE/app.html" target="_blank">Faktooring - Swedbank, SEB, Luminor</a>
 
 **Tarneahel**
 - <a href="https://dynamicspartnersee.github.io/apps/telema-edi/docs/et-EE/help.html" target="_blank">Telema EDI</a>

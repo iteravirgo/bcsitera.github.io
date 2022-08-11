@@ -1,4 +1,4 @@
-# Aadressi automaatne täitmine (Address Autocomplete)
+# Aadressiotsing (Address Autocomplete)
 Lahendus võimaldab aadresside otsingut aadressi kirjutamisel Microsoft Dynamics 365 Business Central tarkvaras.
   
 ## Lahendus hõlmab:

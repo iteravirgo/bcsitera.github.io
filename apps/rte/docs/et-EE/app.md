@@ -14,15 +14,15 @@ Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja 
 
 **Registrid**
 - Äriregister
-- Aadressiregister
+- [Aadressiregister](apps/Address-Autocomplete/docs/et-EE/app.md)  
 
 **Raamatupidamine**
 - E-arved - Finbite, UnifiedPost, Telema
-- E-kuluaruanded - CostPocket
+- [E-kuluaruanded - CostPocket](apps/expense-reports/docs/en-US/app.md)
 
 **Pangateenused**
 - Reaalajas pank - Swedbank Gateway, SEB Baltic Gateway, LHV Connect
-- Faktooring - Swedbank, SEB, Luminor
+- [Faktooring - Swedbank, SEB, Luminor](apps/factoring/docs/en-US/app.md)
 
 **Tarneahel**
 - Telema EDI

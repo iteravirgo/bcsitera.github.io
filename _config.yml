@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
 title: BCS Itera
-description: Extensions for Microsoft Dynamics 365 Business Central
+description: Laiendused Microsoft Dynamics 365 Business Central-ile
+defaults:
+  -
+    values:
+      layout: "default"

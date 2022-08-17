@@ -1,43 +1,45 @@
-### Apps for Financial Managament
-[Realtime Bank](apps/realtime-bank/docs/en-US/app.md)  
-[Contract Management](apps/contract-management/docs/en-US/app.md)  
-[Expense Reports](apps/expense-reports/docs/en-US/app.md)  
-[Dimension Correction Tool](apps/dimension-correction-tool/docs/en-US/app.md)  
-[Factoring](apps/factoring/docs/en-US/app.md)  
-[Public Sector Accounting and Reporting for Estonia](apps/Public-Sector-Accounting/docs/en-US/app.md)  
-[E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)  
+---
+---
+### Finantsjuhtimise lahendused
+[Reaalajas pank](apps/realtime-bank/docs/et-EE/app.md)  
+[Lepingute haldus](apps/contract-management/docs/en-US/app.md)  
+[Kuluaruanded](apps/expense-reports/docs/et-EE/app.md)  
+[Dimensiooniparandaja](apps/dimension-correction-tool/docs/et-EE/app.md)  
+[Faktooring](apps/factoring/docs/et-EE/app.md)  
+[Avaliku sektori finantsarvestus](apps/Public-Sector-Accounting/docs/et-EE/app.md)  
+[Soome e-arved](apps/finvoice/docs/en-US/app.md)  
 [MCDS Connector](apps/mcds-connector/docs/en-US/app.md)  
-[Jobs365 - General](apps/Jobs365-General/docs/en-US/app.md)  
+[Projektid 365](apps/Jobs365-General/docs/en-US/app.md)  
 
-### Apps for Distribution and Retail
-[Smart Warehouse](apps/smart-warehouse/docs/en-US/app.md)  
-[Assortment Management](apps/StockRange/docs/en-US/app.md)  
-[Campaign Management](apps/Campaign-management/docs/en-US/app.md)  
-[Extended Credit Check](apps/credit-check/docs/en-US/app.md)  
-[Additional Goods](apps/Additional-Goods/docs/en-US/app.md)  
-[Estonian Language for LS Central](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  
-[LS Central EE Country App](apps/ls-central-ee-country-app/docs/en-US/app.md)  
+### Kaubanduse lahendused
+[Smart Warehouse | Nutiladu](apps/smart-warehouse/docs/et-EE/app.md)  
+[Sortimendi haldus](apps/StockRange/docs/et-EE/app.md)  
+[Kampaaniate haldus](apps/Campaign-management/docs/et-EE/app.md)  
+[Laiendatud krediidikontroll](apps/credit-check/docs/et-EE/app.md)  
+[Kaasnevad kaubad](apps/Additional-Goods/docs/et-EE/app.md)  
+[Eesti keel LS Central-ile](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  
+[Eesti funktsionaalsus LS Central-ile](apps/ls-central-ee-country-app/docs/en-US/app.md)  
 [Cargoson](apps/cargoson/docs/en-US/app.md)  
-[Address Autocomplete](apps/Address-Autocomplete/docs/en-US/app.md)  
+[Aadressiotsing (Address Autocomplete)](apps/Address-Autocomplete/docs/et-EE/app.md)  
 
-### Apps for Human Resources
-[Payroll365](apps/payroll365/docs/et-ee/help.md)  
-[Personnel365](apps/payroll365/docs/et-ee/help.md)
+### Personalijuhtimise lahendused
+[Palk 365](apps/payroll365/docs/et-ee/help.md)  
+[Personal 365](apps/payroll365/docs/et-ee/help.md)
 
-### Apps for Real Estate
+### Kinnisvarahalduse lahendused
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
 
-### Apps for Utilities
-[Water Management](apps/water-management/docs/en-US/app.md)  
+### Taristu lahendused
+[Veemajanduse lahendus](apps/water-management/docs/et-EE/app.md)  
 
-### Other
+### Muu
 
-[Realtime Economy Pack](apps/rte/docs/et-EE/app.md)  
+[Reaalajamajanduse pakett](apps/rte/docs/et-EE/app.md)  
 [Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/
 )  
 
 ---
 
-[Support Contacts](docs/en-us/support.md)  
-[Privacy Policy](docs/en-us/privacy.md)
+[Kasutajatugi](docs/et-EE/support.md)  
+[Privaatsusavaldus](docs/en-US/privacy.md)
 

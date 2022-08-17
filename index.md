@@ -10,6 +10,7 @@
 [Soome e-arved](apps/finvoice/docs/en-US/app.md)  
 [MCDS Connector](apps/mcds-connector/docs/en-US/app.md)  
 [Projektid 365](apps/Jobs365-General/docs/en-US/app.md)  
+[Automaatne arvete saatmine meilile](apps/Automatic-Emailing-of-Invoices/docs/et-EE/app.md)  
 
 ### Kaubanduse lahendused
 [Smart Warehouse | Nutiladu](apps/smart-warehouse/docs/et-EE/app.md)  
@@ -20,7 +21,7 @@
 [Eesti keel LS Central-ile](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  
 [Eesti funktsionaalsus LS Central-ile](apps/ls-central-ee-country-app/docs/en-US/app.md)  
 [Cargoson](apps/cargoson/docs/en-US/app.md)  
-[Aadressiotsing (Address Autocomplete)](apps/Address-Autocomplete/docs/et-EE/app.md)  
+[Aadressiotsing](apps/Address-Autocomplete/docs/et-EE/app.md)  
 
 ### Personalijuhtimise lahendused
 [Palk 365](apps/payroll365/docs/et-ee/help.md)  

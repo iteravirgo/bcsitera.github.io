@@ -40,6 +40,6 @@
 
 ---
 
-[Kasutajatugi](docs/et-EE/support.md)  
-[Privaatsusavaldus](docs/en-US/privacy.md)
+[Kasutajatugi](docs/et-ee/support.md)  
+[Privaatsusavaldus](docs/en-us/privacy.md)
 

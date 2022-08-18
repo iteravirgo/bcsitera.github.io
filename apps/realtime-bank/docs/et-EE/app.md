@@ -1,3 +1,5 @@
+---
+---
 # Reaalaja pank
 Reaalajas panga lahendus võimaldab ettevõttel saada ülevaate oma pangakonto liikumistest vastavalt soovitud sagedusele ja töödelda reaalajas pangakirjeid  Microsoft Dynamics 365 Business Centralis.
 

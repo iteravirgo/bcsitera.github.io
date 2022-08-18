@@ -1,7 +1,7 @@
 ---
 ---
 ### Finantsjuhtimise lahendused
-[Reaalajas pank](apps/realtime-bank/docs/et-EE/app.md)  
+[Reaalajas pank](apps/realtime-bank/docs/et-EE/app)  
 [Lepingute haldus](apps/contract-management/docs/en-US/app.md)  
 [Kuluaruanded](apps/expense-reports/docs/et-EE/app.md)  
 [Dimensiooniparandaja](apps/dimension-correction-tool/docs/et-EE/app.md)  

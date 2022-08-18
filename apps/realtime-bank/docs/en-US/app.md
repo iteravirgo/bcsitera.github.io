@@ -1,3 +1,5 @@
+---
+---
 # Realtime Bank
 See and process bank account transactions in real-time in Microsoft Dynamics 365 Business Central.
 

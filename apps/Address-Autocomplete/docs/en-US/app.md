@@ -7,7 +7,7 @@ This extension provides address search and autocomplete functionality for Micros
   
 #### Selection of service providers:
 - Maa-amet to search for addresses in Estonia
-- Google mps API to search for addresses globally
+- Google maps API to search for addresses globally
   
   
 [User Guide](help.md)

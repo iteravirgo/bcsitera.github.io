@@ -18,7 +18,7 @@ Automatic Emailing of Invoices solution in Business Central enables the followin
 |---|---|
 |Object Type to Run|Report|
 |Object ID to Run|70405500 for Sales invoices and 70405501 for Credit Memos|
-|Report Request Page|Specify Max No. of Inv. Sent with One Job.<br>By default a single invoice is sent with a single job queue run **but this is NOT recommended** value.<br>This setting should correspond to Your email server limits (ask from Your IT administrator) and generally known email spam filter thresholds.<br>This setting also depends on "No. of Minutes between Runs" value set. |
+|Report Request Page|Specify Max No. of Inv. Sent with One Job.<br>By default 100 invoices are sent with a single job queue run.<br>This setting should correspond to Your email server limits (ask from Your IT administrator) and generally known email spam filter thresholds.<br>This setting also depends on "No. of Minutes between Runs" value set. |
 
 <br>
   

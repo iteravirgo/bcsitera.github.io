@@ -6,7 +6,6 @@ Solution offers:
 
 -   Get Real estate Customers from Bidrento  
 -   Get Sales Invoices from Bidrento  
--  
 
 [User Guide](http://apps.itera.ee/apps/moderan/docs/en-US/help.html)
 

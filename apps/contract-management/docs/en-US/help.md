@@ -34,7 +34,7 @@ To use the functionality, **Contract Setup** must be opened and following fields
 | **_Contract Usage Accounts_** | Allows to define a GL accounts filter for contract usage calculation. For an example income and expense accounts on which you expect transaction related to contracts. It is advisable to exclude VAT, payables and receivables accounts. You can define specific accounts and/or an accounts range (for an example range 30000..90000).|
 |**_Default Contract Type_**|Specifies default Contract Type for new contracts.
 |**_Def. Contract Category Sales_**|Specifies default Contract Category for sales contracts.
-|**_Def. ContractCategory Purchase_**|Specifies default Contract Category for purchase contracts.
+|**_Def. Contract Category Purchase_**|Specifies default Contract Category for purchase contracts.
 |**_Contract Report ID_**|Specifies default Report ID for Contract printouts, it will be by default transferred to new Contract Categories.
 
 _Billing related setup_
@@ -70,10 +70,10 @@ Contract categories allow you to define different type of categories in order to
 |Field| Explanation|
 |---|---| 
 | **_Contract Category Code_** | Specifies a category code for the contract.|
-| **_Contract Category Description_** | Decription to define which contracts are categorized to this category|
-|**_Sales, Purchase, Other_**| Sales should be marked if category should be availabele on sales contracts (Type **Sales**), Purchase should be marked if category should be availabele on purchase contracts (Type **Purchase**), Other should be marked if category should be availabele other contracts (Type **Other**).
+| **_Contract Category Description_** | Description to define which contracts are categorized to this category|
+|**_Sales, Purchase, Other_**| Sales should be marked if category should be available on sales contracts (Type **Sales**), Purchase should be marked if category should be available on purchase contracts (Type **Purchase**), Other should be marked if category should be available other contracts (Type **Other**).
 |**_No. of Sales Contracts_** and **_No. of Purchase contracts_**| Shows number of Sales/Purchase contracts in that category.|
-|**_Transfer Ext. Contract No. to Sales Doc._**| Specifies default for new Contracts in this category for transferring Ext. Contract No. to Sales Documents header into field Externatl Document No.|
+|**_Transfer Ext. Contract No. to Sales Doc._**| Specifies default for new Contracts in this category for transferring Ext. Contract No. to Sales Documents header into field External Document No.|
 | **_Contract Report ID_** | Specifies default, for new Contracts in this category, Contract Report ID that is the base for contract printout.|
 | **_Contract Layout Description_** | Specifies default, for new Contracts in this category, Contract Layout Description - selected from customer defined Custom Report Layouts for specified Report ID.|
 
@@ -81,7 +81,7 @@ _Billing related category setup_
 
 |Field|Explanation|
 |---|---| 
-| **_Def. InvoicingFrequency Option_** | Specifies default Invoicing Frequency Option for contracts in this category.|
+| **_Def. Invoicing Frequency Option_** | Specifies default Invoicing Frequency Option for contracts in this category.|
 | **_Invoicing Frequency"_** | Specifies default Invoicing Frequency for contracts in this category.|
 | **_Default Type_** | Specifies default Type for contract lines for contracts in this category.|
 | **_Default No._** | Specifies default No. for contract lines for contracts in this category.|
@@ -108,10 +108,10 @@ An empty **Contract card** opens where you can fill and track following fields:
 |Main Contract No. | Allows to group contracts under a common value (Main Contract), that can be chosen from **Contract List** filtered by field **Main Contract**. Default value is contract's own number.
 |Main Contract| Allows that contract to be chosen as main contract.
 |External Contract No. | Allows to enter partners contract number.
-|Transfer Ext. Contract No. to Sales Doc. | Allows to choose that if Contract No. will be selected to sales header then External Contract No. will be transferred to field Exteranl Doc. No.|
+|Transfer Ext. Contract No. to Sales Doc. | Allows to choose that if Contract No. will be selected to sales header then External Contract No. will be transferred to field External Doc. No.|
 | Start and End Dates** | Allows to define validity dates of the contract. Field is informative.
-| Payment Terms | Allows to define agreed payment terms. Value will be transferred to Sales/Purchase header after chosing contract in document header.
-|Salesperson/Purchaser Code| Specifies a code for the salesperson/purchaser who is responsible for the contract. Value will be transferred to Sales/Purchase header after chosing contract in document header.
+| Payment Terms | Allows to define agreed payment terms. Value will be transferred to Sales/Purchase header after selecting contract in document header.
+|Salesperson/Purchaser Code| Specifies a code for the salesperson/purchaser who is responsible for the contract. Value will be transferred to Sales/Purchase header after selecting contract in document header.
 | Blocked | Allows to mark contract as Blocked. Contract will no longer be displayed in drop down list on purchase and sales documents, job and job planning lines.
 
 On **Finance** tab you can fill and track following fields:
@@ -123,9 +123,9 @@ On **Finance** tab you can fill and track following fields:
 | Amount** | Allows to enter contract amount, this amount is base for calculating the reminder of the contract.
 | Amount Incl. VAT | Allows to enter contract amount including VAT.
 | Completion (LCY) | Displays contract related amounts from **General Ledger Entries**. Account filter from the **Contract Setup** has been applied to entries.
-| Completion % | Displays completion percentage that ise calculated on the basis of fields **_Amount_** and **_Completion (LCY)_**.
+| Completion % | Displays completion percentage that is calculated on the basis of fields **_Amount_** and **_Completion (LCY)_**.
 | Reminder (LCY) | Displays contract remaining amount that is calculated on the basis of fields **_Amount_** and **_Completion (LCY)_**.
-| No. of subcontract | Displays the number of related subcontact i.e. contracts that have current contract selected as their main contract. Main contract itself is not accounted.|
+| No. of subcontract | Displays the number of related subcontracts i.e. contracts that have current contract selected as their main contract. Main contract itself is not accounted.|
 | Subcontracts completion (LCY) | Displays subcontracts **_Completion (LCY)_** amount. Main contract completion is not included.|
 
 On **Relations** tab you can fill and track following fields:
@@ -261,7 +261,7 @@ On **Contract Lines** tab you can fill following fields:
 | **_Invoicing Frequency Option_** | Specifies billing period/frequency for current line. Default value will be taken from **Billing Information** tab.|
 | **_Billing Start Date_** | Allows to specify Billing Start Date for current line.|
 | **_End Date First Period_** | Allows to specify End Date First Period for current line. Default value will be taken from **Billing Information** tab.|
-| **_Next Billing Date_** | Displays **Nexte Billing Date** (next period start date) for current line after [Create Contract Invoice Lines](#create-contract-invoice-lines) has been run|
+| **_Next Billing Date_** | Displays **Next Billing Date** (next period start date) for current line after [Create Contract Invoice Lines](#create-contract-invoice-lines) has been run|
 | **_Billing End Date_** | Allows to specify Billing End Date for current line.. Default value will be taken from **Billing Information** tab.|
 
 Contract line based sales orders/invoices creation consists of two steps.
@@ -276,8 +276,8 @@ Following window will be opened:
 
 Fill in **Next Billing Date**, this date will be an end date for a range that will be applied to **Valid** contract lines. It will be applied to **Next Invoicing Date** or to **Billing Start Date** (if the other is empty) and **Contract Invoice Lines** will be created for each **Contract Line** that meets the filtering criteria. 
 * By default it is filled with Today + date formula from **_Create Contract Invoice Lines Date Formula_** in **Contract Setup**.
-* Additonal filters can be applied from **Contracts** or **Contract Lines**.
-* If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
+* Additional filters can be applied from **Contracts** or **Contract Lines**.
+* If clicked from **Contract Card** then **_Contract No_** filter will be entered automatically. 
 
 Press **OK**.
 
@@ -291,7 +291,7 @@ Some of the fields need no explanation. Other will be explained below.
 |---|---| 
 | **_Posting Date_** | By default **Period Start Date**.|
 | **_Period Start Date_** and **_Period End Date_**  | Are reflecting the actual billing period|
-| **_Status_** | Shows status of current line. **New** - First status for alla created lines. Also line gets this status back when it is removed from order/invoice. or removed . **Order** - **Sales Order** has been created from that line. **Invoice** - **Sales Invoice** has been created from that line. **Posted** - involved sales order/invoice has been posted. **Canceled** - line has been canceled by using action **Cancel**, only **New** lines can be canceled.|
+| **_Status_** | Shows status of current line. **New** - First status for all created lines. Also line gets this status back when it is removed from order/invoice. or removed . **Order** - **Sales Order** has been created from that line. **Invoice** - **Sales Invoice** has been created from that line. **Posted** - involved sales order/invoice has been posted. **Canceled** - line has been canceled by using action **Cancel**, only **New** lines can be canceled.|
 | **_Document No._** | Shows document number of the involved document (order, invoice, posted invoice).|
 
 ---
@@ -304,16 +304,16 @@ Following window will be opened:
 
 <a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManCreateSalesInvENG.png" target="_blank"><img src="ContManCreateSalesInvENG.png" alt="ContManCreateSalesInvENG" width="500"/></a>
 
-Fill in **Posting Date**, this date will be an end date for a range that will be applied to **Contract Invocie Lines**. It will be applied to **Posting Date** and **Sales Invoices/Orders** will be created for contract invoice lines that meet the filtering criteria and combined according to **Create Invoices By**.
+Fill in **Posting Date**, this date will be an end date for a range that will be applied to **Contract Invoice Lines**. It will be applied to **Posting Date** and **Sales Invoices/Orders** will be created for contract invoice lines that meet the filtering criteria and combined according to **Create Invoices By**.
 * By default it is filled with Today + date formula from **_Create Sales Invoices Date Formula_** in **Contract Setup**.
-* Additonal filters can be applied from **Contracts** or **Contract Invoice Lines**.
-* If clicked from **Contract Card** then **_Contrat No_** filter will be entered automatically. 
+* Additional filters can be applied from **Contracts** or **Contract Invoice Lines**.
+* If clicked from **Contract Card** then **_Contract No_** filter will be entered automatically. 
 
 |Field|Explanation|
 |---|---| 
 | **_Replace Posting Date_** | Allows to replace invoice/order **Posting Date**. Otherwise Posting Date will be taken from Contract Invoice Line. |
 | **_Create Invoices By_** | Allows to select how the lines should be grouped among documents. **Contract** - one invoice/order for each contract. Only lines from one contract will be included in one invoice/order. **Customer** - one invoice/order per customer. Lines from different contracts that have the same customer will be included in one invoice/order. **Main Contract** - one invoice/order per main contract. Lines from different contracts that have the same main contract will be included in one invoice/order.|
-| **_Create as Invocie or Order_** | Allows to select which type of sales docuemnts should be created: **Invoices** (default) or **Orders**.|
+| **_Create as Invoice or Order_** | Allows to select which type of sales documents should be created: **Invoices** (default) or **Orders**.|
 
 Press **OK**.
 

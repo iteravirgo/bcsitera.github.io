@@ -10,6 +10,7 @@
 [E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)  
 [MCDS Connector](apps/mcds-connector/docs/en-US/app.md)  
 [Jobs365 - General](apps/Jobs365-General/docs/en-US/app.md)  
+[Automatic Emailing of Invoices](apps/Automatic-Emailing-of-Invoices/docs/en-US/app.md) 
 
 ### Apps for Distribution and Retail
 [Smart Warehouse](apps/smart-warehouse/docs/en-US/app.md)  

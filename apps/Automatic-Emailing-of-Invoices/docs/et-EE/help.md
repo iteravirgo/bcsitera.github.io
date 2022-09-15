@@ -5,55 +5,54 @@ Automaatne arvete saatmine meilile lahendus võimaldab järgmist:
 - Halda ühe tööjärjekorra kande käivitusega saadetavate arvete mahtu (vältimaks meiliserveri sattumist musta spämmi nimekirja)
 <br>
 
-TODO - tõlge:
 
-### Prerequisites and setup:
-- For successful Sales invoice and Credit Memo sending by email "Use for Email Attachment" must be selected in "Report Selection - Sales" page (Usage Invoice or Credit Memo respectevly).
-  - Solution will notify this to user if needed when selection "Send invoice by Email automatically" is activated on Document sending profile.
-- Job queues are needed to send invoices with status "Waits for Sending"
-  - Solution will create job queues needed when selection "Send invoice by Email automatically" is activated on Document sending profile and will notify user about the Specify Max No. of Inv. Sent with One Job.
+### Eeltingimused ning seadistus:
+- Konteeritud müügiarvete ja müügi kreeditarvete edukaks meilitsi saatmiseks tuleb "Aruandevalik - Müük" lehel linnukesega märkida "Kasuta meilisõnumi manuses" (Kasutus vastavalt Arve või Kreeditarve).
+  - Vajadusel kasutajat teavitatakse nimetatud määrangu tegemise vajadusest, kui kasutaja "Dokumendi saatmise profiil" lehel aktiveerib valiku "Saada müügiarve meiliga automaatselt".
+- Tööjärjekorra tööd on vajalikud saatmaks arveid, mille meiliga saatmise olekuks on "Ootab saatmist"
+  - Lahendus loob vajalikud tööjärjekorra tööd, kui kasutaja "Dokumendi saatmise profiil" lehel aktiveerib valiku "Saada müügiarve meiliga automaatselt" ning kasutajat teavitatakse tööjärjekorra seadistamise ning aktiveerimise vajadusest.
 <br>
   
-**Job queue mentionable settings:**
+**Tööjärjekorra kande mainimist väärivad seaded:**
   
-|Field|Explanation|
+|Väli|Kirjeldus|
 |---|---|
-|Object Type to Run|Report|
-|Object ID to Run|70405500 for Sales invoices and 70405501 for Credit Memos|
-|Report Request Page|Specify Max No. of Inv. Sent with One Job.<br>By default a single invoice is sent with with a single job queue run **but this is NOT reccommended** value.<br>This setting should correspond to Your email server limits (ask from Your IT administrator) and generally known email spam filter thresholds.<br>This setting also depends on "No. of Minutes between Runs" value set. |
+|Käivitatava objekti liik|Aruanne|
+|Käivitatava objekti liik|70405500 Müügiarve ja 70405501 Kreeditarve puhul|
+|Aruande päringuakna valikud|Määra sobiv "Max saadetavaid arveid ühe tööga"<br>Vaikimisi (määrangu väärtus 0) saadetakse 100 arvet ühe käivitumisega.<br>Määratav väärtus peaks vastama Teie meiliserveri limiitidele (küsi oma IT administraatorilt) ning üldteada spämmifiltrite lävenditele.<br>Sobiva määrangu tegemiseks tuleb arusaadavalt arvestada ka määrangut "Minutite arv käivitamiste vahel". |
 
 <br>
   
-### Usage scenarios:
-- **Send invoice automatically to customer by email after posting**
-  - Create document sending profile and select "Send invoice by Email automatically"
-  - Add document sending profile created to customer card
-  - Specify Email on customer card or "Send To Email" on customer Document Layouts page
-    - It's also reccommended to create suitable "Email Body Layout Description" and select "Use for Email Body"
-  - After posting the invoice it's marked as "Waits for Sending"
-  - Job queue "Send Posted Sales Invoices by E-mail" runs and sends the invoice marking invoice "Email Sent Status" to Sent and filling "Email Sent Time"
-- **Send invoice manually by email**
-  - Sending invoices manually with action "Send by Email" also marks "Email Sent Status" to Sent and fills "Email Sent Time"
-- **Change "Email Sent Status" manually**
-  -  Select posted Sales Invoice/Credit Memo and select Process -> Update Document
-  -  In section "Email Sending" select new value for "Email Sent Status"
-    - Note that changing of status clears field "Email Sent Time"
-- **View sent email recipient address or cause of error**
-  - Select posted Sales Invoice/Credit Memo and select Actions -> Activity log
+### Kasutusstsenaariumid:
+- **Saada arve kliendile meilitsi automaatselt peale konteerimist**
+  - Loo dokumendi saatmise profiil ning tee valik "Saada müügiarve meiliga automaatselt"
+  - Määra loodud dokumendi saatmise profiil kliendi kaardile
+  - Täida kliendikaardi väli "Meil" või kliendi "Dokumendi kujundused" lehel "Saada meilile"
+    - Soovitatav on luua sobiva sisuga "Meilisõnumi sisu kujunduse kirjeldus" ning teha valik "Kasuta meilisõnumi sisus"
+  - Peale arve konteerimist saab arve meiliga saatmise olekuks "Ootab saatmist"
+  - Tööjärjekorra kanne "Konteeritud müügiarvete meiliga saatmine" käivitub ja saadab ära vastavas olekus olevad arved ning märgib meiliga saatmise olekuks "Saadetud" ja täidab välja "Meiliga saatmise aeg"
+- **Saada arve käsitsi meiliga**
+  - Saates arve meilitsi toimingu "Saada meilisõnumiga" abil märgitakse samuti meiliga saatmise olekuks "Saadetud" ja täidetakse väli "Meiliga saatmise aeg"
+- **Käsitsi "Meiliga saatmise olek" muutmine**
+  - Vali konteeritud müügiarve/kreeditarve ning vali Protsess -> "Uuenda dokument"
+  - Sektsioonis "Meiliga saatmine" vali uus "Meiliga saatmise olek" väärtus
+    - Märkus! Oleku muutmise korral tühjendatakse väli "Meiliga saatmise aeg"
+- **Vaata saaja meiliaadressi või tõrke põhjust**
+  - Vali konteeritud müügiarve/kreeditarve ning vali Toimingud -> Tegevuse logi
 <br>
   
-#### Notes:
-- When emails are successfully handed to email server (_specified thorugh email account used_) then they are marked as successfully sent
-  - Meaning if email server fails to deliver email to recipient then this information does not make it back to Business Central
-    - Solution is to check emails for the account used for sending email on email server
-- When Business Central is unable to hand emails over to email server then status is set to error and these emails can be found in "Failed Emails in Outbox"
-  - In case recipient address is missing then status is set to error and email is not attempted to hand over to email server
-    - To check cause of error User should select Actions -> Activity log
+#### Märkused:
+- Kui loodud meilisõnumid on edukalt meiliserverile (_vastavalt saatmiseks kasutatavale meilikontole_) üle antud, siis nende arvete saatmise olekusks määratakse "Saadetud"
+  - Seega kui meiliserveril ei õnnestu toimetada meilisõnumit saajale, siis see info ei jõua tagasi Business Centrali
+    - Lahenduseks on kontrollida meilikonto sõnumeid, mida kasutati meiliserveri poolt meilisõnumite saatmiseks
+- Kui Business Centralil ei õnnestu meilisõnumeid üle anda meiliserverile, siis määratakse olekuks "Tõrge" ning vastavad meilisõnumid leiab "Nurjunud meilid väljundkaustast"
+  - Kui tõrke põhjuseks on Saaja meiliaadressi puudumine, siis määratakse olekuks "Tõrge" ning meilisõnumit ei üritata meiliserverile üle anda
+    - Tõrke põhjuse väljaselgitamiseks vali Toimingud -> Tegevuse logi
 
 
   
   
 ---
 
-For more information please contact BCS Itera AS:  
-<a href="https://www.itera.ee/en/about-us/" target="_blank">www.itera.ee/en/about-us/</a>
+Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:
+<a href="https://www.itera.ee/" target="_blank">www.itera.ee</a>

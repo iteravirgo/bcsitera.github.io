@@ -29,6 +29,7 @@
 
 ### Kinnisvarahalduse lahendused
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
+[Bidrento Interface](apps/bidrento/docs/en-US/app.md)  
 
 ### Taristu lahendused
 [Veemajanduse lahendus](apps/water-management/docs/et-EE/app.md)  

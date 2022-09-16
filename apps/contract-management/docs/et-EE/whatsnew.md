@@ -1,4 +1,11 @@
 ---
+##### Versioon 18.0.22153.0 Avaldatud 06.06.2022
+- Bugfix: Manustatud dokumendid ei salvestanud faili.
+
+##### Versioon 18.0.22145.1 Avaldatud 25.05.2022
+- Lepingute tugi projekti ülesande ridadele.
+- Projektide tugi lepingu ridadele.
+
 ##### Versioon 18.0.22052.0 Avaldatud 21.02.2022
 - Lepingu kopeerimise täiendused: Kopeeri read ja käsitsi määratav number.
 - Juhendatud seadistuse täiendused.

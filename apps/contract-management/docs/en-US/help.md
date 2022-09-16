@@ -49,6 +49,8 @@ _Jobs related setup_
 
 |Field|Explanation|
 |---|---| 
+|**_Show job related fields_** |Enables Jobs related fields on contract card and lines.
+|**_Default Job Planning Line Line Type_** |Specifies default Line Type for Job Planning Line when Job Planning Line will be created from Contract Line using **Send to Job functionality**.
 |**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
 
 _Contacts related initial setup if Contacts module not in use_

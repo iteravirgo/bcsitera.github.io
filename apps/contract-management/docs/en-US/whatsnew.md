@@ -1,4 +1,11 @@
 ---
+##### Version 18.0.22153.0 Published 06.06.2022
+- Bugfix: Document attachments did not save the attachment.
+
+##### Version 18.0.22145.1 Published 25.05.2022
+- Contracts support to Job Task Lines.
+- Jobs support to Contract Lines.
+
 ##### Version 18.0.22052.0 Published 21.02.2022
 - Copy Contract improvments: Copy Lines and manual number.
 - Improvements for auto setup.

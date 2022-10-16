@@ -27,7 +27,6 @@ Open **Extension Management** and check if extension named ‘Bidrento’ is ins
 
 
 
-
 ## How to setup
 
 ### Setup
@@ -42,6 +41,8 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 |Automatically Create Invoice Dimensions |Choose Yes, if you want the Dimension Values for the Dimension specified in Bidrento to be generated automatically|
 |Customer Registration No. Field  *|Choose which field is used for a Customer Business Registration No. in the Customer table|
 |Invoice Payment Reference No.Field |Choose which field is used for a Payment Reference No. in the Invoice Header table|
+
+![SetupPage](SetupPage.png)
 
   <br/>
  
@@ -87,10 +88,7 @@ All files sent from Bidrento are on the page **Bidrento Inbound**.
 Once all the settings have been made, the data will be processed immediatley and a **Customer card** or **Sales invoices** will be created.
 This page also shows error messages about file exchange or missing setup. Fix the error and then Press the **Process** button to restart processing.
 
-
-![GetInvoices](GetInvoices.png)
-
-
+![BidrentoInbound](BidrentoInbound.png)
 
 
 <br/>

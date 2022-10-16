@@ -88,7 +88,7 @@ All files sent from Bidrento are on the page **Bidrento Inbound**.
 Once all the settings have been made, the data will be processed immediatley and a **Customer card** or **Sales invoices** will be created.
 This page also shows error messages about file exchange or missing setup. Fix the error and then Press the **Process** button to restart processing.
 
-![BidrentoInbound](BidrentoInbound.png)
+![BidrentoInbound](BidrentoInbound.PNG)
 
 
 <br/>

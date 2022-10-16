@@ -8,7 +8,7 @@ Solution offers:
 -   Update Real estate Customer's info in Business Central
 -   Get Sales Invoices from Bidrento  
 
-[User Guide](http://apps.itera.ee/apps/moderan/docs/en-US/help.html)
+[User Guide](http://apps.itera.ee/apps/bidrento/docs/en-US/help.html)
 
 ## Contact information
 

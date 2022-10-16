@@ -6,10 +6,9 @@ Bidrento Interface enables the following:
 
 
 ## Contents
-- [Moderan Installation](#moderan-installation)
-- [Menu](#menu) 
+- [Bidrento Installation](#bidrento-installation)
 - [How to setup](#how-to-setup) 
-  - [Setup API ](#setup-api)
+  - [Setup](#setup)
   - [Setup customers](#setup-customers) 
   - [Setup Sales invoices number series](#setup-sales-invoices-number-series)
   - [Setup Dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)

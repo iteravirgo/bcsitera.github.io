@@ -12,7 +12,7 @@ Bidrento Interface enables the following:
   - [Setup](#setup)
   - [Setup customers and customer template](#setup-customers-and-customer-template) 
   - [Sales invoices numbers](#sales-invoices-numbers)
-  - [Setup Dimensions in Bidrento and BC](#setup-dimensions-in-Bidrento-and-BC)
+  - [Dimensions](#dimensions)
   - [Payment Terms](#payment-terms)
   - [Setup Accounts or Articles for Bidrento](#setup-Accounts-or-Articles-for-Bidrento) 
 - [Get Customers and Invoices from Bidrento](#Ge-Customers-and-Sales-Invoices-from-Bidrento) 
@@ -59,7 +59,7 @@ A new field **Bidrento No.** has been added to the **Customer's card**, through 
 The number series of the sales invoices is determined in Bidrento. A posted sales invoice is created with the same number. 
 
 
-### Setup Dimensions in Bidrento and BC
+### Dimensions
 To use dimensions, add the Dimension code to the Bidrento Interface page.  
 You can enter the dimension values manually or the use the button **Automatically Create Invoice Dimensions** to create new dimension values. 
 

@@ -8,13 +8,12 @@ Bidrento Interface enables the following:
 
 ## Contents
 - [Bidrento Installation](#bidrento-installation)
-- [How to setup](#how-to-setup) 
-  - [Setup](#setup)
-  - [Setup customers and customer template](#setup-customers-and-customer-template) 
-  - [Sales invoices numbers](#sales-invoices-numbers)
-  - [Dimensions](#dimensions)
-  - [Payment Terms](#payment-terms)
-  - [Setup Accounts or Articles for Bidrento](#setup-Accounts-or-Articles-for-Bidrento) 
+- [Setup](#setup)
+- [Customers and customer template](#customers-and-customer-template) 
+- [Sales invoices numbers](#sales-invoices-numbers)
+- [Dimensions](#dimensions)
+- [Payment Terms](#payment-terms)
+- [Setup Accounts or Articles for Bidrento](#setup-Accounts-or-Articles-for-Bidrento) 
 - [Get Customers and Invoices from Bidrento](#Ge-Customers-and-Sales-Invoices-from-Bidrento) 
 - [File log and Error management](#File-log-and-Error-management)
    
@@ -25,9 +24,6 @@ Bidrento Interface enables the following:
 ## Bidrento Installation
 Open **Extension Management** and check if extension named ‘Bidrento’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
 
-
-
-## How to setup
 
 ### Setup
 
@@ -49,7 +45,7 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 
  <br/>
 
-### Setup customers and customer template
+### Customers and customer template
 Customer information is entered in Bidrento and sent to Business Central. Enter account posting groups, language and other important information in the same customer template as specified on the **Sales and Receivables Setup** page. 
 A new field **Bidrento No.** has been added to the **Customer's card**, through which the customer's information is updated.
 

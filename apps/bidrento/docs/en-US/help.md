@@ -42,7 +42,7 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 |Customer Registration No. Field  *|Choose which field is used for a Customer Business Registration No. in the Customer table|
 |Invoice Payment Reference No.Field |Choose which field is used for a Payment Reference No. in the Invoice Header table|
 
-![SetupPage](SetupPage.png)
+![SetupPage](SetupPage.PNG)
 
   <br/>
  

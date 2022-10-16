@@ -43,8 +43,8 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 |Bidrento Account Filter *|Specity the G/L account numbers to be sent to Bidrento. There those accounts are reported as articles| 
 |New customer Template *|Specify the customer template to be used when creating a new customer imported from Bidrento| 
 |Bidrento Invoice Rounding Account *|Set the G/L account number for rounding|
-|Automatically Create Invoice Dimensions *|Choose Yes, if you want the Dimension Values for the Dimension specified in Bidrento to be generated automatically|
-|Customer Registration No. Field |Choose which field is used for a Customer Business Registration No. in the Customer table|
+|Automatically Create Invoice Dimensions |Choose Yes, if you want the Dimension Values for the Dimension specified in Bidrento to be generated automatically|
+|Customer Registration No. Field  *|Choose which field is used for a Customer Business Registration No. in the Customer table|
 |Invoice Payment Reference No.Field |Choose which field is used for a Payment Reference No. in the Invoice Header table|
 
   <br/>
@@ -52,6 +52,9 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 
  <br/>
 
+### Setup customers
+
+Customer information is entered in Bidrento and sent to Business Central. Enter account posting groups, language and other important information in the same customer template as specified on the Sales and Receivables Setup page. 
 
 
 <br/>
@@ -62,7 +65,7 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 
 ### Setup Sales invoices number series
 
-**NB!** It is important that Sales invoices and Posted sales invoices use different number series.
+**NB!** The number series of the sales invoices is determined in Bidrento. A posted sales invoice is created with the same number. 
 
 
 ### Setup Dimensions in Moderan and BC

@@ -2,6 +2,7 @@
 
 Bidrento Interface enables the following:
 - Get Customers from Bidrento
+- Update Customer's info in Business Central
 - Get Sales invoices from Bidrento
 
 
@@ -35,15 +36,16 @@ Open **Extension Management** and check if extension named ‘Bidrento’ is ins
 
 ### Setup
 
-Open the page **Sales & Receivables Setup** and then teh fast tab **Bidrento**. Plese fill the fields as following (mandatory fields marked with *):
+Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. Plese fill the fields as following (mandatory fields marked with *):
 
 |Field|Description|
 |---|---|
-|Bidrento Account Filter *|Specity the G/L account numbers to be sent to Bidrento. There they are reported as articles| 
+|Bidrento Account Filter *|Specity the G/L account numbers to be sent to Bidrento. There those accounts are reported as articles| 
 |New customer Template *|Specify the customer template to be used when creating a new customer imported from Bidrento| 
 |Bidrento Invoice Rounding Account *|Set the G/L account number for rounding|
-|Customer Registration No. Field |Choose which field is a Customer Business Registration No. in the Customer table|
-
+|Automatically Create Invoice Dimensions *|Choose Yes, if you want the Dimension Values for the Dimension specified in Bidrento to be generated automatically|
+|Customer Registration No. Field |Choose which field is used for a Customer Business Registration No. in the Customer table|
+|Invoice Payment Reference No.Field |Choose which field is used for a Payment Reference No. in the Invoice Header table|
 
   <br/>
  

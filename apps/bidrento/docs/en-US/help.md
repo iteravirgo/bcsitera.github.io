@@ -35,7 +35,7 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 |New customer Template *|Specify the customer template to be used when creating a new customer imported from Bidrento| 
 |Bidrento Invoice Rounding Account *|Set the G/L account number for rounding|
 |Automatically Create Invoice Dimensions |Choose Yes, if you want the Dimension Values for the Dimension specified in Bidrento to be generated automatically|
-|Customer Registration No. Field  *|Choose which field is used for a Customer Business Registration No. in the Customer table|
+|Customer Registration No. Field |Choose which field is used for a Customer Business Registration No. in the Customer table|
 |Invoice Payment Reference No.Field |Choose which field is used for a Payment Reference No. in the Invoice Header table|
 
  <br/>

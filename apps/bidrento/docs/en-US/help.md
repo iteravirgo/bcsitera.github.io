@@ -54,8 +54,8 @@ Open the page **Sales & Receivables Setup** and then the fast tab **Bidrento**. 
 
 ### Setup customers
 
-Customer information is entered in Bidrento and sent to Business Central. Enter account posting groups, language and other important information in the same customer template as specified on the Sales and Receivables Setup page. 
-
+Customer information is entered in Bidrento and sent to Business Central. Enter account posting groups, language and other important information in the same customer template as specified on the **Sales and Receivables Setup** page. 
+A new field **Bidrento No.** has been added to the **Customer's card**, through which the customer's information is updated.
 
 <br/>
 

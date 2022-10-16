@@ -5,6 +5,7 @@ This extension provides Bidrento Interface in Microsoft Dynamics 365 Business Ce
 Solution offers:
 
 -   Get Real estate Customers from Bidrento  
+-   Update Real estate Customer's info in Business Central
 -   Get Sales Invoices from Bidrento  
 
 [User Guide](http://apps.itera.ee/apps/moderan/docs/en-US/help.html)

@@ -9,18 +9,19 @@ Reaalajas panga lahendus võimaldab ettevõttel saada ülevaate oma pangakonto l
 3. LHV Connect
 
 ### Reaalaja panga lahendus võimaldab:
-* Laadida pangatehingute info jooksvalt Business Centralisse.
-* Näha Business Centralis oleval pangakonto kaardil pangakonto saldot. 
-Kasutaja ei pea pangakonto saldo nägemiseks Business Centralist lahkuma.
+* Edastada maksed otse Business Central'ist panka.
+* Laadida pangatehingud reaalajas pangast Business Central'isse.
+* Näha Business Central'i pangakonto loendis ja kaardil saldot pangas. 
+Kasutaja ei pea pangakonto saldo nägemiseks Business Central'ist lahkuma.
 * Töödelda ja siduda pangatehinguid klientide ning hankijate avatud arvetega ning eeldefineeritud kulukontodega.
 * Konteerida kõrge sidumistäpsusega pangatehingud automaatselt.
 * Kasutaja saab tegeleda ainult nende pangatehingutega, mis vajavad üle vaatamist ning käsitsi sekkumist.
 
 ### Toetatud versioonid:
-See laiendus toetab nii Essential kui Premium lahendust Microsoft Dynamics 365 Business Centralile.
+Laiendus toetab nii Essential kui Premium lahendust Microsoft Dynamics 365 Business Centralile.
 
 ### Toetatud keeled
-Laiendus on saadava nii eesti kui inglise keeles.
+Laiendus on saadaval nii eesti kui inglise keeles.
 
 ---
 [Kasutusjuhend](help.md)  

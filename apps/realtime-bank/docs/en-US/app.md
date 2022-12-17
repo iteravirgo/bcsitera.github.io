@@ -9,6 +9,7 @@ See and process bank account transactions in real-time in Microsoft Dynamics 365
 3. LHV Connect
 
 ### Key Features
+* Transmit payments directly form Business Central to bank.
 * Load bank account transactions into Business Central as they occur in bank.
 * See current bank account balance and transactions without leaving the Dynamics 365 Business Central.
 * Process bank transactions automatically (apply open invoices or cost accounts for charges).

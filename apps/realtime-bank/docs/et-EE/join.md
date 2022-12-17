@@ -14,6 +14,7 @@ Toetatud teenused:
 [https://www.lhv.ee/et/connect](https://www.lhv.ee/et/connect)  
 
 Toetatud teenused:
+- Maksete edastamine panka.
 - Regulaarne konto väljavõte – panga poolt automaatselt saadetav eelmise päeva väljavõte.
 - Kiirteavitused – panga poolt automaatselt saadetav teavitus iga tehingu kohta.
 

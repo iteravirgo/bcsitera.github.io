@@ -1,8 +1,8 @@
 ---
 ---
 
-##### Versioon 20.2.22350.0
-- Maksežurnaali lisandus tegevus "Edasta panka", millega saab edastada maksed otse panka. Hetkel on toetatud LHV pank.
+##### Versioon 20.2.22351.0
+- Maksežurnaali lisandus tegevus "Edasta panka", millega saab maksed edastada otse LHV panka.
 
 ##### Versioon 20.2.22189.0
 - Täiendatud on makse sidumise reeglitest lähtuvat sidumisloogikat:

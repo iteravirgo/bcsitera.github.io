@@ -3,6 +3,7 @@ Automaatne arvete saatmine meilile lahendus võimaldab järgmist:
 - Määra kliendile dokumendi saatmise profiil, saatmaks automaatselt arveid kliendi meilile peale konteerimist
 - Saa ülevaade saatmise olekutest ning saatmise ajast konteeritud arvete loendis
 - Halda ühe tööjärjekorra kande käivitusega saadetavate arvete mahtu (vältimaks meiliserveri sattumist musta spämmi nimekirja)
+- Saada arve maksja meiliaadressile
 <br>
 
 
@@ -33,6 +34,7 @@ Automaatne arvete saatmine meilile lahendus võimaldab järgmist:
   - Tööjärjekorra kanne "Konteeritud müügiarvete meiliga saatmine" käivitub ja saadab ära vastavas olekus olevad arved ning märgib meiliga saatmise olekuks "Saadetud" ja täidab välja "Meiliga saatmise aeg"
 - **Saada arve käsitsi meiliga**
   - Saates arve meilitsi toimingu "Saada meilisõnumiga" abil märgitakse samuti meiliga saatmise olekuks "Saadetud" ja täidetakse väli "Meiliga saatmise aeg"
+  - Saaja meiliaadress võetakse Maksja kliendilt
 - **Käsitsi "Meiliga saatmise olek" muutmine**
   - Vali konteeritud müügiarve/kreeditarve ning vali Protsess -> "Uuenda dokument"
   - Sektsioonis "Meiliga saatmine" vali uus "Meiliga saatmise olek" väärtus

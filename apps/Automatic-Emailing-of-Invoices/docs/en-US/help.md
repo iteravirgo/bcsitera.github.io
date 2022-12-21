@@ -3,6 +3,7 @@ Automatic Emailing of Invoices solution in Business Central enables the followin
 - Specify through Document sending profile to send invoices automatically by email
 - Overview of sending status and time sent on posted invoices list
 - Manage the number of invoices sent with a single job que run (to avoid email server blacklisting)
+- Send invoice to Bill-to Customer email address
 
 
 ### Prerequisites and setup:
@@ -32,6 +33,7 @@ Automatic Emailing of Invoices solution in Business Central enables the followin
   - Job queue "Send Posted Sales Invoices by E-mail" runs and sends the invoice marking invoice "Email Sent Status" to Sent and filling "Email Sent Time"
 - **Send invoice manually by email**
   - Sending invoices manually with action "Send by Email" also marks "Email Sent Status" to Sent and fills "Email Sent Time"
+  - Recipient email address is taken from Bill-to Customer (if possible)
 - **Change "Email Sent Status" manually**
   -  Select posted Sales Invoice/Credit Memo and select Process -> Update Document
   -  In section "Email Sending" select new value for "Email Sent Status"

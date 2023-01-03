@@ -14,7 +14,7 @@ Toetatud teenused:
 [https://www.lhv.ee/et/connect](https://www.lhv.ee/et/connect)  
 
 Toetatud teenused:
-- Maksete edastamine panka.
+- Maksete edastamine panka (ootel e. allkirjastamata maksed).  
 - Regulaarne konto väljavõte – panga poolt automaatselt saadetav eelmise päeva väljavõte.
 - Kiirteavitused – panga poolt automaatselt saadetav teavitus iga tehingu kohta.
 
@@ -22,6 +22,7 @@ Toetatud teenused:
 [https://www.seb.ee/ariklient/igapaevapangandus/elektroonilised-kanalid/baltic-gateway](https://www.seb.ee/ariklient/igapaevapangandus/elektroonilised-kanalid/baltic-gateway)  
 
 Toetatud teenused:
+- Maksete edastamine panka (ootel e. allkirjastamata maksed).  
 - Jooksva päeva väljavõte.   
   NB! seadistage Business Central väljavõtet laadima piisava sagedusega, et päeva lõpust ei jääks mõni tehing laadimata.
 

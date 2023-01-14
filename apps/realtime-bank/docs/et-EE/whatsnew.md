@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Versioon 20.2.23014.0
+- Sobitamise parandused:
+  - Käsitsi sobitamisel puhul ei sulgunud pangakontondmiku kanne.
+  - Sobitamise muutmisel tavasidumiseks ei tekkinud konteerimisel kandeid.
+  
 ##### Versioon 20.2.22358.0
 - Maksežurnaali tegevusega "Edasta panka" saab makseid edastada nüüd ka SEB panka.
 - SEB Baltic Gateway seadistuse lehele lisandus tegevus "Võta lõpetatud päeva tehingud", mis lubab pärida lõpetatud pangapäevade väljavõtte (kuni 20p tagasi). Funktsionaalsus on vajalik juhuks kui päevasisene laadimine jäi mingil põhjusel poolikuks või seisis. Sel juhul saab laadida puuduvad tehingud lõpetatud pangapäeva tervikväljavõttest.

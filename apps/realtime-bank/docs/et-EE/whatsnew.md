@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 20.2.23015.0
+- Lisatud event OnBeforeMatchBankPayments, millega saab asendada sidumise koodiploki 1255 "Match Bank Payments" enda versiooniga.
+  
 ##### Versioon 20.2.23014.0
 - Sobitamise parandused:
   - Käsitsi sobitamisel puhul ei sulgunud pangakontondmiku kanne.

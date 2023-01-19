@@ -1,6 +1,6 @@
 ---
 ---
-# Realtime Bank
+# Realtime Bank for Finland
 See and process bank account transactions in real-time in Microsoft Dynamics 365 Business Central.
 
 ### Supported Bank Connectors

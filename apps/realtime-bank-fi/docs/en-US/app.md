@@ -1,21 +1,18 @@
 ---
 ---
 # Realtime Bank for Finland
-See and process bank account transactions in real-time in Microsoft Dynamics 365 Business Central.
+See and process bank account transactions in Microsoft Dynamics 365 Business Central.
 
-### Supported Bank Connectors
-1. Swedbank Gateway
-2. SEB Baltic Gateway
-3. LHV Connect
+### Supported Connectors
+Setup Azure storage and connect with Dynamics 365 Business Central.
 
 ### Key Features
-* Transmit payments directly form Business Central to bank.
-* Load bank account transactions into Business Central as they occur in bank.
-* See current bank account balance and transactions without leaving the Dynamics 365 Business Central.
+* Transmit payments form Business Central to bank.
+* Load bank account transactions into Business Central.
+* See bank account balance and transactions without leaving the Dynamics 365 Business Central.
 * Process bank transactions automatically (apply open invoices or cost accounts for charges).
 * Post automatically transactions with high confidence application status.
 * User is guided to focus on the rest of the transactions only (application not found or application with low confidence).
-* Have receivables updated in Dynamics 365 Business Central as soon as transactions occur in the bank.
 
 ### Supported Editions
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.
@@ -24,7 +21,7 @@ This extension supports both the Essential and Premium editions of Microsoft Dyn
 All countries where Business Central is available.
 
 ### Supported Languages
-The app is available in: Estonian (Estonia) and English (United States)
+The app is available in: Finnish (Finland) and English (United States)
 
 ---
 

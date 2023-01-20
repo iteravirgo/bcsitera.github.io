@@ -9,22 +9,18 @@
 
 ## Setup
 
-### Setup Bank Connetors
+### Setup Azure Storage Connector
 
-Three connectors are supported out-of-the-box:
-1. Swedbank Gateway
-2. SEB Baltic Gateway
-3. LHV Connect
+First setup Azure Stotage account and setup containers.
 
-Instructions to join with the service can be found [here (in estonian)](../et-EE/join.md).
-
-Each has its own setup card. Please open the setup of your bank connector and enter the following information: 
+Open Setup Azure Storage Connector page in Business Cental and enter following information: 
 
 Field |  Description | 
 -- | --
-Service URL | Enter the address of bank service. <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/
-Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format).
-Authorization/Device Certificate Password | Enter certificate password.
+Account Name | Enter account name.
+Shared Key | Inser account key.
+Input Container Name | Name of the Azure Stotage container for receiving bank statemenst.
+Output Container Name | Name of the Azure Stotage container for outgoing bank payment files.
 
 ### Setup Bank Account
 Open Bank Account card and choose the connector in the Bank Connector field.

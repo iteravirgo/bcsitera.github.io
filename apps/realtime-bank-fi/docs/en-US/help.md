@@ -22,8 +22,14 @@ Shared Key | Inser account key.
 Input Container Name | Name of the Azure Stotage container for receiving bank statemenst.
 Output Container Name | Name of the Azure Stotage container for outgoing bank payment files.
 
+![Setup](Setup.png)
+
+Test connection
+
 ### Setup Bank Account
 Open Bank Account card and choose the connector in the Bank Connector field.
+
+![bankaccount](bankaccount.png)
 
 ### Setup Realtime Bank
 Open Realtime Bank Setup and assign the number series for the Posted Transaction Nos. field.

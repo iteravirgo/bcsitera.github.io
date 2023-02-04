@@ -7,6 +7,7 @@ Business Central kasutab liidestamisel otsekanalit. Liitumiseks võtke ühendust
 [https://www.swedbank.ee/business/d2d/ebanking/gateway](https://www.swedbank.ee/business/d2d/ebanking/gateway)  
 
 Toetatud teenused:
+- Maksete edastamine panka (ootel e. allkirjastamata maksed).  
 - Regulaarne konto väljavõte – panga poolt automaatselt saadetav eelmise päeva väljavõte.
 - Kiirteavitused – panga poolt automaatselt saadetav teavitus iga tehingu kohta, mis vastab kehtestatud tingimustele (sisse/välja, valuuta, alates summast).
 

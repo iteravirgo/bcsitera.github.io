@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 20.2.23035.0
+- Lisandus maksete otseedastamine Swedpanka (lisaks LHV-le, SEB-le).
+
 ##### Versioon 20.2.23015.0
 - Lisatud event OnBeforeMatchBankPayments, millega saab asendada sidumise koodiploki 1255 "Match Bank Payments" enda versiooniga.
   

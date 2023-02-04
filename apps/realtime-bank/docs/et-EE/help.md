@@ -23,8 +23,9 @@ Pangaühenduste seadistamiseks on Business Centralis igal panga kohta oma kaart,
 Väli |  Selgitus | 
 -- | --
 Teenuse URL | Sisestage panga teenuse aadress: <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/
-Seadmesertifikaadi failinimi | Importige sertifikaadi fail (pfx/p12 formaat).
-Seadmesertifikaardi parool | Sisestage sertifikaadi parool.
+Seadme- või autentimissertifikaadi failinimi | Importige sertifikaadi fail (pfx/p12 formaat). Sertifikaadi saate pangast.
+Seadme- või autentimissertifikaadi parool | Sisestage sertifikaadi parool.
+Krüpteermissertifikaat (Swedbank-i puhul) | Sertifikaadi saab laadida siit: http://dev.swedbankgateway.net/info#certificates
 
 ### Pangakonto seadistused
 _Pangakonto_ kaardil saab määrata väljal "Pangaühendus" vastava seadistatud pangaühenduse.
@@ -62,22 +63,14 @@ Vaikimisi kuvatakse need pangatehingud, mis on konteerimata, mida kasutaja saab 
 
 ### Teenustasude sidumine
 
-Teenustasude ja teiste fikseeritud kontode sidumiseks on võimalik kasutada _Tekst-kontoks vastendamine_ funktsionaalsust või kirjeldada PR kontode vastavus "Tehingu tähiste" kaudu.
-Kiirkastis olevale väljale _Tehingu tähis_ vajutades avatakse leht _Pangatehingu tähis_.
-
-Lisage uus rida pangatehingu tähise ja sellele vastava PR kontoga. 
-Seejärel vajutades nupule "Seo automaatselt". Vastava pangatehingu Sidumise olek muutus _Kõrge täpsus_.
-
-Võimalik on korraga lisada mitu erinevat rida pangatehingu tähiste ja PR kontodega.
-
+Teenustasude ja teiste fikseeritud kontode sidumiseks on võimalik kasutada _Tekst-kontoks vastendamine_ funktsionaalsust.
 
 ### Arvete sidumine
 
 Arvetega sidumist saab lehel _Pangakonto tehingud_ teha kas automaatselt või käsitsi. 
 
-Automaatseks sidumiseks käivitage protsess _Seo automaatselt_.
-Kui töötlemise käigus leitakse hankija või kliendiga seotud maksmata arved (arve numbri, viitenumbri ja summa alusel), siis nende sidumise korral on _Sidumise olek_ "Kõrge täpsus".
-Kui töötlemise käigus leitakse hankija või klient, kuid ei leita vastavat arvet, siis kuvatakse _Sidumise olek_ "Madal täpsus".
+Automaatseks sidumiseks käivitage protsess _Seo automaatselt_.  
+
 Kasutajal on võimalik näha, missuguse arvega on pangatehing seotud, klikkides väljal "Seotud summa". Kasutajal on võimalik siduda arve ringi. 
 Juhul, kui kogu summat ei olnud võimalik arvetega siduda, siis väljal "Seotud summa" erineb väljal "Summa" näidatud summast.
 

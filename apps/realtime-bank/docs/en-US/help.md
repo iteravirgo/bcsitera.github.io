@@ -23,9 +23,9 @@ Each has its own setup card. Please open the setup of your bank connector and en
 Field |  Description | 
 -- | --
 Service URL | Enter the address of bank service. <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/
-Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format).
+Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format). Certifcate will be given by bank.
 Authorization/Device Certificate Password | Enter certificate password.
-
+Encryption Certificate (for Swedbank) | Certificate can be downloaded here: http://dev.swedbankgateway.net/info#certificates
 ### Setup Bank Account
 Open Bank Account card and choose the connector in the Bank Connector field.
 
@@ -60,16 +60,7 @@ In Bank Account card there is a new field Balance in Bank. Drilldown in this fie
 
 ### Applying Service Fees
 
-You can use Text-To-Account functionality or describe the G/L account corresponding to the Transaction Code.
-
-Click on the _Transaction Code_ field in the fast box _Bank Account Transaction Details._
-Enter the new line with bank transaction code and G/L Account.
-
-Then go back to transaction and press the Apply Automatically button.
-The Application status is changed to _High Confidence_.
-
-You can apply one or more transactions at once.
-
+You can use Text-To-Account functionality.  
 
 ### Applying Invoices
 Appying can be done either manually or automatically.

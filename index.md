@@ -9,7 +9,6 @@
 [Avaliku sektori finantsarvestus](apps/Public-Sector-Accounting/docs/et-EE/app.md)  
 [Soome e-arved](apps/finvoice/docs/en-US/app.md)  
 [Soome reaalajas pank](apps/realtime-bank-fi/docs/en-US/app.md)  
-[MCDS Connector](apps/mcds-connector/docs/en-US/app.md)  
 [Projektid 365](apps/Jobs365-General/docs/en-US/app.md)  
 [Automaatne arvete saatmine meilile](apps/Automatic-Emailing-of-Invoices/docs/et-EE/app.md)  
 

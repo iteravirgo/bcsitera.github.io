@@ -14,9 +14,6 @@
 [Automaatne arvete saatmine meilile](apps/Automatic-Emailing-of-Invoices/docs/et-EE/app.md)  
 
 ### Kaubanduse lahendused
-[Smart Warehouse | Nutiladu](apps/smart-warehouse/docs/et-EE/app.md)  
-[Sortimendi haldus](apps/StockRange/docs/et-EE/app.md)  
-[Kampaaniate haldus](apps/Campaign-management/docs/et-EE/app.md)  
 [Laiendatud krediidikontroll](apps/credit-check/docs/et-EE/app.md)  
 [Kaasnevad kaubad](apps/Additional-Goods/docs/et-EE/app.md)  
 [Eesti keel LS Central-ile](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  

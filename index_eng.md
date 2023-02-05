@@ -14,9 +14,6 @@
 [Automatic Emailing of Invoices](apps/Automatic-Emailing-of-Invoices/docs/en-US/app.md) 
 
 ### Apps for Distribution and Retail
-[Smart Warehouse](apps/smart-warehouse/docs/en-US/app.md)  
-[Assortment Management](apps/StockRange/docs/en-US/app.md)  
-[Campaign Management](apps/Campaign-management/docs/en-US/app.md)  
 [Extended Credit Check](apps/credit-check/docs/en-US/app.md)  
 [Additional Goods](apps/Additional-Goods/docs/en-US/app.md)  
 [Estonian Language for LS Central](apps/LS-Central-Estonian-Language/docs/en-US/app.md)  

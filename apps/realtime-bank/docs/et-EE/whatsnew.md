@@ -3,7 +3,7 @@
 
 ##### Versioon 20.2.23046.0
 - Lisandus vaikedimensioonide määramise võimalus tekst kontoks vastendamisele.
-- Parandus: arvega seotud makse puhul, kirjutas standardlahendus kasutaja sisestatud konteerimise kirjelduse üle.
+- Parandus: kasutaja sisestatud konteerimise kirjeldus ei läinud vahel konteerimisel kaasa.
 
 ##### Versioon 20.2.23035.0
 - Lisandus maksete otseedastamine Swedpanka (lisaks LHV-le, SEB-le).

@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 15.6.23045.0
+- Lisatud kuluaruandele väljad Riigi tähis (nähtav) ja Riigi nimetus (vaikimisi peidus), et kuvada lähetusaruandel külastatud riiki
+- Lisatud kuluaruandele väli Päevarahade kande kirjeldus (vaikimisi peidus), et kasutajal oleks võimalik muuta päevarahade PR kandele tulevat kande kirjeldust
+- Parandatud olukord, kus kuludokumendi ridades arvandmete muutmine ei kajastunud koheselt kuludokumendi päises olevates summades
+- Parandatud olukord, kus hankija manuaalsel lisamisel kuludokumendile tuli kasutajal eemaldada ning uuesti lisada kululiik, et aktiveeruks kululiigi alusel dokumendi PR konto määratlus  
+
 ##### Versioon 15.6.22178.0
 - Parandatud olukord, kus manuseid ei õnnestunud kuluaruannetele/kuludokumentidele BC20 versiooniga lisada
 - Parandatud olukord, kus kuluaruannete toomisel Costpocketist tuli viga "Tabelit Töövoo sündmus pole olemas."

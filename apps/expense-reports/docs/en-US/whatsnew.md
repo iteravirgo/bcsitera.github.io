@@ -1,5 +1,11 @@
 ---
 ---
+##### Version 15.6.23045.0
+- Added fields Country Code (visible) and Country Name (hidden by default) to Expense Report, in order to show country visited on travel report
+- Added field Daily allowance entry description (hidden by default) to Expense Report, in order to makedaily allowance G/L entry description editable to user
+- Fixed issue, that when changing amounts on expense document lines, then expense document amount on document header did not change immediately (user doesnt have to press F5 anymore)
+- Fixed issue, that when expense document had expense type specified but no vendor, then after adding vendor user had to manually remove and reenter cost type in order for the predetermined G/L account to activate  
+
 ##### Version 15.6.22178.0
 - Fixed situation where it was not possible to add attachments to Expense reports/documents
 - Fixed error "The Workflow Event does not exist" that came when reports were imported from CostPocket

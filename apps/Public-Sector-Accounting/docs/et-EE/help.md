@@ -46,7 +46,7 @@ Sektsioonis **Üldine** määratletakse:
 <br><br>
 
 ### Riigi kontod
-Esmase installeerimise käigus täidab lahendus riigi kontode tabeli vaikeväärtustega. *(Kontod seisuga jaanuar 2020.)*<br>
+Esmase installeerimise käigus täidab lahendus riigi kontode tabeli vaikeväärtustega. *(Kontod seisuga juuli 2022.)*<br>
 Riigi kontode tabel koosneb kontodest, millel on number, nimetus ning vastavate dimensioonide kohustuslikkuse määratlused vaadeldava konto osas.<br>
 **Tehingupartner ja/või Tegevusala dimensioon võivad olla tingimuslikult kohustuslik**ud - st vastav dimensioon on ainult siis kohustuslik lisada, kui tehingu rahavoo dimensioon on ettemääratud väärtusega (tavaliselt 01).
 
@@ -57,6 +57,7 @@ Seadista järgnevad väljad parema kasutajakogemuse ning täpsema saldoandmiku s
 | Konstantne TP dimensioon | Määrab konstantse tehingupartneri dimensiooni väärtuse riigi kontole. **Riigi kontole määratud väärtus prevalveerib pearaamatu kandel oleva väärtuse üle**. Kasutatakse tavaliselt maksu kontodel, sest maksude tehingupartner saab olla vaid üks (Maksu- ja Tolliamet). <br> ***Märkus!** Kui siin on tehingupartneri kood määratud, siis puudub vajadus vastaval PR kontol Tähis kohustuslik vaikedimensiooni määratlemiseks.*|
 | Kasuta konstantset TP dimensiooni pangakonto kaardilt | Määrab **kas lahendus kasutab saldoandmiku loomisel pangakonto kaardil määratud konstantset riigi tehingupartneri dimensiooniväärtust** pearaamatu kandel oleva tehingupartneri dimensiooniväärtuse asemel. Kasutatakse tavaliselt Arvelduskontod pankades kontol. <br> ***Märkus!** Kasutades pangakonto kaardil Konstantne riigi TP dimensioon väärtust ei tohiks pangakontol tehingupartneri vaikedimensiooni kasutada, sest võivad tekkida dimensioonikonfliktid laekumiste/maksete sobitamisel.*|
 | Riigi kontoklassi määrang | Määrab **riigi kontole vasava kontoklassi** Näiteks laovarude soetamisel saab siin märkida kontoklassiks 55. Kui kontoklass on määramata, siis võetakse kontoklassiks riigi konto kaks esimest numbrit. <br> *Välja kasutatakse ainult makseandmiku koostamisel.*|
+| Lukus | Lukus olevat riigi kontot ei saa valida PR kontole, riigi saldoandmikule ja riigi makseandmikule.<br> _Ühtlasi ei kuvata lukus olevat kontot riigi kontode valikus (filtriga peidus)._|
 
 Kasutaja saab taastada riigi kontode tabeli vaikeväärtused nupust "**Lähtesta riigi kontod**". <br>
 **Hoiatus!** Lähtestamine kaotab kõik Kasutaja tehtud muudatused riigi kontodes.
@@ -86,15 +87,16 @@ Kasutaja peaks igale pangakontole **määratlema Konstantne riigi TP dimensioon 
 Määratlust kasutatakse riigi saldoandmiku koostamisel, kui riigi kontoplaanis on märgitud väli "Kasuta konstantset pangakonto TP dimensiooni pangakonto kaardilt".<br>  
 
 **Märkus!Kui väli Konstantne riigi TP dimensioon on kasutusel, siis tuleks vastavalt PR kontolt (leitav pangakonto konteeringurühma kaudu) eemaldada Tähis kohustuslik vaikedimensiooni nõue Tehingupartneri dimensiooni osas.**
-
 <br>
+
 **Kajasta makseandmikus** määrab kas pangakontolt toimunud maksed võetakse arvesse riigi makseandmiku koostamisel.
 
 <br><br>
 
 ## Kasutamine
 ### Pearaamatu kanded
-Kontoplaanis määratud kohustuslikud vaikedimensioonid tuleb lisada igale PR kandele. Lisaks salvestatakse kandele riigi konto number. Vastava info abil loob lahendus riigile esitatava saldoandmiku.
+Kontoplaanis määratud kohustuslikud vaikedimensioonid tuleb lisada igale PR kandele. Lisaks salvestatakse kandele riigi konto number. Vastava info abil loob lahendus riigile esitatava saldoandmiku.  
+_Riigi konto numbrit on võimalik pearaamatu kannetes muuta, kasutades "Redigeeri loendit" toimingut._  
 <br><br>
 
 ### Riigi saldoandmikud

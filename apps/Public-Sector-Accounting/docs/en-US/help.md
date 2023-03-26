@@ -41,7 +41,7 @@ In **section General** we specify :
 | Company Transaction Partner Code | Specifies **company's own Transaction partner code** used in State Balance Report XML file.|
 | Company Business Activity Code | Specifies **company's main Business activity code**. Dimension value here shall be automatically added as Default dimension value, when applying State accounts to G/L Accounts.|
 | State Payment Report No. Series | Specifies the code for the number series that will be used to assign numbers to **State Payment Reports**.|
-| Exclude Transaction Partner from Payment Report | Specifies transaction partner dimension values **to be excluded** from State payment report. (For example 014001|800699).|
+| Exclude Transaction Partner from Payment Report | Specifies transaction partner dimension values **to be excluded** from State payment report. (For example 014001 and 800699).|
 | Report Payments from Amount | Specifies the bank account entry''s **starting amount** that''s reported in State Payment Report (usually 100).|
 
 

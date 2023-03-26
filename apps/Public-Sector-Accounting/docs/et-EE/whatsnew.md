@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 17.0.23085.0
+- Riigi kontoplaani lisatud väli "Lukus"
+  - Kui riigi konto on "Lukus", siis seda ei saa valida PR kontole, saldoandmikusse ega makseandmikusse
+- Taastatud võimalus muuta Pearaamatu kannetes Riigi kontot
+- Väiksemad UX täiendused (nt saldo- ja makseandmikus on võimalik kuvada aruande loojat/muutjat)
+
 ##### Versioon 17.0.22188.0
 - Parandatud bugi, mis avaldus juhul kui riigi nõutud dimensioon oli üheks globaaldimensiooniks:
   - Kontoplaanis Riigi konto valimisel

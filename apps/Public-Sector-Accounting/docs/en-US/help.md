@@ -4,7 +4,9 @@ Public Sector Accounting and Reporting solution in Business Central enables the 
 - Management of State G/L Accounts
 - Management of State Transaction Partners
 - Management of State Balance Reports
-- Submit State Balance Report as XML file to Estonian State Balance Reports Information System
+ - Submit State Balance Report as XML file to Estonian State Balance Reports Information System
+- Management of State Payment Reports
+ - Submit State Payment Report as XML file to Estonian State Balance Reports Information System
 <br><br>
 
 ## Settings
@@ -38,6 +40,9 @@ In **section General** we specify :
 | Transaction Partner No. Series | Specifies **Transaction partner** number series. Value can be chosen from **No. Series List**.|
 | Company Transaction Partner Code | Specifies **company's own Transaction partner code** used in State Balance Report XML file.|
 | Company Business Activity Code | Specifies **company's main Business activity code**. Dimension value here shall be automatically added as Default dimension value, when applying State accounts to G/L Accounts.|
+| State Payment Report No. Series | Specifies the code for the number series that will be used to assign numbers to **State Payment Reports**.|
+| Exclude Transaction Partner from Payment Report | Specifies transaction partner dimension values **to be excluded** from State payment report. (For example 014001|800699).|
+| Report Payments from Amount | Specifies the bank account entry''s **starting amount** that''s reported in State Payment Report (usually 100).|
 
 
 ### State G/L Accounts
@@ -51,6 +56,8 @@ Configure following fields for better user experience and more accurate State Ba
 |---|---| 
 | Constant TP Dimension | Specifies constant transaction partner dimension value for State G/L Account. **Value here shall override any Transaction Partner dimension value on General Ledger Entries**. Typically used for tax accounts, because there can be only one transaction partner code for Tax and Customs Board.<br> ***Note!** If value is specified here, then there is no need for Code Mandatory setting for Transaction Partner dimension in corresponding G/L Account's default dimensions.*|
 | Use Constant TP Dimension on Bank Account | Specifies if system uses **Constant State Transaction Partner dimension value specified on Bank Account card to override any Transaction Partner value on General Ledger Entries**. Typically used for cash accounts.<br> ***Note!** When using Constant State Transaction Partner dimension value on Bank Account card, a Default dimension for Bank Account Card should NOT be used.*|
+| State Account Class Exception | Specify manually a **value for state account class**. If not specified then state account''s first two digits are used as state account''s class.|
+| Blocked | Specifies that the state account **is not selectable** to G/L Account, State Balance report and State Payment report.|
 
 
 User can reset state accounts table to default values with button "**Reset State G/L Accounts**".
@@ -79,7 +86,8 @@ When Transaction Partner Id is selected, solution adds corresponding Transaction
 For every bank's cash account User should **specify a Constant State TP Dimension**. This can be done on Bank Account Card.<br>
 This specifies constant transaction partner dimension for current bank account's bank and therefore **there is no need for Default dimension value**.<br>
 This dimension value will be used in State Balance Report, if field "Use Constant Bank Account TP Code" is selected in table State G/L Accounts.<br>
-***Note!** When using Constant State Transaction Partner dimension value on Bank Account card, a Default dimension Code Mandatory value posting condition for corresponding G/L Account (look via Bank Acc. Posting Group) should be removed.*
+***Note!** When using Constant State Transaction Partner dimension value on Bank Account card, a Default dimension Code Mandatory value posting condition for corresponding G/L Account (look via Bank Acc. Posting Group) should be removed.*<br>
+**Include in State Payment Report** - Specifies whether the bank account''s entries are included in State Payment report.
 <br><br>
 
 
@@ -96,6 +104,18 @@ In order to check General Ledger Entries that form a State Balance Report Line, 
 <br><br>
 If there are incorrect values found on some State Balance Report Lines, due to incorrect dimensions used on General Ledger entries, then use <a href="http://apps.itera.ee/apps/dimension-correction-tool/docs/en-US/app.html" target="_blank">Dimension Correction Tool</a> to fix those entries.
 After a correction in entries, User must Calculate Lines to view the corrected result in State Balance Report Lines.
+<br><br>
+Button "**Create XML File**" saves created State Balance Report to XML file that can be imported to Estonian State Balance Reports Information System.  
+
+
+### State Payment Reports
+To create a new Payment Report User must specify Year and Month of the reporting period.<br>
+Button **"Calculate Lines" creates State Payment Report Lines**.  
+Lines are created for every bank payment over the amount specified in State Finance Setup and for all bank accounts that are specified as "Include in State Payment Report".  
+Note! In General Ledger Entries it's possible to use action **Exclude entry from State Payment Report** to exclude entry (_for example entry with state secrecy_) from State Payment Report.
+<br><br>
+System finds every purchase invoice related to payment and looks through every line to find expense classes. In case payment was partial, then system calculates amounts poprtionally.  
+In case payment is not related to any invoice and only to G/L account then system finds Transaction partner and State account no from that general ledger entry and so determines expense class.
 <br><br>
 Button "**Create XML File**" saves created State Balance Report to XML file that can be imported to Estonian State Balance Reports Information System.
 

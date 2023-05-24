@@ -21,8 +21,7 @@
 [Aadressiotsing](apps/Address-Autocomplete/docs/et-EE/app.md)  
 
 ### Personalijuhtimise lahendused
-[Palk 365](apps/payroll365/docs/et-ee/help.md)  
-[Personal 365](apps/payroll365/docs/et-ee/help.md)
+[HRM4Baltics](apps/payroll365/docs/et-ee/help.md)  
 
 ### Kinnisvarahalduse lahendused
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  

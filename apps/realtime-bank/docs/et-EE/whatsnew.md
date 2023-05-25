@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 20.2.23099.0
+Pangatehingute sidumiseks ja konteerimiseks saab nüüd kasutada "Maksete sobitamise žurnaali".
+ 
+Sellisel juhul imporditakse pangatehingud **RTB** nimelisse maksete sobitamise žurnaali. Tegu on püsiva žurnaaliga, mis ei kustu konteerimisel ning millest on lubatud ka osaline konteerimine. Žurnaalirea konteerimisel märgitakse ka pangatehingute aknas tehing konteerituks.
+
+Maksete sobitamise žurnaali kasutamise saab aktiveerida reaalaja panga seadistuse "Sidumise loogika" valikus.  
 
 ##### Versioon 20.2.23046.0
 - Lisandus vaikedimensioonide määramise võimalus tekst kontoks vastendamisele.

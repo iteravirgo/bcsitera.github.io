@@ -1,5 +1,5 @@
 # Sisukord
-[HRM4Baltics kasutusjuhend](Palk365-ja-Personal365-kasutusjuhend.pdf)  
-[HRM4Baltics seadistamise juhend](Palk365-ja-Personal365-seadistamise-juhend.pdf)  
-[HRM4Baltics iseteenindusportaali juhend](Personal365-iseteenindusportaali-kasutusjuhend.pdf)  
-[HRM4Baltics veebiteenuste dokumentatsioon](Palk365_Personal365-veebiteenuste-dokumentatsioon.pdf)  
+[HRM4Baltics kasutusjuhend](HRM4Baltics-kasutusjuhend.pdf)  
+[HRM4Baltics seadistamise juhend](HRM4Baltics-seadistamise-juhend.pdf)  
+[HRM4Baltics iseteenindusportaali juhend](HRM4Baltics-iseteenindusportaali-kasutusjuhend.pdf)  
+[HRM4Baltics veebiteenuste dokumentatsioon](HRM4Baltics-veebiteenuste-dokumentatsioon.pdf)  

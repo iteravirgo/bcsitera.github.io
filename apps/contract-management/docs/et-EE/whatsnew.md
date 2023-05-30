@@ -1,4 +1,7 @@
 ---
+##### Versioon 21.0.23147.2 Avaldatud 27.05.2023
+- Uus funktsionaalsus: Mitu partnerit.
+
 ##### Versioon 18.0.22153.0 Avaldatud 06.06.2022
 - Bugfix: Manustatud dokumendid ei salvestanud faili.
 

@@ -1,4 +1,7 @@
 ---
+##### Version 21.0.23147.2 Published 27.05.2023
+- New feature: Multiple partners.
+
 ##### Version 18.0.22153.0 Published 06.06.2022
 - Bugfix: Document attachments did not save the attachment.
 

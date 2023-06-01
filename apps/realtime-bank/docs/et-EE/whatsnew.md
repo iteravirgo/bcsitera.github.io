@@ -1,6 +1,9 @@
 ---
 ---
-##### Versioon 20.2.23145.0
+##### Versioon 21.0.23153.0
+- RTB makste sobitamise žurnaalis saab nüüd üht pangatehingu rida jagada mitmeks kasutades nuppu "Vii erinevus üle kontole". Konteerimine kontrollib, et jagatud ridade summa vastaks pangatehingu summale.
+
+##### Versioon 21.2.23145.0
 Pangatehingute sidumiseks ja konteerimiseks saab nüüd kasutada "Maksete sobitamise žurnaali".
  
 Sellisel juhul imporditakse pangatehingud **RTB** nimelisse maksete sobitamise žurnaali. Tegu on püsiva žurnaaliga, mis ei kustu konteerimisel ning millest on lubatud ka osaline konteerimine. Žurnaalirea konteerimisel märgitakse pangatehingute aknas tehing konteerituks.

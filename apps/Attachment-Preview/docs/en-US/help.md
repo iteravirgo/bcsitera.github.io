@@ -14,7 +14,11 @@ To view MS Office files a browser plugin <a href="https://chrome.google.com/webs
 Just click on **Open** and big preview of the file is opened.  
 Select incoming document file line to view small preview in factbox (_only for incoming document files_).  
 
-![View Big preview or Small preview](IncomingDocumentFiles.png "Just click Open to view big preview of file")
+![Document attachments](AttachedDocuments_V2.png "Just click Open to view big preview of file")
+
+
+![Incoming document files](IncomingDocumentFiles.png "Select line to view small preview or click Open to view big preview of file")
+  
   
   
 ## Attachment Preview is supported on following pages:

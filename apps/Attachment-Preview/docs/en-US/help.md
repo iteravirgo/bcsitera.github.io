@@ -1,6 +1,6 @@
 # Attachment Preview
 Attachment Preview solution in Business Central enables the following: 
-- Preview files without downloading them
+- **Preview files without downloading them**
 - Preview is shown on separate page (_as big preview_) or in factbox (_as small preview for incoming document files_)
   
 
@@ -12,7 +12,9 @@ To view MS Office files a browser plugin <a href="https://chrome.google.com/webs
     
 ## Usage
 Just click on **Open** and big preview of the file is opened.  
-Select incoming document file line to view small preview in factbox.  
+Select incoming document file line to view small preview in factbox (_only for incoming document files_).  
+
+![View Big preview or Small preview](IncomingDocumentFiles.png "Just click Open to view big preview of file")
   
   
 ## Attachment Preview is supported on following pages:

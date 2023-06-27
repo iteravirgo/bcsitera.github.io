@@ -10,7 +10,8 @@
 [E-Invoicing for Finland](apps/finvoice/docs/en-US/app.md)  
 [Realtime Bank for Finland](apps/realtime-bank-fi/docs/en-US/app.md)  
 [Jobs365 - General](apps/Jobs365-General/docs/en-US/app.md)  
-[Automatic Emailing of Invoices](apps/Automatic-Emailing-of-Invoices/docs/en-US/app.md) 
+[Automatic Emailing of Invoices](apps/Automatic-Emailing-of-Invoices/docs/en-US/app.md)  
+[Attachment Preview](apps/Attachment-Preview/docs/en-US/app.md)  
 
 ### Apps for Distribution and Retail
 [Extended Credit Check](apps/credit-check/docs/en-US/app.md)  

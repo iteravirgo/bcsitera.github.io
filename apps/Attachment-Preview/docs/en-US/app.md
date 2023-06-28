@@ -9,12 +9,13 @@ This extension provides attachment preview functionality for Microsoft Dynamics 
 - All pages with Document attachments
 - All pages with Incoming document files (except Sales documents)
 - Report Inbox
+- Email Attachments
   
 #### Multiple file types supported including:
 - PDF
 - Pictures (.jpg, .png, etc)
 - MS Office files (.docx, .xlsx, .pptx)
-  - _Note! Separate free plugin from Google needed_
+  - _Note! Separate free browser plugin from Google needed (see User Guide for details)_
 - Text files (.txt)
 - _etc (if handled by browser)_
 

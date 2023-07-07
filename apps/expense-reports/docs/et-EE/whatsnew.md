@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 20.0.23103.0
+- Tehtud lahendus BC22 versiooniga ühilduvaks
+- Lisatud päevarahade konto määramisel loogika, et dimensioonid kuluaruandele luuakse nii töötaja, kui PR konto vaikedimensioonide alusel
+- Parandatud veaolukord, mis tekkis kuluaruande manuaalsel loomisel (_süsteem läks ekslikult kohe kuluaruande esitajat otsima_)
+- UX täiendused  
+
 ##### Versioon 15.6.23045.0
 - Lisatud kuluaruandele väljad Riigi tähis (nähtav) ja Riigi nimetus (vaikimisi peidus), et kuvada lähetusaruandel külastatud riiki
 - Lisatud kuluaruandele väli Päevarahade kande kirjeldus (vaikimisi peidus), et kasutajal oleks võimalik muuta päevarahade PR kandele tulevat kande kirjeldust

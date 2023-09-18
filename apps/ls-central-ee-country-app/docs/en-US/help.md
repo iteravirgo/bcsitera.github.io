@@ -19,12 +19,16 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 **BCS Itera_LSC Estonian Country App_xx.x.xxxxx.x.app** is a small app which adds Dynamics 365 Business Central Estonian localization functionality related data fields and actions to LS Central pages (metadata cards/lists and documents). It includes the following objects:
 
 * **Pageextension 70404925 "BCS.LSC CustomerListExt"** extends **"LSC Retail Customer List"**
-    *   Fields added: **Registration No.**
-    *   Actions added: **Update Data from Business Register**
+    *   Fields added: **BRQ Registration No.**
+    *   Actions added: **BRQ Update Data from Business Register**
+    *   **New > Sales Order** option replaced with **Retail Sales Order**, the action runs new document **LSC Retail Sales Order**
+    *   **New Document > Sales Return Order** option replaced with **Retail Sales Return Order**, the action runs new document **LSC Retail Sales Return Order**
 
 * **Pageextension 70404926 "BCS.LSC CustomerCardExt"** extends **"LSC Retail Customer Card"**
-    *   Fields added: **Balance Statement E-Mail**, **Registration No.**, **Payment Reference No.**
-    *   Actions added: **Query from Business Register**
+    *   Fields added: **SBS Balance Statement E-Mail**, **BRQ Registration No.**, **BNK Payment Reference No.**
+    *   Actions added: **BRQ Query from Business Register**
+    *   **New > Sales Order** option replaced with **Retail Sales Order**, the action runs new document **LSC Retail Sales Order**
+    *   **New Document > Sales Return Order** option replaced with **Retail Sales Return Order**, the action runs new document **LSC Retail Sales Return Order**  
 
 * **Pageextension 70404927 "BCS.LSC VendorListExt"** extends **"LSC Retail Vendor List"**
     *   Fields added: **Registration No.** 

@@ -99,9 +99,12 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 * **Tableextension 70404925 "BCS.LSC Vat Entry"** extends **"VAT Entry"**
     *   Fields added: **CustLedg. Entry Descr.**
       
-* **Codeunit 70404925 "BCS.LSC Management"** - used for setting up VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
+* **Codeunit 70404925 "BCS.LSC Management"** - used for open pages and lists in **LSC Retail** pages and lists view, also new documents after converting or posting in **LSC Retail Document** page.
+    *   In **Sales Quote** document action **Sales-Quote to Order** opens created order in **LSC Retail Sales Order** page
+    *   In **LSC Retail Sales Order** document after action **Post** Business Central offers to open Posted Sales Invoice, if choose YES, it opens this posted invoice in **LSC Retail P. Sales Invoice** page  
 
-* **Report 70404925 "BCS.LSC VAT Declar"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
+* **Report 70404925 "BCS.LSC VAT Return Management"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
+    *   Supports use the **POS Receipt no** from **Transaction Register** that it arrives to **Cust. Ledger Enrty** and **VAT Ledger Entry** tables and shown as **Invoice No.** to **KMD VAT Report INF Line**
 
 ***Note!** The use of added fields and actions is described in user guides links specified above.*
 <br><br>

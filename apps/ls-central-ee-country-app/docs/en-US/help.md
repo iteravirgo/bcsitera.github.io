@@ -31,24 +31,74 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   **New Document > Sales Return Order** option replaced with **Retail Sales Return Order**, the action runs new document **LSC Retail Sales Return Order**  
 
 * **Pageextension 70404927 "BCS.LSC VendorListExt"** extends **"LSC Retail Vendor List"**
-    *   Fields added: **Registration No.** 
-    *   Actions added: **Update Data from Business Register** 
+    *   Fields added: **BRQ Registration No.** 
+    *   Actions added: **BRQ Update Data from Business Register**
+    *   **New > Purchase Order** option replaced with **Retail Purchase Order**, the action runs new document **LSC Retail Purchase Order**
+    *   **New Document > Purchase Return Order** option replaced with **Retail Purchase Return Order**, the action runs new document **LSC Retail Purchase Return Order**
 
 * **Pageextension 70404928 "BCS.LSC VendorCardExt"** extends **"LSC Retail Vendor Card"**
-    *   Fields added: **Balance Statement E-Mail**, **Registration No.**, **Payment Reference No.**
-    *   Actions added: **Query from Business Register**
+    *   Fields added: **SBS Balance Statement E-Mail**, **BRQ Registration No.**, **BNK Payment Reference No.**
+    *   Actions added: **BRQ Query from Business Register**
+    *   **New > Purchase Order** option replaced with **Retail Purchase Order**, the action runs new document **LSC Retail Purchase Order**
+    *   **New Document > Purchase Return Order** option replaced with **Retail Purchase Return Order**, the action runs new document **LSC Retail Purchase Return Order**
 
 * **Pageextension 70404929 "BCS.LSC ItemCardExt"** extends **"LSC Retail Item Card"**
-    *   Fields added: **Package Excise Calculation**
-    *   Actions added: **Package Materials**
+    *   Fields added: **PEX Package Excise Calculation**
+    *   Actions added: **PEX Package Materials**
 
 * **Pageextension 70404930 "BCS.LSC PostedSalesInvCardExt"** extends **"LSC Retail P. Sales Invoice"**
-    *   Fields added: **Payment Reference No.**
+    *   Fields added: **BNK Payment Reference No.**
 
 * **Pageextension 70404931 "BCS.LSC Sales Order"** extends **"LSC Retail Sales Order"**
-    *   Fields added: **Payment Reference No.**
-    *   Actions added: **Get Cust. Spec. Prepayment**
+    *   Fields added: **BNK Payment Reference No.**
+    *   Actions added: **PPY Get Cust. Spec. Prepayment**
+    *   **Navigate > Shipments** option opens **LSC Retail P. Sales Shipments** list
+    *   **Navigate > Invoices** option opens **LSC Retail P. Sales Invoices** list
 
+* **Pageextension 70404932 "BCS.LSC SalesHistSellToFb"** extends **"Sales Hist. Sell-to FactBox"**
+    *   Tile **Ongoing Sales Orders** opens **LSC Retail Sales Order** list
+    *   Tile **Ongoing Sales Return Orders** opens **LSC Retail Sales Ret.Order** list
+    *   Tile **Posted Sales Shipments** opens **LSC Retail P. Sales Shipments** list
+    *   Tile **Posted Sales Invoices** opens **LSC Retail P. Sales Invoices** list
+    *   Tile **Posted Sales Return Receipts** opens **LSC Retail P. Ret.Receipt** list
+    *   Tile **Posted Sales Credit Memos** opens **LSC Retail P. Sales Cr.M.** list
+
+* **Pageextension 70404933 "BCS.LSC SalesHistBillToFb"** extends **"Sales Hist. Bill-to FactBox"**
+    *   Tile **Orders** opens **LSC Retail Sales Order** list
+    *   Tile **Return Orders** opens **LSC Retail Sales Ret.Order** list
+    *   Tile **Posted Shipments** opens **LSC Retail P. Sales Shipments** list
+    *   Tile **Posted Invoices** opens **LSC Retail P. Sales Invoices** list
+    *   Tile **Post Return Receipts** opens **LSC Retail P. Ret.Receipt** list
+    *   Tile **Post.Credit Memos** opens **LSC Retail P. Sales Cr.M.** list
+
+* **Pageextension 70404934 "BCS.LSC Customer Stat.Factbox"** extends **"Customer Statistics FactBox"**
+    *   **No.** opens **LSC Retail Customer Card**
+
+* **Pageextension 70404935 "BCS.LSC Customer Det. Factbox"** extends **"Customer Details FactBox"**
+    *   **No.** opens **LSC Retail Customer Card**
+
+* **Pageextension 70404936 "BCS.LSC Vend. Hist.BuyFrom FB"** extends **"Vendor Hist. Buy-from FactBox"**
+    *   Tile **Orders** opens **LSC Retail Purch.Ret.Order Lst**
+
+* **Pageextension 70404937 "BCS.LSC Vend. Hist. PayTo FB"** extends **"Vendor Hist. Pay-to FactBox"**
+    *   **No.** opens **LSC Retail Vendor Card**
+    *   Tile **Orders** opens **LSC Retail Purch.Ret.Order Lst**
+
+* **Pageextension 70404938 "BCS.LSC Purchase Line Factbox"** extends **"Purchase Line FactBox"**
+    *   **No.** opens **LSC Retail Item Card**
+   
+* **Pageextension 70404939 "BCS.LSC Vendor Statistics FB"** extends **"Vendor Statistics FactBox"**
+    *   **No.** opens **LSC Retail Vendor Card**
+
+* **Pageextension 70404940 "BCS.LSC Vendor Details Factbox"** extends **"Vendor Details FactBox"**
+    *   **No.** opens **LSC Retail Vendor Card**
+
+* **Pageextension 70404941 "BCS.LSC Item Inventory FB"** extends **"LSC Item Inventory FactBox"**
+    *   **No.** opens **LSC Retail Item Card**
+
+* **Tableextension 70404925 "BCS.LSC Vat Entry"** extends **"VAT Entry"**
+    *   Fields added: **CustLedg. Entry Descr.**
+      
 * **Codeunit 70404925 "BCS.LSC Management"** - used for setting up VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
 
 * **Report 70404925 "BCS.LSC VAT Declar"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**

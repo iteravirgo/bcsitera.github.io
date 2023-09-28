@@ -56,20 +56,20 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   **Navigate > Invoices** option opens **LSC Retail P. Sales Invoices** list
 
 * **Pageextension 70404932 "BCS.LSC SalesHistSellToFb"** extends **"Sales Hist. Sell-to FactBox"**
-    *   Tile **Ongoing Sales Orders** opens **LSC Retail Sales Order** list
-    *   Tile **Ongoing Sales Return Orders** opens **LSC Retail Sales Ret.Order** list
-    *   Tile **Posted Sales Shipments** opens **LSC Retail P. Sales Shipments** list
-    *   Tile **Posted Sales Invoices** opens **LSC Retail P. Sales Invoices** list
-    *   Tile **Posted Sales Return Receipts** opens **LSC Retail P. Ret.Receipt** list
-    *   Tile **Posted Sales Credit Memos** opens **LSC Retail P. Sales Cr.M.** list
+    *   Tile **Ongoing Sales Orders** opens **LSC Retail Sales Order List**
+    *   Tile **Ongoing Sales Return Orders** opens **LSC Retail Sales Ret.Order Lst**
+    *   Tile **Posted Sales Shipments** opens **LSC Retail P. Sales Shipments**
+    *   Tile **Posted Sales Invoices** opens **LSC Retail P. Sales Invoices**
+    *   Tile **Posted Sales Return Receipts** opens **LSC Retail P. Ret.Receipt List**
+    *   Tile **Posted Sales Credit Memos** opens **LSC Retail P. Sales Cr.M. List**
 
 * **Pageextension 70404933 "BCS.LSC SalesHistBillToFb"** extends **"Sales Hist. Bill-to FactBox"**
-    *   Tile **Orders** opens **LSC Retail Sales Order** list
-    *   Tile **Return Orders** opens **LSC Retail Sales Ret.Order** list
-    *   Tile **Posted Shipments** opens **LSC Retail P. Sales Shipments** list
-    *   Tile **Posted Invoices** opens **LSC Retail P. Sales Invoices** list
-    *   Tile **Post Return Receipts** opens **LSC Retail P. Ret.Receipt** list
-    *   Tile **Post.Credit Memos** opens **LSC Retail P. Sales Cr.M.** list
+    *   Tile **Orders** opens **LSC Retail Sales Order List**
+    *   Tile **Return Orders** opens **LSC Retail Sales Ret.Order Lst**
+    *   Tile **Posted Shipments** opens **LSC Retail P. Sales Shipments**
+    *   Tile **Posted Invoices** opens **LSC Retail P. Sales Invoices**
+    *   Tile **Post Return Receipts** opens **LSC Retail P. Ret.Receipt List**
+    *   Tile **Post.Credit Memos** opens **LSC Retail P. Sales Cr.M. List**
 
 * **Pageextension 70404934 "BCS.LSC Customer Stat.Factbox"** extends **"Customer Statistics FactBox"**
     *   **No.** opens **LSC Retail Customer Card**
@@ -78,11 +78,14 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   **No.** opens **LSC Retail Customer Card**
 
 * **Pageextension 70404936 "BCS.LSC Vend. Hist.BuyFrom FB"** extends **"Vendor Hist. Buy-from FactBox"**
+    *   **No.** opens **LSC Retail Vendor Card**
     *   Tile **Orders** opens **LSC Retail Purch.Ret.Order Lst**
+    *   Tile **Return Orders** opens **LSC Retail Purch.Ret.Order List**
 
 * **Pageextension 70404937 "BCS.LSC Vend. Hist. PayTo FB"** extends **"Vendor Hist. Pay-to FactBox"**
     *   **No.** opens **LSC Retail Vendor Card**
     *   Tile **Orders** opens **LSC Retail Purch.Ret.Order Lst**
+    *   *   Tile **Return Orders** opens **LSC Retail Purch.Ret.Order List**
 
 * **Pageextension 70404938 "BCS.LSC Purchase Line Factbox"** extends **"Purchase Line FactBox"**
     *   **No.** opens **LSC Retail Item Card**
@@ -100,10 +103,10 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   Fields added: **CustLedg. Entry Descr.**
       
 * **Codeunit 70404925 "BCS.LSC Management"** - used for open pages and lists in **LSC Retail** pages and lists view, also new documents after converting or posting in **LSC Retail Document** page.
-    *   In **Sales Quote** document action **Sales-Quote to Order** opens created order in **LSC Retail Sales Order** page
-    *   In **LSC Retail Sales Order** document after action **Post** Business Central offers to open Posted Sales Invoice, if choose YES, it opens this posted invoice in **LSC Retail P. Sales Invoice** page  
+    *   In **Sales Quote** document action **Sales-Quote to Order** opens created order in **LSC Retail Sales Order** document
+    *   In **LSC Retail Sales Order** document after action **Post** Business Central offers to open Posted Sales Invoice, if choose YES, it opens this posted invoice in **LSC Retail P. Sales Invoice** document  
 
-* **Report 70404925 "BCS.LSC VAT Return Management"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
+* **Codeunit 70404926 "BCS.LSC VAT Return Management"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
     *   Supports use the **POS Receipt no** from **Transaction Register** that it arrives to **Cust. Ledger Enrty** and **VAT Ledger Entry** tables and shown as **Invoice No.** to **KMD VAT Report INF Line**
 
 ***Note!** The use of added fields and actions is described in user guides links specified above.*

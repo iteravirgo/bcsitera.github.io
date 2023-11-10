@@ -53,6 +53,8 @@ _Jobs related setup_
 |**_Default Job Planning Line Line Type_** |Specifies default Line Type for Job Planning Line when Job Planning Line will be created from Contract Line using **Send to Job functionality**.
 |**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
 
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupContactsENG.png" target="_blank"><img src="ContManSetupContactsENG.png" alt="ContManContSetup" width="800"/></a>
+
 _Contacts related initial setup if Contacts module not in use_
 
 |Field|Explanation|
@@ -118,7 +120,7 @@ An empty **Contract card** opens where you can fill and track following fields:
 
 On **Finance** tab you can fill and track following fields:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardFinENG.png" target="_blank"><img src="ContManContractCardFinENG.png" alt="Lepingu kaart" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCompletionTrackingENG.png" target="_blank"><img src="ContManCompletionTrackingENG.png" alt="Lepingu kaart" width="800"/></a>
 
 |Field| Explanation|
 |---|---| 

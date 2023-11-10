@@ -20,6 +20,7 @@
 [LS Central EE Country App](apps/ls-central-ee-country-app/docs/en-US/app.md)  
 [Cargoson](apps/cargoson/docs/en-US/app.md)  
 [Address Autocomplete](apps/Address-Autocomplete/docs/en-US/app.md)  
+[Card Payment Terminal](apps/card-payment-terminal/docs/en-US/app.md)  
 
 ### Apps for Human Resources
 [HRM4Baltics](apps/payroll365/docs/et-ee/help.md)  

@@ -9,12 +9,14 @@ Contract management functionality in BC enables the following:
 - Use default dimensions on contracts.
 - Create contract lines for billing.
 - Create periodic sales orders and invoices based on contract lines.
+- Multiple partners for 1 contract.
 
 ## Table of Contents
   - [Settings](#settings)
     - [Contract Categories](#contract-categories)
   - [Use](#use)
     - [Create contract](#create-contract)
+      - [Multiple partners](#multiple-partners)
       - [Copy contract](#copy-contract) 
     - [Using contracts on purchase and sales documents](#using-contracts-on-purchase-and-sales-documents)
     - [Contract completion tracking](#contract-completion-tracking)
@@ -37,6 +39,12 @@ To use the functionality, **Contract Setup** must be opened and following fields
 |**_Def. Contract Category Purchase_**|Specifies default Contract Category for purchase contracts.
 |**_Contract Report ID_**|Specifies default Report ID for Contract printouts, it will be by default transferred to new Contract Categories.
 
+_Features_
+
+|Field|Explanation|
+|---|---| 
+|**_Enable Multiple Partners_**|Enables Multiple Partners functionality.
+
 _Billing related setup_
 
 |Field|Explanation|
@@ -52,6 +60,8 @@ _Jobs related setup_
 |**_Show job related fields_** |Enables Jobs related fields on contract card and lines.
 |**_Default Job Planning Line Line Type_** |Specifies default Line Type for Job Planning Line when Job Planning Line will be created from Contract Line using **Send to Job functionality**.
 |**_Transfer Contract No to Job Sales Header_** |Enables transferring Contract No. from Job Card to new Job Invoice Header.
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManSetupContactsENG.png" target="_blank"><img src="ContManSetupContactsENG.png" alt="ContManContSetup" width="800"/></a>
 
 _Contacts related initial setup if Contacts module not in use_
 
@@ -109,6 +119,7 @@ An empty **Contract card** opens where you can fill and track following fields:
 | Partner No.* | Allows to choose contract partner from **Contact list**. If contact is related to a **Customer** or **Vendor** then related information will be displayed on **Relations** tab  on fields _Customer No. and Name_ and _Vendor No. and Name_. 
 |Main Contract No. | Allows to group contracts under a common value (Main Contract), that can be chosen from **Contract List** filtered by field **Main Contract**. Default value is contract's own number.
 |Main Contract| Allows that contract to be chosen as main contract.
+|Framework Contract| Allows to track framework contracts. Restricts usage of this contract on sales and purchase documents. Completion will be taken from subcontract completion.
 |External Contract No. | Allows to enter partners contract number.
 |Transfer Ext. Contract No. to Sales Doc. | Allows to choose that if Contract No. will be selected to sales header then External Contract No. will be transferred to field External Doc. No.|
 | Start and End Dates** | Allows to define validity dates of the contract. Field is informative.
@@ -118,7 +129,7 @@ An empty **Contract card** opens where you can fill and track following fields:
 
 On **Finance** tab you can fill and track following fields:
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManContractCardFinENG.png" target="_blank"><img src="ContManContractCardFinENG.png" alt="Lepingu kaart" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCompletionTrackingENG.png" target="_blank"><img src="ContManCompletionTrackingENG.png" alt="Lepingu kaart" width="800"/></a>
 
 |Field| Explanation|
 |---|---| 
@@ -143,6 +154,16 @@ Fields displayed on fast tab **Relations** (Customer No. and Name, Vendor No. an
 
 *_Fields that must be filled_
 **_Fields that are advisable to fill_
+
+#### Multiple partners
+
+If the functionality is enabled in **Contract setup** you can open **Contract partners** from **Contract Card** or **Contract List**.
+Following window will be opened:
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManContractPartnersENG.png" target="_blank"><img src="ContManContractPartnersENG.png" alt="Copy Contract" width="800"/></a>
+
+Add additonal partners to use with same contract. You can then use this contract on sales and invoice documents created for this partner.
+**Main partner** field will show which partner is selected on **Contract card**.
 
 #### Copy contract
 

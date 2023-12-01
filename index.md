@@ -35,7 +35,7 @@
 ### Muu
 
 [Reaalajamajanduse pakett](apps/rte/docs/et-EE/app.md)  
-[Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/
+[Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/
 )  
 
 ---

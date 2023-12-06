@@ -1,10 +1,6 @@
----
----
+
 # Card Payment Terminal - User Guide
-## Table of Contents
 
-
----
 ## Setup
 The app needs connection parameters for the card payment terminal. To do that. Users must use the Card Payment Terminal Setup page. The field's meanings are shown in the table.
 
@@ -21,6 +17,10 @@ The app needs connection parameters for the card payment terminal. To do that. U
 |  **EFT Terminal** |   |   | Fields required for card payment interface connection |
 | **Service Connection String** | Text | 250 | IP of the card payment terminal |
 | **Service Port** | Code | 20 | Card payment terminal port |
+
+## Imlementation
+Based on codeunit 70467125 "BCSPOS Card Payment Terminal" or your own maded code unit.
+
 
 ### Contact Information
 For more information and pricing please contact:  

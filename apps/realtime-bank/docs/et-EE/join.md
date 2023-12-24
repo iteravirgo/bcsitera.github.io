@@ -39,7 +39,7 @@ Toetatud teenused:
 Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.
 
 Kokkuvõtvalt on vajalik:
-- Sertifikaadipäringu koostamine (ei pea tegema BC serveris), sertifikaadi tellimiseks.
+- Sertifikaadipäringu koostamine, sertifikaadi tellimiseks.
 - Sertifikaadi- ja privaatvõtmefaili liitmine pfx/p12 failiks ja parooli genereerimine.
 - pfx/p12 faili ja parooli seadistamine BC-s.
 

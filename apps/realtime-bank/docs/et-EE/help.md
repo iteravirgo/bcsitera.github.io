@@ -15,6 +15,7 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
+4. Coop Pank Gateway
 
 Liitumisjuhiseid leiab [siit](join.md).
 
@@ -22,7 +23,7 @@ Pangaühenduste seadistamiseks on Business Centralis igal panga kohta oma kaart,
 
 Väli |  Selgitus | 
 -- | --
-Teenuse URL | Sisestage panga teenuse aadress: <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/
+Teenuse URL | Sisestage panga teenuse aadress: <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/  
 Seadme- või autentimissertifikaadi failinimi | Importige sertifikaadi fail (pfx/p12 formaat). Sertifikaadi saate pangast.
 Seadme- või autentimissertifikaadi parool | Sisestage sertifikaadi parool.
 Krüpteermissertifikaat (Swedbank-i puhul) | Sertifikaadi saab laadida siit: http://dev.swedbankgateway.net/info#certificates

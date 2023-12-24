@@ -7,6 +7,7 @@ Reaalajas panga lahendus võimaldab ettevõttel saada ülevaate oma pangakonto l
 1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
+4. Coop Pank Gateway
 
 ### Reaalaja panga lahendus võimaldab:
 * Edastada maksed otse Business Central'ist panka.

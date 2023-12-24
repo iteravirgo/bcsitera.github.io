@@ -27,13 +27,24 @@ Toetatud teenused:
 - Jooksva päeva väljavõte.   
   NB! seadistage Business Central väljavõtet laadima piisava sagedusega, et päeva lõpust ei jääks mõni tehing laadimata.
 
+### Coop Pank
+[https://www.cooppank.ee/gateway](https://www.cooppank.ee/gateway)  
+
+Toetatud teenused:
+- Maksete edastamine panka (ootel e. allkirjastamata maksed).  
+- Regulaarne konto väljavõte – panga poolt automaatselt saadetav eelmise päeva väljavõte.
+- Kiirteavitused – panga poolt automaatselt saadetav teavitus iga tehingu kohta.
+
 ## Turvasertifikaat
 Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.
 
 Kokkuvõtvalt on vajalik:
-- Sertifikaadipäringu (CSR fail) koostamine, sertifikaadi tellimiseks. NB! Sertifikaadipäringut ei pea koostama BC serveris (BC cloud versiooni puhul ei saagi).
+- Sertifikaadipäringu koostamine (ei pea tegema BC serveris), sertifikaadi tellimiseks.
 - Sertifikaadi- ja privaatvõtmefaili liitmine pfx/p12 failiks ja parooli genereerimine.
 - pfx/p12 faili ja parooli seadistamine BC-s.
 
-Swedbank juhend:
+Swedbank juhend:  
 [http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf](http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf)
+
+Coop Pank juhend:  
+[https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf](https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf)

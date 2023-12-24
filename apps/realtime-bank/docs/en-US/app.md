@@ -7,6 +7,7 @@ See and process bank account transactions in real-time in Microsoft Dynamics 365
 1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
+4. Coop Pank Gateway
 
 ### Key Features
 * Transmit payments directly form Business Central to bank.

@@ -15,6 +15,7 @@ Three connectors are supported out-of-the-box:
 1. Swedbank Gateway
 2. SEB Baltic Gateway
 3. LHV Connect
+4. Coop Pank Gateway
 
 Instructions to join with the service can be found [here (in estonian)](../et-EE/join.md).
 
@@ -22,7 +23,7 @@ Each has its own setup card. Please open the setup of your bank connector and en
 
 Field |  Description | 
 -- | --
-Service URL | Enter the address of bank service. <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/
+Service URL | Enter the address of bank service. <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/  
 Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format). Certifcate will be given by bank.
 Authorization/Device Certificate Password | Enter certificate password.
 Encryption Certificate (for Swedbank) | Certificate can be downloaded here: http://dev.swedbankgateway.net/info#certificates

@@ -1,5 +1,10 @@
 ---
 ---
+
+##### Versioon 21.0.24017.0
+- Lisandus Coop Pank Gateway
+- Imporditakse mitte kõigi vaid ainult BC-s seadistatud pangakontode sõnumid. Vajalik juhul, kui on pangakontosid, mille tehinguinfot BC-sse ei soovita.
+
 ##### Versioon 21.0.23153.1
 RTB makste sobitamise žurnaalis saab nüüd üht pangatehingu rida jagada mitmeks kasutades nuppu "Vii erinevus üle kontole". Konteerimine kontrollib, et jagatud ridade summa vastaks pangatehingu summale.
 

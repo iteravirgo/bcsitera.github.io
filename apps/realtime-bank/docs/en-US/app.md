@@ -29,7 +29,7 @@ The app is available in: Estonian (Estonia) and English (United States)
 
 ---
 
-[User Guide](help.md)
+[User Guide](../et-EE/help.md)
 
 ### Contact Information
 For more information and pricing please contact:  

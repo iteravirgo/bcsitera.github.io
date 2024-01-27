@@ -5,7 +5,7 @@
 
 - [Seadistused](#seadistused)
 - [Sissetulevad pangasõnumid](#sissetulevad-pangasõnumid)
-- [Pangatehingute töötlemine](#pangatehingute-töötlemine)
+- [Pangatehingute ülevaade, sidumine ja konteerimine](#pangatehingute-ülevaade-sidumine-ja-konteerimine)
 
 ## Seadistused
 
@@ -29,60 +29,48 @@ Seadme- või autentimissertifikaadi parool | Sisestage sertifikaadi parool.
 Krüpteermissertifikaat (Swedbank-i puhul) | Sertifikaadi saab laadida siit: http://dev.swedbankgateway.net/info#certificates
 
 ### Pangakonto seadistused
-_Pangakonto_ kaardil saab määrata väljal "Pangaühendus" vastava seadistatud pangaühenduse.
+_Pangakonto_ kaardi väljal "Pangaühendus" määrake millist pangaühendust kasutate. Juhul, kui kontol jätta pangaühendus määramata, siis selle konto tehinguinfot Business Centralisse ei laeta.
 
 ### Reaalajas panga seadistused
-Lehel _Reaalajas panga seadistus_ täitke ära väli "Konteeritud tehingute nr.", määrates vastava numbriseeria.
+Lehel _Reaalajas panga seadistus_ täitke väli "Konteeritud tehingu nr." määrates vastava numbriseeria.
 
+Väljal _Sidumise loogika_ valige "Maksete sobitamise žurnaal". Teised sidumisviisid ei ole tulevikus toetatud ning eemaldatakse.
 
 ## Sissetulevad pangasõnumid
 
-### Pangasõnumite automaatne import
+### Pangasõnumite laadimine pangast
 
-_Pangaühenduse lehel_ on nupud "Võta uued pangasõnumid", mida saab kasutada pangasõnumite automaatseks impordiks. 
-Vajutades nupule "Tööjärjekorra kanded", avatakse leht _Tööjärjekorra kanded_, kus on võimalik seadistada 4 erinevat tegevust: pangasõnumite import, sissetulevate pangasõnumite töötlemine, pangakonto tehingute sidumine, pangakonto tehingute konteerimine. 
+Iga pangaühenduse seadistamise lehel (n. _Swedbank Gateway seadistus)_ on nupp "Võta uued pangasõnumid", mida saab kasutada pangasõnumite impordiks.
+    
+Vajutades nupule "Tööjärjekorra kanded", avatakse leht _Tööjärjekorra kanded_, kus on võimalik seadistada kaks automaattööd: 
+- pangasõnumite võtmine pangast ja 
+- pangasõnumite töötlemine (sh. tehingute sidumine ning konteerimine). 
 
-Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi on lehel filtrid: Allikas ja Olek, kuvatakse ainult kirjed, mis on töötlemata ning vajavad tähelepanu - s.t. Olek on kas _Vastuvõetud_ või _Tõrge_.  
-Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".
+Soovitud töötlemise sammud määrake töötlemise automaattöö nupu all _Aruande päringuaken_.
 
-
-### Pangasõnumite käsitsi import
-
-Käsitsi on pangasõnumeid võimalik importida lehel _Sissetulevad pangasõnumid_ vajutades nupule "Impordi failist". Imporditud kirje Olek on _Vastuvõetud_.
-Imporditud kirje töötlemiseks vajutage nupule "Töötle".
-Kirje nägemiseks vajutage nupule "Näita kõiki sõnumeid", kirjel on nüüd Olek _Töödeldud_. Paremal olevas kiirinfos on näha _Salvestatud tehingute arv_.
-Sellele numbrile vajutades on võimalik liikuda lehele _Pangakonto tehingud_.
+Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi kuvatakse kirjed, mis on veel töötlemata. Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".
 
 
-## Pangatehingute töötlemine
+### Pangasõnumite import failist
+
+Lehel _Sissetulevad pangasõnumid_ on tegevus "Impordi failist". Seda saab kasutada juhuks, kui pangaühendus ei ole seadistatud ja sõnumeid pangast automaatselt ei tule.
+
+### Pangasõnumite töötlemine
+Panagsõnumi(te) töötlemiseks vajutage nupule "Töötle", mis loeb XML vormingus pangasõnumist välja  tehingute info ning salvestab need tabelitesse _Pangakonto tehingud_ ning _Maksete sobitamise žurnaal_.
+
+Peale sõnumi edukat töötlemist saate vajutada nupule "Näita kõiki sõnumeid" - sõnumil on nüüd Olek _Töödeldud_. Paremal olevas kiirinfos on näha _Salvestatud tehingute arv_. Sellele numbrile vajutades on võimalik liikuda lehele _Pangakonto tehingud_.
+
+## Pangatehingute ülevaade, sidumine ja konteerimine
 
 ### Pangatehingud
 
-Pangakonto kaardil on uus väli "Saldo pangas". Selles summas kajastuvad kõik pangast imporditud tehingud, ka need, mis on veel töötlemata ning konteerimata. Seetõttu võib väljal "Saldo pangas" olev summa erineva väljal "Saldo" kuvatavast summast. 
-Väljal "Saldo pangas" summale vajutades avatakse leht _Pangakonto tehingud_.
-Vaikimisi kuvatakse need pangatehingud, mis on konteerimata, mida kasutaja saab üle vaadata, siduda ja konteerida.
+Pangakonto kaardil on uus väli "Saldo pangas". Selles summas kajastuvad kõik pangast imporditud tehingud, ka need, mis on veel sidumata ning konteerimata. Seetõttu võib väljal "Saldo pangas" olev summa erineda väljal "Saldo" kuvatavast summast. 
+Väljal "Saldo pangas" summale vajutades avatakse leht _Pangakonto tehingud_, milles on näha kõik tehingud nii nagu need on pangakontol pangas.
 
-### Teenustasude sidumine
-
-Teenustasude ja teiste fikseeritud kontode sidumiseks on võimalik kasutada _Tekst-kontoks vastendamine_ funktsionaalsust.
-
-### Arvete sidumine
-
-Arvetega sidumist saab lehel _Pangakonto tehingud_ teha kas automaatselt või käsitsi. 
-
-Automaatseks sidumiseks käivitage protsess _Seo automaatselt_.  
-
-Kasutajal on võimalik näha, missuguse arvega on pangatehing seotud, klikkides väljal "Seotud summa". Kasutajal on võimalik siduda arve ringi. 
-Juhul, kui kogu summat ei olnud võimalik arvetega siduda, siis väljal "Seotud summa" erineb väljal "Summa" näidatud summast.
-
-Käsitsi sidumise korral valige real _Seotud konto nr._ ja seejärel vajutage "Seo käsitsi". Avatakse vastava kliendi/hankija andmiku kanded, kus kasutaja on võimalik valida õige arve ja siduda pangatehing vajutades Protsess ->Märgi seose ID.
-
-
-### Konteerimine
-
-Seotud pangatehingud on võimalik konteerida, vajutades nupule "Konteeri".
-
-Võimalik on seadistada Tööjärjekorra kanne, mis konteerib kõik pangatehingud, mille _Sidumise olek_ on "Kõrge täpsus".
+### Pangatehingute sidumine ja konteerimine
+Sidumiseks ja konteerimiseks kasutatakse püsivat "RTB" nimelist _Maksete sobitamise žurnaali_.  
+  
+Juhul, kui panagsõnumite töötlemise tööjärjekorra automaattööl on aktiveeritud ka "Sidumine" ja "Konteerimine" - siis jäävad "RTB" žurnaali alles ainult need read, mis vajavad kästisi töötlemist ehk read, mida automaatselt siduda ei õnnestunud.
 
 ---
 

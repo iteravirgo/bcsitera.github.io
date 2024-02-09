@@ -250,3 +250,23 @@ To do so, open **Job Queue Entries** and create new entry as:
 |Object Type to Run|Report|
 |Object ID to Run|24007902|
 |Recurrence|Indicate desired recurrence|
+
+## Export Cost Invoices to Moderan
+
+### Setup
+Open the **Moderan** menu, page **Interface**. Here are general settings of cost invoices: the ranges of accounts to be exported, 2 possible dimensions and whether the prices and amounts are exported with or without VAT or both cases are possible.
+
+### Cost periods
+First, new periods must be opned in Moderan, then they can be imported into BC.
+Open the **Moderan** menu, page **Interface**. There ie a menu **Cost Periods** and in this page button **Get Periods**.
+If the company has several different objects, Periods are imported for each Moderan objects.
+It is alse possible to get different lines for the same period, if Period descriptions are different.
+
+### Cost type mapping
+Cost types must be decribed in Moderan.
+On the page **Cost type mapping**, Moderan cost types and G/L accounts are mapped.
+Open the page **Cost type mapping**, button **Get Cost Types**.
+The cost types described in Moderan are imported and here is possible to link them to G/L accounts and to the dimensions.
+
+
+

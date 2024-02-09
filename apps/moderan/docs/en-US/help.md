@@ -280,7 +280,7 @@ Open the page **Send Cost Bills** and fill the fields: choose Distribution Sets,
 Select the period ID to which Moderan period you want to send costs invoices and as Periods describe which BC date range the entries are taken from.
 It is possible to send costs for all cost types or some cost types.
 
-![SendCosts](SendCosts.PNG)
+![SendCosts](SendCosts2.PNG)
 
 ### View sent data
 On the page **XML Inbound** you can see all exported and import files and errors that occurred during processing.

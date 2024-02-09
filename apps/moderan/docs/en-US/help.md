@@ -5,6 +5,7 @@ Moderan Interface enables the following:
 - Get Sales invoices from Moderan
 - Get Contacts from Moderan
 - Send Customer Balances to Moderan
+- Send Costs Invoices to Moderan
 
 ## Contents
 - [Moderan Installation](#moderan-installation)
@@ -22,7 +23,8 @@ Moderan Interface enables the following:
   - [Job Queue](#job_queue)
   - [Periodization of Invoices](#periodization-of-invoices) 
 - [How to Get Contacts from Moderan](#how-to-get-contacts-from-moderan)
-- [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan) 
+- [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan)
+- [Export Cost Invoices to Moderan](#Export-Cost-Invoices-to-Moderan)
   
   <br/>
   
@@ -250,6 +252,8 @@ To do so, open **Job Queue Entries** and create new entry as:
 |Object Type to Run|Report|
 |Object ID to Run|24007902|
 |Recurrence|Indicate desired recurrence|
+<br/>
+
 
 ## Export Cost Invoices to Moderan
 
@@ -262,6 +266,9 @@ Open the **Moderan** menu, page **Interface**. There ie a menu **Cost Periods** 
 If the company has several different objects, Periods are imported for each Moderan objects.
 It is alse possible to get different lines for the same period, if Period descriptions are different.
 
+![InterfaceCard3](InterfaceCard3.png)
+<br/>
+
 ### Cost type mapping
 Cost types must be decribed in Moderan.
 On the page **Cost type mapping**, Moderan cost types and G/L accounts are mapped.
@@ -273,8 +280,11 @@ Open the page **Send Cost Bills** and fill the fields: choose Distribution Sets,
 Select the period ID to which Moderan period you want to send costs invoices and as Periods describe which BC date range the entries are taken from.
 It is possible to send costs for all cost types or some cost types.
 
+![SendCosts](SendCosts.png)
 
 ### View sent data
 On the page **XML Inbound** you can see all exported and import files and errors that occurred during processing.
 
 On the page **Sent costs** you can see the sent entries and related information.
+
+<br/>

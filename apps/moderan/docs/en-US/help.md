@@ -268,5 +268,13 @@ On the page **Cost type mapping**, Moderan cost types and G/L accounts are mappe
 Open the page **Cost type mapping**, button **Get Cost Types**.
 The cost types described in Moderan are imported and here is possible to link them to G/L accounts and to the dimensions.
 
+### Send cost invoices
+Open the page **Send Cost Bills** and fill the fields: choose Distribution Sets, choose Period ID, Period start and Period end.
+Select the period ID to which Moderan period you want to send costs invoices and as Periods describe which BC date range the entries are taken from.
+It is possible to send costs for all cost types or some cost types.
 
 
+### View sent data
+On the page **XML Inbound** you can see all exported and import files and errors that occurred during processing.
+
+On the page **Sent costs** you can see the sent entries and related information.

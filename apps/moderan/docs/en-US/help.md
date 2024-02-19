@@ -5,6 +5,7 @@ Moderan Interface enables the following:
 - Get Sales invoices from Moderan
 - Get Contacts from Moderan
 - Send Customer Balances to Moderan
+- Send Costs Invoices to Moderan
 
 ## Contents
 - [Moderan Installation](#moderan-installation)
@@ -22,7 +23,8 @@ Moderan Interface enables the following:
   - [Job Queue](#job_queue)
   - [Periodization of Invoices](#periodization-of-invoices) 
 - [How to Get Contacts from Moderan](#how-to-get-contacts-from-moderan)
-- [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan) 
+- [How to Send Customer Balances to Moderan](#how-to-send-customer-balances-to-moderan)
+- [Export Cost Invoices to Moderan](#Export-Cost-Invoices-to-Moderan)
   
   <br/>
   
@@ -250,3 +252,39 @@ To do so, open **Job Queue Entries** and create new entry as:
 |Object Type to Run|Report|
 |Object ID to Run|24007902|
 |Recurrence|Indicate desired recurrence|
+<br/>
+
+
+## Export Cost Invoices to Moderan
+
+### Setup
+Open the **Moderan** menu, page **Interface**. Here are general settings of cost invoices: the ranges of accounts to be exported, 2 possible dimensions and whether the prices and amounts are exported with or without VAT or both cases are possible.
+
+### Cost periods
+First, new periods must be opned in Moderan, then they can be imported into BC.
+Open the **Moderan** menu, page **Interface**. There ie a menu **Cost Periods** and in this page button **Get Periods**.
+If the company has several different objects, Periods are imported for each Moderan objects.
+It is alse possible to get different lines for the same period, if Period descriptions are different.
+
+![InterfaceCard3](InterfaceCard3.PNG)
+<br/>
+
+### Cost type mapping
+Cost types must be decribed in Moderan.
+On the page **Cost type mapping**, Moderan cost types and G/L accounts are mapped.
+Open the page **Cost type mapping**, button **Get Cost Types**.
+The cost types described in Moderan are imported and here is possible to link them to G/L accounts and to the dimensions.
+
+### Send cost invoices
+Open the page **Send Cost Bills** and fill the fields: choose Distribution Sets, choose Period ID, Period start and Period end.
+Select the period ID to which Moderan period you want to send costs invoices and as Periods describe which BC date range the entries are taken from.
+It is possible to send costs for all cost types or some cost types.
+
+![SendCosts](SendCosts2.PNG)
+
+### View sent data
+On the page **XML Inbound** you can see all exported and import files and errors that occurred during processing.
+
+On the page **Sent costs** you can see the sent entries and related information.
+
+<br/>

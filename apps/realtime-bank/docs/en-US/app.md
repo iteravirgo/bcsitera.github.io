@@ -8,6 +8,7 @@ See and process bank account transactions in real-time in Microsoft Dynamics 365
 2. SEB Baltic Gateway
 3. LHV Connect
 4. Coop Pank Gateway
+5. Luminor Web Service
 
 ### Key Features
 * Transmit payments directly form Business Central to bank.

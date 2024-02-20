@@ -8,6 +8,7 @@ Reaalajas panga lahendus võimaldab ettevõttel saada ülevaate oma pangakonto l
 2. SEB Baltic Gateway
 3. LHV Connect
 4. Coop Pank Gateway
+5. Luminor Web Service
 
 ### Reaalaja panga lahendus võimaldab:
 * Edastada maksed otse Business Central'ist panka.

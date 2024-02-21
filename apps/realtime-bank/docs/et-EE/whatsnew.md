@@ -2,6 +2,9 @@
 ---
 
 ##### Versioon 21.0.24017.0
+- Lisandus Swedbank jooksva päeva kontoväljavõtte päring. Seda on hea kasutada juhul, kui tehinguid on palju ja kiirteavitus ei ole otstarbekas.
+
+##### Versioon 21.0.24017.0
 - Lisandus Coop Pank Gateway
 - Imporditakse mitte kõigi vaid ainult BC-s seadistatud pangakontode sõnumid. Vajalik juhul, kui on pangakontosid, mille tehinguinfot BC-sse ei soovita.
 

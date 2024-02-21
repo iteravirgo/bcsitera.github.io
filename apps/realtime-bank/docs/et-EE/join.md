@@ -9,6 +9,7 @@ Business Central kasutab liidestamisel otsekanalit. Liitumiseks võtke ühendust
 Toetatud teenused:
 - Maksete edastamine panka (ootel e. allkirjastamata maksed).  
 - Regulaarne konto väljavõte – panga poolt automaatselt saadetav eelmise päeva väljavõte.
+- Jooksva päeva kontoväljavõtte päring.
 - Kiirteavitused – panga poolt automaatselt saadetav teavitus iga tehingu kohta, mis vastab kehtestatud tingimustele (sisse/välja, valuuta, alates summast).
 
 ### LHV
@@ -24,7 +25,7 @@ Toetatud teenused:
 
 Toetatud teenused:
 - Maksete edastamine panka (ootel e. allkirjastamata maksed).  
-- Jooksva päeva väljavõte.   
+- Jooksva päeva kontoväljavõtte päring.   
   NB! seadistage Business Central väljavõtet laadima piisava sagedusega, et päeva lõpust ei jääks mõni tehing laadimata.
 
 ### Coop Pank

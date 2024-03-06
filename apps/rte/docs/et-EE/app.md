@@ -21,7 +21,7 @@ Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja 
 - <a href="https://apps.itera.ee/apps/expense-reports/docs/et-EE/app.html" target="_blank">E-kuluaruanded - CostPocket</a>
 
 **Pangateenused**
-- <a href="https://apps.itera.ee/apps/realtime-bank/docs/et-EE/app.html" target="_blank">Reaalajas pank - Swedbank Gateway, SEB Baltic Gateway, LHV Connect</a>
+- <a href="https://apps.itera.ee/apps/realtime-bank/docs/et-EE/app.html" target="_blank">Reaalajas pank - Swedbank Gateway, SEB Baltic Gateway, LHV Connect, COOP Pank Gateway, Luminor Web Service</a>
 - <a href="https://apps.itera.ee/apps/factoring/docs/et-EE/app.html" target="_blank">Faktooring - Swedbank, SEB, Luminor</a>
 
 **Tarneahel**

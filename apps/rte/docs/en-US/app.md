@@ -1,7 +1,7 @@
 # Real-Time Economy (RTE) Package
 Dynamics 365 Business Central is the most used Microsoft business software both in the World and in Estonia.
 
-It is a complete solution covering the entire company's supply chain, which offers extremely rich functionality. At the same time, each country has its own characteristics and digitalization possibilities. Estonia has started the so-called [realtimeeconomy](https://realtimeeconomy-bsr.eu/) initiative to make both companies and the environment more competitive.
+It is a complete solution covering the entire company's supply chain, which offers extremely rich functionality. At the same time, each country has its own characteristics and digitalization possibilities. Estonia has started the so-called [Real-Time Economy](https://realtimeeconomy-bsr.eu/) initiative to make both companies and the environment more competitive.
 
 As a result, we have combined a number of additional options into one package, which help the company to operate in the most modern digitized information space.
 

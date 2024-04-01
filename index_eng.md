@@ -23,7 +23,7 @@
 [Card Payment Terminal](apps/card-payment-terminal/docs/en-US/app.md)  
 
 ### Apps for Human Resources
-[HRM4Baltics](apps/payroll365/docs/et-ee/help.md)  
+[HRM4Baltics](apps/payroll365/docs/en-US/help.md)  
 
 ### Apps for Real Estate
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  

@@ -23,7 +23,7 @@
 [Kaardimakse terminal](apps/card-payment-terminal/docs/en-US/app.md)  
 
 ### Personalijuhtimise lahendused
-[HRM4Baltics](apps/payroll365/docs/et-ee/help.md)  
+[HRM4Baltics](apps/payroll365/docs/et-EE/help.md)  
 
 ### Kinnisvarahalduse lahendused
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  

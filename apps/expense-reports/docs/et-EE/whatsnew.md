@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 20.0.24091.0
+- Täiendatud kuluaruande konteerimise loogikat nii, et kui Hankija kaardil on KM äri konteeringurühm täidetud, siis kasutatakse konteerimisel seda
+  - Varem võeti konteerimisel alati "KM äri konteeringurühm" tabeli "Üld. ärikonteeringurühmad" väljalt "Vaikimisi KM äri kont.rühm"
+- Väiksemad tehnilised täiendused  
+
 ##### Versioon 20.0.23103.0
 - Tehtud lahendus BC22 versiooniga ühilduvaks
 - Lisatud päevarahade konto määramisel loogika, et dimensioonid kuluaruandele luuakse nii töötaja, kui PR konto vaikedimensioonide alusel

@@ -29,8 +29,8 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   Fields added: **SBS Balance Statement E-Mail**, **BRQ Registration No.**, **BNK Payment Reference No.**
     *   Actions added: **BRQ Query from Business Register**
     *   **New > Sales Order** option replaced with **Retail Sales Order**, the action runs new document **LSC Retail Sales Order**
-    *   **New Document > Sales Return Order** option replaced with **Retail Sales Return Order**, the action runs new document **LSC Retail Sales Return Order**  
-
+    *   **New Document > Sales Return Order** option replaced with **Retail Sales Return Order**, the action runs new document **LSC Retail Sales Return Order**
+    *   Tab added: **BCS.LSC Telema EDI** with caption **Telema EDI** with fields added to this tab **BCS.LSC Allow using Item No.**, **BCS.LSC Take Price from E-Order**, **BCS.LSC Require E-Receiving Advice**, **BCS.LSC Issue E-Order Response**, **BCS.LSC Issue E-Shipment**, **BCS.LSC Issue E-Invoice**, **BCS.LSC Price Round Prec on E-Inv**, **BCS.LSC DESADV Without Prices**, **BCS.LSC Send to Channel**, **BCS.LSC E-Doc. WebService AuthType**, **BCS.LSC E-Document Web Service URL**, **BCS.LSC E-Doc. Web Service User**, **BCS.LSC E-Doc. Web Service Key**, **BCS.LSC E-Doc. WebService Tenant**
 * **Pageextension 70404927 "BCS.LSC VendorListExt"** extends **"LSC Retail Vendor List"**
     *   Fields added: **BRQ Registration No.** 
     *   Actions added: **BRQ Update Data from Business Register**

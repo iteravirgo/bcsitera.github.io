@@ -11,7 +11,8 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 * **Estonian Dynamics Partners Package Excise localization for Estonia** <br> User Guide: [https://dynamicspartnersee.github.io/apps/estonian-package-excise/docs/en-US/help](https://dynamicspartnersee.github.io/apps/estonian-package-excise/docs/en-US/help)
 * **Estonian Dynamics Partners Prepayment Management** <br> User Guide: [https://dynamicspartnersee.github.io/apps/prepayment-management/docs/en-US/help](https://dynamicspartnersee.github.io/apps/prepayment-management/docs/en-US/help)
 * **Estonian Dynamics Partners VAT Reporting localization for Estonia** <br> User Guide: [https://dynamicspartnersee.github.io/apps/estonian-vat-reporting/docs/en-US/help](https://dynamicspartnersee.github.io/apps/estonian-vat-reporting/docs/en-US/help)
-
+* **Estonian Dynamics Partners Telema & Edisoft EDI** <br> User Guide: [https://dynamicspartnersee.github.io/apps/telema-edi/docs/en-US/help](https://dynamicspartnersee.github.io/apps/telema-edi/docs/en-US/help)
+  
 ***Note!** All apps are installed and published as usual. The same counts for the process of removing apps.* 
 <br><br>
 

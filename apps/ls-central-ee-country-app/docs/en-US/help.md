@@ -30,7 +30,8 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   Actions added: **BRQ Query from Business Register**
     *   **New > Sales Order** option replaced with **Retail Sales Order**, the action runs new document **LSC Retail Sales Order**
     *   **New Document > Sales Return Order** option replaced with **Retail Sales Return Order**, the action runs new document **LSC Retail Sales Return Order**
-    *   Tab added: **BCS.LSC Telema EDI** with caption **Telema EDI** with fields added to this tab **BCS.LSC Allow using Item No.**, **BCS.LSC Take Price from E-Order**, **BCS.LSC Require E-Receiving Advice**, **BCS.LSC Issue E-Order Response**, **BCS.LSC Issue E-Shipment**, **BCS.LSC Issue E-Invoice**, **BCS.LSC Price Round Prec on E-Inv**, **BCS.LSC DESADV Without Prices**, **BCS.LSC Send to Channel**, **BCS.LSC E-Doc. WebService AuthType**, **BCS.LSC E-Document Web Service URL**, **BCS.LSC E-Doc. Web Service User**, **BCS.LSC E-Doc. Web Service Key**, **BCS.LSC E-Doc. WebService Tenant**
+    *   Tab added: **BCS.LSC Telema EDI** with caption **Telema EDI** with fields added to this tab: **BCS.LSC Allow using Item No.**, **BCS.LSC Take Price from E-Order**, **BCS.LSC Require E-Receiving Advice**, **BCS.LSC Issue E-Order Response**, **BCS.LSC Issue E-Shipment**, **BCS.LSC Issue E-Invoice**, **BCS.LSC Price Round Prec on E-Inv**, **BCS.LSC DESADV Without Prices**, **BCS.LSC Send to Channel**, **BCS.LSC E-Doc. WebService AuthType**, **BCS.LSC E-Document Web Service URL**, **BCS.LSC E-Doc. Web Service User**, **BCS.LSC E-Doc. Web Service Key**, **BCS.LSC E-Doc. WebService Tenant**
+      
 * **Pageextension 70404927 "BCS.LSC VendorListExt"** extends **"LSC Retail Vendor List"**
     *   Fields added: **BRQ Registration No.** 
     *   Actions added: **BRQ Update Data from Business Register**
@@ -42,6 +43,7 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   Actions added: **BRQ Query from Business Register**
     *   **New > Purchase Order** option replaced with **Retail Purchase Order**, the action runs new document **LSC Retail Purchase Order**
     *   **New Document > Purchase Return Order** option replaced with **Retail Purchase Return Order**, the action runs new document **LSC Retail Purchase Return Order**
+    *  Tab added: **BCS.LSC Telema EDI** with caption **Telema EDI** with fields added to this tab: **BCS.LSC E-Ship. Creates Missing PO**, **BCS.LSC E-Inv Creates Miss. PO As**, **BCS.LSC Allow using Item No.**, **BCS.LSC Issue E-Receipt**, **BCS.LSC Send to Channel**, **BCS.LSC E-Doc. WebService AuthType**, **BCS.LSC E-Document Web Service URL**, **BCS.LSC E-Doc. Web Service User**, **BCS.LSC E-Doc. Web Service Key**, **BCS.LSC E-Doc. WebService Tenant**
 
 * **Pageextension 70404929 "BCS.LSC ItemCardExt"** extends **"LSC Retail Item Card"**
     *   Fields added: **PEX Package Excise Calculation**
@@ -51,7 +53,7 @@ There is no special setup needed for LS Central Estonian Country App. Installati
     *   Fields added: **BNK Payment Reference No.**
 
 * **Pageextension 70404931 "BCS.LSC Sales Order"** extends **"LSC Retail Sales Order"**
-    *   Fields added: **BNK Payment Reference No.**
+    *   Fields added: **BNK Payment Reference No.**, **BCS.LSC E-Receiving Advice Status**, **BCS.LSC Do Not Send as E-Document**
     *   Actions added: **PPY Get Cust. Spec. Prepayment**
     *   **Navigate > Shipments** option opens **LSC Retail P. Sales Shipments** list
     *   **Navigate > Invoices** option opens **LSC Retail P. Sales Invoices** list
@@ -99,7 +101,40 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 
 * **Pageextension 70404941 "BCS.LSC Item Inventory FB"** extends **"LSC Item Inventory FactBox"**
     *   **No.** opens **LSC Retail Item Card**
+ 
+* **Pageextension 70404942 "BCS.LSC RetailSalesOrder List"** extends **"LSC Retail Sales Order List"**
+    *   Fields added: **BCS.LSC E-Order No.**, **BCS.LSC E-Receiving Advice Status**
 
+* **Pageextension 70404943 "BCS.LSC RetailSalesOrderSubp"** extends **"LSC Retail Sales Order Subpage"**
+    *   Fields added: **BCS.LSC E-Rec. Adv. Quantity**, **BCS.LSC E-Rec Adv Price incl Disc**
+
+* **Pageextension 70404944 "BCS.LSC RetailPurch.OrderStore"** extends **"LSC Retail Purch. Order Store"**
+    *   Factbox added: **BCS.LSC PO E-Documents FactBox**
+
+* **Pageextension 70404945 "BCS.LSC Retail Purchase Order"** extends **"LSC Retail Purchase Order"**
+    *   Factbox added: **BCS.LSC PO E-Documents FactBox**
+
+* **Pageextension 70404946 "BCS.LSC Outbound E-Documents"** extends **"TED Outbound E-Documents"**
+    *   Actions added: **BCS.LSC Create POS E-Sales Transaction**
+
+* **Pageextension 70404947 "BCS.LSC Retail P.SalesInvoices"** extends **"LSC Retail P. Sales Invoices"**
+    *   Fields added: **BCS.LSC EDI Status**
+
+* **Pageextension 70404948 "BCS.LSC RetailP.SalesShipments"** extends **"LSC Retail P. Sales Shipments"**
+    *   Fields added: **BCS.LSC EDI Status**
+
+* **Pageextension 70404949 "BCS.LSC RetailP.SalesCr.M.List"** extends **"LSC Retail P. Sales Cr.M. List"**
+    *   Fields added: **BCS.LSC EDI Status**
+
+* **Pageextension 70404950 "BCS.LSC StoreP.PurchRecpt.List"** extends **"LSC Store P. Purchase Rec.List"**
+    *   Fields added: **BCS.LSC EDI Status**
+
+* **Pageextension 70404951 "BCS.LSC Transaction Card"** extends **"LSC Transaction Card"**
+    *   Fields added: **BCS.LSC Payment Reference No.**
+    
+* **Pageextension 70404952 "BCS.LSC Transaction Register"** extends **"LSC Transaction Register"**
+    *   Fields added: **BCS.LSC EDI Status**
+  
 * **Tableextension 70404925 "BCS.LSC Vat Entry"** extends **"VAT Entry"**
     *   Fields added: **CustLedg. Entry Descr.**
       

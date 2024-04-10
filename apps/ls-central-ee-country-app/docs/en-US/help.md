@@ -88,7 +88,7 @@ There is no special setup needed for LS Central Estonian Country App. Installati
 * **Pageextension 70404937 "BCS.LSC Vend. Hist. PayTo FB"** extends **"Vendor Hist. Pay-to FactBox"**
     *   **No.** opens **LSC Retail Vendor Card**
     *   Tile **Orders** opens **LSC Retail Purch.Ret.Order Lst**
-    *   *   Tile **Return Orders** opens **LSC Retail Purch.Ret.Order List**
+    *   Tile **Return Orders** opens **LSC Retail Purch.Ret.Order List**
 
 * **Pageextension 70404938 "BCS.LSC Purchase Line Factbox"** extends **"Purchase Line FactBox"**
     *   **No.** opens **LSC Retail Item Card**
@@ -137,14 +137,24 @@ There is no special setup needed for LS Central Estonian Country App. Installati
   
 * **Tableextension 70404925 "BCS.LSC Vat Entry"** extends **"VAT Entry"**
     *   Fields added: **CustLedg. Entry Descr.**
+
+* **Tableextension 70404926 "BCS.LSC Transaction Header"** extends **"LSC Transaction Header"**
+    *   Fields added: **BCS.LSC Payment Reference No.**, **BCS.LSC EDI Status**, **BCS.LSC EDI Status Error**
       
-* **Codeunit 70404925 "BCS.LSC Management"** - used for open pages and lists in **LSC Retail** pages and lists view, also new documents after converting or posting in **LSC Retail Document** page.
+* **Codeunit 70404925 "BCS.LSC Management"** - used for open pages and lists in **LSC Retail** pages and lists view, also new documents after converting or posting in **LSC Retail Document** page. Also used for **Telema E-document** sending/receiving process, **item recognizing by Barcode** as the first option and **recognizing the LSC POS Transactions** as invoices needs to be send as **Telema E-Document**.
     *   In **Sales Quote** document action **Sales-Quote to Order** opens created order in **LSC Retail Sales Order** document
     *   In **LSC Retail Sales Order** document after action **Post** Business Central offers to open Posted Sales Invoice, if choose YES, it opens this posted invoice in **LSC Retail P. Sales Invoice** document  
 
 * **Codeunit 70404926 "BCS.LSC VAT Return Management"** - used for VAT reporting in **BCS Itera_LSC_EE_Country_App_xx.x.x.x.app**
     *   Supports use the **POS Receipt no** from **Transaction Register** that it arrives to **Cust. Ledger Enrty** and **VAT Ledger Entry** tables and shown as **Invoice No.** to **KMD VAT Report INF Line**
 
+* **Codeunit 70404927 "BCS.LSC Single Instance Mgt."**
+
+* **Reportextension 70404925 "BCS.LSC Create Outbound EDocs"** extends **"TED Create Outbound EDocuments"** - used for creating outbound E-Documents from BCS.LSC Transaction Header.
+    
+* **Enumextension 70404925 "BCS.LSC Outbound Document Type"** extends **"TED Outbound Document Type"**
+    *   Value added: **BCS.LSC EDI Status**
+  
 ***Note!** The use of added fields and actions is described in user guides links specified above.*
 <br><br>
 

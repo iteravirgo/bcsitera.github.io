@@ -76,7 +76,7 @@ Documents are usually posted from Expense Report. *In special case, when Allow d
 
 Posted expense documents can be found in **Posted Expense Documents** archive.  
 
-To undo an erroneous Expense Document posting, User must select the general ledger entry and with action **Reverse Transaction...** system creates a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, User must make the correct entry.
+To correct or cancel a posted Expense Document or Report, User can use action **Correct**, **Cancel**, **Create Corrective Expense Document/Report**.
 
 ---
 

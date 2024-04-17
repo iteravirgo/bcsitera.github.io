@@ -85,7 +85,7 @@ Dokumendid konteeritakse üldjuhul Kuluaruandelt.
 
 Konteeritud kuludokumendid leiab **Konteeritud kuludokumendid** arhiivist.    
 
-Ekslikult konteeritud kuludokumendi tühistamiseks tuleb valida vastav pearaamatu kanne ning vajutada nupule **Pööra tehing ümber...**, mille tulemusena loob süsteem vastupidise kande (algse kandega tehakse identne kanne ainult vastupidise märgiga Summa veerus), jättes samaks nii dokumendi numbri kui konteerimiskuupäeva. Peale kande ümberpööramist saab kasutaja luua peažurnaalist õige kande.
+Ekslikult konteeritud kuluaruande/kuludokumendi tühistamiseks saab vajutada nupule **Paranda**, **Tühista**, **Loo parandatav kuludokument/kuluaruanne**.
 
 ---
 

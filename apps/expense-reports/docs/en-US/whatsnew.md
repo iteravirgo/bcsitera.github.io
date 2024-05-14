@@ -1,5 +1,24 @@
 ---
 ---
+##### Version 20.0.24134.0
+- Improved preview of documents embedded in the solution (including large preview).
+  - In addition, you can now choose the format of the attachments received from CostPocket (either PDF or Image).
+- Added payment method support for expense documents.  
+
+##### Version 20.0.24107.0
+- Added the ability to cancel/correct from the button of the posted expense report and expense documents  
+
+##### Version 20.0.24091.0
+- The logic of posting for the expense report has been improved, so that if the Vendor card has a VAT business posting group filled in, it is used in posting.
+  - Previously, the “VAT business posting group” was always taken from the “Gen. Business Posting Groups” field “Def. VAT Bus. Posting Group” during posting
+- Minor technical additions  
+
+##### Version 20.0.23103.0
+- Made the solution compatible with BC22 version
+- Added logic when determining the daily allowance account, that dimensions are created for the expense report based on both the employee and the G/L account default dimensions
+- Fixed an error situation that occurred when manually creating an expense report (_the system mistakenly went to look for the submitter of the expense report immediately_)
+- UX enhancements  
+
 ##### Version 15.6.23045.0
 - Added fields Country Code (visible) and Country Name (hidden by default) to Expense Report, in order to show country visited on travel report
 - Added field Daily allowance entry description (hidden by default) to Expense Report, in order to makedaily allowance G/L entry description editable to user

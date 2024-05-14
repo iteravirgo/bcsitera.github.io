@@ -69,9 +69,9 @@ Kasutaja võib luua mitme reaga arve, kasutades erinevaid konteeringurühmasid (
 
 **Dimensioonid** saab lisada nii päisele kui ridadele (analoogselt ostuarvetele).    
 
-**Manustena** saab dokumentidele lisada erinevas formaadis faile ning lisaks on võimalik teha ise pilti kuludokumendist.
-Manuseid saab lisada mitu. Manuse eelvaates kuvatakse välja nö põhimanus (_eeldusel et kasutaja internetibrauser vastava failiformaadi kuvamist toetab_). Põhimanust saab määrata Manustatud dokumentide lehel, kasutades toimingut "Sea kulu põhimanuseks".  
-MS Office failide avamiseks on vajalik installida veebibrauserisse plugin <a href="https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=en-US" target="_blank">**Office Editing for Docs, Sheets & Slides**</a> 
+**Manustena** saab dokumentidele lisada erinevas formaadis faile ning lisaks on võimalik teha ise pilti kuludokumendist. Manuseid saab lisada mitu.
+**Kulu eelvaates** kuvatakse välja nö põhimanus (_eeldusel et kasutaja internetibrauser vastava failiformaadi kuvamist toetab_). Põhimanust saab määrata Manustatud dokumentide lehel, kasutades toimingut "Sea kulu põhimanuseks".  
+MS Office failide (_nt .docx, .xlsx, .pptx_) eelvaates kuvamiseks on vajalik installida veebibrauserisse plugin <a href="https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=en-US" target="_blank">**Office Editing for Docs, Sheets & Slides**</a> 
 (_loojaks Google_) kõikide chromiumil baseeruvate brauserite puhul (_sh Google Chrome ja Microsoft Edge_).  
 
 Kuludokumendi **Makse tüüp** saab olla kas Makstud eraisikuna või Makstud e/v vahenditest, sõltuvalt tehingu finantseerijast. Kui kulu on makstud e/v vahenditest (nt e/v krediitkaardiga), siis on võimalik määrata **Makseviisi tähis**, selleks et võlga hankijale saaks kohe läbi makseviisides tehtud seadistuse suletud (analoogselt Ostuarvele).    

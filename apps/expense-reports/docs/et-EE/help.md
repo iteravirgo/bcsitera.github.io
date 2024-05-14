@@ -69,7 +69,7 @@ Kasutaja võib luua mitme reaga arve, kasutades erinevaid konteeringurühmasid (
 
 **Dimensioonid** saab lisada nii päisele kui ridadele (analoogselt ostuarvetele).    
 
-**Manustena** saab dokumentidele lisada erinevas formaadis faile ning lisaks on võimalik teha ise pilti kuludokumendist. Manuseid saab lisada mitu.
+**Manustena** saab dokumentidele lisada erinevas formaadis faile ning lisaks on võimalik teha ise pilti kuludokumendist. Manuseid saab lisada mitu.  
 **Kulu eelvaates** kuvatakse välja nö põhimanus (_eeldusel et kasutaja internetibrauser vastava failiformaadi kuvamist toetab_). Põhimanust saab määrata Manustatud dokumentide lehel, kasutades toimingut "Sea kulu põhimanuseks".  
 MS Office failide (_nt .docx, .xlsx, .pptx_) eelvaates kuvamiseks on vajalik installida veebibrauserisse plugin <a href="https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=en-US" target="_blank">**Office Editing for Docs, Sheets & Slides**</a> 
 (_loojaks Google_) kõikide chromiumil baseeruvate brauserite puhul (_sh Google Chrome ja Microsoft Edge_).  

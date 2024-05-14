@@ -13,10 +13,11 @@ Lahenduse kasutamiseks tuleb esmalt avada **Kuluaruannete seadistus** ning täit
 |---|---| 
 | Kuluaruannete numbrid | Määramaks kuluaruannete numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
 | Kuludokumentide numbrid | Määramaks kuludokumentide numbriseeria. Väärtuse saab valida **Numbriseeriate loendist**.|
-| Hankija registreerimisnumbri väli | Lahendus kasutab Hankija registreerimisnumbrit tuvastamaks kulu hankijat. Kuivõrd erinevate maade lokalisatsioonid kasutavad selleks erinevaid väljasid, siis oleme teinud selle väärtuse valitavaks. **Valik on soovitatav, kuid mitte kohustuslik**. Eesti lokalisatsiooni äppidena kasutamise korral peaks valik olema 24007770|
+| Hankija registreerimisnumbri väli | Lahendus kasutab Hankija registreerimisnumbrit tuvastamaks kulu hankijat. Kuivõrd erinevate maade lokalisatsioonid kasutavad selleks erinevaid väljasid, siis oleme teinud selle väärtuse valitavaks. **Valik on soovitatav, kuid mitte kohustuslik**. Eesti lokalisatsiooni äppidena kasutamise korral peaks valik olema 24007770 aga alates BC21.5 tuleks kasutada standard reg.nr. välja nr. 25|
 | Päevarahade vaikimisi konto nr. | Määramaks vaike PR kontot, kuhu konteeritakse Päevarahade summa. Väärtuse saab valida **PR Kontode loendist**.|
+| Dokumendi manuse liik | Määramaks CostPocketist tulevat kuludokumendi liiki. Soovituslik on kasutada väärtust **Väike PDF**, sest siis toimib Kulu eelvaade parimal viisil.|
 
-Kõik kuludokumendid konteeritakse läbi peažurnaali ning kasutaja saab selleks **määrata kasutatava Žurnaalimalli ning Žurnaali töölehe**. Lahenduse installeerimise käigus luuakse selleks Peažurnaali tööleht nimega APP-EXPREP.
+Kõik kuluaruanded/dokumendid konteeritakse läbi peažurnaali ning kasutaja saab selleks **määrata kasutatava Žurnaalimalli ning Žurnaali töölehe**. Lahenduse installeerimise käigus luuakse selleks Peažurnaali tööleht nimega EXPREP-APP.
 
 Kasutamaks digiteerimise partneri **CostPocket** pakutavat funktsionaalsust, tuleb algatada ühenduse loomine nupust **Registreerimine**. CostPocketis registreerimise aknas Sisestatud kasutajast saab lahenduse peakasutaja, kellele CostPocket saadab e-postiga juhised, kust saada ning kuidas kasutada CostPocketi äppi. Peale edukat registreerimist luuakse ühendus CostPocketiga. (Registreerimist tuleb teha vaid korra).    
 
@@ -68,9 +69,12 @@ Kasutaja võib luua mitme reaga arve, kasutades erinevaid konteeringurühmasid (
 
 **Dimensioonid** saab lisada nii päisele kui ridadele (analoogselt ostuarvetele).    
 
-Kõiki enamlevinuid pildifaile (nt .png .jpg .jpeg) saab lisada **pildimanustena**. Lisaks saab dokumendimanustena lisada kõiksugu faile (nt digiallkirjastatud dokumente).   
+**Manustena** saab dokumentidele lisada erinevas formaadis faile ning lisaks on võimalik teha ise pilti kuludokumendist.
+Manuseid saab lisada mitu. Manuse eelvaates kuvatakse välja nö põhimanus (_eeldusel et kasutaja internetibrauser vastava failiformaadi kuvamist toetab_). Põhimanust saab määrata Manustatud dokumentide lehel, kasutades toimingut "Sea kulu põhimanuseks".  
+MS Office failide avamiseks on vajalik installida veebibrauserisse plugin <a href="https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=en-US" target="_blank">**Office Editing for Docs, Sheets & Slides**</a> 
+(_loojaks Google_) kõikide chromiumil baseeruvate brauserite puhul (_sh Google Chrome ja Microsoft Edge_).  
 
-Kuludokumendi **Makse tüüp** saab olla kas Makstud eraisikuna või Makstud e/v vahenditest, sõltuvalt tehingu finantseerijast.    
+Kuludokumendi **Makse tüüp** saab olla kas Makstud eraisikuna või Makstud e/v vahenditest, sõltuvalt tehingu finantseerijast. Kui kulu on makstud e/v vahenditest (nt e/v krediitkaardiga), siis on võimalik määrata **Makseviisi tähis**, selleks et võlga hankijale saaks kohe läbi makseviisides tehtud seadistuse suletud (analoogselt Ostuarvele).    
 
 Tehingu kurssi saab muuta läbi **Valuutakordaja** välja.    
 

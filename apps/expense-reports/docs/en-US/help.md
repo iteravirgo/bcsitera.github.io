@@ -13,14 +13,15 @@ To use the solution, **Expense Reports Setup** must be opened and following fiel
 |---|---| 
 | Expense Report Nos. | To specify Expense report number series. Value can be chosen from **No. Series List**.|
 | Expense Document Nos. | To specify Expense document number series. Value can be chosen from **No. Series List**.|
-| Vendor Registration No. Field | Solution uses vendor registration number for automatic detection of Vendor. Since different country localisations use different fields for storing this data, we have made this value selectable by User. **This selection is recommended but NOT mandatory**.|
+| Vendor Registration No. Field | Solution uses vendor registration number for automatic detection of Vendor. Since different country localisations use different fields for storing this data, we have made this value selectable by User. **This selection is recommended but NOT mandatory**. Starting from BC version 21.5 the registration no. field has number 25 |
 | Default Allowance Account No. field | To specify Default G/L account for posting Daily allowance sum. Value can be chosen from **G/L Accounts list**.|
+| Document Attachment Type | Specifies the document attachment type. **Recommended value is Small PDF**. If not specified then CostPocket sends attachment as image.|
 
 All expense documents are posted via journal and User can **select a Journal Template and Batch** for this. During app installation a General journal batch named APP-EXPREP is created.
 
 To use digitization partner **CostPocket** functionality, action **Registration** must be used for one time. User information in CostPocket registration form page is used to determine Primary user, who shall receive e-mail from CostPocket along with instructions how to use CostPocket app. After successful registration connection with CostPocket is established.  
 
-**Job Que Entries** for automatic importing of expense reports/documents can be created with button "Job Que Entries" (can be found in More Options -> Actions) . If Job Que entry doesn't exist, then system creates it. Job que entry for expense documents is only needed when documents without report is allowed.  
+**Job Que Entries** for automatic importing of expense reports/documents can be created with **button "Job Que Entries"** (can be found in More Options -> Actions) . If Job Que entry doesn't exist, then system creates it. Job que entry for expense documents is only needed when documents without report is allowed.  
 
 **For predetermined cost types** User can setup default cost accounts. That can be done in **Cost Types** page. Now when expense documents are imported from CostPocket, system assigns a default G/L cost account determined by document's cost type. **Note!** Default cost account is assigned to cost document **only** when existing Vendor is detected via Registration No. or VAT Registration No.  
 
@@ -36,10 +37,12 @@ User operates daily/weekly in CostPocket app, taking pictures of expense documen
 
 **Manual creation** of an expense report is usually done after manual creation of expense documents. User can add documents to report with action **Add documents to Report**.
 
-Expense reports *(with status Report ready)* will be imported from CostPocket, when user presses button **Get Reports from CostPocket**.  Among with an expense report all expense documents, that are connected to this report, shall also be  imported to BC.    
+Expense reports *(with status Report ready)* will be imported from CostPocket, when user presses button **Get Reports from CostPocket** or when job que entry starts *(Object type to run is Report and ID is 24008101)*.  Among with an expense report all expense documents, that are connected to this report, shall also be  imported to BC.   
+
 On Expense report card User can see total sum of expense documents in LCY.  
+
 User can edit submitter information by selecting value from Employees table to **Submitter No.** field. When selecting new value system asks if documents (report lines) should also be updated.  
-User must set posting date for report and all connected expense documents by entering value to field **Posting Date**.    
+User must set posting date for report and all connected expense documents by entering value to field **Posting Date**.   
 
 User can change **Sum of Daily Allowance** and Allowance Account No. if needed.
 
@@ -59,11 +62,15 @@ Manual creation of expense document is possible and is similar to regular purcha
 
 **Vendor and Submitter must be used**.  *When getting documents from CostPocket system looks for Vendor Registration No. and/or VAT Registration No. in order to find Vendor from existing Vendors. Similarly submitter e-mail is used to look for Employee with matching company Email from Employees.*  
 User can make multiple document lines with different posting groups (to manage VAT).    
+
 **Dimensions** are applied for document header and lines.  
 
-Most common picture file formats (like .png .jpg .jpeg) are supported and can be uploaded as picture attachments. Additionally as document attachments all kinds of documents can be added (for example digitally signed documents) to document attachments.  
+It's possible to add **Attachments** (different file formats) to expense documents and it's also possible to take picture. There can be many attachments.  
+In **Expense Preview** the main attachment is shown (_provided user's internet brauser supports the preview of the attached file type_). To specify the main attachment, open "Attached Documents" page and use action "Set as Main Attachment for Expense".
+To view MS Office files as preview a browser plugin <a href="https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=en-US" target="_blank">**Office Editing for Docs, Sheets & Slides**</a> 
+(_made by Google_) for chromium based browsers (_like Google Chrome and Microsoft Edge_) needs to be installed.  
 
-Expense document's **Billing Type** can be Personal or Company, depending on finances used.    
+Expense document's **Billing Type** can be Personal or Company, depending on finances used. If Billing type is Company, then **Payment Method Code** can be used to specify how expense was paid and then debt to vendor is closed according to that Payment method (similar to Purchase invoice).  
 
 Currency exchange rate can be adjusted by **Currency Factor** field.  
 

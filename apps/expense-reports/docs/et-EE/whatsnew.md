@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 20.0.24134.0
+- Lisatud lahendusele manustatud dokumentide parem eelvaade (sh suur eelvaade).
+  - Lisaks saab nüüd valida, millises formaadis manused tulevad (kas PDF või Pilt).
+- Lisatud esmane makseviiside tugi kuludokumentidele.  
+
 ##### Versioon 20.0.24107.0
 - Lisatud võimalus konteeritud kuluaruande ja kuludokumentide nupust tühistamiseks/parandamiseks.  
 

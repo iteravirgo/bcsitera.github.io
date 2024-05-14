@@ -17,7 +17,7 @@ To use the solution, **Expense Reports Setup** must be opened and following fiel
 | Default Allowance Account No. field | To specify Default G/L account for posting Daily allowance sum. Value can be chosen from **G/L Accounts list**.|
 | Document Attachment Type | Specifies the document attachment type. **Recommended value is Small PDF**. If not specified then CostPocket sends attachment as image.|
 
-All expense documents are posted via journal and User can **select a Journal Template and Batch** for this. During app installation a General journal batch named APP-EXPREP is created.
+All expense documents are posted via journal and User can **select a Journal Template and Batch** for this. During app installation a General journal batch named EXPREP-APP is created.
 
 To use digitization partner **CostPocket** functionality, action **Registration** must be used for one time. User information in CostPocket registration form page is used to determine Primary user, who shall receive e-mail from CostPocket along with instructions how to use CostPocket app. After successful registration connection with CostPocket is established.  
 

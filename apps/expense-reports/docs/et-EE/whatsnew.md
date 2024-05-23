@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 20.0.24144.0
+- Parandatud olukord, kus lähetuse päevarahadega kuluaruandeid ei õnnestunud CostPocketist BC-sse tuua.  
+
 ##### Versioon 20.0.24134.0
 - Lisatud lahendusele manustatud dokumentide parem eelvaade (sh suur eelvaade).
   - Lisaks saab nüüd valida, millises formaadis manused tulevad (kas PDF või Pilt).

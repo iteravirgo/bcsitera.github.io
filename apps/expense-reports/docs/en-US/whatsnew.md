@@ -1,5 +1,8 @@
 ---
 ---
+##### Version 20.0.24144.0
+- Fixed issue that prevented importing Expense Reports with daily allowance from CostPocket.  
+
 ##### Version 20.0.24134.0
 - Improved preview of documents embedded in the solution (including large preview).
   - In addition, you can now choose the format of the attachments received from CostPocket (either PDF or Image).

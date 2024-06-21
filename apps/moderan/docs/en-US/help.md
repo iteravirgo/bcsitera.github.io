@@ -111,11 +111,12 @@ For example – G/L Account:6115:RENT
 
 ## How to Get Customers or Vendors from Moderan
 
-**NB!** Before performing any data exchange between Business Central and Moderan, existing customers in Business Central and Moderan must be mapped. To do so, open **Customers** and fill in **Moderan ID** (located in **Invoicing** fasttab) for every customer which should be mapped.
-
-To get customers or vendors from Moderan, run action **Moderan – Get Customers/Vendors**. Existing (mapped) customers or vendors will be updated, and new customers or vendors (who have a Registration No in Moderan) created.
+To get customers or vendors from Moderan, run action **Moderan – Get Customers/Vendors**. Existing customers or vendors will be updated, and new customers or vendors (who have a Registration No in Moderan) created.
 
 The customers or vendors who do not have a Registration No. will be skipped.
+In general, the setting for getting Customer information should be such that the button **Import only Customers ID** is off, in this case all Customers with all data are imported.
+
+![GetCustomers](GetCustomers.png)
 
 If the customer has English as the invoicing language in Moderan, the Language code is also displayed on the BC customer card.
 

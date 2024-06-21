@@ -177,7 +177,7 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 |Document Date*|Enter Document Date for the invoices|  
 |Payment Terms Code|Select Payment Terms Code. This applies to invoices that do not have a payment term specified in Moderan|
 |Customer Filter|If set, invoices of other customers will be skipped|  
-|Invoice Type*|Choose **Rent** or **Costs** |  
+|Invoice Type*|Choose **Rent** or **Costs** or **Fees**|  
 |Cost Optional Filters*|Choose Distribution Sets |
 
 

@@ -116,7 +116,7 @@ To get customers or vendors from Moderan, run action **Moderan – Get Customers
 The customers or vendors who do not have a Registration No. will be skipped.
 In general, the setting for getting Customer information should be such that the button **Import only Customers ID** is off, in this case all Customers with all data are imported.
 
-![GetCustomers](GetCustomers.png)
+![GetCustomers](GetCustomers.PNG)
 
 If the customer has English as the invoicing language in Moderan, the Language code is also displayed on the BC customer card.
 

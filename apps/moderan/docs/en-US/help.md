@@ -49,13 +49,18 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 | Customer API* |Production or Development|  
 |Authorization Key*|Moderan authorization key from Moderan Admin -> Integrations| 
 |Moderan Account No. *|Customer account number in Moderan (ask from Moderan)|
-|Customer Registration No. Field |Choose which field is a Customer Business Registration No. in the Customer table|
+|Customer Registration No. Field *|Choose which field is a Customer Business Registration No. in the Customer table, usually field no. 25|
 |Create Customer Using Moderan No. |Yes - Use Moderan registration No. for creating new Customer. No - use Busines Central No.series|
-|Vendor Registration No. Field |Choose which field is a Vendor Business Registration No. in the Vendor table|
+|Customer e-invoices field 1 and other Customer e-invoices fields|These fields are used for the Finnish e-invoicing solution|
+|Vendor Registration No. Field |Choose which field is a Vendor Business Registration No. in the Vendor table, usually field no. 25|
 |Create Vendor Using Moderan No. |Yes - Use Moderan registration No. for creating new Vendor. No - use Busines Central No.series|
-|Invoice Add. Into Field *|Specify field for additional info in the Sales Header table|  
+|Invoice Add. Info Field *|Specify the field where the sales invoice contains additional invoice information, such as the contract No. or external invoice no.|  
 |Invoice Desc. Into Field *|Specify field for Invoice posting description in the Sales Header table|
-|Posting Description on 1st Line *|Yes - Invoice posting description will be included on first line on Invoice.|
+|Invoice Line Add.Info Field|Specify the value of the Invoice Line Add. Info Field|
+|Posting Description on 1st Line *|Yes - Invoice posting description will be included on first line on Invoice|
+|Apply Dimension to Header|Yes - Applies line dimension on header| 
+|Do Not Skip 0 Invoices|Default is No - invoices with 0 amount are not imported|
+
 
   <br/>
  

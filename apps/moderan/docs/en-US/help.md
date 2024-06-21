@@ -155,7 +155,6 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 |Cost Optional Filters*|Choose Distribution Sets |
 
 
-
 ![GetInvoices](GetInvoices.png)
 
 After successful import, open **Sales Invoices.** Review, post and issue invoices. 

@@ -16,7 +16,8 @@ Moderan Interface enables the following:
   - [Setup Sales invoices number series](#setup-sales-invoices-number-series)
   - [Setup Dimensions in Moderan and BC](#setup-dimensions-in-Moderan-and-BC)
   - [Setup Payment Terms Code in Moderan and BC](#setup-payment-terms-code-in-Moderan-and-BC)
-  - [Setup Accounting Codes in Moderan](#setup-accounting-codes-in-moderan) 
+  - [Setup Accounting Codes in Moderan](#setup-accounting-codes-in-moderan)
+  - [Setup Finnish e-invoices](#setup-finnish-e-invoices)
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan)
   - [Dimensions in the sales invoice header](#dimensions-in-the-sales-invoice-header)
@@ -113,6 +114,20 @@ Accounting code should be in format: “Type:No.:GeneralProductPostingGroup”
 For example – G/L Account:6115:RENT
 
  <br/>
+
+### Setup Finnish e-invoices
+Open **Interface** in Moderan menu or page Moderan Interface and fill the fields as following (mandatory fields marked with *):
+
+|Field|Description|
+|---|---|
+|Customer e-invoice field 1* |The EIF EDI Code field on the Customer Card|
+|Customer e-invoice field 2* |The EIF Business Identity Code field on the Customer Card|
+|Customer e-invoice field 3* |The EIF Party Identifier field on the Customer Card|
+|Customer e-invoice field 4* |The EIF Intermediator Code field on the Customer Card|
+|Customer e-invoice field * |The Document Sending Profile field on the Customer Card, usually field no.11|
+|Customer e-invoice Value * |Specify the value which is used for e-invoicing, example E-INVOICE|
+
+<br/>
 
 ## How to Get Customers or Vendors from Moderan
 

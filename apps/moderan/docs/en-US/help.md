@@ -69,7 +69,7 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 
 To test, if the connection is correct, press the button – Test connection.
 
-![InterfaceCard4](InterfaceCard4.png)
+![InterfaceCard4](InterfaceCard4.PNG)
 
  <br/>
 

@@ -47,9 +47,10 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 
 |Field|Description|
 |---|---|
-| Customer API* |Production or Development|  
+|Moderan Production URL*|Moderan URL (ask from Moderan)|
+|Customer API* |Production or Development|  
 |Authorization Key*|Moderan authorization key from Moderan Admin -> Integrations| 
-|Moderan Account No. *|Customer account number in Moderan (ask from Moderan)|
+|Moderan Account No. *|Account number in Moderan (ask from Moderan)|
 |Customer Registration No. Field *|Choose which field is a Customer Business Registration No. in the Customer table, usually field no. 25|
 |Create Customer Using Moderan No. |Yes - Use Moderan registration No. for creating new Customer. No - use Busines Central No.series|
 |Customer e-invoices field 1 and other Customer e-invoices fields|These fields are used for the Finnish e-invoicing solution|

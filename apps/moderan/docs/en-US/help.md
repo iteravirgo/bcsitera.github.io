@@ -127,7 +127,17 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 |Customer e-invoice field * |The Document Sending Profile field on the Customer Card, usually field no.11|
 |Customer e-invoice Value * |Specify the value which is used for e-invoicing, example E-INVOICE|
 
+
 <br/>
+
+![E-Invoices](E-Invoices.PNG)
+
+There is a new field in the Moderan on the Organization card - E-invoices. Please put all 4 values separating them with ; and without spaces.
+
+Example: 0037019;01976;0037019;00370192
+
+If the e-invoices data is filled in on the Organization card in Moderan, the fields indicated in the Customer's e-invoices fields above are filled wiht Customer imports.
+
 
 ## How to Get Customers or Vendors from Moderan
 

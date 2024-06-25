@@ -1,6 +1,12 @@
 ---
 ---
 
+##### Versioon 21.0.24105.0
+- Coop Pank Gateway on nüüd kasutatav ka BC pilveklientidel.
+
+##### Versioon 21.0.24085.0
+- Lisandus Luminor Bank AS ühendus (Luminor WebService teenus).
+
 ##### Versioon 21.0.24017.0
 - Lisandus Swedbank jooksva päeva kontoväljavõtte päring. Seda on hea kasutada juhul, kui tehinguid on palju ja kiirteavitus ei ole otstarbekas.
 

@@ -50,5 +50,8 @@ Swedbank juhend:
 LHV juhend:  
 [https://partners.lhv.ee/en/connect/#certificates](https://partners.lhv.ee/en/connect/#certificates)
 
+SEB juhend:  
+[https://developer.baltics.sebgroup.com/bgw/documentation/authentication](https://developer.baltics.sebgroup.com/bgw/documentation/authentication)
+
 Coop Pank juhend:  
 [https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf](https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf)
